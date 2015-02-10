@@ -1,0 +1,51 @@
+.RadListBox_Sunset {
+  color: #333333;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 1.33333em; }
+.RadListBox_Sunset .rlbButton {
+  border-radius: 0.16667em;
+  color: #3d1400;
+  border-color: #938879;
+  background-color: #ded7c6;
+  background-image: url('../Sunset/Common/radGradientButtonSprite.png');
+  background-image: linear-gradient(#f1eadf 0%, #ded7c6 100%); }
+  .RadListBox_Sunset .rlbButton:hover {
+    background-color: #f8e360;
+    background-image: linear-gradient(#fbf4c5 0%, #f2dc5e 50%, #f4bf2e 50%, #f8e360 100%); }
+  .RadListBox_Sunset .rlbButton:active {
+    background-color: #e88d49;
+    background-image: linear-gradient(#f3bc8b 0%, #d66b1e 50%, #bd5006 50%, #e88d49 100%); }
+  .RadListBox_Sunset .rlbButton.rlbDisabled {
+    background-color: #ded7c6;
+    background-image: linear-gradient(#f1eadf 0%, #ded7c6 100%); }
+.RadListBox_Sunset .rlbGroup {
+  background-color: white;
+  border-color: #938879; }
+.RadListBox_Sunset .rlbItem:hover, .RadListBox_Sunset .rlbItem.rlbHovered {
+  background-color: #f9ed8a;
+  border-color: #f9ed8a; }
+.RadListBox_Sunset .rlbItem.rlbSelected {
+  background-color: #f2d52d;
+  border-color: #f2d52d; }
+.RadListBox_Sunset .rlbHighlight {
+  background-color: #f9ed8a; }
+.RadListBox_Sunset .rlbCheckAllItems {
+  background-color: #e1dac7; }
+.RadListBox_Sunset .rlbTemplateContent {
+  border-color: #938879;
+  background-color: white; }
+.RadListBox_Sunset .rlbHeader,
+.RadListBox_Sunset .rlbFooter {
+  border-color: #d2c7b4; }
+.RadListBox_Sunset .rlbHeader {
+  background: #f4eee6; }
+.RadListBox_Sunset .rlbGroup .rlbDropClueAbove {
+  border-top-color: #938879; }
+.RadListBox_Sunset .rlbGroup .rlbDropClueBelow {
+  border-bottom-color: #938879; }
+.RadListBox_Sunset .rlbGroup .rlbSelected.rlbDropClueAbove,
+.RadListBox_Sunset .rlbGroup .rlbHovered.rlbDropClueAbove,
+.RadListBox_Sunset .rlbGroup .rlbSelected.rlbDropClueBelow,
+.RadListBox_Sunset .rlbGroup .rlbHovered.rlbDropClueBelow {
+  border-color: #FFF; }

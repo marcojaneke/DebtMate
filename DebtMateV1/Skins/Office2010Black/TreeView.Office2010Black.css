@@ -1,0 +1,40 @@
+.RadTreeView_Office2010Black {
+  color: black;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif;
+  color: #fff; }
+  .RadTreeView_Office2010Black a.rtIn {
+    *color: black; }
+  .RadTreeView_Office2010Black .rtHover .rtIn {
+    color: #000000;
+    border-color: #f7c840 #f7c840;
+    background-color: #fff3c9;
+    background-image: url('TreeView/ItemHoveredBg.png'); }
+  .RadTreeView_Office2010Black .rtSelected .rtIn {
+    color: #000000;
+    border-color: #c28b31 #c2a34c;
+    background-color: #feed76;
+    background-image: url('TreeView/ItemSelectedBg.png'); }
+  .RadTreeView_Office2010Black .rtEdit .rtIn {
+    border-color: #515151;
+    background: #ffffff; }
+    .RadTreeView_Office2010Black .rtEdit .rtIn input {
+      color: black;
+      font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadTreeView_Office2010Black .rtChecked,
+  .RadTreeView_Office2010Black .rtUnchecked,
+  .RadTreeView_Office2010Black .rtIndeterminate {
+    background-image: url('Common/radFormToggleSprite.png');
+    _background-image: url('Common/radFormToggleSpriteIE6.png'); }
+  .RadTreeView_Office2010Black .rtLoadingIcon {
+    background-image: url('Common/loading_small.gif'); }
+  .RadTreeView_Office2010Black .rtSelected .rtLoadingBefore,
+  .RadTreeView_Office2010Black .rtSelected .rtLoadingAfter,
+  .RadTreeView_Office2010Black .rtSelected .rtLoadingBelow {
+    color: #333333; }
+  .RadTreeView_Office2010Black .rtPlus,
+  .RadTreeView_Office2010Black .rtMinus {
+    background-image: url('TreeView/PlusMinus.png'); }
+
+.RadTreeView_Office2010Black_disabled .rtIn,
+.RadTreeView_Office2010Black .rtDisabled .rtIn {
+  color: #cccccc; }

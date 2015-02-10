@@ -1,0 +1,21 @@
+.RecurrenceEditor_Windows7 {
+  background-color: white; }
+  .RecurrenceEditor_Windows7 .rsAdvRecurrenceTitle {
+    border-color: #aabfd6;
+    color: black;
+    background-color: #f1f5fb; }
+  .RecurrenceEditor_Windows7 .rsTabbedOptionList {
+    border-color: #c2cedb;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: linear-gradient(#f4f8fa 0%, #e9f2fb 50%, #dde7f5 50%, #dde8f6 100%); }
+    .RecurrenceEditor_Windows7 .rsTabbedOptionList li {
+      border-color: #c2cedb; }
+    .RecurrenceEditor_Windows7 .rsTabbedOptionList label:hover {
+      color: #1e395b;
+      background-color: #edf2f9;
+      background-image: linear-gradient(#fcfdfe 0%, #f7f8fb 50%, #edf2f9 50%, #e7ecf5 100%); }
+    .RecurrenceEditor_Windows7 .rsTabbedOptionList input:checked + label {
+      color: #1e395b;
+      background-color: #dde7f5;
+      background-image: linear-gradient(#f3f7fa 0%, #e9f2fb 50%, #dde7f5 50%, #dde8f6 100%); }

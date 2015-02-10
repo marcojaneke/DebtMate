@@ -1,0 +1,21 @@
+.RadSiteMap_Simple {
+  color: black;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadSiteMap_Simple .rsmManyLevels .rsmLink {
+    border-bottom: 0; }
+  .RadSiteMap_Simple .rsmTwoLevels .rsmLink, .RadSiteMap_Simple .rsmThreeLevels .rsmLink, .RadSiteMap_Simple .rsmManyLevels .rsmLevel1 .rsmLink {
+    border-bottom: 0;
+    color: #892500; }
+    .RadSiteMap_Simple .rsmTwoLevels .rsmLink:hover, .RadSiteMap_Simple .rsmThreeLevels .rsmLink:hover, .RadSiteMap_Simple .rsmManyLevels .rsmLevel1 .rsmLink:hover {
+      color: #664336; }
+  .RadSiteMap_Simple .rsmOneLevel .rsmLink, .RadSiteMap_Simple .rsmTwoLevels .rsmLevel1 .rsmLink, .RadSiteMap_Simple .rsmThreeLevels .rsmLevel1 .rsmLink, .RadSiteMap_Simple .rsmManyLevels .rsmLevel2 .rsmLink {
+    border: 0;
+    color: #000000; }
+    .RadSiteMap_Simple .rsmOneLevel .rsmLink:hover, .RadSiteMap_Simple .rsmTwoLevels .rsmLevel1 .rsmLink:hover, .RadSiteMap_Simple .rsmThreeLevels .rsmLevel1 .rsmLink:hover, .RadSiteMap_Simple .rsmManyLevels .rsmLevel2 .rsmLink:hover {
+      color: black;
+      background-color: #fff7ac; }
+  .RadSiteMap_Simple .rsmLink,
+  .RadSiteMap_Simple .rsmTemplate {
+    color: #000000; }
+  .RadSiteMap_Simple .rsmLink:hover {
+    color: #664336; }

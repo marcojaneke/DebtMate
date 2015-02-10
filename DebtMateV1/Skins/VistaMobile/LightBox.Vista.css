@@ -1,0 +1,45 @@
+.RadLightBox_Vista {
+  font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+  color: black; }
+  .RadLightBox_Vista .rltbToolbar .rltbActionButton {
+    background: #f0f0f0; }
+    .RadLightBox_Vista .rltbToolbar .rltbActionButton:hover {
+      background: #cfe9f6; }
+  .RadLightBox_Vista .rltbWrapper {
+    background: black; }
+  .RadLightBox_Vista .rltbMaximizeIcon,
+  .RadLightBox_Vista .rltbRestoreIcon {
+    color: #282828; }
+    .RadLightBox_Vista .rltbMaximizeIcon:hover,
+    .RadLightBox_Vista .rltbRestoreIcon:hover {
+      color: #0066cc; }
+  .RadLightBox_Vista .rltbCloseIcon
+  .rltbCloseButton {
+    height: 3em;
+    width: 3em; }
+  .RadLightBox_Vista .rltbCloseButton {
+    background: black;
+    color: white;
+    border-radius: 2em; }
+  .RadLightBox_Vista .rltbCloseIcon {
+    color: white; }
+  .RadLightBox_Vista .rltbDescriptionBox {
+    background: rgba(156, 182, 197, 0.6);
+    color: black; }
+    .RadLightBox_Vista .rltbDescriptionBox .rltbPager {
+      color: black; }
+  @media only screen and (min-width: 641px) {
+    .RadLightBox_Vista .RadLightBox {
+      box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.4); }
+    .RadLightBox_Vista .rltbDescriptionBox {
+      background: white;
+      color: #272522; }
+      .RadLightBox_Vista .rltbDescriptionBox .rltbPager {
+        color: #888888; }
+    .RadLightBox_Vista .rltbDescOverlayTop,
+    .RadLightBox_Vista .rltbDescOverlayBottom {
+      background: rgba(156, 182, 197, 0.6);
+      color: black; }
+      .RadLightBox_Vista .rltbDescOverlayTop .rltbPager,
+      .RadLightBox_Vista .rltbDescOverlayBottom .rltbPager {
+        color: black; } }

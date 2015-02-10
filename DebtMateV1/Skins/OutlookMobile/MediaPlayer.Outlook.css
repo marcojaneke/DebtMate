@@ -1,0 +1,144 @@
+.RadMediaPlayer_Outlook {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  color: black; }
+  .RadMediaPlayer_Outlook .rmpToolbar {
+    color: #00156e;
+    background-image: linear-gradient(to bottom, rgba(226, 239, 253, 0.85) 0%, rgba(139, 176, 229, 0.85) 96%, rgba(103, 151, 209, 0.85) 95%);
+    border-color: #e7f2fd #98badd #4a84be; }
+  .RadMediaPlayer_Outlook div.rmpVolContrBar {
+    border-color: #4a84be #98badd #e7f2fd;
+    background-image: linear-gradient(to bottom, rgba(103, 151, 209, 0.85) 2%, rgba(226, 239, 253, 0.85) 95%); }
+  .RadMediaPlayer_Outlook .rmpToolbar div.rslTrack {
+    border: 1px solid transparent;
+    border-radius: 2px;
+    background: #adc7eb; }
+  .RadMediaPlayer_Outlook .rslHorizontal div.rslTrack {
+    border-color: #7597c4 #7b9ecd #84a9da;
+    background-image: linear-gradient(to bottom, #b3c4d8 0%, #dce8f6 100%); }
+  .RadMediaPlayer_Outlook div.rslVertical .rslTrack {
+    border-color: #7597c4 #7b9ecd #8fb2e1 #789bc8;
+    background-image: linear-gradient(to right, #b3c4d8, #dce8f6); }
+  .RadMediaPlayer_Outlook div.rslHorizontal .rslSelectedregion {
+    background: #91b0d8;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #40689e;
+    border-left: 1px solid #abc5eb;
+    height: 4px; }
+  .RadMediaPlayer_Outlook div.rslVertical .rslSelectedregion {
+    margin-top: -1px;
+    background: #91b0d8;
+    border-right: 1px solid #40689e;
+    border-left: 1px solid #abc5eb;
+    width: 4px; }
+  .RadMediaPlayer_Outlook .rmpLoadProgressBar {
+    background-color: #002d96;
+    opacity: 0.2;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+    *filter: alpha("opacity=20"); }
+  .RadMediaPlayer_Outlook div.rmpToolbar a.rslDraghandle {
+    background-image: linear-gradient(to bottom, #f9fafc 0%, #c2cfe0 100%);
+    background-position: 0 0;
+    border: 1px solid #003c74; }
+    .RadMediaPlayer_Outlook div.rmpToolbar a.rslDraghandle:hover, .RadMediaPlayer_Outlook div.rmpToolbar a.rslDraghandle:active {
+      background: #f6f5f2; }
+      .RadMediaPlayer_Outlook div.rmpToolbar a.rslDraghandle:hover span, .RadMediaPlayer_Outlook div.rmpToolbar a.rslDraghandle:active span {
+        border: 2px solid #fbc860; }
+  .RadMediaPlayer_Outlook div.rslHorizontal a.rslDraghandle {
+    width: 7px;
+    height: 12px;
+    margin-top: -4px; }
+    .RadMediaPlayer_Outlook div.rslHorizontal a.rslDraghandle span {
+      height: 8px; }
+  .RadMediaPlayer_Outlook div.rslVertical a.rslDraghandle {
+    width: 12px;
+    height: 7px;
+    margin-left: -4px; }
+    .RadMediaPlayer_Outlook div.rslVertical a.rslDraghandle span {
+      height: 3px; }
+  .RadMediaPlayer_Outlook .rmpPlaylist {
+    background: #f6f6f6; }
+    .RadMediaPlayer_Outlook .rmpPlaylist li a {
+      background: #f6f6f6;
+      color: #000000; }
+      .RadMediaPlayer_Outlook .rmpPlaylist li a:hover {
+        background: #ffeec2; }
+    .RadMediaPlayer_Outlook .rmpPlaylist li.rmpActive a {
+      background: #93b0dd; }
+    .RadMediaPlayer_Outlook .rmpPlaylist .rmpTitle {
+      margin-right: 12px;
+      font: normal 10px/17px "Segoe UI", Arial, sans-serif; }
+    .RadMediaPlayer_Outlook .rmpPlaylist .rmpPlaylistPrevButton,
+    .RadMediaPlayer_Outlook .rmpPlaylist .rmpPlaylistNextButton {
+      width: 100%;
+      height: 100%;
+      background: #d9e4f6;
+      vertical-align: top; }
+      .RadMediaPlayer_Outlook .rmpPlaylist .rmpPlaylistPrevButton:hover,
+      .RadMediaPlayer_Outlook .rmpPlaylist .rmpPlaylistNextButton:hover {
+        background: #adc9f7; }
+    .RadMediaPlayer_Outlook .rmpPlaylist .rmpIcon {
+      margin: 0; }
+    .RadMediaPlayer_Outlook .rmpPlaylist .rmpPlaylistNextIcon,
+    .RadMediaPlayer_Outlook .rmpPlaylist .rmpPlaylistPrevIcon {
+      margin: 2px; }
+  .RadMediaPlayer_Outlook .rmpPlaylistVertical li,
+  .RadMediaPlayer_Outlook .rmpPlaylistVerticalInside li {
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #6a8ccb; }
+  .RadMediaPlayer_Outlook .rmpPlaylistVertical .rmpPlaylistPrevButtonWrap,
+  .RadMediaPlayer_Outlook .rmpPlaylistVerticalInside .rmpPlaylistPrevButtonWrap {
+    border-bottom: 1px solid #6a8ccb; }
+  .RadMediaPlayer_Outlook .rmpPlaylistVertical .rmpPlaylistNextButtonWrap,
+  .RadMediaPlayer_Outlook .rmpPlaylistVerticalInside .rmpPlaylistNextButtonWrap {
+    border-top: 1px solid #6a8ccb; }
+  .RadMediaPlayer_Outlook .rmpPlaylistHorizontal li {
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #6a8ccb; }
+    .RadMediaPlayer_Outlook .rmpPlaylistHorizontal li .rmpTitle {
+      padding-top: 7px;
+      max-height: 45px;
+      line-height: 15px; }
+  .RadMediaPlayer_Outlook .rmpPlaylistHorizontal .rmpPlaylistPrevButtonWrap {
+    border-right: 1px solid #6a8ccb; }
+  .RadMediaPlayer_Outlook .rmpPlaylistHorizontal .rmpPlaylistNextButtonWrap {
+    border-left: 1px solid #6a8ccb; }
+  .RadMediaPlayer_Outlook .rmpBanner {
+    border: 1px solid #e7f2fd; }
+    .RadMediaPlayer_Outlook .rmpBanner .rmpActionButton {
+      background: #e7f2fd; }
+  .RadMediaPlayer_Outlook .rmpBigPlayButton,
+  .RadMediaPlayer_Outlook .rmpBigPauseButton {
+    background: rgba(158, 190, 245, 0.4); }
+  .RadMediaPlayer_Outlook .rmpToolTip,
+  .RadMediaPlayer_Outlook .rmpBigPlayIcon,
+  .RadMediaPlayer_Outlook .rmpBigPauseIcon {
+    background-image: url('../Outlook/MediaPlayer/sprite.png'); }
+  .RadMediaPlayer_Outlook .rmpBigPlayIcon {
+    background-position: 6px -108px; }
+  .RadMediaPlayer_Outlook .rmpBigPauseIcon {
+    background-position: -122px 4px; }
+  .RadMediaPlayer_Outlook .rmpToolTip {
+    background-position: -123px -241px; }
+
+.RadMediaPlayer_Outlook {
+  font-size: 16px; }
+  .RadMediaPlayer_Outlook .rmpPlaylist .rmpTitle {
+    font-size: 0.75em; }
+  .RadMediaPlayer_Outlook .rmpToolbar .rmpActionButton {
+    color: #002d96; }
+    .RadMediaPlayer_Outlook .rmpToolbar .rmpActionButton:hover,
+    .RadMediaPlayer_Outlook .rmpToolbar .rmpActionButton .rmpHDActiveIcon {
+      color: black; }
+  .RadMediaPlayer_Outlook .rmpSocialShareBox {
+    background-color: white; }
+  .RadMediaPlayer_Outlook .sshLinkItem {
+    color: black;
+    border-color: #003c74;
+    color: black;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd 0%, #ebe8e3 100%); }
+    .RadMediaPlayer_Outlook .sshLinkItem:active, .RadMediaPlayer_Outlook .sshLinkItem:hover {
+      color: black; }

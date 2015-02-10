@@ -1,0 +1,23 @@
+.RadNotification_Black {
+  border: 1px solid #080808;
+  background-color: #464646;
+  color: white;
+  /* base style overwrites */ }
+  .RadNotification_Black.rnShadows {
+    box-shadow: 2px 2px 3px #2f2d2d; }
+  .RadNotification_Black .rnTitleBar {
+    background-image: -webkit-linear-gradient(top, #323232 0%, #161616 100%);
+    background-image: -moz-linear-gradient(top, #323232 0%, #161616 100%);
+    background-image: -ms-linear-gradient(top, #323232 0%, #161616 100%);
+    background-image: -o-linear-gradient(top, #323232 0%, #161616 100%);
+    background-image: linear-gradient(top, #323232 0%, #161616 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#323232', endColorstr='#161616',GradientType=0 );
+    border-bottom: 1px solid black; }
+  .RadNotification_Black .rnCommands a {
+    background-image: url('Common/radActionsSprite.png');
+    _background-image: url('Common/radActionsSpriteIE6.png'); }
+  .RadNotification_Black .rnContentWrapper {
+    border-top: 1px solid #4f4f4f; }
+  .RadNotification_Black .rnCommands {
+    margin: 0.33333em 0em 0em; }
+

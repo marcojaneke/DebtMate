@@ -1,0 +1,44 @@
+.RadLightBox_Office2010Black {
+  font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+  color: black; }
+  .RadLightBox_Office2010Black .rltbWrapper {
+    background: #4b4b4b; }
+  .RadLightBox_Office2010Black .rltbDescriptionBox {
+    color: #ffffff; }
+  .RadLightBox_Office2010Black .rltbPager {
+    color: #e2e2e2; }
+  .RadLightBox_Office2010Black .rltbDescOverlayTop,
+  .RadLightBox_Office2010Black .rltbDescOverlayBottom {
+    background-color: #4b4b4b;
+    background-color: rgba(75, 75, 75, 0.7);
+    color: white; }
+    .RadLightBox_Office2010Black .rltbDescOverlayTop .rltbPager,
+    .RadLightBox_Office2010Black .rltbDescOverlayBottom .rltbPager {
+      color: #b3b3b3; }
+  .RadLightBox_Office2010Black .rltbToolbar .rltbActionButton {
+    background: #999999; }
+    .RadLightBox_Office2010Black .rltbToolbar .rltbActionButton:hover {
+      background: #fae185; }
+  .RadLightBox_Office2010Black .rltbIcon {
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadLightBox_Office2010Black .rltbMaximizeIcon {
+    background-position: 0px -2100px; }
+  .RadLightBox_Office2010Black .rltbRestoreIcon {
+    background-position: 0px -2120px; }
+  .RadLightBox_Office2010Black .rltbActionButton:hover .rltbMaximizeIcon {
+    background-position: -20px -2100px; }
+  .RadLightBox_Office2010Black .rltbActionButton:hover .rltbRestoreIcon {
+    background-position: -20px -2120px; }
+  .RadLightBox_Office2010Black .rltbClose,
+  .RadLightBox_Office2010Black .rltbCloseIcon,
+  .RadLightBox_Office2010Black .rltbPrevButton,
+  .RadLightBox_Office2010Black .rltbNextButton {
+    background-image: url('LightBox/sprite.png'); }
+  .RadLightBox_Office2010Black .rltbClose {
+    background-position: 0 -89px; }
+  .RadLightBox_Office2010Black .rltbCloseButton:hover .rltbCloseIcon {
+    background-position: -40px 0; }
+  .RadLightBox_Office2010Black .rltbPrevButton {
+    background-position: -40px -40px; }
+  .RadLightBox_Office2010Black .rltbNextButton {
+    background-position: 0 -40px; }

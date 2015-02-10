@@ -1,0 +1,66 @@
+.RadToolBar_Sunset .rtbText {
+  background-image: url('FileExplorer/FileExplorerToolbarSprites.png');
+  _background-image: url('FileExplorer/FileExplorerToolbarSpritesIE6.gif') !important;
+  background-repeat: no-repeat; }
+
+/* RAD EDITOR DIALOGS REDESIGN */
+.redWrapper .redSection {
+  border-bottom-color: #938879; }
+.redWrapper .reTool {
+  border-color: #938879;
+  color: #3d1400;
+  background-color: #ded7c6;
+  background-image: -webkit-linear-gradient(top, #f1eadf 0%, #ded7c6 100%);
+  background-image: -moz-linear-gradient(top, #f1eadf 0%, #ded7c6 100%);
+  background-image: -ms-linear-gradient(top, #f1eadf 0%, #ded7c6 100%);
+  background-image: -o-linear-gradient(top, #f1eadf 0%, #ded7c6 100%);
+  background-image: linear-gradient(top, #f1eadf 0%, #ded7c6 100%);
+  border-color: #938879; }
+.redWrapper .reTool:hover {
+  border-color: #bd8b2b;
+  color: #3d1400;
+  background-color: #f8e360;
+  background-image: -webkit-linear-gradient(top, #fbf4c5 0%, #f2dc5e 50%, #f4bf2e 50%, #f8e360 100%);
+  background-image: -moz-linear-gradient(top, #fbf4c5 0%, #f2dc5e 50%, #f4bf2e 50%, #f8e360 100%);
+  background-image: -ms-linear-gradient(top, #fbf4c5 0%, #f2dc5e 50%, #f4bf2e 50%, #f8e360 100%);
+  background-image: -o-linear-gradient(top, #fbf4c5 0%, #f2dc5e 50%, #f4bf2e 50%, #f8e360 100%);
+  background-image: linear-gradient(top, #fbf4c5 0%, #f2dc5e 50%, #f4bf2e 50%, #f8e360 100%);
+  box-shadow: inset 0 0 1px white; }
+.redWrapper .reTool:active,
+.redWrapper .reTool:focus {
+  border-color: #ae5403;
+  color: #3d1400;
+  background-color: #e88d49;
+  background-image: -webkit-linear-gradient(top, #f3bc8b 0%, #d66b1e 50%, #bd5006 50%, #e88d49 100%);
+  background-image: -moz-linear-gradient(top, #f3bc8b 0%, #d66b1e 50%, #bd5006 50%, #e88d49 100%);
+  background-image: -ms-linear-gradient(top, #f3bc8b 0%, #d66b1e 50%, #bd5006 50%, #e88d49 100%);
+  background-image: -o-linear-gradient(top, #f3bc8b 0%, #d66b1e 50%, #bd5006 50%, #e88d49 100%);
+  background-image: linear-gradient(top, #f3bc8b 0%, #d66b1e 50%, #bd5006 50%, #e88d49 100%);
+  box-shadow: inset 0 0 1px white; }
+.redWrapper a.reDropdown:hover {
+  background-image: url('Editor/ToolBarSprites.gif');
+  background-color: #f9ed8a; }
+.redWrapper .redDialogSeparator {
+  border-left: 1px solid #938879;
+  border-right: 1px solid #938879;
+  background-image: -webkit-linear-gradient(top, #e1dac7 0%, #e1dac7 100%);
+  background-image: -moz-linear-gradient(top, #e1dac7 0%, #e1dac7 100%);
+  background-image: -ms-linear-gradient(top, #e1dac7 0%, #e1dac7 100%);
+  background-image: -o-linear-gradient(top, #e1dac7 0%, #e1dac7 100%);
+  background-image: linear-gradient(top, #e1dac7 0%, #e1dac7 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e1dac7', endColorstr='#e1dac7',GradientType=0 );
+  filter: none;
+  background-color: #e1dac7;
+  background-position: 0 0; }
+.redWrapper .redMsgContainerFBDialogs #propertyValueDescription,
+.redWrapper .redMsgContainerFBDialogs #propertyValuePane {
+  background-color: #e1dac7;
+  color: #272722; }
+
+/* Right to Left Support */
+.RadForm_Sunset .redRtl .redWrapper .reTool .split_arrow:hover {
+  border-right-color: #bd8b2b; }
+.RadForm_Sunset .redRtl .reDropdown:hover {
+  background-image: url('Editor/ToolbarSprites.gif');
+  background-color: #f9ed8a; }
+

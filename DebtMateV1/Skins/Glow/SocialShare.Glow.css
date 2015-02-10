@@ -1,0 +1,71 @@
+div.RadSocialShare_Glow {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  border: 1px solid #192227;
+  background-image: url('../Common/Gradients/radGradientLightV50.png');
+  _background-image: none;
+  background-repeat: repeat-x;
+  background-position: 0 0;
+  background-image: -webkit-linear-gradient(top, #404c54 0%, #2b373d 100%);
+  background-image: -moz-linear-gradient(top, #404c54 0%, #2b373d 100%);
+  background-image: -ms-linear-gradient(top, #404c54 0%, #2b373d 100%);
+  background-image: -o-linear-gradient(top, #404c54 0%, #2b373d 100%);
+  background-image: linear-gradient(top, #404c54 0%, #2b373d 100%);
+  box-shadow: 0 1px 3px #000;
+  background-color: #1c262c; }
+  div.RadSocialShare_Glow .sshLinkItem .sshText {
+    color: #ffa915; }
+  div.RadSocialShare_Glow .sshLinkItem:hover .sshText {
+    color: #ffba43; }
+
+.RadComboBoxDropDown_Glow .rcbItem .sshLinkItem .sshText {
+  color: #ffa915; }
+
+.RadComboBoxDropDown_Glow .rcbHovered .sshLinkItem .sshText {
+  color: #ffba43; }
+
+.RadWindow_Glow label {
+  color: #e2e8eb; }
+
+.RadWindow_Glow .sshFormSendBtn {
+  background-image: url('../Common/Gradients/radGradientLightV20.png');
+  _background-image: none;
+  border-color: black;
+  color: #e2e8eb;
+  background-color: #1c262c;
+  background-image: -webkit-linear-gradient(top, #414c53 0%, #1c262c 100%);
+  background-image: -moz-linear-gradient(top, #414c53 0%, #1c262c 100%);
+  background-image: -ms-linear-gradient(top, #414c53 0%, #1c262c 100%);
+  background-image: -o-linear-gradient(top, #414c53 0%, #1c262c 100%);
+  background-image: linear-gradient(top, #414c53 0%, #1c262c 100%);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  height: 28px;
+  padding: 0 10px;
+  *padding: 0;
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  border-radius: 4px; }
+
+.RadWindow_Glow .sshFormSendBtn:hover {
+  border-color: black;
+  color: #e2e8eb;
+  background-color: #2b363d;
+  background-image: -webkit-linear-gradient(top, #4e5960 0%, #2b363d 100%);
+  background-image: -moz-linear-gradient(top, #4e5960 0%, #2b363d 100%);
+  background-image: -ms-linear-gradient(top, #4e5960 0%, #2b363d 100%);
+  background-image: -o-linear-gradient(top, #4e5960 0%, #2b363d 100%);
+  background-image: linear-gradient(top, #4e5960 0%, #2b363d 100%);
+  background-position: 0 0; }
+
+.RadWindow_Glow .sshFormSendBtn:active {
+  border-color: black;
+  color: white;
+  background-color: #485258;
+  background-image: -webkit-linear-gradient(top, #485258 0%, #485258 100%);
+  background-image: -moz-linear-gradient(top, #485258 0%, #485258 100%);
+  background-image: -ms-linear-gradient(top, #485258 0%, #485258 100%);
+  background-image: -o-linear-gradient(top, #485258 0%, #485258 100%);
+  background-image: linear-gradient(top, #485258 0%, #485258 100%);
+  box-shadow: inset 0 0 4px #888;
+  background-position: 0 0; }
+

@@ -1,0 +1,48 @@
+.RadLightBox_Office2010Silver {
+  font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+  color: #3b3b3b; }
+  .RadLightBox_Office2010Silver .rltbToolbar .rltbActionButton {
+    background: #dbdfe4; }
+    .RadLightBox_Office2010Silver .rltbToolbar .rltbActionButton:hover {
+      background: #fae185; }
+  .RadLightBox_Office2010Silver .rltbWrapper {
+    background: black; }
+  .RadLightBox_Office2010Silver .rltbMaximizeIcon,
+  .RadLightBox_Office2010Silver .rltbRestoreIcon {
+    color: #4c4d4f; }
+    .RadLightBox_Office2010Silver .rltbMaximizeIcon:hover,
+    .RadLightBox_Office2010Silver .rltbRestoreIcon:hover {
+      color: #4c4d4f; }
+  .RadLightBox_Office2010Silver .rltbCloseIcon
+  .rltbCloseButton {
+    height: 3em;
+    width: 3em; }
+  .RadLightBox_Office2010Silver .rltbCloseButton {
+    background: black;
+    color: white;
+    border-radius: 2em; }
+  .RadLightBox_Office2010Silver .rltbCloseIcon {
+    color: white; }
+  .RadLightBox_Office2010Silver .rltbDescriptionBox {
+    background: rgba(164, 171, 178, 0.8);
+    color: white; }
+    .RadLightBox_Office2010Silver .rltbDescriptionBox .rltbPager {
+      color: white; }
+  @media only screen and (min-width: 641px) {
+    .RadLightBox_Office2010Silver .RadLightBox {
+      box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.4); }
+    .RadLightBox_Office2010Silver .rltbDescriptionBox {
+      background: white;
+      color: #384e73; }
+      .RadLightBox_Office2010Silver .rltbDescriptionBox .rltbPager {
+        color: #888888; }
+    .RadLightBox_Office2010Silver .rltbDescOverlayTop,
+    .RadLightBox_Office2010Silver .rltbDescOverlayBottom {
+      background: rgba(164, 171, 178, 0.8);
+      color: white; }
+      .RadLightBox_Office2010Silver .rltbDescOverlayTop .rltbPager,
+      .RadLightBox_Office2010Silver .rltbDescOverlayBottom .rltbPager {
+        color: white; } }
+  @media only screen and (min-width: 320px) and (max-width: 640px) {
+    .RadLightBox_Office2010Silver div.rltbDescriptionBox {
+      color: #000000; } }

@@ -1,0 +1,131 @@
+.RadMenu_Black {
+  font: 12px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadMenu_Black .rmGroup,
+  .RadMenu_Black .rmRootGroup,
+  .RadMenu_Black .rmMultiColumn {
+    border-color: #202020; }
+  .RadMenu_Black .rmGroup,
+  .RadMenu_Black .rmMultiColumn {
+    color: white;
+    background-color: #4f4f4f; }
+  .RadMenu_Black .rmRootGroup {
+    color: white;
+    background-color: #161616;
+    background-image: linear-gradient(#323232 0%, #161616 100%); }
+  .RadMenu_Black .rmVertical:before,
+  .RadMenu_Black .rmMultiColumn:before {
+    content: "";
+    width: 2.5em;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #464646; }
+  .RadMenu_Black .rmVertical li.rmSeparator {
+    border-top-color: #2d2d2d;
+    border-bottom-color: #606060; }
+  .RadMenu_Black .rmHorizontal li.rmSeparator {
+    border-left-color: #2d2d2d;
+    border-right-color: #606060; }
+  .RadMenu_Black .rmShadows .rmGroup {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.65); }
+  .RadMenu_Black .rmArrow {
+    border-color: #202020;
+    background-color: #393939; }
+    .RadMenu_Black .rmArrow:hover {
+      background-color: #2d2d2d; }
+  .RadMenu_Black .rmRootGroup .rmItem {
+    border-color: #222222; }
+  .RadMenu_Black .rmRootGroup a.rmRootLink {
+    *color: white; }
+  .RadMenu_Black .rmRootGroup .rmRootLink:hover,
+  .RadMenu_Black .rmRootGroup .rmSelected > .rmRootLink {
+    color: #9eda29;
+    background-color: #2d2d2d;
+    background-image: -webkit-linear-gradient(#424242 0%, #2d2d2d 100%);
+    background-image: -moz-linear-gradient(#424242 0%, #2d2d2d 100%);
+    background-image: -ms-linear-gradient(#424242 0%, #2d2d2d 100%);
+    background-image: -o-linear-gradient(#424242 0%, #2d2d2d 100%);
+    background-image: linear-gradient(#424242 0%, #2d2d2d 100%); }
+  .RadMenu_Black .rmRootGroup .rmFocused > .rmLink {
+    box-shadow: inset 0 0 3px 1px #565656; }
+  .RadMenu_Black .rmRootGroup .rmExpanded > .rmRootLink {
+    color: #9eda29;
+    background-image: -webkit-linear-gradient(#424242 0%, #303030 100%);
+    background-image: -moz-linear-gradient(#424242 0%, #303030 100%);
+    background-image: -ms-linear-gradient(#424242 0%, #303030 100%);
+    background-image: -o-linear-gradient(#424242 0%, #303030 100%);
+    background-image: linear-gradient(#424242 0%, #303030 100%); }
+  .RadMenu_Black .rmRootGroup .rmDisabled > .rmRootLink {
+    color: white; }
+  .RadMenu_Black .rmPopup .rmLink,
+  .RadMenu_Black .rmGroup .rmLink {
+    border-radius: 3px; }
+  .RadMenu_Black .rmPopup a.rmLink,
+  .RadMenu_Black .rmGroup a.rmLink {
+    *color: white; }
+  .RadMenu_Black .rmPopup .rmLink:hover,
+  .RadMenu_Black .rmPopup .rmExpanded > .rmLink,
+  .RadMenu_Black .rmGroup .rmLink:hover,
+  .RadMenu_Black .rmGroup .rmExpanded > .rmLink {
+    border-color: #232323;
+    color: #9eda29;
+    background-color: #2d2d2d;
+    background-image: linear-gradient(#5b5b5b, #2d2d2d); }
+  .RadMenu_Black .rmPopup .rmExpanded > .rmLink,
+  .RadMenu_Black .rmGroup .rmExpanded > .rmLink {
+    border-color: #565656; }
+  .RadMenu_Black .rmPopup .rmFocused > .rmLink,
+  .RadMenu_Black .rmPopup .rmFocused > .rmLink .rmToggle,
+  .RadMenu_Black .rmGroup .rmFocused > .rmLink,
+  .RadMenu_Black .rmGroup .rmFocused > .rmLink .rmToggle {
+    box-shadow: inset 0 0 3px 1px #565656; }
+  .RadMenu_Black .rmPopup .rmSelected > .rmLink,
+  .RadMenu_Black .rmGroup .rmSelected > .rmLink {
+    border-color: #565656;
+    color: #9eda29;
+    background-color: #303030;
+    background-image: linear-gradient(#424242, #303030); }
+  .RadMenu_Black .rmPopup .rmDisabled > .rmLink,
+  .RadMenu_Black .rmGroup .rmDisabled > .rmLink {
+    color: white;
+    border-color: transparent;
+    background: transparent; }
+  .RadMenu_Black .rmPopup .rmToggle:hover,
+  .RadMenu_Black .rmGroup .rmToggle:hover {
+    border-color: #232323;
+    color: #9eda29;
+    background-color: #2d2d2d;
+    background-image: linear-gradient(#5b5b5b, #2d2d2d); }
+  .RadMenu_Black .rmPopup .rmExpanded > .rmLink .rmToggle,
+  .RadMenu_Black .rmGroup .rmExpanded > .rmLink .rmToggle {
+    border-color: #565656;
+    color: #9eda29;
+    background-color: #303030;
+    background-image: linear-gradient(#424242, #303030); }
+  .RadMenu_Black .rmPopup .rmExpandUp:hover > .rmToggle .rmIcon,
+  .RadMenu_Black .rmPopup .rmExpanded > .rmExpandUp > .rmToggle .rmIcon,
+  .RadMenu_Black .rmGroup .rmExpandUp:hover > .rmToggle .rmIcon,
+  .RadMenu_Black .rmGroup .rmExpanded > .rmExpandUp > .rmToggle .rmIcon {
+    background-position: -22px -2px; }
+  .RadMenu_Black .rmPopup .rmExpandDown:hover > .rmToggle .rmIcon,
+  .RadMenu_Black .rmPopup .rmExpanded > .rmExpandDown > .rmToggle .rmIcon,
+  .RadMenu_Black .rmGroup .rmExpandDown:hover > .rmToggle .rmIcon,
+  .RadMenu_Black .rmGroup .rmExpanded > .rmExpandDown > .rmToggle .rmIcon {
+    background-position: -22px -22px; }
+  .RadMenu_Black .rmPopup .rmExpandLeft:hover > .rmToggle .rmIcon,
+  .RadMenu_Black .rmPopup .rmExpanded > .rmExpandLeft > .rmToggle .rmIcon,
+  .RadMenu_Black .rmGroup .rmExpandLeft:hover > .rmToggle .rmIcon,
+  .RadMenu_Black .rmGroup .rmExpanded > .rmExpandLeft > .rmToggle .rmIcon {
+    background-position: -22px -42px; }
+  .RadMenu_Black .rmPopup .rmExpandRight:hover > .rmToggle .rmIcon,
+  .RadMenu_Black .rmPopup .rmExpanded > .rmExpandRight > .rmToggle .rmIcon,
+  .RadMenu_Black .rmGroup .rmExpandRight:hover > .rmToggle .rmIcon,
+  .RadMenu_Black .rmGroup .rmExpanded > .rmExpandRight > .rmToggle .rmIcon {
+    background-position: -22px -62px; }
+
+.RadMenu_Black_rtl .rmVertical:before,
+.RadMenu_Black_rtl .rmMultiColumn:before {
+  left: auto;
+  right: 0;
+  border-radius: 0 4px 4px 0; }

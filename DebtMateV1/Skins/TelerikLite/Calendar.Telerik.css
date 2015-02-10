@@ -1,0 +1,186 @@
+.RadCalendar_Telerik {
+  font: 14px "Segoe UI", Arial, Helvetica, sans-serif;
+  background: white; }
+
+.RadCalendar_Telerik .rcTitlebar {
+  border-color: #868686 #868686 #c4c4c4;
+  border-bottom: 0 none;
+  background-image: linear-gradient(to bottom, white 0%, #f7f7f7 13%, #dddddd 43%, #cbcbcb 48%, #cccccc 52%, #d5d5d5 65%, #f3f3f3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='#cbcbcb',GradientType=0 );
+  color: #000; }
+  .RadCalendar_Telerik .rcTitlebar .rcPrev,
+  .RadCalendar_Telerik .rcTitlebar .rcNext,
+  .RadCalendar_Telerik .rcTitlebar .rcFastPrev,
+  .RadCalendar_Telerik .rcTitlebar .rcFastNext {
+    width: 1em;
+    height: 1em;
+    margin: .15em .2em .18em;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, #f4f4f4 0%, #cecece 100%);
+    background-image: -webkit-linear-gradient(top, #f4f4f4 0%, #cecece 100%);
+    background-image: -moz-linear-gradient(top, #f4f4f4 0%, #cecece 100%);
+    background-image: -ms-linear-gradient(top, #f4f4f4 0%, #cecece 100%);
+    background-image: -o-linear-gradient(top, #f4f4f4 0%, #cecece 100%);
+    background-image: linear-gradient(top, #f4f4f4 0%, #cecece 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4f4f4', endColorstr='#cecece',GradientType=0 );
+    border: 1px solid #c5c5c5; }
+    .RadCalendar_Telerik .rcTitlebar .rcPrev:before,
+    .RadCalendar_Telerik .rcTitlebar .rcNext:before,
+    .RadCalendar_Telerik .rcTitlebar .rcFastPrev:before,
+    .RadCalendar_Telerik .rcTitlebar .rcFastNext:before {
+      line-height: 1;
+      color: #6c6c6c; }
+    .RadCalendar_Telerik .rcTitlebar .rcPrev:hover,
+    .RadCalendar_Telerik .rcTitlebar .rcNext:hover,
+    .RadCalendar_Telerik .rcTitlebar .rcFastPrev:hover,
+    .RadCalendar_Telerik .rcTitlebar .rcFastNext:hover {
+      background-image: linear-gradient(to bottom, #a2d280 0%, #99cb74 11%, #8dc66a 44%, #65b33f 56%, #63ae39 89%, #70b64a 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a2d280', endColorstr='#63ae39',GradientType=0 );
+      border-color: #32b30a; }
+      .RadCalendar_Telerik .rcTitlebar .rcPrev:hover:before,
+      .RadCalendar_Telerik .rcTitlebar .rcNext:hover:before,
+      .RadCalendar_Telerik .rcTitlebar .rcFastPrev:hover:before,
+      .RadCalendar_Telerik .rcTitlebar .rcFastNext:hover:before {
+        color: #218900; }
+.RadCalendar_Telerik .rcMain {
+  border-color: #868686; }
+.RadCalendar_Telerik .rcHeader,
+.RadCalendar_Telerik .rcFooter {
+  border-color: #868686; }
+.RadCalendar_Telerik .rcWeek th {
+  border-top: 1px solid #c4c4c4;
+  border-bottom: 1px solid #c5c5c5;
+  color: #333; }
+.RadCalendar_Telerik .rcWeek .rcViewSel {
+  width: 13px;
+  padding: 0 7px 0 9px;
+  background: #eee; }
+.RadCalendar_Telerik .rcMain .rcRow a, .RadCalendar_Telerik .rcMain .rcRow span {
+  color: #333;
+  border: 1px solid transparent;
+  line-height: 1.6; }
+.RadCalendar_Telerik .rcMain .rcRow th {
+  width: 13px;
+  padding: 0 7px 0 9px;
+  background: #eee;
+  color: #777; }
+.RadCalendar_Telerik .rcMain .rcRow td {
+  border: 0 none; }
+.RadCalendar_Telerik .rcMain .rcRow .rcToday a {
+  border-color: #239500; }
+.RadCalendar_Telerik .rcMain .rcRow .rcSelected a {
+  border-color: #239500 #1b7400 #155900;
+  background-image: linear-gradient(to bottom, #9dcd78 0%, #8bc468 50%, #64b23d 57%, #63ad39 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9dcd78', endColorstr='#63ad39',GradientType=0 ); }
+.RadCalendar_Telerik .rcMain .rcRow .rcHover a {
+  border-color: #2ebf00 #2bb400 #28a900;
+  color: #000; }
+.RadCalendar_Telerik .rcMain .rcRow .rcSelected a {
+  color: #000; }
+.RadCalendar_Telerik .rcMain .rcWeekend a {
+  color: #565656; }
+.RadCalendar_Telerik .rcMain .rcOtherMonth a,
+.RadCalendar_Telerik .rcMain .rcOutOfRange span {
+  color: #777; }
+
+.RadCalendarMultiView_Telerik .rcTitlebar {
+  border-color: #7e7e7e #727272 #8b8b8b;
+  padding: 0.5em 0.1em;
+  background-image: linear-gradient(to bottom, #ececec 0%, gainsboro 48%, #cdcdcd 52%, #b5b5b5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ececec', endColorstr='#b5b5b5',GradientType=0 );
+  box-shadow: 0 0 1px 1px #f5f5f5 inset; }
+  .RadCalendarMultiView_Telerik .rcTitlebar table {
+    border: 1px solid;
+    border-color: #f5f5f5 #e4e4e4 #d5d5d5; }
+.RadCalendarMultiView_Telerik .rcPrev,
+.RadCalendarMultiView_Telerik .rcNext,
+.RadCalendarMultiView_Telerik .rcFastPrev,
+.RadCalendarMultiView_Telerik .rcFastNext {
+  border-color: #a8a8a8; }
+  .RadCalendarMultiView_Telerik .rcPrev:hover,
+  .RadCalendarMultiView_Telerik .rcNext:hover,
+  .RadCalendarMultiView_Telerik .rcFastPrev:hover,
+  .RadCalendarMultiView_Telerik .rcFastNext:hover {
+    background: #8dc66a; }
+    .RadCalendarMultiView_Telerik .rcPrev:hover:before,
+    .RadCalendarMultiView_Telerik .rcNext:hover:before,
+    .RadCalendarMultiView_Telerik .rcFastPrev:hover:before,
+    .RadCalendarMultiView_Telerik .rcFastNext:hover:before {
+      border-color: #1c7600;
+      color: #000000; }
+.RadCalendarMultiView_Telerik .rcMain {
+  border-color: #727272; }
+.RadCalendarMultiView_Telerik .rcCalendar {
+  border-color: #868686; }
+.RadCalendarMultiView_Telerik .rcMainTable .rcTitle {
+  border-bottom: 0 none;
+  padding: 0.3em 0;
+  background-image: linear-gradient(to bottom, white 0%, #f7f7f7 13%, #dddddd 43%, #cbcbcb 48%, #cccccc 52%, #d5d5d5 65%, #f3f3f3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='#cccccc',GradientType=0 ); }
+
+.RadCalendarMonthView_Telerik {
+  border-color: #979797;
+  background: #fff;
+  font: 14px "Segoe UI", Arial, Helvetica, sans-serif;
+  color: #333; }
+
+.RadCalendarMonthView_Telerik #rcMView_Feb,
+.RadCalendarMonthView_Telerik #rcMView_Apr,
+.RadCalendarMonthView_Telerik #rcMView_Jun,
+.RadCalendarMonthView_Telerik #rcMView_Aug,
+.RadCalendarMonthView_Telerik #rcMView_Oct,
+.RadCalendarMonthView_Telerik #rcMView_Dec {
+  border-right: 1px solid #e0e0e0; }
+.RadCalendarMonthView_Telerik a {
+  color: #333; }
+.RadCalendarMonthView_Telerik .rcSelected a {
+  border-color: #239500 #1b7400 #155900;
+  background-image: linear-gradient(to bottom, #9dcd78 0%, #8bc468 50%, #64b23d 57%, #63ad39 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9dcd78', endColorstr='#63ad39',GradientType=0 );
+  color: #000; }
+.RadCalendarMonthView_Telerik #rcMView_PrevY a,
+.RadCalendarMonthView_Telerik #rcMView_NextY a {
+  color: #ccc; }
+.RadCalendarMonthView_Telerik input {
+  border-color: #cecece #afafaf #8f8f8f;
+  color: #000; }
+
+.RadCalendarTimeView_Telerik {
+  border-color: #979797;
+  background: #fff;
+  font: 14px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadCalendarTimeView_Telerik th {
+    border-bottom: 1px solid #c4c4c4;
+    padding: 0;
+    background-image: linear-gradient(to bottom, white 0%, #f7f7f7 13%, #dddddd 43%, #cbcbcb 48%, #cccccc 52%, #d5d5d5 65%, #f3f3f3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='#cbcbcb',GradientType=0 );
+    color: #000;
+    line-height: 1.92; }
+  .RadCalendarTimeView_Telerik td {
+    border-color: #c5c5c5; }
+    .RadCalendarTimeView_Telerik td.rcSelected a {
+      border-color: #239500 #1b7400 #155900;
+      color: #000; }
+    .RadCalendarTimeView_Telerik td.rcHover a {
+      border-color: #2ebf00 #2bb400 #28a900;
+      color: #000; }
+  .RadCalendarTimeView_Telerik a {
+    color: #333; }
+
+.RadCalendarTimeView_Telerik .rcFooter {
+  border-color: #c5c5c5; }
+
+.RadPicker_Telerik .rcCalPopup,
+.RadPicker_Telerik .rcTimePopup {
+  border: 1px solid transparent; }
+  .RadPicker_Telerik .rcCalPopup:before,
+  .RadPicker_Telerik .rcTimePopup:before {
+    color: #568f44; }
+  .RadPicker_Telerik .rcCalPopup:hover,
+  .RadPicker_Telerik .rcTimePopup:hover {
+    background-color: #c9c9c9;
+    background-image: linear-gradient(to top, #9fe987, #d3f8c7);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d3f8c7', endColorstr='#9fe987',GradientType=0 );
+    border-color: #a6d9f4;
+    border-radius: 2px;
+    text-shadow: 0 0 2px #fff; }

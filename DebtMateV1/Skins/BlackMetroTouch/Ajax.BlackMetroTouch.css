@@ -1,0 +1,9 @@
+.RadAjax_BlackMetroTouch .raDiv {
+  background-image: url('Common/loading.gif'); }
+.RadAjax_BlackMetroTouch .raColor {
+  background-color: black;
+  color: white; }
+.RadAjax_BlackMetroTouch .raTransp {
+  opacity: 0.7;
+  -moz-opacity: 0.7;
+  filter: alpha(opacity=70); }

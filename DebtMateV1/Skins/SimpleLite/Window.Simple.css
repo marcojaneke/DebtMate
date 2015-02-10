@@ -1,0 +1,73 @@
+.RadWindow_Simple {
+  background-color: #e4e4e4;
+  color: black;
+  font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #828282;
+  /* External content iframe styles */
+  /* Dialog styles */ }
+  .RadWindow_Simple.RadWindow.rwRoundedCorner, .RadWindow_Simple.RadWindow.rwRoundedCorner .rwTitleBar, .RadWindow_Simple.RadWindow.rwRoundedCorner.rwCollapsed .rwTitleBar, .RadWindow_Simple.RadWindow.rwRoundedCorner.rwMinimizedWindow .rwTitleBar, .RadWindow_Simple.RadWindow.rwRoundedCorner .rwPromptInput, .RadWindow_Simple.RadWindow.rwRoundedCorner .rwDialogButtons input {
+    border-radius: 0; }
+  .RadWindow_Simple .rwTitleBar {
+    background-image: -webkit-linear-gradient(top, #e4e4e4 0%, #e4e4e4 100%);
+    background-image: -moz-linear-gradient(top, #e4e4e4 0%, #e4e4e4 100%);
+    background-image: -ms-linear-gradient(top, #e4e4e4 0%, #e4e4e4 100%);
+    background-image: -o-linear-gradient(top, #e4e4e4 0%, #e4e4e4 100%);
+    background-image: linear-gradient(top, #e4e4e4 0%, #e4e4e4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e4e4e4', endColorstr='#e4e4e4',GradientType=0 ); }
+  .RadWindow_Simple.rwCollapsed .rwTitleBar {
+    border-bottom-color: #828282; }
+  .RadWindow_Simple span.rwIcon {
+    background-image: url('../Simple/Window/Icon.gif');
+    background-position: 0 0; }
+  .RadWindow_Simple .rwListItem {
+    border-color: #808080;
+    background-color: #c5c5c5;
+    border-radius: 0; }
+  .RadWindow_Simple .rwListItem:hover {
+    border-color: #c98400;
+    background-color: #ffe79c; }
+  .RadWindow_Simple .rwListItem .rwCommandButton,
+  .RadWindow_Simple .rwResize {
+    background-image: url('../Simple/Common/radActionsSprite.png');
+    _background-image: url('../Simple/Common/radActionsSpriteIE6.png'); }
+  .RadWindow_Simple .rwContent {
+    background-color: white;
+    border-color: #828282; }
+  .RadWindow_Simple .rwStatusBar {
+    background-color: #f1eded;
+    border-color: white #828282 #828282; }
+  .RadWindow_Simple.rwLoading .rwExternalContent {
+    background-image: url('../Simple/Common/loading.gif'); }
+  .RadWindow_Simple .rwLoading.rwStatusBar {
+    background-image: url('../Simple/Common/loading_small.gif'); }
+  .RadWindow_Simple .rwDialogButtons input {
+    font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+    background-color: #e2e2e2;
+    border-color: #7e7e7e;
+    color: black; }
+  .RadWindow_Simple .rwDialogButtons input:hover {
+    background-color: #ffe79c;
+    border-color: #c98400;
+    color: #882501; }
+  .RadWindow_Simple .rwDialogButtons input:active {
+    background-color: #ffa517;
+    border-color: #ca4b0c;
+    color: #882501; }
+  .RadWindow_Simple .rwPromptInput {
+    background-color: white;
+    color: black;
+    border-color: #616161;
+    font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadWindow_Simple .rwPromptInput:hover {
+    background-color: white;
+    color: #882501;
+    border-color: #c98400; }
+  .RadWindow_Simple .rwPromptInput:active,
+  .RadWindow_Simple .rwPromptInput:focus {
+    background-color: white;
+    color: #882501;
+    border-color: #ca4b0c; }
+  .RadWindow_Simple .rwPromptInput:disabled {
+    background-color: white;
+    color: #777777;
+    border-color: #b0b0b0; }

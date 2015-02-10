@@ -1,0 +1,44 @@
+.RadLightBox_Office2010Silver {
+  font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+  color: #3b3b3b; }
+  .RadLightBox_Office2010Silver .rltbWrapper {
+    background: white; }
+  .RadLightBox_Office2010Silver .rltbDescriptionBox {
+    color: #3b3b3b; }
+  .RadLightBox_Office2010Silver .rltbPager {
+    color: #888888; }
+  .RadLightBox_Office2010Silver .rltbDescOverlayTop,
+  .RadLightBox_Office2010Silver .rltbDescOverlayBottom {
+    background-color: #a4abb2;
+    background-color: rgba(164, 171, 178, 0.8);
+    color: white; }
+    .RadLightBox_Office2010Silver .rltbDescOverlayTop .rltbPager,
+    .RadLightBox_Office2010Silver .rltbDescOverlayBottom .rltbPager {
+      color: #b3b3b3; }
+  .RadLightBox_Office2010Silver .rltbToolbar .rltbActionButton {
+    background: #dbdfe4; }
+    .RadLightBox_Office2010Silver .rltbToolbar .rltbActionButton:hover {
+      background: #fae185; }
+  .RadLightBox_Office2010Silver .rltbIcon {
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadLightBox_Office2010Silver .rltbMaximizeIcon {
+    background-position: 0px -2100px; }
+  .RadLightBox_Office2010Silver .rltbRestoreIcon {
+    background-position: 0px -2120px; }
+  .RadLightBox_Office2010Silver .rltbActionButton:hover .rltbMaximizeIcon {
+    background-position: -20px -2100px; }
+  .RadLightBox_Office2010Silver .rltbActionButton:hover .rltbRestoreIcon {
+    background-position: -20px -2120px; }
+  .RadLightBox_Office2010Silver .rltbClose,
+  .RadLightBox_Office2010Silver .rltbCloseIcon,
+  .RadLightBox_Office2010Silver .rltbPrevButton,
+  .RadLightBox_Office2010Silver .rltbNextButton {
+    background-image: url('LightBox/sprite.png'); }
+  .RadLightBox_Office2010Silver .rltbClose {
+    background-position: 0 -89px; }
+  .RadLightBox_Office2010Silver .rltbCloseButton:hover .rltbCloseIcon {
+    background-position: -40px 0; }
+  .RadLightBox_Office2010Silver .rltbPrevButton {
+    background-position: -40px -40px; }
+  .RadLightBox_Office2010Silver .rltbNextButton {
+    background-position: 0 -40px; }

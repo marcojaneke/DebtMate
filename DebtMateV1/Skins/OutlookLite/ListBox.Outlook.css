@@ -1,0 +1,57 @@
+.RadListBox_Outlook {
+  color: black;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 1.33333em; }
+.RadListBox_Outlook .rlbButton {
+  color: black;
+  border-radius: 0.16667em;
+  border-color: #003c74;
+  background-color: #ebe8e3;
+  background-image: url('../Outlook/Common/radGradientButtonSprite.png');
+  background-image: linear-gradient(#fdfdfd 0%, #ebe8e3 100%); }
+  .RadListBox_Outlook .rlbButton:hover {
+    background-color: #f3d8a1;
+    background-image: linear-gradient(#fcfcfc 0%, #f3d8a1 100%); }
+  .RadListBox_Outlook .rlbButton:active {
+    background-color: #e7c073;
+    background-image: linear-gradient(#fcfcfc 0%, #e7c073 100%); }
+  .RadListBox_Outlook .rlbButton.rlbDisabled {
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd 0%, #ebe8e3 100%); }
+.RadListBox_Outlook .rlbGroup {
+  background-color: white;
+  border-color: #c3d9f9; }
+.RadListBox_Outlook .rlbItem:hover, .RadListBox_Outlook .rlbItem.rlbHovered {
+  background-color: #ffeec2;
+  border-color: #ffeec2; }
+.RadListBox_Outlook .rlbItem.rlbSelected {
+  color: white;
+  background-color: #306ac5;
+  border-color: #306ac5; }
+.RadListBox_Outlook .rlbHighlight {
+  color: black;
+  background-color: #ffeec2; }
+.RadListBox_Outlook .rlbCheckAllItems {
+  background-color: #d6e5f3; }
+.RadListBox_Outlook .rlbTemplateContent {
+  border-color: #c3d9f9;
+  background-color: white; }
+.RadListBox_Outlook .rlbHeader,
+.RadListBox_Outlook .rlbFooter {
+  border-color: #c3d9f9; }
+.RadListBox_Outlook .rlbHeader {
+  background-image: -webkit-linear-gradient(white 0, white 40%, #f7f8fa 40%, #f1f2f4 100%);
+  background-image: -moz-linear-gradient(white 0, white 40%, #f7f8fa 40%, #f1f2f4 100%);
+  background-image: -ms-linear-gradient(white 0, white 40%, #f7f8fa 40%, #f1f2f4 100%);
+  background-image: -o-linear-gradient(white 0, white 40%, #f7f8fa 40%, #f1f2f4 100%);
+  background-image: linear-gradient(white 0, white 40%, #f7f8fa 40%, #f1f2f4 100%); }
+.RadListBox_Outlook .rlbGroup .rlbDropClueAbove {
+  border-top-color: #c3d9f9; }
+.RadListBox_Outlook .rlbGroup .rlbDropClueBelow {
+  border-bottom-color: #c3d9f9; }
+.RadListBox_Outlook .rlbGroup .rlbSelected.rlbDropClueAbove,
+.RadListBox_Outlook .rlbGroup .rlbHovered.rlbDropClueAbove,
+.RadListBox_Outlook .rlbGroup .rlbSelected.rlbDropClueBelow,
+.RadListBox_Outlook .rlbGroup .rlbHovered.rlbDropClueBelow {
+  border-color: #FFF; }

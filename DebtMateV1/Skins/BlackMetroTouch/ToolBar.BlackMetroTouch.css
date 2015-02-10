@@ -1,0 +1,101 @@
+.RadToolBar_BlackMetroTouch {
+  color: white;
+  background-color: #202020;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 34px;
+  font-weight: 100; }
+  .RadToolBar_BlackMetroTouch .rtbOuter {
+    border-color: #333333; }
+  .RadToolBar_BlackMetroTouch .rtbMiddle,
+  .RadToolBar_BlackMetroTouch .rtbInner {
+    padding: 0;
+    border: 0; }
+  .RadToolBar_BlackMetroTouch .rtbWrap {
+    padding: 2px 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #4e4e4e;
+    color: white;
+    background-color: #222222; }
+  .RadToolBar_BlackMetroTouch .rtbOut,
+  .RadToolBar_BlackMetroTouch .rtbMid,
+  .RadToolBar_BlackMetroTouch .rtbIn {
+    padding: 0; }
+  .RadToolBar_BlackMetroTouch .rtbText {
+    padding: 0 5px; }
+  .RadToolBar_BlackMetroTouch .rtbChoiceArrow {
+    background-image: url('Common/radActionsSprite.png');
+    background-repeat: no-repeat; }
+  .RadToolBar_BlackMetroTouch .rtbExpandDown .rtbIn .rtbChoiceArrow {
+    background-position: -16px -65px; }
+  .RadToolBar_BlackMetroTouch .rtbExpandUp .rtbIn .rtbChoiceArrow {
+    background-position: -16px -15px; }
+  .RadToolBar_BlackMetroTouch .rtbSplBtn .rtbChoiceArrow {
+    width: 18px; }
+  .RadToolBar_BlackMetroTouch .rtbItemHovered .rtbWrap {
+    border-color: #25a0da;
+    color: white;
+    background-color: #25a0da; }
+  .RadToolBar_BlackMetroTouch .rtbChecked .rtbWrap,
+  .RadToolBar_BlackMetroTouch .rtbItemClicked .rtbWrap {
+    border-color: #0082cc;
+    color: white;
+    background-color: #0082cc; }
+  .RadToolBar_BlackMetroTouch .rtbDisabled .rtbWrap {
+    color: black; }
+  .RadToolBar_BlackMetroTouch .rtbSeparator {
+    margin: 0 3px;
+    border-color: #333333;
+    background-color: #000000; }
+
+.RadToolBarDropDown_BlackMetroTouch {
+  border-color: #333333;
+  color: white;
+  background: black;
+  font: 100 16px/34px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadToolBarDropDown_BlackMetroTouch .rtbGroup {
+    color: white;
+    background-color: black; }
+  .RadToolBarDropDown_BlackMetroTouch .rtbItem {
+    color: white; }
+  .RadToolBarDropDown_BlackMetroTouch .rtbWrap,
+  .RadToolBarDropDown_BlackMetroTouch .rtbTemplate {
+    color: white;
+    line-height: 34px; }
+  .RadToolBarDropDown_BlackMetroTouch .rtbItemHovered .rtbWrap {
+    background-color: #25a0da;
+    background-position: 0 0; }
+  .RadToolBarDropDown_BlackMetroTouch .rtbIcon {
+    top: 10px; }
+  .RadToolBarDropDown_BlackMetroTouch .rtbShadows .rtbTopShadowLeft,
+  .RadToolBarDropDown_BlackMetroTouch .rtbShadows .rtbTopShadowRight,
+  .RadToolBarDropDown_BlackMetroTouch .rtbShadows .rtbBottomShadowLeft,
+  .RadToolBarDropDown_BlackMetroTouch .rtbShadows .rtbBottomShadowRight {
+    display: none; }
+  .RadToolBarDropDown_BlackMetroTouch .rtbRoundedCorners {
+    padding: 0; }
+    .RadToolBarDropDown_BlackMetroTouch .rtbRoundedCorners .rtbTopLeft,
+    .RadToolBarDropDown_BlackMetroTouch .rtbRoundedCorners .rtbTopRight,
+    .RadToolBarDropDown_BlackMetroTouch .rtbRoundedCorners .rtbBottomLeft,
+    .RadToolBarDropDown_BlackMetroTouch .rtbRoundedCorners .rtbBottomRight,
+    .RadToolBarDropDown_BlackMetroTouch .rtbRoundedCorners .rtbTopFix,
+    .RadToolBarDropDown_BlackMetroTouch .rtbRoundedCorners .rtbBottomFix {
+      display: none; }
+    .RadToolBarDropDown_BlackMetroTouch .rtbRoundedCorners .rtbTopShadowRight,
+    .RadToolBarDropDown_BlackMetroTouch .rtbRoundedCorners .rtbBottomShadowLeft,
+    .RadToolBarDropDown_BlackMetroTouch .rtbRoundedCorners .rtbBottomShadowRight {
+      display: block; }
+    .RadToolBarDropDown_BlackMetroTouch .rtbRoundedCorners .rtbTopShadowRight {
+      right: -5px;
+      top: -2px; }
+    .RadToolBarDropDown_BlackMetroTouch .rtbRoundedCorners .rtbBottomShadowRight {
+      right: -5px;
+      bottom: -6px; }
+    .RadToolBarDropDown_BlackMetroTouch .rtbRoundedCorners .rtbBottomShadowLeft {
+      left: -2px;
+      bottom: -5px; }
+
+html .RadToolBar_BlackMetroTouch_rtl .rtbSplBtn .rtbChoiceArrow {
+  border-right: 1px solid #4e4e4e;
+  border-left: 0; }

@@ -1,0 +1,35 @@
+.RadRotator_WebBlue {
+  /*================== The list ========================*/
+  /* For vertical carousel, not set, width defaults to auto */
+  /* Note if you explicitly set width to auto, this might cause */
+  /* problems with Safari */
+  /* When LoadOnDemand */ }
+  .RadRotator_WebBlue .rrClipRegion {
+    border-color: #768ca5; }
+  .RadRotator_WebBlue .rrButton {
+    background-image: linear-gradient(#dee6ec 0%, #c1d1dd 50%, #a2b8c9 50%, #cedbe2 100%);
+    border-color: #4e667e; }
+  .RadRotator_WebBlue .rrButton:hover {
+    background-image: linear-gradient(#d8edf9 0%, #bcdef4 50%, #9ddaf2 50%, #bde3f5 100%);
+    border-color: #5d9fb7; }
+  .RadRotator_WebBlue a.rrButton:before {
+    font-size: 1.2em;
+    margin: -0.6em 0 0 -0.6em;
+    color: #33495f; }
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .RadRotator_WebBlue a.rrButton:before {
+      font-size: 1em; }
+    .RadRotator_WebBlue ::-ms-backdrop, .RadRotator_WebBlue a.rrButton:before {
+      font-size: .6em; } }
+  .RadRotator_WebBlue a.rrButton:hover:before {
+    color: #3c546b; }
+  .RadRotator_WebBlue a.rrButtonRight:before {
+    content: "\E010"; }
+  .RadRotator_WebBlue a.rrButtonLeft:before {
+    content: "\E013"; }
+  .RadRotator_WebBlue a.rrButtonUp:before {
+    content: "\E011"; }
+  .RadRotator_WebBlue a.rrButtonDown:before {
+    content: "\E012"; }
+  .RadRotator_WebBlue .rrLoadingSign {
+    background-image: url('../WebBlue/Common/loading_small.gif'); }

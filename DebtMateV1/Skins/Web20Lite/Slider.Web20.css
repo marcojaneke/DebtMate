@@ -1,0 +1,108 @@
+.RadSlider_Web20 {
+  /* horizontal slider */
+  /* end horizontal slider */
+  /* vertical slider */
+  /* end vertical slider */
+  /* horizontal slider - TrackPosition=Top/Bottom */
+  /* vertical slider - TrackPosition=Left/Right */
+  /* horizontal slider - TrackPosition=Center */
+  /* vertical slider - TrackPosition=Center */ }
+  .RadSlider_Web20 .rslTrack {
+    border-color: #6788be; }
+  .RadSlider_Web20 a.rslHandle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#9bb5da', EndColorStr='#8fb0db')";
+    background-image: linear-gradient(#9bb5da 0%, #7b95c7 50%, #698ac0 50%, #8fb0db 100%);
+    border-color: #0f1d48; }
+  .RadSlider_Web20 a.rslHandle:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#dee7f4', EndColorStr='#c8d9f0')";
+    background-image: linear-gradient(#dee7f4 0%, #acbfe0 50%, #91acd9 50%, #c8d9f0 100%); }
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .RadSlider_Web20 a.rslHandle:before {
+      font-size: 1em; }
+    .RadSlider_Web20 ::-ms-backdrop, .RadSlider_Web20 a.rslHandle:before {
+      font-size: .6em; } }
+  .RadSlider_Web20 a.rslHandle:before {
+    font-size: 1.2em;
+    font-size: .7em\9;
+    margin: -0.6em 0 0 -0.6em;
+    color: #e5eaf1; }
+  .RadSlider_Web20 a.rslHandle:hover:before {
+    color: #405a83; }
+  .RadSlider_Web20 div.rslHorizontal a.rslDecrease:before {
+    content: "\E013"; }
+  .RadSlider_Web20 div.rslHorizontal a.rslIncrease:before {
+    content: "\E010 "; }
+  .RadSlider_Web20 div.rslVertical a.rslDecrease:before {
+    content: "\E011"; }
+  .RadSlider_Web20 div.rslVertical a.rslIncrease:before {
+    content: "\E012 "; }
+  .RadSlider_Web20 .rslHorizontal a.rslDraghandle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#97b0d7', EndColorStr='#8cadda')";
+    background-image: linear-gradient(#97b0d7 0%, #7c96c7 50%, #6a8bc1 50%, #8cadda 100%);
+    border-color: #0f1d48; }
+  .RadSlider_Web20 .rslHorizontal a.rslDraghandle:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#f1f4fc', EndColorStr='#e0ecfd')";
+    background-image: linear-gradient(#f1f4fc 0%, #c9d8f3 50%, #b3caf3 50%, #e0ecfd 100%);
+    border-color: #3f5f94; }
+  .RadSlider_Web20 .rslHorizontal a.rslDraghandle:focus,
+  .RadSlider_Web20 .rslHorizontal a.rslDraghandle:active {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#9eb6dc', EndColorStr='#9eb6dc')";
+    background-image: linear-gradient(#9eb6dc 0%, #b2c3e2 50%, #91acd9 50%, #9eb6dc 100%);
+    border-color: #0f1d48; }
+  .RadSlider_Web20 .rslHorizontal .rslTrack {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#c9e0ff', EndColorStr='#e0edff')";
+    background-image: linear-gradient(#c9e0ff, #e0edff);
+    border-color: #7996c6 #7996c6 #fff; }
+  .RadSlider_Web20 .rslHorizontal .rslSelectedregion {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ddff84', EndColorStr='#67cd0f')";
+    background-image: linear-gradient(#ddff84, #67cd0f); }
+  .RadSlider_Web20 .rslHorizontal .rslItem {
+    background-image: url('../Web20/Slider/ItemHorizontalBgr.gif'); }
+  .RadSlider_Web20 .rslVertical .rslTrack {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#c9e0ff', EndColorStr='#e0edff', GradientType=1)";
+    background-image: linear-gradient(to left, #c9e0ff, #e0edff);
+    border-color: #7996c6 #7996c6 #fff; }
+  .RadSlider_Web20 .rslVertical .rslSelectedregion {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ddff84', EndColorStr='#67cd0f', GradientType=1)";
+    background-image: linear-gradient(to left, #ddff84, #67cd0f); }
+  .RadSlider_Web20 .rslVertical a.rslDraghandle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#97b0d7', EndColorStr='#8cadda', GradientType=1)";
+    background-image: linear-gradient(to left, #97b0d7 0%, #7c96c7 50%, #6a8bc1 50%, #8cadda 100%);
+    border-color: #0f1d48; }
+  .RadSlider_Web20 .rslVertical a.rslDraghandle:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#f1f4fc', EndColorStr='#e0ecfd', GradientType=1)";
+    background-image: linear-gradient(to left, #f1f4fc 0%, #c9d8f3 50%, #b3caf3 50%, #e0ecfd 100%);
+    border-color: #3f5f94; }
+  .RadSlider_Web20 .rslVertical a.rslDraghandle:focus,
+  .RadSlider_Web20 .rslVertical a.rslDraghandle:active {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#9eb6dc', EndColorStr='#9eb6dc', GradientType=1)";
+    background-image: linear-gradient(to left, #9eb6dc 0%, #b2c3e2 50%, #91acd9 50%, #9eb6dc 100%);
+    border-color: #0f1d48; }
+  .RadSlider_Web20 .rslVertical .rslItem {
+    background-image: url('../Web20/Slider/ItemVerticalBgr.gif'); }
+  .RadSlider_Web20 .rslLeft a.rslDraghandle {
+    background-image: linear-gradient(to left, #fafafa, #e1e1e1); }
+  .RadSlider_Web20 .rslItem,
+  .RadSlider_Web20 .rslLargeTick span,
+  .RadSlider_Web20 .rslItemsWrapper .rslItemSelected {
+    color: black; }
+  .RadSlider_Web20 .rslTop .rslSmallTick,
+  .RadSlider_Web20 .rslBottom .rslSmallTick {
+    background-image: url('../Web20/Slider/SmallChangeHorizontal.gif'); }
+  .RadSlider_Web20 .rslTop .rslLargeTick,
+  .RadSlider_Web20 .rslBottom .rslLargeTick {
+    background-image: url('../Web20/Slider/LargeChangeHorizontal.gif'); }
+  .RadSlider_Web20 .rslLeft .rslSmallTick,
+  .RadSlider_Web20 .rslRight .rslSmallTick {
+    background-image: url('../Web20/Slider/SmallChangeVertical.gif'); }
+  .RadSlider_Web20 .rslLeft .rslLargeTick,
+  .RadSlider_Web20 .rslRight .rslLargeTick {
+    background-image: url('../Web20/Slider/LargelChangeVertical.gif'); }
+  .RadSlider_Web20 .rslMiddle .rslSmallTick {
+    background-image: url('../Web20/Slider/SmallChangeMiddleHorizontal.gif'); }
+  .RadSlider_Web20 .rslLargeTick {
+    background-image: url('../Web20/Slider/LargeChangeMiddleHorizontal.gif'); }
+  .RadSlider_Web20 .rslCenter .rslSmallTick {
+    background-image: url('../Web20/Slider/SmallChangeCenterVertical.gif'); }
+  .RadSlider_Web20 .rslCenter .rslLargeTick {
+    background-image: url('../Web20/Slider/LargelChangeCenterVertical.gif'); }

@@ -1,0 +1,114 @@
+.RadSlider_Sunset {
+  /* horizontal slider */
+  /* end horizontal slider */
+  /* vertical slider */
+  /* end vertical slider */
+  /* horizontal slider - TrackPosition=Top/Bottom */
+  /* vertical slider - TrackPosition=Left/Right */
+  /* horizontal slider - TrackPosition=Center */
+  /* vertical slider - TrackPosition=Center */ }
+  .RadSlider_Sunset .rslTrack {
+    border-color: #938879; }
+  .RadSlider_Sunset div.rslTop a.rslDraghandle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#f0eadf', EndColorStr='#e0d9c8')";
+    background-image: linear-gradient(#f0eadf, #e0d9c8);
+    border-color: #938879; }
+  .RadSlider_Sunset a.rslHandle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#f0eadf', EndColorStr='#e0d9c8')";
+    background-image: linear-gradient(#f0eadf, #e0d9c8);
+    border-color: #938879; }
+  .RadSlider_Sunset a.rslHandle:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#faf2bc', EndColorStr='#f8dd57')";
+    background-image: linear-gradient(#faf2bc 0%, #f2db5b 50%, #f4bf2f 50%, #f8dd57 100%);
+    border-color: #bd8b2b; }
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .RadSlider_Sunset a.rslHandle:before {
+      font-size: 1em; }
+    .RadSlider_Sunset ::-ms-backdrop, .RadSlider_Sunset a.rslHandle:before {
+      font-size: .6em; } }
+  .RadSlider_Sunset a.rslHandle:before {
+    font-size: 1.2em;
+    font-size: .7em\9;
+    margin: -0.6em 0 0 -0.6em;
+    color: #321000; }
+  .RadSlider_Sunset a.rslHandle:hover:before {
+    color: #280c00; }
+  .RadSlider_Sunset div.rslHorizontal a.rslDecrease:before {
+    content: "\E013"; }
+  .RadSlider_Sunset div.rslHorizontal a.rslIncrease:before {
+    content: "\E010 "; }
+  .RadSlider_Sunset div.rslVertical a.rslDecrease:before {
+    content: "\E011"; }
+  .RadSlider_Sunset div.rslVertical a.rslIncrease:before {
+    content: "\E012 "; }
+  .RadSlider_Sunset .rslHorizontal a.rslDraghandle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#f0eadf', EndColorStr='#e0d9c8')";
+    background-image: linear-gradient(#f0eadf, #e0d9c8);
+    border-color: #938879; }
+  .RadSlider_Sunset .rslHorizontal a.rslDraghandle:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#faf2bc', EndColorStr='#f8dd57')";
+    background-image: linear-gradient(#faf2bc 0%, #f2db5b 50%, #f4bf2f 50%, #f8dd57 100%);
+    border-color: #bd8b2b; }
+  .RadSlider_Sunset .rslHorizontal a.rslDraghandle:focus,
+  .RadSlider_Sunset .rslHorizontal a.rslDraghandle:active {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#f1b581', EndColorStr='#e1823e')";
+    background-image: linear-gradient(#f1b581 0%, #d5691b 50%, #be5108 50%, #e1823e 100%);
+    border-color: #ae5403; }
+  .RadSlider_Sunset .rslHorizontal .rslTrack {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#c9c2b2', EndColorStr='#d3ccbc')";
+    background-image: linear-gradient(#c9c2b2, #d3ccbc);
+    border-color: #978f7d #978f7d #d8d2c1; }
+  .RadSlider_Sunset .rslHorizontal .rslSelectedregion {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ef9753', EndColorStr='#bf5309')";
+    background-image: linear-gradient(#ef9753, #bf5309); }
+  .RadSlider_Sunset .rslHorizontal .rslItem {
+    background-image: url('../Sunset/Slider/ItemHorizontalBgr.gif'); }
+  .RadSlider_Sunset .rslVertical .rslTrack {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#c9c2b2', EndColorStr='#d3ccbc', GradientType=1)";
+    background-image: linear-gradient(to left, #c9c2b2, #d3ccbc);
+    border-color: #978f7d #978f7d #d8d2c1; }
+  .RadSlider_Sunset .rslVertical .rslSelectedregion {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ef9753', EndColorStr='#bf5309', GradientType=1)";
+    background-image: linear-gradient(to left, #ef9753, #bf5309); }
+  .RadSlider_Sunset .rslVertical a.rslDraghandle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#f0eadf', EndColorStr='#e0d9c8', GradientType=1)";
+    background-image: linear-gradient(to left, #f0eadf, #e0d9c8);
+    border-color: #938879; }
+  .RadSlider_Sunset .rslVertical a.rslDraghandle:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#faf2bc', EndColorStr='#f8dd57', GradientType=1)";
+    background-image: linear-gradient(to left, #faf2bc 0%, #f2db5b 50%, #f4bf2f 50%, #f8dd57 100%);
+    border-color: #bd8b2b; }
+  .RadSlider_Sunset .rslVertical a.rslDraghandle:focus,
+  .RadSlider_Sunset .rslVertical a.rslDraghandle:active {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#f1b581', EndColorStr='#e1823e', GradientType=1)";
+    background-image: linear-gradient(to left, #f1b581 0%, #d5691b 50%, #be5108 50%, #e1823e 100%);
+    border-color: #ae5403; }
+  .RadSlider_Sunset .rslVertical .rslItem {
+    background-image: url('../Sunset/Slider/ItemVerticalBgr.gif'); }
+  .RadSlider_Sunset .rslLeft a.rslDraghandle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#f0eadf', EndColorStr='#e0d9c8', GradientType=1)";
+    background-image: linear-gradient(to left, #f0eadf, #e0d9c8); }
+  .RadSlider_Sunset .rslItem,
+  .RadSlider_Sunset .rslLargeTick span,
+  .RadSlider_Sunset .rslItemsWrapper .rslItemSelected {
+    color: #272722; }
+  .RadSlider_Sunset .rslTop .rslSmallTick,
+  .RadSlider_Sunset .rslBottom .rslSmallTick {
+    background-image: url('../Sunset/Slider/SmallChangeHorizontal.gif'); }
+  .RadSlider_Sunset .rslTop .rslLargeTick,
+  .RadSlider_Sunset .rslBottom .rslLargeTick {
+    background-image: url('../Sunset/Slider/LargeChangeHorizontal.gif'); }
+  .RadSlider_Sunset .rslLeft .rslSmallTick,
+  .RadSlider_Sunset .rslRight .rslSmallTick {
+    background-image: url('../Sunset/Slider/SmallChangeVertical.gif'); }
+  .RadSlider_Sunset .rslLeft .rslLargeTick,
+  .RadSlider_Sunset .rslRight .rslLargeTick {
+    background-image: url('../Sunset/Slider/LargelChangeVertical.gif'); }
+  .RadSlider_Sunset .rslMiddle .rslSmallTick {
+    background-image: url('../Sunset/Slider/SmallChangeMiddleHorizontal.gif'); }
+  .RadSlider_Sunset .rslLargeTick {
+    background-image: url('../Sunset/Slider/LargeChangeMiddleHorizontal.gif'); }
+  .RadSlider_Sunset .rslCenter .rslSmallTick {
+    background-image: url('../Sunset/Slider/SmallChangeCenterVertical.gif'); }
+  .RadSlider_Sunset .rslCenter .rslLargeTick {
+    background-image: url('../Sunset/Slider/LargelChangeCenterVertical.gif'); }

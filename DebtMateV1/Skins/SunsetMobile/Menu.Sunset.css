@@ -1,0 +1,36 @@
+.RadMenu_Sunset .rmRootToggle {
+  color: #3d1400;
+  border-color: #938879;
+  color: #3d1400;
+  background-color: #ded7c6;
+  background-image: linear-gradient(#f1eadf 0%, #ded7c6 100%); }
+  .RadMenu_Sunset .rmRootToggle:active, .RadMenu_Sunset .rmRootToggle.rmExpanded {
+    color: #3d1400;
+    border-color: #ae5403;
+    color: #3d1400;
+    background-color: #e88d49;
+    background-image: linear-gradient(#f3bc8b 0%, #d66b1e 50%, #bd5006 50%, #e88d49 100%); }
+.RadMenu_Sunset.rmDisabled .rmRootToggle:active, .RadMenu_Sunset.rmDisabled .rmRootToggle.rmExpanded {
+  border-color: #938879;
+  color: #3d1400;
+  background-color: #ded7c6;
+  background-image: linear-gradient(#f1eadf 0%, #ded7c6 100%); }
+
+.RadMenuPopup_Sunset {
+  color: #333333;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #958a85;
+  background-color: white; }
+  .RadMenuPopup_Sunset:before {
+    border-color: transparent transparent #958a85; }
+  .RadMenuPopup_Sunset:after {
+    border-color: transparent transparent white; }
+.RadMenuPopup_Sunset .rmItem {
+  border-color: #d2c7b4; }
+  .RadMenuPopup_Sunset .rmItem.rmSelected {
+    color: #863d02;
+    background-color: #faef93; }
+.RadMenuPopup_Sunset .rmLoading:after {
+  background-color: rgba(255, 255, 255, 0.8); }
+.RadMenuPopup_Sunset .rmLoadingIcon:after {
+  background-image: url('../Sunset/Common/loading_small.gif'); }

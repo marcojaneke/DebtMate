@@ -1,0 +1,318 @@
+/* this is the topmost cell of the dialogs that have RadTabStrip */
+.RadForm_Glow .reTopcell {
+  background-color: transparent; }
+
+.reControlsLayout label, .RadForm_Glow .reDialog, .RadForm_Glow .reDialogLabel, .RadForm_Glow #NewImageExt {
+  color: #e2e8eb; }
+
+/* File Manager dialogs */
+.selectedFileName {
+  border-top: 1px solid #d7d7d7; }
+
+/* background for the bottom positioned RadTabStrip */
+.RadTabStripBottom_Glow {
+  background: #ffffff;
+  width: 264px;
+  border-bottom: 1px solid #d7d7d7;
+  padding-bottom: 6px !important; }
+
+.reTableWizardSelectAllBtn {
+  color: #e2e8eb; }
+
+.imagePreviewer {
+  overflow: hidden; }
+
+/*Sprite from RFE*/
+.RadToolBar_Glow .rtbText {
+  background-image: url('FileExplorer/FileExplorerToolbarSprites.png');
+  background-repeat: no-repeat; }
+
+/* Editor ImageManager Properties */
+.RadForm_Glow .imagePreviewer #propertiesPage {
+  height: 410px !important; }
+
+.RadForm_Glow .flashPreviewer #propertiesPage, .RadForm_Glow #flashMultiPage {
+  height: 400px !important;
+  font-size: 16px; }
+
+#ImagePreviewToolBar.RadToolBar_Glow .rtbText {
+  margin-top: 10px; }
+
+#ImagePreviewToolBar.RadToolBar_MetroTouch .icnImageEditor .rtbText {
+  padding-left: 10px !important;
+  width: 105px;
+  text-align: right; }
+
+.RadForm_Silk .FindAndReplaceDialog, .RadForm_Silk .FindAndReplaceDialog .rfdRoundedCorners {
+  font: 13px Arial, Helvetica, sans-serif; }
+
+.Glow.reDropDownBody.reAlignmentSelector {
+  width: 87px !important;
+  height: 116px !important; }
+
+.Glowk.reAlignmentSelector table tr td {
+  min-width: inherit !important; }
+
+.RadForm_Glow .AboutDialog a {
+  color: #e2e8eb; }
+
+.RadForm_Glow .NoMarginDialog .reConfirmCancelButtonsTbl {
+  margin: -3px 15px 0 0; }
+
+.RadForm_Glow .rfeUploadContainer {
+  height: 300px !important; }
+
+.RadForm_Glow .rfeUploadContainer .RadUpload_Glow {
+  margin-top: 10px; }
+
+/* RAD EDITOR DIALOGS REDESIGN */
+div.redWrapper {
+  padding: 17px;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* Base overrides */
+  /* used when you have two input on the same row */
+  /* used when you have an input after tool - colorpicker */
+  /* FileBrowserLayout */
+  /* FileBrowser Layout End */
+  /* Dialog specific */
+  /* Image Properties */
+  /* Dialog Specific end */
+  /* Base Overrides End */ }
+  div.redWrapper #propertiesPage, div.redWrapper div#flashMultiPage, div.redWrapper #mediaMultiPage, div.redWrapper iframe#templateIframe, div.redWrapper #silverlightMultiPage, div.redWrapper #mediaMultiPage {
+    height: 450px !important; }
+  div.redWrapper #DocumentPreviewer {
+    height: 530px; }
+  div.redWrapper .redShortRow {
+    width: 126px; }
+  div.redWrapper .redLabel {
+    *margin-top: -7px; }
+  div.redWrapper .redSection .redRow .rfdTextInput, div.redWrapper .redSection .redRow textarea {
+    width: 217px; }
+  div.redWrapper .redSecondLabel {
+    width: 95px; }
+  div.redWrapper .redSecondLabelAfterTool {
+    width: 113px; }
+  div.redWrapper .redConstrainWrapper .redConstrainButton {
+    background-position: -6px -653px;
+    top: 9px;
+    left: 213px; }
+  div.redWrapper .redConstrainWrapper.redConstrainToggle .redConstrainButton {
+    background-position: -7px -673px; }
+  div.redWrapper .redRow .redConstrainWrapper .rfdTextInput {
+    width: 35px; }
+  div.redWrapper .reToolWrapper .reTool.reSplitButton {
+    width: 48px;
+    height: 26px;
+    line-height: 26px; }
+  div.redWrapper .reToolWrapper .redRow .reTool, div.redWrapper .redRow .reTool {
+    width: 26px;
+    height: 26px; }
+  div.redWrapper .redRow .reTool span, div.redWrapper .reToolWrapper .redRow .reTool span {
+    margin: 3px; }
+  div.redWrapper .reToolWrapper .reSplitButton.reTool .split_arrow {
+    height: 26px;
+    margin: 6px 0 0 4px;
+    top: -5px; }
+  div.redWrapper .reImageDialogCaller .reToolWrapper .reTool {
+    width: 26px;
+    height: 26px; }
+  div.redWrapper a.reDropdown {
+    border-radius: 0;
+    width: 208px; }
+  div.redWrapper a.reDropdown:hover {
+    background-color: #4d5c65; }
+  div.redWrapper a.reDropdown:hover:before {
+    height: 23px;
+    background-position: -12px -64px; }
+  div.redWrapper a.reDropdown:hover span {
+    color: #ffffff; }
+  div.redWrapper .rfdSelect {
+    width: 203px !important; }
+  div.redWrapper .redActionButtonsAbsoluteWrapper {
+    bottom: 15px; }
+  div.redWrapper .redFBDialogContentButton.redActionButtonsAbsoluteWrapper {
+    right: 5px;
+    bottom: 7px; }
+  div.redWrapper .redFBDialogContent {
+    width: 413px; }
+  div.redWrapper .redFBDialogContent #imageMultiPage {
+    height: 465px; }
+  div.redWrapper .redDialogSeparator {
+    width: 8px;
+    height: 580px;
+    border-left: 1px solid #192227;
+    border-right: 1px solid #192227;
+    background-color: #35434B; }
+  div.redWrapper #ImageSrc .rfdTextInput {
+    width: 186px; }
+  div.redWrapper .redSection .redRow .rfdTextInput.redInputTool {
+    width: 187px; }
+  div.redWrapper.LinkManager .redSection {
+    height: 270px; }
+  div.redWrapper .redSection {
+    border-bottom-color: #d7d7d7; }
+  div.redWrapper .reTool {
+    border-color: #000000;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#414c53 0%, #1c262c 100%);
+    border-color: #000000; }
+  div.redWrapper .reTool:hover {
+    border-color: #000000;
+    color: #e2e8eb;
+    background-color: #2b363d;
+    background-image: linear-gradient(#4e5960 0%, #2b363d 100%);
+    box-shadow: inset 0 0 1px #ffffff; }
+  div.redWrapper .reTool:active, div.redWrapper .reTool:focus {
+    border-color: #000000;
+    color: #ffffff;
+    background-color: #485258;
+    background-image: linear-gradient(#485258 0%, #485258 100%);
+    box-shadow: inset 0 0 1px #ffffff; }
+  div.redWrapper .redMsgContainerFBDialogs #propertyValueDescription, div.redWrapper .redMsgContainerFBDialogs #propertyValuePane {
+    background-color: #35434b;
+    color: #1c262c; }
+
+/* Styles that should be removed after the redesign is completed */
+.reInsertSelectTextboxWrapper {
+  width: 115px; }
+
+/* end of styles that should be removed */
+/* Right to Left Support */
+.RadForm_Glow .redRtl {
+  /* to be removed after the redesign */ }
+  .RadForm_Glow .redRtl .redWrapper .reTool .split_arrow:hover {
+    border-right-color: #000000; }
+  .RadForm_Glow .redRtl .reDropdown:hover {
+    background-image: url('Editor/ToolbarSprites.gif');
+    background-color: #4d5c65; }
+  .RadForm_Glow .redRtl .redWrapper .redConstrainWrapper .redConstrainButton {
+    left: 150px; }
+  .RadForm_Glow .redRtl .redConstrainWrapper .redDimensionPixels.redRtlFix {
+    margin-right: 55px; }
+  .RadForm_Glow .redRtl .reDropdown:before {
+    right: auto;
+    left: 0; }
+  .RadForm_Glow .redRtl .reInsertSelectCssClass {
+    height: 268px; }
+  .RadForm_Glow .redRtl .redConstrainWrapper .redSecondLabel {
+    width: 100px; }
+  .RadForm_Glow .redRtl .reStyleBuilderSize .reInlineBlock.reMetroTouchFix .riContentWrapper {
+    width: 50px !important; }
+
+/* Styles that should be out of the redWrapper */
+.RadForm_Glow .rfdSelect .rfdDropDownArrow {
+  background-image: url('Common/radActionsSprite.png');
+  _background-image: url('Common/radActionsSpriteIE6.png'); }
+
+/* Dialogs Dimensions  */
+.redImageProperties.RadForm_Glow body {
+  width: 418px;
+  height: 460px; }
+
+.redInsertSelectDialog.RadForm_Glow body {
+  width: 560px;
+  height: 330px; }
+
+.redPasteHtml.RadForm_Glow body {
+  width: 510px;
+  height: 280px; }
+
+.redImageManager.RadForm_Glow body {
+  width: 830px;
+  height: 580px; }
+
+.redXhtmlValidator.RadForm_Glow body {
+  width: 800px;
+  height: 600px; }
+
+.redTrackChangesDialog.RadForm_Glow body {
+  width: 750px;
+  height: 550px; }
+
+.redImageMapDialog.RadForm_Glow body {
+  width: 780px;
+  height: 570px; }
+
+.redFlashManager.RadForm_Glow body {
+  width: 832px;
+  height: 580px; }
+
+.redSilverlightManager.RadForm_Glow body {
+  width: 832px;
+  height: 580px; }
+
+.redMediaManager.RadForm_Glow body {
+  width: 832px;
+  height: 580px; }
+
+.redInsertExternalVideo.RadForm_Glow body {
+  width: 730px;
+  height: 600px; }
+
+.redDocumentManager.RadForm_Glow body {
+  width: 832px;
+  height: 580px; }
+
+.redTemplateManager.RadForm_Glow body {
+  width: 832px;
+  height: 580px; }
+
+.redFindAndReplace.RadForm_Glow body {
+  width: 398px;
+  height: 370px; }
+
+.redTableWizard.RadForm_Glow body {
+  width: 790px;
+  height: 570px; }
+
+.redLinkManager.RadForm_Glow body {
+  width: 400px;
+  height: 390px; }
+
+.redPageProperties.RadForm_Glow body {
+  width: 420px;
+  height: 580px; }
+
+.redAboutDialog.RadForm_Glow body {
+  width: 500px;
+  height: 320px; }
+
+.redHelp.RadForm_Glow body {
+  width: 710px;
+  height: 460px; }
+
+.redFormatCodeBlock.RadForm_Glow body {
+  width: 740px;
+  height: 630px; }
+
+.redCleanPasteHtmlContent.RadForm_Glow body {
+  width: 600px;
+  height: 320px; }
+
+.redCleanPasteTextContent.RadForm_Glow body {
+  width: 510px;
+  height: 300px; }
+
+.redStyleBuilder.RadForm_Glow body {
+  width: 550px;
+  height: 560px; }
+
+.redImageEditor.RadForm_Glow body {
+  width: 700px;
+  height: 530px; }
+
+.redPasteMarkdown.RadForm_Glow body {
+  width: 510px;
+  height: 290px; }
+
+/* this a temp fix for the unredisegned dialogs and should be removed after the redesign */
+.RadForm_Glow .reDialog.FormatCodeBlock, .RadForm_Glow .reDialog.TableWizard .reTableWizardColumns, .RadForm_Glow .reDialog.TableWizard .reTablePropertiesDimensions, .RadForm_Glow .reDialog.TableWizard .reTablePropertiesCssClass, .RadForm_Glow .reDialog.TableWizard .reCellPropertiesPreview, .RadForm_Glow .reDialog.TableWizard .reCellProperties, .RadForm_Glow .reDialog.TableWizard .reTableWizardAccessible, .RadForm_Glow .reDialog.ImageMapEditor, .RadForm_Glow .reDialog.PageProperties {
+  margin: 20px 5px 5px\9; }
+
+.RadForm_Glow .reInsertSelectDialogTable .reInsertSelectItemsWrapper, .RadForm_Glow .reInsertSelectDialogTable .reInsertSelectCssClass {
+  margin: 10px 5px 5px\9; }
+
+.RadForm_Glow .reControlCell .rfdCheckboxChecked .rfdToggleImage, .RadForm_Glow .reControlCell .rfdCheckboxUnchecked .rfdToggleImage, .RadForm_Glow .reControlCell .rfdRadioChecked .rfdToggleImage, .RadForm_Glow .reControlCell .rfdRadioUnchecked .rfdToggleImage {
+  top: 7px\9; }

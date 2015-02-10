@@ -1,0 +1,9 @@
+.RadAjax_Office2007 .raDiv {
+  background-image: url('Common/loading.gif'); }
+.RadAjax_Office2007 .raColor {
+  background-color: white;
+  color: black; }
+.RadAjax_Office2007 .raTransp {
+  opacity: 0.6;
+  -moz-opacity: 0.6;
+  filter: alpha(opacity=60); }

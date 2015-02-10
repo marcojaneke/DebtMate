@@ -1,0 +1,35 @@
+.RadRotator_Sunset {
+  /*================== The list ========================*/
+  /* For vertical carousel, not set, width defaults to auto */
+  /* Note if you explicitly set width to auto, this might cause */
+  /* problems with Safari */
+  /* When LoadOnDemand */ }
+  .RadRotator_Sunset .rrClipRegion {
+    border-color: #938879; }
+  .RadRotator_Sunset .rrButton {
+    background-image: linear-gradient(#f0eadf, #e0d9c8);
+    border-color: #938879; }
+  .RadRotator_Sunset .rrButton:hover {
+    background-image: linear-gradient(#faf2bc 0%, #f2db5b 50%, #f4bf2f 50%, #f8dd57 100%);
+    border-color: #bd8b2b; }
+  .RadRotator_Sunset a.rrButton:before {
+    font-size: 1.2em;
+    margin: -0.6em 0 0 -0.6em;
+    color: #321000; }
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .RadRotator_Sunset a.rrButton:before {
+      font-size: 1em; }
+    .RadRotator_Sunset ::-ms-backdrop, .RadRotator_Sunset a.rrButton:before {
+      font-size: .6em; } }
+  .RadRotator_Sunset a.rrButton:hover:before {
+    color: #280c00; }
+  .RadRotator_Sunset a.rrButtonRight:before {
+    content: "\E010"; }
+  .RadRotator_Sunset a.rrButtonLeft:before {
+    content: "\E013"; }
+  .RadRotator_Sunset a.rrButtonUp:before {
+    content: "\E011"; }
+  .RadRotator_Sunset a.rrButtonDown:before {
+    content: "\E012"; }
+  .RadRotator_Sunset .rrLoadingSign {
+    background-image: url('../Sunset/Common/loading_small.gif'); }

@@ -1,0 +1,93 @@
+.RadDropDownTree_Outlook {
+  color: black;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadDropDownTree_Outlook .rddtInner {
+    border-radius: 3px;
+    background-image: url('Common/radGradientButtonSprite.png');
+    _background-image: none;
+    border-color: #003c74;
+    color: black;
+    background-color: #ebe8e3;
+    background-image: -webkit-linear-gradient(top, #fdfdfd 0%, #ebe8e3 100%);
+    background-image: -moz-linear-gradient(top, #fdfdfd 0%, #ebe8e3 100%);
+    background-image: -ms-linear-gradient(top, #fdfdfd 0%, #ebe8e3 100%);
+    background-image: -o-linear-gradient(top, #fdfdfd 0%, #ebe8e3 100%);
+    background-image: linear-gradient(top, #fdfdfd 0%, #ebe8e3 100%); }
+  .RadDropDownTree_Outlook .rddtEmptyMessage {
+    color: gray;
+    font-style: italic; }
+  .RadDropDownTree_Outlook .rddtClearButton {
+    background-position: -2px -244px; }
+  .RadDropDownTree_Outlook .rddtIcon {
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -1px -20px; }
+  .RadDropDownTree_Outlook .rddtHovered {
+    border-color: #003c74;
+    color: black;
+    background-color: #f3d8a1;
+    background-image: -webkit-linear-gradient(top, #fcfcfc 0%, #f3d8a1 100%);
+    background-image: -moz-linear-gradient(top, #fcfcfc 0%, #f3d8a1 100%);
+    background-image: -ms-linear-gradient(top, #fcfcfc 0%, #f3d8a1 100%);
+    background-image: -o-linear-gradient(top, #fcfcfc 0%, #f3d8a1 100%);
+    background-image: linear-gradient(top, #fcfcfc 0%, #f3d8a1 100%); }
+    .RadDropDownTree_Outlook .rddtHovered .rddtClearButton {
+      background-position: -22px -244px; }
+      .RadDropDownTree_Outlook .rddtHovered .rddtClearButton.rddtClearButtonHovered {
+        background-position: -62px -244px; }
+    .RadDropDownTree_Outlook .rddtHovered .rddtIcon {
+      background-position: -1px -20px; }
+  .RadDropDownTree_Outlook .rddtFocused {
+    border-color: #002d96;
+    color: black;
+    background-color: #e7c073;
+    background-image: -webkit-linear-gradient(top, #fcfcfc 0%, #e7c073 100%);
+    background-image: -moz-linear-gradient(top, #fcfcfc 0%, #e7c073 100%);
+    background-image: -ms-linear-gradient(top, #fcfcfc 0%, #e7c073 100%);
+    background-image: -o-linear-gradient(top, #fcfcfc 0%, #e7c073 100%);
+    background-image: linear-gradient(top, #fcfcfc 0%, #e7c073 100%); }
+    .RadDropDownTree_Outlook .rddtFocused .rddtClearButton {
+      background-position: -42px -244px; }
+      .RadDropDownTree_Outlook .rddtFocused .rddtClearButton.rddtClearButtonHovered {
+        background-position: -82px -244px; }
+    .RadDropDownTree_Outlook .rddtFocused .rddtIcon {
+      background-position: -1px -20px; }
+  .RadDropDownTree_Outlook .rddtDisabled {
+    border-color: #809eba;
+    color: #8d8d8d;
+    background-color: #ebe8e3;
+    background-image: -webkit-linear-gradient(top, #fdfdfd 0%, #ebe8e3 100%);
+    background-image: -moz-linear-gradient(top, #fdfdfd 0%, #ebe8e3 100%);
+    background-image: -ms-linear-gradient(top, #fdfdfd 0%, #ebe8e3 100%);
+    background-image: -o-linear-gradient(top, #fdfdfd 0%, #ebe8e3 100%);
+    background-image: linear-gradient(top, #fdfdfd 0%, #ebe8e3 100%); }
+    .RadDropDownTree_Outlook .rddtDisabled .rddtIcon {
+      background-position: -1px -20px; }
+
+.rddtPopup_Outlook {
+  border-color: #89aee5;
+  color: black;
+  background: white;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .rddtPopup_Outlook .rddtHeader,
+  .rddtPopup_Outlook .rddtFooter {
+    color: black;
+    background-color: #d6e5f3; }
+  .rddtPopup_Outlook .rddtHeader {
+    border-bottom-color: #89aee5; }
+  .rddtPopup_Outlook .rddtFooter {
+    border-top-color: #89aee5; }
+  .rddtPopup_Outlook .rddtFilter {
+    border-bottom-color: #c3d9f9;
+    color: black;
+    background: #d6e5f3; }
+    .rddtPopup_Outlook .rddtFilter .rddtFilterInput {
+      font: 12px "Segoe UI", Arial, Helvetica, sans-serif;
+      border-color: #c3d9f9;
+      color: black;
+      background-color: white; }
+    .rddtPopup_Outlook .rddtFilter .rddtFilterEmptyMessage {
+      color: gray;
+      font-style: italic; }
+  .rddtPopup_Outlook .RadTreeView em {
+    color: black;
+    background-color: #ffeec2; }

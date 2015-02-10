@@ -1,0 +1,16 @@
+.RadTagCloud_MetroTouch {
+  border: 1px dotted #cdcdcd;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  /* Loading image */ }
+  .RadTagCloud_MetroTouch .rtcTagList .rtcTagItem {
+    color: #25a0da; }
+  .RadTagCloud_MetroTouch .rtcTagList .rtcTagItem a {
+    color: #767676; }
+  .RadTagCloud_MetroTouch .rtcTagList .rtcTagItem a:hover {
+    background: #e8e8e8;
+    color: black; }
+  .RadTagCloud_MetroTouch .rtcTagList .rtcTagItem a:active {
+    background: #25a0da;
+    color: white; }
+  .RadTagCloud_MetroTouch.rtcLoading {
+    background-image: url('Common/loading_small.gif'); }

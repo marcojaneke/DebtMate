@@ -1,0 +1,16 @@
+.RadToolTip_Vista {
+  background-color: #eef4fb;
+  color: black;
+  font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #767676; }
+  .RadToolTip_Vista .rtTitleWrapper .rtTitle {
+    color: black; }
+  .RadToolTip_Vista .rtClose {
+    background-image: url('../Vista/ToolTip/ToolTipSprites.png'); }
+  .RadToolTip_Vista .rtContent {
+    background-color: #eef4fb;
+    color: black; }
+  .RadToolTip_Vista .rtCallout {
+    background-image: url('../Vista/ToolTip/Callouts.gif'); }
+  .RadToolTip_Vista.rtLoading {
+    background-image: url('../Vista/Common/loading.gif'); }

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DebtMateData" Class="DebtMateDataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\DebtMateData.mdf;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="DebtMateDataConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CompanySetups" Member="CompanySetups">
+    <Type Name="CompanySetup">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CompanyName" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="CompanyRegistrationNumber" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PhisicalAddress1" Type="System.String" DbType="VarChar(800)" CanBeNull="true" />
+      <Column Name="PhisicalAddress2" Type="System.String" DbType="VarChar(800)" CanBeNull="true" />
+      <Column Name="PhisicalAddress3" Type="System.String" DbType="VarChar(800)" CanBeNull="true" />
+      <Column Name="PhisicalAddressCode" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="PostalAddress1" Type="System.String" DbType="VarChar(800)" CanBeNull="true" />
+      <Column Name="PostalAddress2" Type="System.String" DbType="VarChar(800)" CanBeNull="true" />
+      <Column Name="PostalAddress3" Type="System.String" DbType="VarChar(800)" CanBeNull="true" />
+      <Column Name="PostalAddressCode" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="Telephone" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Fax" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="VatRegistrationNumber" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="isActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DateCreated" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Debtors" Member="Debtors">
+    <Type Name="Debtor">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Fisrtname" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="PreferredName" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="IdNumber" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="DateOfBirth" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="GenderID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MaritalStatusID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Debtor_Gender" Member="Genders" ThisKey="GenderID" OtherKey="Id" Type="Gender" />
+      <Association Name="Debtor_MaritalStatuse" Member="MaritalStatuses" ThisKey="MaritalStatusID" OtherKey="Id" Type="MaritalStatuse" />
+      <Association Name="DebtorContactDetail_Debtor" Member="DebtorContactDetail" ThisKey="Id" OtherKey="DebtorID" Type="DebtorContactDetail" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Genders" Member="Genders">
+    <Type Name="Gender">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="isActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Debtor_Gender" Member="Debtor" ThisKey="Id" OtherKey="GenderID" Type="Debtor" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MaritalStatuses" Member="MaritalStatuses">
+    <Type Name="MaritalStatuse">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="isActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Debtor_MaritalStatuse" Member="Debtor" ThisKey="Id" OtherKey="MaritalStatusID" Type="Debtor" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DebtorContactDetails" Member="DebtorContactDetails">
+    <Type Name="DebtorContactDetail">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DebtorID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="StreetAddress1" Type="System.String" DbType="VarChar(800)" CanBeNull="true" />
+      <Column Name="StreetAddress2" Type="System.String" DbType="VarChar(800)" CanBeNull="true" />
+      <Column Name="StreetAddress3" Type="System.String" DbType="VarChar(800)" CanBeNull="true" />
+      <Column Name="StreetAddressPostalCode" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="PostalAddress1" Type="System.String" DbType="VarChar(800)" CanBeNull="true" />
+      <Column Name="PostalAddress2" Type="System.String" DbType="VarChar(800)" CanBeNull="true" />
+      <Column Name="PostalAddress3" Type="System.String" DbType="VarChar(800)" CanBeNull="true" />
+      <Column Name="PostalAddressCode" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="TelHome" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TelWork" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TelCell" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TelFax" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="email1" Type="System.String" DbType="VarChar(400)" CanBeNull="true" />
+      <Column Name="email2" Type="System.String" DbType="VarChar(400)" CanBeNull="true" />
+      <Column Name="DateAdded" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="isActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="DebtorContactDetail_Debtor" Member="Debtors" ThisKey="DebtorID" OtherKey="Id" Type="Debtor" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CaseStatuses" Member="CaseStatuses">
+    <Type Name="CaseStatuse">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="isActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CompanySetups" Member="CompanySetup1s">
+    <Type Name="CompanySetup1">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CompanyName" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="CompanyRegistrationNumber" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PhisicalAddress1" Type="System.String" DbType="VarChar(800)" CanBeNull="true" />
+      <Column Name="PhisicalAddress2" Type="System.String" DbType="VarChar(800)" CanBeNull="true" />
+      <Column Name="PhisicalAddress3" Type="System.String" DbType="VarChar(800)" CanBeNull="true" />
+      <Column Name="PhisicalAddressCode" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="PostalAddress1" Type="System.String" DbType="VarChar(800)" CanBeNull="true" />
+      <Column Name="PostalAddress2" Type="System.String" DbType="VarChar(800)" CanBeNull="true" />
+      <Column Name="PostalAddress3" Type="System.String" DbType="VarChar(800)" CanBeNull="true" />
+      <Column Name="PostalAddressCode" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="Telephone" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Fax" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="VatRegistrationNumber" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="isActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DateCreated" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MaritalStatuses" Member="MaritalStatuse1s">
+    <Type Name="MaritalStatuse1">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="isActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Genders" Member="Gender1s">
+    <Type Name="Gender1">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="isActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,63 @@
+.RadSplitter_Office2010Black {
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  /* Borders */
+  /* When ShowContentDuringLoad="false" */
+  /* RadSplitBar/RadSlidingPane resize elements */
+  /* RadSlidingPane tab */
+  /* RadSlidingPane tab */
+  /* RadSplitBar buttons */
+  /* RadSlidingPane buttons */
+  /* RadSlidingPane header */
+  /* RadSlidingPane title text */
+  /* RadSlidingPane content - this element should not be transparent as it shows above content in adjacent RadPanes */ }
+  .RadSplitter_Office2010Black,
+  .RadSplitter_Office2010Black .rspPaneTabContainer,
+  .RadSplitter_Office2010Black .rspPane,
+  .RadSplitter_Office2010Black .rspResizeBar,
+  .RadSplitter_Office2010Black .rspSlideContainerResize,
+  .RadSplitter_Office2010Black .rspPaneHorizontal,
+  .RadSplitter_Office2010Black .rspResizeBarHorizontal,
+  .RadSplitter_Office2010Black .rspSlideContainerResizeHorizontal {
+    border-color: #919191; }
+  .RadSplitter_Office2010Black .rspLoading {
+    background-image: url('Common/loading.gif'); }
+  .RadSplitter_Office2010Black .rspResizeBar,
+  .RadSplitter_Office2010Black .rspSlideContainerResize,
+  .RadSplitter_Office2010Black .rspResizeBarOver,
+  .RadSplitter_Office2010Black .rspSlideContainerResizeOver {
+    background-image: url('Splitter/ResizeBarVerticalSprites.gif');
+    background-color: #f6f6f6;
+    border-right-color: #919191; }
+  .RadSplitter_Office2010Black .rspResizeBarHorizontal,
+  .RadSplitter_Office2010Black .rspSlideContainerResizeHorizontal,
+  .RadSplitter_Office2010Black .rspResizeBarOverHorizontal,
+  .RadSplitter_Office2010Black .rspSlideContainerResizeOverHorizontal {
+    background-image: url('Splitter/ResizeBarHorizontalSprites.gif');
+    background-color: #f6f6f6;
+    border-bottom-color: #919191; }
+  .RadSplitter_Office2010Black .rspPaneTabContainer,
+  .RadSplitter_Office2010Black .rspSlideHeaderDockIcon,
+  .RadSplitter_Office2010Black .rspSlideHeaderUndockIcon,
+  .RadSplitter_Office2010Black .rspSlideHeaderCollapseIcon,
+  .RadSplitter_Office2010Black .rspCollapseBarExpand,
+  .RadSplitter_Office2010Black .rspCollapseBarCollapse,
+  .RadSplitter_Office2010Black .rspCollapseBarHorizontalExpand,
+  .RadSplitter_Office2010Black .rspCollapseBarHorizontalCollapse {
+    background-image: url('Splitter/ExpandCollapseBarsCommands.gif'); }
+  .RadSplitter_Office2010Black .rspSlideHeader,
+  .RadSplitter_Office2010Black .rspSlideTitleContainer,
+  .RadSplitter_Office2010Black .rspBottom .rspPaneTabContainer,
+  .RadSplitter_Office2010Black .rspTop .rspPaneTabContainer {
+    background-image: url('Splitter/slideTitleContainerBgr.gif');
+    background-repeat: repeat-x; }
+  .RadSplitter_Office2010Black .rspBottom .rspPaneTabContainer,
+  .RadSplitter_Office2010Black .rspTop .rspPaneTabContainer {
+    background-position: 0 -1px; }
+  .RadSplitter_Office2010Black .rspSlideTitle,
+  .RadSplitter_Office2010Black .rspPaneTabText {
+    color: #fff; }
+  .RadSplitter_Office2010Black .rspSlideContent {
+    background-color: #4b4b4b;
+    color: #fff; }
+

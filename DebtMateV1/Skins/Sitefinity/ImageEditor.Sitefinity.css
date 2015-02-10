@@ -1,0 +1,54 @@
+.RadImageEditor_Sitefinity {
+  border-color: #dee2e7;
+  background-color: #dee2e7;
+  /* Base overrides */
+  /*Custom skin*/ }
+  .RadImageEditor_Sitefinity .rieStatusBarInfo .rieLabel {
+    color: #8a8a8a; }
+  .RadImageEditor_Sitefinity .rieStatusBarInfo span {
+    color: #4c4e54; }
+  .RadImageEditor_Sitefinity .rieContentArea {
+    border-color: #dee2e7; }
+  .RadImageEditor_Sitefinity .RadToolBar_Sitefinity a.rtbWrap {
+    width: 30px;
+    height: 30px; }
+  .RadImageEditor_Sitefinity .RadToolBar_Sitefinity .rtbIcon {
+    margin: 2px 0 0 1px; }
+  .RadImageEditor_Sitefinity .RadToolBar_Sitefinity a.rtbWrap.rtbExpandDown {
+    width: auto; }
+  .RadImageEditor_Sitefinity li.rtbItem .rieBackgroundImg span.rtbIcon {
+    left: 6px;
+    overflow: hidden;
+    top: 6px !important;
+    width: 13px; }
+
+/* ImageEditor Dialogs using RadDock as Wrapper */
+.RadDock_Sitefinity.rieDialogs .rbPrimaryIcon,
+.RadImageEditor_Sitefinity .rieResizeHandle,
+.RadImageEditor_Sitefinity .rieBackgroundImg .rtbIcon {
+  background-image: url('../Common/ImageEditor/rieToolsLight.png');
+  _background-image: url('../Common/ImageEditor/rieToolsLightIE6.png'); }
+
+.RadDock_Sitefinity.rieDialogs .rieThumbsBottomRow td,
+.RadDock_Sitefinity.rieDialogs .rieDialogsThumbsLeft,
+.RadDock_Sitefinity.rieDialogs .riePrintContent img {
+  border-color: #abadb3; }
+
+.RadDock_Sitefinity.rieDialogs .rieThumbsLink {
+  border-color: #abadb3;
+  background-color: #efefef; }
+
+.RadDock_Sitefinity.rieDialogs .rieActiveThumbsLink,
+.RadDock_Sitefinity.rieDialogs .rieThumbsLink:hover,
+.RadImageEditor_Sitefinity .rieHighlightVertical,
+.RadImageEditor_Sitefinity .rieHighlightHorizontal {
+  border-color: #abadb3;
+  background-color: white; }
+
+.RadDock_Sitefinity.rieDialogs .riePrintContent {
+  border-color: #dee2e7;
+  background-color: #dee2e7; }
+
+.RadDock_Sitefinity.rieDialogs .rdContent {
+  color: black; }
+

@@ -1,0 +1,18 @@
+.RadTagCloud_Office2010Black {
+  background-color: #c6c6c6;
+  /* used bg disabled var to match daker color */
+  border: 1px dotted #919191;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  /* Loading image */ }
+  .RadTagCloud_Office2010Black .rtcTagList .rtcTagItem {
+    color: #666666; }
+  .RadTagCloud_Office2010Black .rtcTagList .rtcTagItem:hover {
+    color: black; }
+  .RadTagCloud_Office2010Black .rtcTagList .rtcTagItem a {
+    color: black; }
+  .RadTagCloud_Office2010Black .rtcTagList .rtcTagItem a:hover {
+    color: black;
+    background: #ffe175; }
+  .RadTagCloud_Office2010Black.rtcLoading {
+    background-image: url('Common/loading_small.gif'); }
+

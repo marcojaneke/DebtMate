@@ -1,0 +1,145 @@
+.RadCalendar_Outlook {
+  background: white;
+  font: normal 14px "Segoe UI", Arial, Helvetica, sans-serif; }
+
+.RadCalendar_Outlook .rcTitlebar {
+  border-color: #002d96 #002d96 #89aee5;
+  background-image: linear-gradient(to bottom, #e3eeff 0%, #d6e4fb 13%, #b4cdf1 33%, #9dbcea 50%, #7da5e0 54%, #7da5e0 96%, #89aee5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e3eeff', endColorstr='#89aee5',GradientType=0 );
+  color: #000;
+  line-height: 1.6; }
+  .RadCalendar_Outlook .rcTitlebar td {
+    padding: 0 0 2px; }
+  .RadCalendar_Outlook .rcTitlebar .rcPrev,
+  .RadCalendar_Outlook .rcTitlebar .rcNext,
+  .RadCalendar_Outlook .rcTitlebar .rcFastPrev,
+  .RadCalendar_Outlook .rcTitlebar .rcFastNext {
+    margin: .083em .167em 0;
+    color: #ccc; }
+.RadCalendar_Outlook .rcMain {
+  border-color: #002d96; }
+.RadCalendar_Outlook .rcMainTable {
+  color: #000; }
+.RadCalendar_Outlook .rcHeader, .RadCalendar_Outlook .rcFooter {
+  border-color: #002d96; }
+.RadCalendar_Outlook .rcWeek th {
+  line-height: 1.8;
+  border-bottom: 1px solid #89aee5;
+  padding: .167em .5em .167em 0; }
+.RadCalendar_Outlook .rcWeek .rcViewSel {
+  width: 1em;
+  padding: 0 .583em 0 .75em;
+  background: #e9eeee; }
+.RadCalendar_Outlook .rcMain .rcRow a, .RadCalendar_Outlook .rcMain .rcRow span {
+  width: 1.6em;
+  height: 1.6em;
+  line-height: 1.6;
+  padding: .2em .35em;
+  color: #000;
+  border: 1px solid transparent; }
+.RadCalendar_Outlook .rcMain .rcRow td {
+  border: 0 none; }
+.RadCalendar_Outlook .rcMain .rcRow th {
+  width: 1em;
+  padding: 0 .583em 0 .75em;
+  background: #e9eeee;
+  color: #555; }
+.RadCalendar_Outlook .rcMain .rcRow .rcToday a {
+  border-color: #bb5503; }
+.RadCalendar_Outlook .rcMain .rcRow .rcSelected a {
+  border-color: #002d96;
+  background-image: linear-gradient(to bottom, #dceafc 0%, #d0e1f9 22%, #a5c2ec 78%, #98b8e8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dceafc', endColorstr='#98b8e8',GradientType=0 ); }
+.RadCalendar_Outlook .rcMain .rcRow .rcHover a {
+  border-color: #002d96;
+  background: #ffeec2; }
+.RadCalendar_Outlook .rcMain .rcWeekend a {
+  color: #444; }
+.RadCalendar_Outlook .rcMain .rcOtherMonth a, .RadCalendar_Outlook .rcMain .rcOutOfRange span {
+  color: #777; }
+
+.RadCalendarMultiView_Outlook .rcTitlebar {
+  border-bottom-color: #002d96;
+  background-image: linear-gradient(to bottom, #5785d5 0%, #4a78cb 20%, #1542a5 73%, #002d96 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5785d5', endColorstr='#002d96',GradientType=0 );
+  color: #fff;
+  padding: 0.5em 0.1em; }
+  .RadCalendarMultiView_Outlook .rcTitlebar .rcFastPrev:before,
+  .RadCalendarMultiView_Outlook .rcTitlebar .rcPrev:before,
+  .RadCalendarMultiView_Outlook .rcTitlebar .rcNext:before,
+  .RadCalendarMultiView_Outlook .rcTitlebar .rcFastNext:before {
+    font-size: 1.3em;
+    line-height: 1.2;
+    color: #fff; }
+.RadCalendarMultiView_Outlook .rcCalendar {
+  border-color: #002d96;
+  border-top: 0; }
+.RadCalendarMultiView_Outlook .rcMainTable .rcTitle {
+  border-width: 1px 0;
+  border-color: #002d96 #89aee5 #89aee5;
+  padding: 0 0 2px;
+  background: #9ebef5;
+  line-height: 2.2; }
+
+.RadCalendarMonthView_Outlook {
+  border-color: #002d96;
+  background: #f6f6f6;
+  font: normal 14px "Segoe UI", Arial, Helvetica, sans-serif;
+  color: #000; }
+
+.RadCalendarMonthView_Outlook #rcMView_Feb, .RadCalendarMonthView_Outlook #rcMView_Apr, .RadCalendarMonthView_Outlook #rcMView_Jun, .RadCalendarMonthView_Outlook #rcMView_Aug, .RadCalendarMonthView_Outlook #rcMView_Oct, .RadCalendarMonthView_Outlook #rcMView_Dec {
+  border-right: 1px solid #89aee5; }
+.RadCalendarMonthView_Outlook a {
+  color: #000; }
+.RadCalendarMonthView_Outlook .rcSelected a {
+  border-color: #002d96;
+  background-image: linear-gradient(to bottom, #dceafc 0%, #d0e1f9 22%, #a5c2ec 78%, #98b8e8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dceafc', endColorstr='#98b8e8',GradientType=0 ); }
+.RadCalendarMonthView_Outlook #rcMView_PrevY a, .RadCalendarMonthView_Outlook #rcMView_NextY a {
+  color: #ccc; }
+.RadCalendarMonthView_Outlook .rcButtons {
+  padding: .417em .583em .25em; }
+.RadCalendarMonthView_Outlook input {
+  border-color: #003c74;
+  background-image: linear-gradient(to bottom, #fdfdfd 0%, #f8f8f6 33%, #ebe8e3 94%, #e0dcd3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdfdfd', endColorstr='#e0dcd3',GradientType=0 );
+  color: #000; }
+
+.RadCalendarTimeView_Outlook {
+  border-color: #002d96;
+  background: #f6f6f6;
+  font: normal 14px / 1.5 "Segoe UI", Arial, Helvetica, sans-serif; }
+
+.RadCalendarTimeView_Outlook th {
+  border-bottom: 1px solid #89aee5;
+  padding: 0 0 1px;
+  color: #000;
+  line-height: 2; }
+
+.RadCalendarTimeView_Outlook td {
+  border-color: #89aee5; }
+
+.RadCalendarTimeView_Outlook a {
+  color: #000; }
+.RadCalendarTimeView_Outlook td.rcSelected a {
+  border-color: #002d96;
+  background-image: linear-gradient(to bottom, #dceafc 0%, #d0e1f9 22%, #a5c2ec 78%, #98b8e8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dceafc', endColorstr='#98b8e8',GradientType=0 ); }
+.RadCalendarTimeView_Outlook td.rcHover a {
+  border-color: #002d96;
+  background: #ffeec2; }
+.RadCalendarTimeView_Outlook .rcFooter {
+  border-color: #002d96; }
+
+.RadPicker_Outlook .rcCalPopup,
+.RadPicker_Outlook .rcTimePopup {
+  border: 1px solid transparent; }
+  .RadPicker_Outlook .rcCalPopup:before,
+  .RadPicker_Outlook .rcTimePopup:before {
+    color: #496ca8; }
+  .RadPicker_Outlook .rcCalPopup:hover,
+  .RadPicker_Outlook .rcTimePopup:hover {
+    background-color: #ffe3b0;
+    background-image: linear-gradient(to top, #ffd091, #fff4cc);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff4cc', endColorstr='#ffd091',GradientType=0 );
+    border-color: #002d96; }

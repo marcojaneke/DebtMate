@@ -1,0 +1,111 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="DebtMateV1.SiteMaster" %>
+
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title><%: Page.Title %> - My ASP.NET Application</title>
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <%--<link href="Content/Site.css" rel="search" type="text/css" />--%>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="Content/bootstrap.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+</head>
+<body>
+    <form runat="server">
+
+        <%--  <telerik:RadScriptManager runat="server" ID="RadScriptManager1" />--%>
+        <asp:ScriptManager runat="server">
+
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=272931&clcid=0x409 --%>
+                <%--Framework Scripts--%>
+
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="jquery.ui.combined" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+        <header>
+            <div class="content-wrapper main-content clear-fix">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="myCoolHeaderBlack">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="myCoolHeaderBlack">
+                            <telerik:RadMenu ID="RadMenu1" CssClass="mainMenu" runat="server"  Skin="Sunset" ShowToggleHandle="true" Width="100%" RenderMode="Auto">
+                                <Items>
+                                    <telerik:RadMenuItem Text="Home" />
+                                    <telerik:RadMenuItem IsSeparator="true" />
+                                    <telerik:RadMenuItem Text="Administration">
+                                        <GroupSettings Width="200px" />
+                                        <Items>
+                                            <telerik:RadMenuItem Text="Debtor" NavigateUrl="Administrator/CreateDebtor.aspx"></telerik:RadMenuItem>
+                                            <telerik:RadMenuItem Text="Case" NavigateUrl="DefaultCS.aspx?page=sofas"></telerik:RadMenuItem>
+                                            <telerik:RadMenuItem Text="Status" NavigateUrl="Administrator/StatusAdmin.aspx"></telerik:RadMenuItem>
+                                        </Items>
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem Text="About" NavigateUrl="DefaultCS.aspx?page=aboutus" />
+                                </Items>
+                            </telerik:RadMenu>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="body">
+            <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+                <AjaxSettings>
+                    <telerik:AjaxSetting AjaxControlID="RadPanelBar1">
+                        <UpdatedControls>
+                            <telerik:AjaxUpdatedControl ControlID="RadPanelBar1" />
+                        </UpdatedControls>
+                    </telerik:AjaxSetting>
+                </AjaxSettings>
+            </telerik:RadAjaxManager>
+            <section class="content-wrapper main-content clear-fix">
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <asp:ContentPlaceHolder ClientIDMode="Static" runat="server" ID="MainContent" />
+
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <p>&copy; -%: DateTime.Now.Year %> - DebtMate</p>
+                    <p>&nbsp;</p>
+                </div>
+            </div>
+        </footer>
+        <script src="Scripts/jquery-2.1.3.min.js"></script>
+        <script src="Scripts/bootstrap.min.js"></script>
+    </form>
+</body>
+</html>

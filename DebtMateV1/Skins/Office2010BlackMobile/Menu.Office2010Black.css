@@ -1,0 +1,39 @@
+.RadMenu_Office2010Black .rmRootToggle {
+  color: black;
+  border-color: #262626;
+  color: black;
+  background-color: #6f6f6f;
+  background-image: linear-gradient(#c7c7c7 0%, #6f6f6f 100%); }
+  .RadMenu_Office2010Black .rmRootToggle:active, .RadMenu_Office2010Black .rmRootToggle.rmExpanded {
+    color: black;
+    border-color: #c2983f;
+    color: black;
+    background-color: #feed76;
+    background-image: linear-gradient(#f8d04c 0%, #f7c840 25%, #f7c840 50%, #feed76 100%); }
+.RadMenu_Office2010Black.rmDisabled .rmRootToggle:active, .RadMenu_Office2010Black.rmDisabled .rmRootToggle.rmExpanded {
+  border-color: #262626;
+  color: black;
+  background-color: #6f6f6f;
+  background-image: linear-gradient(#c7c7c7 0%, #6f6f6f 100%); }
+
+.RadMenuPopup_Office2010Black {
+  color: black;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #9199a4;
+  background-color: #f6f6f6; }
+  .RadMenuPopup_Office2010Black:before {
+    border-color: transparent transparent  #9199a4; }
+  .RadMenuPopup_Office2010Black:after {
+    border-color: transparent transparent #f6f6f6; }
+.RadMenuPopup_Office2010Black .rmItem {
+  border-color: #fff;
+  border-bottom: 1px solid #c5c5c5; }
+  .RadMenuPopup_Office2010Black .rmItem:last-child {
+    border-bottom: 0; }
+  .RadMenuPopup_Office2010Black .rmItem.rmSelected {
+    color: black;
+    background-color: #fff17c; }
+.RadMenuPopup_Office2010Black .rmLoading:after {
+  background-color: rgba(255, 255, 255, 0.8); }
+.RadMenuPopup_Office2010Black .rmLoadingIcon:after {
+  background-image: url('../Office2010Black/Common/loading_small.gif'); }

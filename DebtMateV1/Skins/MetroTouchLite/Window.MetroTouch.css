@@ -1,0 +1,128 @@
+.RadWindow_MetroTouch {
+  background-color: white;
+  color: black;
+  font: 100 16px "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #cdcdcd;
+  /* External content iframe styles */
+  /* Buttons overrides */
+  /* Dialog styles */
+  /* Right to left support */ }
+  .RadWindow_MetroTouch.RadWindow.rwRoundedCorner, .RadWindow_MetroTouch.RadWindow.rwRoundedCorner .rwTitleBar, .RadWindow_MetroTouch.RadWindow.rwRoundedCorner.rwCollapsed .rwTitleBar, .RadWindow_MetroTouch.RadWindow.rwRoundedCorner.rwMinimizedWindow .rwTitleBar, .RadWindow_MetroTouch.RadWindow.rwRoundedCorner .rwPromptInput, .RadWindow_MetroTouch.RadWindow.rwRoundedCorner .rwDialogButtons input {
+    border-radius: 0; }
+  .RadWindow_MetroTouch .rwTitleBar {
+    background-color: #25a0da;
+    border-bottom: 1px solid #cdcdcd; }
+  .RadWindow_MetroTouch.rwCollapsed .rwTitleBar {
+    border-bottom-color: #cdcdcd; }
+  .RadWindow_MetroTouch span.rwIcon {
+    width: 30px;
+    height: 30px;
+    background-image: url('../MetroTouch/Window/rwIcon.png');
+    background-position: 0 0; }
+  .RadWindow_MetroTouch .rwTitleWrapper .rwTitle {
+    height: 30px;
+    color: white;
+    font-size: 1.222em;
+    font-weight: normal;
+    padding: 0em 0em 0em 2.91667em; }
+  .RadWindow_MetroTouch .rwListItem .rwCommandButton,
+  .RadWindow_MetroTouch .rwResize {
+    background-image: url('../MetroTouch/Common/radActionsSprite.png');
+    _background-image: url('../MetroTouch/Common/radActionsSpriteIE6.png'); }
+  .RadWindow_MetroTouch .rwContent {
+    background-color: white;
+    border: 0; }
+  .RadWindow_MetroTouch .rwStatusBar {
+    background-color: white;
+    border-color: #cdcdcd transparent transparent;
+    margin: 0em -0.5em; }
+  .RadWindow_MetroTouch .rwStatusBar input {
+    font-size: 16px;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    color: black; }
+  .RadWindow_MetroTouch.rwLoading .rwExternalContent {
+    background-image: url('../MetroTouch/Common/loading.gif'); }
+  .RadWindow_MetroTouch .rwLoading.rwStatusBar {
+    background-image: url('../MetroTouch/Common/loading_small.gif'); }
+  .RadWindow_MetroTouch li.rwListItem {
+    width: 28px;
+    height: 28px;
+    border-radius: 3.75em; }
+  .RadWindow_MetroTouch li.rwListItem .rwCommandButton {
+    width: 28px;
+    height: 28px;
+    border: 1px solid transparent;
+    margin: 0em 0.16667em; }
+  .RadWindow_MetroTouch li.rwListItem .rwCommandButton:hover {
+    border-radius: 3.75em;
+    border: 1px solid white;
+    cursor: pointer; }
+  .RadWindow_MetroTouch .rwCommandButton.rwCloseButton, .RadWindow_MetroTouch.rwInactiveWindow .rwCommandButton.rwCloseButton:hover,
+  .RadWindow_MetroTouch .rwCommandButton.rwCloseButton:hover {
+    background-position: -110px -1910px; }
+  .RadWindow_MetroTouch .rwCommandButton.rwPinButton, .RadWindow_MetroTouch.rwInactiveWindow .rwCommandButton.rwPinButton:hover,
+  .RadWindow_MetroTouch .rwCommandButton.rwPinButton:hover {
+    background-position: -110px -1260px; }
+  .RadWindow_MetroTouch .rwCommandButton.rwPinButton.on, .RadWindow_MetroTouch.rwInactiveWindow .rwCommandButton.rwPinButton.on:hover,
+  .RadWindow_MetroTouch .rwCommandButton.rwPinButton.on:hover {
+    background-position: -110px -1210px; }
+  .RadWindow_MetroTouch .rwCommandButton.rwMinimizeButton,
+  .RadWindow_MetroTouch .rwInactiveWindow .rwCommandButton.rwMinimizeButton:hover,
+  .RadWindow_MetroTouch .rwCommandButton.rwMinimizeButton:hover {
+    background-position: -110px -1510px; }
+  .RadWindow_MetroTouch .rwCommandButton.rwMaximizeButton,
+  .RadWindow_MetroTouch .rwInactiveWindow .rwCommandButton.rwMaximizeButton:hover,
+  .RadWindow_MetroTouch .rwCommandButton.rwMaximizeButton:hover {
+    background-position: -110px -1610px; }
+  .RadWindow_MetroTouch.rwMaximizedWindow .rwMaximizeButton, .RadWindow_MetroTouch.rwMinimizedWindow .rwMinimizeButton, .RadWindow_MetroTouch.rwMaximizedWindow .rwMaximizeButton:hover, .RadWindow_MetroTouch.rwMinimizedWindow .rwMinimizeButton:hover {
+    background-position: -110px -1810px; }
+  .RadWindow_MetroTouch .rwCommandButton.rwReloadButton,
+  .RadWindow_MetroTouch .rwInactiveWindow .rwCommandButton.rwReloadButton:hover,
+  .RadWindow_MetroTouch .rwCommandButton.rwReloadButton:hover {
+    background-position: -110px -1360px; }
+  .RadWindow_MetroTouch .rwStatusBar span.rwResize {
+    right: -6px;
+    bottom: -12px;
+    background-position: -67px -2217px; }
+  .RadWindow_MetroTouch div.rwDialog {
+    margin: 0.41667em 0em 0em; }
+  .RadWindow_MetroTouch .rwDialogButtons input {
+    font-size: 16px;
+    padding: 0.25em 0.83333em;
+    background-color: #f9f9f9;
+    border-color: #cdcdcd;
+    color: black; }
+  .RadWindow_MetroTouch .rwDialogButtons input:hover {
+    background-color: #e8e8e8;
+    border-color: #cdcdcd;
+    color: black; }
+  .RadWindow_MetroTouch .rwDialogButtons input:active {
+    background-color: #007acc;
+    border-color: #25a0da;
+    color: white; }
+  .RadWindow_MetroTouch .rwPromptInput {
+    background-color: white;
+    color: black;
+    border-color: #cdcdcd;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadWindow_MetroTouch .rwPromptInput:hover {
+    background-color: white;
+    color: black;
+    border-color: #767676; }
+  .RadWindow_MetroTouch .rwPromptInput:active,
+  .RadWindow_MetroTouch .rwPromptInput:focus {
+    background-color: white;
+    color: black;
+    border-color: #25a0da; }
+  .RadWindow_MetroTouch .rwPromptInput:disabled {
+    background-color: white;
+    color: #c5c5c5;
+    border-color: #e0e0e0; }
+  .RadWindow_MetroTouch.RadWindow.rwRtl .rwTitleWrapper .rwTitle {
+    padding: 0em 3.33333em 0em 0em; }
+  .RadWindow_MetroTouch.RadWindow.rwRtl .rwStatusBar .rwResize {
+    background-position: -67px -2267px;
+    left: -3px; }
+

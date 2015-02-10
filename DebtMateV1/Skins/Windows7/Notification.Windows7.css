@@ -1,0 +1,24 @@
+.RadNotification_Windows7 {
+  border: 1px solid #b8cbde;
+  background-color: white;
+  color: black;
+  /* base overwrites */ }
+  .RadNotification_Windows7.rnShadows {
+    box-shadow: 2px 2px 3px #dde6f1; }
+  .RadNotification_Windows7 .rnTitleBar {
+    background-image: -webkit-linear-gradient(top, #f1f5fb 0%, #f1f5fb 100%);
+    background-image: -moz-linear-gradient(top, #f1f5fb 0%, #f1f5fb 100%);
+    background-image: -ms-linear-gradient(top, #f1f5fb 0%, #f1f5fb 100%);
+    background-image: -o-linear-gradient(top, #f1f5fb 0%, #f1f5fb 100%);
+    background-image: linear-gradient(top, #f1f5fb 0%, #f1f5fb 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f1f5fb', endColorstr='#f1f5fb',GradientType=0 );
+    border-top: 1px solid #fff; }
+  .RadNotification_Windows7 .rnCommands a {
+    background-image: url('Common/radActionsSprite.png');
+    _background-image: url('Common/radActionsSpriteIE6.png'); }
+  .RadNotification_Windows7 .rnTitleBarTitle {
+    color: black; }
+  .RadNotification_Windows7 .rnContentWrapper {
+    border-top: 1px solid #c2cedb; }
+  .RadNotification_Windows7 .rnCommands li {
+    margin-right: 0.08333em; }

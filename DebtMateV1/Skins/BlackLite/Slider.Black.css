@@ -1,0 +1,111 @@
+.RadSlider_Black {
+  /* horizontal slider */
+  /* end horizontal slider */
+  /* vertical slider */
+  /* end vertical slider */
+  /* horizontal slider - TrackPosition=Top/Bottom */
+  /* vertical slider - TrackPosition=Left/Right */
+  /* horizontal slider - TrackPosition=Center */
+  /* vertical slider - TrackPosition=Center */ }
+  .RadSlider_Black .rslTrack {
+    border-color: #080808; }
+  .RadSlider_Black div.rslTop a.rslDraghandle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#959595', EndColorStr='#1c1c1c')";
+    background-image: linear-gradient(#959595 0%, #4b4b4b 50%, #313131 50%, #1c1c1c 100%);
+    border-color: #080808; }
+  .RadSlider_Black a.rslHandle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#959595', EndColorStr='#1c1c1c')";
+    background-image: linear-gradient(#959595 0%, #4b4b4b 50%, #313131 50%, #1c1c1c 100%);
+    border-color: #c4c4c4; }
+  .RadSlider_Black a.rslHandle:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#5b5b5b', EndColorStr='#020202')";
+    background-image: linear-gradient(#5b5b5b 0%, #2b2b2d 50%, #060606 50%, #020202 100%);
+    border-color: #6c6c6c; }
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .RadSlider_Black a.rslHandle:before {
+      font-size: 1em; }
+    .RadSlider_Black ::-ms-backdrop, .RadSlider_Black a.rslHandle:before {
+      font-size: .6em; } }
+  .RadSlider_Black a.rslHandle:before {
+    font-size: 1.2em;
+    font-size: .7em\9;
+    margin: -0.6em 0 0 -0.6em;
+    color: white; }
+  .RadSlider_Black a.rslHandle:hover:before {
+    color: #9eda29; }
+  .RadSlider_Black div.rslHorizontal a.rslDecrease:before {
+    content: "\E013"; }
+  .RadSlider_Black div.rslHorizontal a.rslIncrease:before {
+    content: "\E010 "; }
+  .RadSlider_Black div.rslVertical a.rslDecrease:before {
+    content: "\E011"; }
+  .RadSlider_Black div.rslVertical a.rslIncrease:before {
+    content: "\E012 "; }
+  .RadSlider_Black .rslHorizontal a.rslDraghandle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#959595', EndColorStr='#1c1c1c')";
+    background-image: linear-gradient(#959595 0%, #4b4b4b 50%, #313131 50%, #1c1c1c 100%);
+    border-color: #080808; }
+  .RadSlider_Black .rslHorizontal a.rslDraghandle:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#5b5b5b', EndColorStr='#020202')";
+    background-image: linear-gradient(#5b5b5b 0%, #2b2b2d 50%, #060606 50%, #020202 100%);
+    border-color: #080808; }
+  .RadSlider_Black .rslHorizontal a.rslDraghandle:focus,
+  .RadSlider_Black .rslHorizontal a.rslDraghandle:active {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#eaff6a', EndColorStr='#82fe3c')";
+    background-image: linear-gradient(#eaff6a 0%, #c0ff57 50%, #a8ff4c 50%, #82fe3c 100%);
+    border-color: #95c336; }
+  .RadSlider_Black .rslHorizontal .rslTrack {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#4f4f4f', EndColorStr='#4a4a4a')";
+    background-image: linear-gradient(#4f4f4f, #4a4a4a);
+    border-color: #0d0d0d #0d0d0d #4a4a4a; }
+  .RadSlider_Black .rslHorizontal .rslSelectedregion {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#d9ff77', EndColorStr='#3d5d00')";
+    background-image: linear-gradient(#d9ff77, #3d5d00); }
+  .RadSlider_Black .rslHorizontal .rslItem {
+    background-image: url('../Black/Slider/ItemHorizontalBgr.gif'); }
+  .RadSlider_Black .rslVertical .rslTrack {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#4f4f4f', EndColorStr='#4a4a4a', GradientType=1)";
+    background-image: linear-gradient(to left, #4f4f4f, #4a4a4a);
+    border-color: #0d0d0d #0d0d0d #4a4a4a; }
+  .RadSlider_Black .rslVertical .rslSelectedregion {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#d9ff77', EndColorStr='#3d5d00', GradientType=1)";
+    background-image: linear-gradient(to left, #d9ff77, #3d5d00); }
+  .RadSlider_Black .rslVertical a.rslDraghandle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#959595', EndColorStr='#1c1c1c', GradientType=1)";
+    background-image: linear-gradient(to left, #959595 0%, #4b4b4b 50%, #313131 50%, #1c1c1c 100%);
+    border-color: #080808; }
+  .RadSlider_Black .rslVertical a.rslDraghandle:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#5b5b5b', EndColorStr='#020202', GradientType=1)";
+    background-image: linear-gradient(to left, #5b5b5b 0%, #2b2b2d 50%, #060606 50%, #020202 100%);
+    border-color: #080808; }
+  .RadSlider_Black .rslVertical a.rslDraghandle:focus,
+  .RadSlider_Black .rslVertical a.rslDraghandle:active {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#eaff6a', EndColorStr='#82fe3c', GradientType=1)";
+    background-image: linear-gradient(to left, #eaff6a 0%, #c0ff57 50%, #a8ff4c 50%, #82fe3c 100%);
+    border-color: #95c336; }
+  .RadSlider_Black .rslVertical .rslItem {
+    background-image: url('../Black/Slider/ItemVerticalBgr.gif'); }
+  .RadSlider_Black .rslItem,
+  .RadSlider_Black .rslLargeTick span,
+  .RadSlider_Black .rslItemsWrapper .rslItemSelected {
+    color: black; }
+  .RadSlider_Black .rslTop .rslSmallTick,
+  .RadSlider_Black .rslBottom .rslSmallTick {
+    background-image: url('../Black/Slider/SmallChangeHorizontal.gif'); }
+  .RadSlider_Black .rslTop .rslLargeTick,
+  .RadSlider_Black .rslBottom .rslLargeTick {
+    background-image: url('../Black/Slider/LargeChangeHorizontal.gif'); }
+  .RadSlider_Black .rslLeft .rslSmallTick,
+  .RadSlider_Black .rslRight .rslSmallTick {
+    background-image: url('../Black/Slider/SmallChangeVertical.gif'); }
+  .RadSlider_Black .rslLeft .rslLargeTick,
+  .RadSlider_Black .rslRight .rslLargeTick {
+    background-image: url('../Black/Slider/LargelChangeVertical.gif'); }
+  .RadSlider_Black .rslMiddle .rslSmallTick {
+    background-image: url('../Black/Slider/SmallChangeMiddleHorizontal.gif'); }
+  .RadSlider_Black .rslLargeTick {
+    background-image: url('../Black/Slider/LargeChangeMiddleHorizontal.gif'); }
+  .RadSlider_Black .rslCenter .rslSmallTick {
+    background-image: url('../Black/Slider/SmallChangeCenterVertical.gif'); }
+  .RadSlider_Black .rslCenter .rslLargeTick {
+    background-image: url('../Black/Slider/LargelChangeCenterVertical.gif'); }

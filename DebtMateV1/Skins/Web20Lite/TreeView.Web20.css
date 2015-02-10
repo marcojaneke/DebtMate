@@ -1,0 +1,55 @@
+.RadTreeView_Web20 {
+  color: black;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 1.33333em; }
+  .RadTreeView_Web20 a.rtIn {
+    *color: black; }
+  .RadTreeView_Web20 .rtHover .rtIn {
+    color: #0f3789;
+    border-color: #bcd2f1;
+    background-color: #e7f1ff; }
+  .RadTreeView_Web20 .rtSelected .rtIn {
+    color: #0e4302;
+    border-color: #85c843;
+    background-color: #d4ffbc; }
+  .RadTreeView_Web20 .rtEdit .rtIn {
+    border-color: #0f3789;
+    background: #ffffff; }
+    .RadTreeView_Web20 .rtEdit .rtIn input {
+      color: black;
+      font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadTreeView_Web20 .rtChecked,
+  .RadTreeView_Web20 .rtUnchecked,
+  .RadTreeView_Web20 .rtIndeterminate {
+    background-image: url('../Web20/Common/radFormToggleSprite.png');
+    _background-image: url('../Web20/Common/radFormToggleSpriteIE6.png'); }
+  .RadTreeView_Web20 .rtLoadingIcon {
+    background-image: url('../Web20/Common/loading_small.gif'); }
+  .RadTreeView_Web20 .rtSelected .rtLoadingBefore,
+  .RadTreeView_Web20 .rtSelected .rtLoadingAfter,
+  .RadTreeView_Web20 .rtSelected .rtLoadingBelow {
+    color: #333333; }
+  .RadTreeView_Web20 .rtPlus,
+  .RadTreeView_Web20 .rtMinus {
+    *background-image: url('../Web20/TreeView/PlusMinus.png'); }
+    .RadTreeView_Web20 .rtPlus:before,
+    .RadTreeView_Web20 .rtMinus:before {
+      color: #fff;
+      border-color: #3f5f94;
+      background-color: #6180c5;
+      background-image: url('../Web20/Common/radGradientButtonSprite.png');
+      background-image: linear-gradient(to bottom, #d7e0f0, #adc0e0 50%, #93aeda 50%, #bbcfeb);
+      box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.8) inset; }
+    .RadTreeView_Web20 .rtPlus:hover:before,
+    .RadTreeView_Web20 .rtMinus:hover:before {
+      color: #3f5f94;
+      background-color: #c1d5ef; }
+  .RadTreeView_Web20 .rtLines .rtTop:before,
+  .RadTreeView_Web20 .rtLines .rtMid:before,
+  .RadTreeView_Web20 .rtLines .rtBot:before,
+  .RadTreeView_Web20 .rtLines .rtLI:before {
+    border-color: #6c7881; }
+
+.RadTreeView_Web20_disabled .rtIn,
+.RadTreeView_Web20 .rtDisabled .rtIn {
+  color: #ccc; }

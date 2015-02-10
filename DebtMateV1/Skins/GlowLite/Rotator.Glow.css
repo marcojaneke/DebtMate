@@ -1,0 +1,45 @@
+.RadRotator_Glow {
+  font-size: 13px;
+  /*================== The list ========================*/
+  /* For vertical carousel, not set, width defaults to auto */
+  /* Note if you explicitly set width to auto, this might cause */
+  /* problems with Safari */
+  /* When LoadOnDemand */ }
+  .RadRotator_Glow div.rrClipRegion {
+    border: 1px solid #515a61;
+    background-color: #242e35; }
+  .RadRotator_Glow a.rrButton {
+    width: 2.15385em;
+    height: 2.15385em;
+    border-radius: 0.23077em;
+    background-color: #343c40;
+    border-color: black;
+    background-image: linear-gradient(#414c53 0%, #1c262c 100%);
+    background-repeat: no-repeat; }
+  .RadRotator_Glow a.rrButton:hover,
+  .RadRotator_Glow a.rrButton:active {
+    background-color: #3e464b;
+    background-image: linear-gradient(#4e5960 0%, #2b363d 100%);
+    border-color: black; }
+  .RadRotator_Glow a.rrButton:before {
+    font-size: 1.8em;
+    line-height: 1;
+    font-family: TelerikWebUI, monospace;
+    color: #ecf1f3; }
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .RadRotator_Glow a.rrButton:before {
+      font-size: 1em; }
+    .RadRotator_Glow ::-ms-backdrop, .RadRotator_Glow a.rrButton:before {
+      font-size: .6em; } }
+  .RadRotator_Glow a.rrButton:hover:before {
+    color: #ecf1f3; }
+  .RadRotator_Glow a.rrButtonRight:before {
+    content: "\E000"; }
+  .RadRotator_Glow a.rrButtonLeft:before {
+    content: "\E003"; }
+  .RadRotator_Glow a.rrButtonUp:before {
+    content: "\E001"; }
+  .RadRotator_Glow a.rrButtonDown:before {
+    content: "\E002"; }
+  .RadRotator_Glow .rrLoadingSign {
+    background-image: url('../Glow/Common/loading_small.gif'); }

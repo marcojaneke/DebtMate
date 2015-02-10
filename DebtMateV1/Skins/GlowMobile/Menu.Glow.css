@@ -1,0 +1,37 @@
+.RadMenu_Glow .rmRootToggle {
+  border-width: 0;
+  box-shadow: 0 0.071em 0.071em rgba(0, 0, 0, 0.7);
+  border-color: black;
+  color: #e2e8eb;
+  background-color: #1c262c;
+  background-image: linear-gradient(#414c53 0%, #1c262c 100%); }
+  .RadMenu_Glow .rmRootToggle:active, .RadMenu_Glow .rmRootToggle.rmExpanded {
+    border-color: black;
+    color: white;
+    background-color: #485258;
+    background-image: linear-gradient(#485258 0%, #485258 100%); }
+.RadMenu_Glow.rmDisabled .rmRootToggle:active, .RadMenu_Glow.rmDisabled .rmRootToggle.rmExpanded {
+  border-color: black;
+  color: #e2e8eb;
+  background-color: #1c262c;
+  background-image: linear-gradient(#414c53 0%, #1c262c 100%); }
+
+.RadMenuPopup_Glow {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  border-width: 0;
+  background-color: #242e35;
+  box-shadow: 0 .071em .214em #000; }
+  .RadMenuPopup_Glow:before {
+    border-color: transparent transparent #1b2327; }
+  .RadMenuPopup_Glow:after {
+    border-color: transparent transparent #242e35; }
+.RadMenuPopup_Glow .rmItem {
+  border-color: #1b2327; }
+  .RadMenuPopup_Glow .rmItem.rmSelected {
+    color: black;
+    background-color: #ffa915; }
+.RadMenuPopup_Glow .rmLoading:after {
+  background-color: rgba(0, 0, 0, 0.6); }
+.RadMenuPopup_Glow .rmLoadingIcon:after {
+  background-image: url('../Glow/Common/loading_small.gif'); }

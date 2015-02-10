@@ -1,0 +1,18 @@
+.RecurrenceEditor_Simple {
+  background-color: white; }
+  .RecurrenceEditor_Simple .rsAdvRecurrenceTitle {
+    border-color: #828282;
+    color: black;
+    background-color: #eaeaea; }
+  .RecurrenceEditor_Simple .rsTabbedOptionList {
+    border-color: #7e7e7e;
+    color: black;
+    background-color: #e2e2e2; }
+    .RecurrenceEditor_Simple .rsTabbedOptionList li {
+      border-color: #7e7e7e; }
+    .RecurrenceEditor_Simple .rsTabbedOptionList label:hover {
+      color: #882501;
+      background-color: #ffe79c; }
+    .RecurrenceEditor_Simple .rsTabbedOptionList input:checked + label {
+      color: #882501;
+      background-color: #ffa517; }

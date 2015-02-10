@@ -1,0 +1,95 @@
+.RadWindow_Metro {
+  background-color: white;
+  color: black;
+  font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #e5e5e5;
+  /* Base overrides */
+  /* External content iframe styles */
+  /* Dialog styles */ }
+  .RadWindow_Metro.RadWindow.rwRoundedCorner, .RadWindow_Metro.RadWindow.rwRoundedCorner .rwTitleBar, .RadWindow_Metro.RadWindow.rwRoundedCorner.rwCollapsed .rwTitleBar, .RadWindow_Metro.RadWindow.rwRoundedCorner.rwMinimizedWindow .rwTitleBar, .RadWindow_Metro.RadWindow.rwRoundedCorner .rwPromptInput, .RadWindow_Metro.RadWindow.rwRoundedCorner .rwDialogButtons input {
+    border-radius: 0; }
+  .RadWindow_Metro .rwTitleBar {
+    background-color: #25a0da; }
+  .RadWindow_Metro.rwCollapsed .rwTitleBar {
+    border-bottom-color: #202020; }
+  .RadWindow_Metro span.rwIcon {
+    background-image: url('../Metro/Window/Icon.gif');
+    background-position: 0 0; }
+  .RadWindow_Metro .rwTitleWrapper .rwTitle {
+    color: white; }
+  .RadWindow_Metro .rwListItem:hover .rwCommandButton,
+  .RadWindow_Metro .rwListItem .rwCommandButton:hover {
+    opacity: .7; }
+  .RadWindow_Metro .rwListItem .rwCommandButton,
+  .RadWindow_Metro .rwResize {
+    background-image: url('../Metro/Common/radActionsSprite.png');
+    _background-image: url('../Metro/Common/radActionsSpriteIE6.png'); }
+  .RadWindow_Metro .rwContent {
+    background-color: white;
+    border: 0; }
+  .RadWindow_Metro .rwStatusBar {
+    margin: 0 -6px;
+    background-color: white;
+    border-color: #e5e5e5 white white; }
+  .RadWindow_Metro .rwStatusBar input {
+    height: 25px; }
+  .RadWindow_Metro.rwLoading .rwExternalContent {
+    background-image: url('../Metro/Common/loading.gif'); }
+  .RadWindow_Metro .rwLoading.rwStatusBar {
+    background-image: url('../Metro/Common/loading_small.gif'); }
+  .RadWindow_Metro div.rwDialog {
+    margin: 5px 0 0; }
+  .RadWindow_Metro .rwDialogButtons input {
+    background-color: #f9f9f9;
+    border-color: #cdcdcd;
+    color: black; }
+  .RadWindow_Metro .rwDialogButtons input:hover {
+    background-color: #e5e5e5;
+    border-color: #e5e5e5;
+    color: black; }
+  .RadWindow_Metro .rwDialogButtons input:active {
+    background-color: #25a0da;
+    border-color: #25a0da;
+    color: white; }
+  .RadWindow_Metro .rwPromptInput {
+    background-color: white;
+    color: black;
+    border-color: #cdcdcd;
+    font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadWindow_Metro .rwPromptInput:hover {
+    background-color: white;
+    color: black;
+    border-color: #767676; }
+  .RadWindow_Metro .rwPromptInput:active,
+  .RadWindow_Metro .rwPromptInput:focus {
+    background-color: white;
+    color: black;
+    border-color: #25a0da; }
+  .RadWindow_Metro .rwPromptInput:disabled {
+    background-color: white;
+    color: #767676;
+    border-color: #e6e6e6; }
+  .RadWindow_Metro .rwCloseButton, .RadWindow_Metro.rwInactiveWindow .rwCloseButton:hover,
+  .RadWindow_Metro .rwCloseButton:hover {
+    background-position: -41px -762px; }
+  .RadWindow_Metro .rwPinButton, .RadWindow_Metro.rwInactiveWindow .rwPinButton:hover,
+  .RadWindow_Metro .rwPinButton:hover {
+    background-position: -42px -502px; }
+  .RadWindow_Metro .rwPinButton.on, .RadWindow_Metro.rwInactiveWindow .rwPinButton.on:hover,
+  .RadWindow_Metro .rwPinButton.on:hover {
+    background-position: -41px -482px; }
+  .RadWindow_Metro .rwMinimizeButton,
+  .RadWindow_Metro .rwInactiveWindow .rwMinimizeButton:hover,
+  .RadWindow_Metro .rwMinimizeButton:hover {
+    background-position: -41px -602px; }
+  .RadWindow_Metro .rwMaximizeButton,
+  .RadWindow_Metro .rwInactiveWindow .rwMaximizeButton:hover,
+  .RadWindow_Metro .rwMaximizeButton:hover {
+    background-position: -41px -642px; }
+  .RadWindow_Metro.rwMaximizedWindow .rwMaximizeButton, .RadWindow_Metro.rwMinimizedWindow .rwMinimizeButton, .RadWindow_Metro.rwMaximizedWindow .rwMaximizeButton:hover, .RadWindow_Metro.rwMinimizedWindow .rwMinimizeButton:hover {
+    background-position: -42px -722px; }
+  .RadWindow_Metro .rwReloadButton,
+  .RadWindow_Metro .rwInactiveWindow .rwReloadButton:hover,
+  .RadWindow_Metro .rwReloadButton:hover {
+    background-position: -42px -542px; }
+

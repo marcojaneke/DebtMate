@@ -1,0 +1,68 @@
+.RadDropDownList_Outlook {
+  color: black;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadDropDownList_Outlook .rddlInner {
+    border-radius: 3px;
+    background-image: url('../Outlook/Common/radGradientButtonSprite.png');
+    _background-image: none;
+    border-color: #003c74;
+    color: black;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd 0%, #ebe8e3 100%); }
+  .RadDropDownList_Outlook .rddlEmptyMessage,
+  .RadDropDownList_Outlook .rddlDefaultMessage {
+    color: gray;
+    font-style: italic; }
+  .RadDropDownList_Outlook .rddlIcon {
+    *background-image: url('../Outlook/Common/radActionsSprite.png');
+    *background-position: -21px -20px; }
+  .RadDropDownList_Outlook .rddlHovered {
+    border-color: #003c74;
+    color: black;
+    background-color: #f3d8a1;
+    background-image: linear-gradient(#fcfcfc 0%, #f3d8a1 100%); }
+    .RadDropDownList_Outlook .rddlHovered .rddlIcon {
+      background-position: -21px -20px; }
+  .RadDropDownList_Outlook .rddlFocused {
+    border-color: #002d96;
+    color: black;
+    background-color: #e7c073;
+    background-image: linear-gradient(#fcfcfc 0%, #e7c073 100%);
+    background-color: #97b8e8; }
+    .RadDropDownList_Outlook .rddlFocused .rddlIcon {
+      background-position: -21px -20px; }
+  .RadDropDownList_Outlook .rddlDisabled {
+    border-color: #809eba;
+    color: #8d8d8d;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd 0%, #ebe8e3 100%); }
+    .RadDropDownList_Outlook .rddlDisabled .rddlIcon {
+      background-position: -1px -20px;
+      filter: alpha(opacity=50);
+      opacity: .5; }
+
+.rddlPopup_Outlook {
+  border-color: #89aee5;
+  color: black;
+  background: white;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 1.33333em; }
+  .rddlPopup_Outlook .rddlHeader,
+  .rddlPopup_Outlook rddlFooter {
+    color: black;
+    background-color: #d6e5f3; }
+  .rddlPopup_Outlook .rddlHeader {
+    border-bottom-color: #89aee5; }
+  .rddlPopup_Outlook rddlFooter {
+    border-top-color: #89aee5; }
+  .rddlPopup_Outlook .rddlItemHovered {
+    color: black;
+    background-color: #ffeec2; }
+  .rddlPopup_Outlook .rddlItemSelected {
+    color: white;
+    background-color: #306ac5; }
+  .rddlPopup_Outlook .rddlItemDisabled {
+    color: #8d8d8d; }
+  .rddlPopup_Outlook .rddlItemLoading {
+    color: black;
+    background-color: #ffeec2; }

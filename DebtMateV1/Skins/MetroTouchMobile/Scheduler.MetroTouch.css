@@ -1,0 +1,209 @@
+.RadScheduler_MetroTouch {
+  color: black;
+  font-size: 16px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadScheduler_MetroTouch .rsList > li {
+    border-color: #cdcdcd; }
+  .RadScheduler_MetroTouch select,
+  .RadScheduler_MetroTouch input[type="text"],
+  .RadScheduler_MetroTouch input[type="date"],
+  .RadScheduler_MetroTouch input[type="time"],
+  .RadScheduler_MetroTouch input[type="number"],
+  .RadScheduler_MetroTouch textarea {
+    border-color: #cdcdcd;
+    color: black;
+    background-color: white; }
+    .RadScheduler_MetroTouch select:hover,
+    .RadScheduler_MetroTouch input[type="text"]:hover,
+    .RadScheduler_MetroTouch input[type="date"]:hover,
+    .RadScheduler_MetroTouch input[type="time"]:hover,
+    .RadScheduler_MetroTouch input[type="number"]:hover,
+    .RadScheduler_MetroTouch textarea:hover {
+      border-color: #767676;
+      color: black;
+      background-color: white; }
+    .RadScheduler_MetroTouch select:focus,
+    .RadScheduler_MetroTouch input[type="text"]:focus,
+    .RadScheduler_MetroTouch input[type="date"]:focus,
+    .RadScheduler_MetroTouch input[type="time"]:focus,
+    .RadScheduler_MetroTouch input[type="number"]:focus,
+    .RadScheduler_MetroTouch textarea:focus {
+      border-color: #25a0da;
+      color: black;
+      background-color: white; }
+  .RadScheduler_MetroTouch .rsButton {
+    border-color: #cdcdcd;
+    color: black;
+    background-color: #f9f9f9; }
+    .RadScheduler_MetroTouch .rsButton:hover {
+      border-color: #cdcdcd;
+      color: black;
+      background-color: #e8e8e8; }
+    .RadScheduler_MetroTouch .rsButton:active {
+      border-color: #25a0da;
+      color: white;
+      background-color: #25a0da; }
+  .RadScheduler_MetroTouch .rsTopWrap {
+    border-color: #cdcdcd;
+    background-color: white; }
+  .RadScheduler_MetroTouch .rsToolbar {
+    border-color: #cdcdcd;
+    color: black;
+    background-color: white; }
+    .RadScheduler_MetroTouch .rsToolbar .rsSecondary {
+      border-color: #cdcdcd;
+      background-color: white; }
+    .RadScheduler_MetroTouch .rsToolbar .rsViewSwitcher,
+    .RadScheduler_MetroTouch .rsToolbar .rsToday,
+    .RadScheduler_MetroTouch .rsToolbar .rsAddAppointment,
+    .RadScheduler_MetroTouch .rsToolbar .rsDatePicker,
+    .RadScheduler_MetroTouch .rsToolbar .rsPrevDay,
+    .RadScheduler_MetroTouch .rsToolbar .rsNextDay {
+      background-repeat: repeat-x; }
+      .RadScheduler_MetroTouch .rsToolbar .rsViewSwitcher:hover,
+      .RadScheduler_MetroTouch .rsToolbar .rsToday:hover,
+      .RadScheduler_MetroTouch .rsToolbar .rsAddAppointment:hover,
+      .RadScheduler_MetroTouch .rsToolbar .rsDatePicker:hover,
+      .RadScheduler_MetroTouch .rsToolbar .rsPrevDay:hover,
+      .RadScheduler_MetroTouch .rsToolbar .rsNextDay:hover {
+        color: black;
+        background-color: #e8e8e8; }
+      .RadScheduler_MetroTouch .rsToolbar .rsViewSwitcher:active,
+      .RadScheduler_MetroTouch .rsToolbar .rsToday:active,
+      .RadScheduler_MetroTouch .rsToolbar .rsAddAppointment:active,
+      .RadScheduler_MetroTouch .rsToolbar .rsDatePicker:active,
+      .RadScheduler_MetroTouch .rsToolbar .rsPrevDay:active,
+      .RadScheduler_MetroTouch .rsToolbar .rsNextDay:active {
+        color: white;
+        background-color: #25a0da; }
+    .RadScheduler_MetroTouch .rsToolbar .rsAddAppointment,
+    .RadScheduler_MetroTouch .rsToolbar .rsPrevDay,
+    .RadScheduler_MetroTouch .rsToolbar .rsNextDay {
+      color: transparent; }
+    .RadScheduler_MetroTouch .rsToolbar .rsAddAppointment:before,
+    .RadScheduler_MetroTouch .rsToolbar .rsPrevDay:before,
+    .RadScheduler_MetroTouch .rsToolbar .rsNextDay:before {
+      color: black; }
+    .RadScheduler_MetroTouch .rsToolbar .rsAddAppointment:hover,
+    .RadScheduler_MetroTouch .rsToolbar .rsPrevDay:hover,
+    .RadScheduler_MetroTouch .rsToolbar .rsNextDay:hover {
+      color: transparent; }
+    .RadScheduler_MetroTouch .rsToolbar .rsAddAppointment:hover:before,
+    .RadScheduler_MetroTouch .rsToolbar .rsPrevDay:hover:before,
+    .RadScheduler_MetroTouch .rsToolbar .rsNextDay:hover:before {
+      color: black; }
+    .RadScheduler_MetroTouch .rsToolbar .rsAddAppointment:active,
+    .RadScheduler_MetroTouch .rsToolbar .rsPrevDay:active,
+    .RadScheduler_MetroTouch .rsToolbar .rsNextDay:active {
+      color: transparent; }
+    .RadScheduler_MetroTouch .rsToolbar .rsAddAppointment:active:before,
+    .RadScheduler_MetroTouch .rsToolbar .rsPrevDay:active:before,
+    .RadScheduler_MetroTouch .rsToolbar .rsNextDay:active:before {
+      color: white; }
+  .RadScheduler_MetroTouch .rsFooter {
+    border-color: #cdcdcd;
+    color: black;
+    background-color: white; }
+    .RadScheduler_MetroTouch .rsFooter a {
+      color: #555555; }
+    .RadScheduler_MetroTouch .rsFooter a:hover {
+      color: #888888; }
+  .RadScheduler_MetroTouch .rsContent {
+    color: black;
+    background: white; }
+  .RadScheduler_MetroTouch .rsSubHeader {
+    border-color: #cdcdcd;
+    color: black;
+    background-color: #f9f9f9; }
+  .RadScheduler_MetroTouch .rsSpacerCell,
+  .RadScheduler_MetroTouch .rsAllDayHeader,
+  .RadScheduler_MetroTouch .rsAllDayRow td,
+  .RadScheduler_MetroTouch .rsContentTable .rsAllDayRow td,
+  .RadScheduler_MetroTouch .rsVerticalHeaderTable th,
+  .RadScheduler_MetroTouch .rsHorizontalHeaderTable th {
+    border-color: #cdcdcd; }
+  .RadScheduler_MetroTouch .rsVerticalHeaderTable {
+    color: black;
+    background-color: white; }
+  .RadScheduler_MetroTouch .rsVerticalHeaderTable th {
+    border-color: transparent #cdcdcd; }
+  .RadScheduler_MetroTouch .rsVerticalHeaderTable .rsAlt th,
+  .RadScheduler_MetroTouch .rsVerticalHeaderTable .rsMainHeader th {
+    border-color: #cdcdcd; }
+  .RadScheduler_MetroTouch .rsSpacerCell,
+  .RadScheduler_MetroTouch .rsHorizontalHeaderTable {
+    color: black;
+    background-color: #f9f9f9; }
+  .RadScheduler_MetroTouch .rsAllDayRow,
+  .RadScheduler_MetroTouch .rsAllDayHeader {
+    color: black;
+    background-color: #f9f9f9; }
+  .RadScheduler_MetroTouch .rsContentTable td {
+    border-color: #e5e5e5 #e5e5e5; }
+  .RadScheduler_MetroTouch .rsOtherMonth,
+  .RadScheduler_MetroTouch .rsNonWorkHour,
+  .RadScheduler_MetroTouch .rsSunCol,
+  .RadScheduler_MetroTouch .rsSatCol {
+    background-color: #f5f5f5; }
+  .RadScheduler_MetroTouch .rsAptCreate {
+    background-color: #e8e8e8; }
+  .RadScheduler_MetroTouch .rsSelectedSlot {
+    border-color: #808080;
+    background-color: #909090; }
+  .RadScheduler_MetroTouch .rsAptCreate.rsSelectedSlot {
+    border-color: #707070;
+    background-color: #808080;
+    background-image: none; }
+  .RadScheduler_MetroTouch .rsArrowContainer .rsOvertimeArrow {
+    border-color: #cdcdcd;
+    color: black;
+    background-color: #f9f9f9; }
+  .RadScheduler_MetroTouch .rsArrowContainer .rsOvertimeArrow:hover {
+    border-color: #cdcdcd;
+    color: black;
+    background-color: #e8e8e8; }
+  .RadScheduler_MetroTouch .rsAptContent {
+    border-color: #25a0da;
+    background-color: #d3ecf8; }
+  .RadScheduler_MetroTouch .rsAptSelected .rsAptContent {
+    border-color: #000000; }
+  .RadScheduler_MetroTouch .rsAgendaTable th, .RadScheduler_MetroTouch .rsAgendaTable td {
+    border-bottom-color: #818181;
+    border-right-color: #818181; }
+  .RadScheduler_MetroTouch .rsAgendaTable th {
+    color: black;
+    background-color: white; }
+  .RadScheduler_MetroTouch .rsAgendaTable .rsAgendaRowHovered {
+    color: black;
+    background-color: #e8e8e8; }
+  .RadScheduler_MetroTouch .rsAgendaTable .rsAgendaRowSelected {
+    color: white;
+    background-color: #25a0da; }
+  .RadScheduler_MetroTouch .rsPopup {
+    border-color: #cdcdcd;
+    color: black;
+    background-color: white; }
+    .RadScheduler_MetroTouch .rsPopup .rsTitle {
+      border-color: #cdcdcd;
+      color: black;
+      background-color: #f9f9f9; }
+    .RadScheduler_MetroTouch .rsPopup .rsCommandFooter .rsButton {
+      width: 50%; }
+  .RadScheduler_MetroTouch .rsAdvancedEdit {
+    border-color: #cdcdcd;
+    color: black;
+    background-color: white; }
+  .RadScheduler_MetroTouch .rsAdvTitle {
+    border-color: #cdcdcd;
+    color: black;
+    background-color: #f9f9f9; }
+
+/* RadScheduler Default skin */
+/* common */
+/* header */
+/* content */
+/* <appointments> */
+.RadScheduler_Default .rsFullTime {
+  color: #000; }
+
+/* </appointments> */

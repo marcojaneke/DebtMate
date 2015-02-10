@@ -1,0 +1,45 @@
+.RadLightBox_MetroTouch {
+  font: 100 16px "Segoe UI", Arial, Helvetica, sans-serif;
+  color: black; }
+  .RadLightBox_MetroTouch .rltbToolbar .rltbActionButton {
+    background: #25a0da;
+    border: 1px solid #25a0da; }
+    .RadLightBox_MetroTouch .rltbToolbar .rltbActionButton:hover {
+      border-color: #25a0da;
+      background: white; }
+  .RadLightBox_MetroTouch .rltbWrapper {
+    background: white; }
+  .RadLightBox_MetroTouch .rltbMaximizeIcon,
+  .RadLightBox_MetroTouch .rltbRestoreIcon {
+    color: white; }
+    .RadLightBox_MetroTouch .rltbMaximizeIcon:hover,
+    .RadLightBox_MetroTouch .rltbRestoreIcon:hover {
+      color: #25a0da; }
+  .RadLightBox_MetroTouch .rltbCloseIcon
+  .rltbCloseButton {
+    height: 3em;
+    width: 3em; }
+  .RadLightBox_MetroTouch .rltbCloseButton {
+    background: white;
+    color: black; }
+  .RadLightBox_MetroTouch .rltbCloseIcon {
+    color: black; }
+  .RadLightBox_MetroTouch .rltbDescriptionBox {
+    background: rgba(255, 255, 255, 0.7);
+    color: black; }
+    .RadLightBox_MetroTouch .rltbDescriptionBox .rltbPager {
+      color: black; }
+  @media only screen and (min-width: 641px) {
+    .RadLightBox_MetroTouch .RadLightBox {
+      box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.4); }
+    .RadLightBox_MetroTouch .rltbDescriptionBox {
+      background: white; }
+    .RadLightBox_MetroTouch .rltbDescOverlayTop,
+    .RadLightBox_MetroTouch .rltbDescOverlayBottom {
+      background: rgba(255, 255, 255, 0.7);
+      color: black; }
+      .RadLightBox_MetroTouch .rltbDescOverlayTop .rltbPager,
+      .RadLightBox_MetroTouch .rltbDescOverlayBottom .rltbPager {
+        color: black; } }
+  .RadLightBox_MetroTouch div.rltbDescriptionBox {
+    background: rgba(238, 238, 238, 0.8); }

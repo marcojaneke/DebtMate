@@ -1,0 +1,107 @@
+.RadSearchBox_WebBlue {
+  color: black;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadSearchBox_WebBlue .rsbInner {
+    border-radius: 3px;
+    border-color: #768ca5;
+    color: black;
+    background-color: white; }
+    .RadSearchBox_WebBlue .rsbInner.rsbHovered {
+      border-color: #5d9fb7;
+      color: #0e3d4f;
+      background-color: white; }
+    .RadSearchBox_WebBlue .rsbInner.rsbFocused {
+      border-color: #133c44;
+      color: #0d202b;
+      background-color: white; }
+    .RadSearchBox_WebBlue .rsbInner.rsbDisabled {
+      border-color: #b0b0b0;
+      color: #777777;
+      background-color: white; }
+  .RadSearchBox_WebBlue .rsbInput {
+    font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadSearchBox_WebBlue .rsbEmptyMessage {
+    color: #777777;
+    font-style: italic; }
+  .RadSearchBox_WebBlue .rsbButton {
+    border-radius: 2px;
+    background-image: url('Common/radGradientButtonSprite.png');
+    _background-image: none;
+    background-image: -webkit-linear-gradient(top, transparent, transparent);
+    background-image: -moz-linear-gradient(top, transparent, transparent);
+    background-image: -ms-linear-gradient(top, transparent, transparent);
+    background-image: -o-linear-gradient(top, transparent, transparent);
+    background-image: linear-gradient(top, transparent, transparent); }
+    .RadSearchBox_WebBlue .rsbButton:hover {
+      border-color: #5d9fb7;
+      color: #0e3d4f;
+      background-color: #bee3f6;
+      background-image: linear-gradient(#d4eaf8 0%, #baddf4 50%, #9edaf2 50%, #bee3f6 100%); }
+    .RadSearchBox_WebBlue .rsbButton:focus {
+      border-color: #133c44;
+      color: #0d202b;
+      background-color: #7abace;
+      background-image: linear-gradient(#8ebcd4 0%, #64a3c0 50%, #368eb1 50%, #7abace 100%); }
+  .RadSearchBox_WebBlue .rsbLoadingIcon {
+    background-image: url('Common/loading_small.gif'); }
+  .RadSearchBox_WebBlue .rsbButtonSearch {
+    border-radius: 0 3px 3px 0; }
+    .RadSearchBox_WebBlue .rsbButtonSearch .rsbIcon {
+      background-image: url('Common/radActionsSprite.png');
+      background-position: -2px -1882px; }
+  .RadSearchBox_WebBlue .rsbSCInner {
+    border-radius: 3px 0 0 3px;
+    background-image: url('Common/radGradientButtonSprite.png');
+    _background-image: none;
+    line-height: 16px;
+    border-color: #4e667e;
+    color: #0d202b;
+    background-color: #d7e2e7;
+    background-image: linear-gradient(#e0e7ed 0%, #c2d2dd 50%, #a3baca 50%, #d7e2e7 100%); }
+  .RadSearchBox_WebBlue .rsbSCIcon {
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -42px -422px; }
+  .RadSearchBox_WebBlue .rsbSCHovered {
+    border-color: #5d9fb7;
+    color: #0e3d4f;
+    background-color: #bee3f6;
+    background-image: linear-gradient(#d4eaf8 0%, #baddf4 50%, #9edaf2 50%, #bee3f6 100%); }
+  .RadSearchBox_WebBlue .rsbSCFocused {
+    border-color: #133c44;
+    color: #0d202b;
+    background-color: #7abace;
+    background-image: linear-gradient(#8ebcd4 0%, #64a3c0 50%, #368eb1 50%, #7abace 100%); }
+  .RadSearchBox_WebBlue .rsbSCDisabled {
+    border-color: #c1c4c8;
+    color: #777777;
+    background-color: #f2f2f3;
+    background-image: linear-gradient(#f4f5f5 0%, #eaecee 50%, #dbdfe2 50%, #f2f2f3 100%); }
+
+.rsbPopup_WebBlue {
+  border-color: #768ca5;
+  color: black;
+  background: white;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .rsbPopup_WebBlue .rsbHeader,
+  .rsbPopup_WebBlue .rsbFooter {
+    color: black;
+    background-color: #748ea3; }
+  .rsbPopup_WebBlue .rsbHeader {
+    border-bottom-color: #768ca5; }
+  .rsbPopup_WebBlue .rsbFooter {
+    border-top-color: #768ca5; }
+  .rsbPopup_WebBlue .rsbShowAll {
+    border-top-color: #768ca5;
+    color: black;
+    background-color: #748ea3; }
+  .rsbPopup_WebBlue .rsbListItemHovered {
+    color: black;
+    background-color: #e9f8ff; }
+  .rsbPopup_WebBlue .rsbListItemSelected {
+    color: black;
+    background-color: #9edaf2; }
+  .rsbPopup_WebBlue .rsbListItemDisabled {
+    color: #777777; }
+  .rsbPopup_WebBlue .rsbListItemLoading {
+    color: black;
+    background-color: #e9f8ff; }

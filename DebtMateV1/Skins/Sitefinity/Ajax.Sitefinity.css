@@ -1,0 +1,9 @@
+.RadAjax_Sitefinity .raDiv {
+  background-image: url('Common/loading.gif'); }
+.RadAjax_Sitefinity .raColor {
+  background-color: white;
+  color: black; }
+.RadAjax_Sitefinity .raTransp {
+  opacity: 0.6;
+  -moz-opacity: 0.6;
+  filter: alpha(opacity=60); }

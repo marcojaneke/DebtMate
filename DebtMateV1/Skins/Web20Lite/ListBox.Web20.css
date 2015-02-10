@@ -1,0 +1,57 @@
+.RadListBox_Web20 {
+  color: black;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 1.33333em; }
+.RadListBox_Web20 .rlbButton {
+  color: white;
+  border-radius: 0.16667em;
+  border-color: #0f1d48;
+  background-color: #687dc1;
+  background-image: url('../Web20/Common/radGradientButtonSprite.png');
+  background-image: linear-gradient(#8d9dd2 0%, #5762a3 50%, #3c4d8f 50%, #687dc1 100%); }
+  .RadListBox_Web20 .rlbButton:hover {
+    color: #0f3789;
+    border-color: #3f5f94;
+    background-color: #cddcf1;
+    background-image: linear-gradient(#dee7f4 0%, #afbede 50%, #98acd5 50%, #cddcf1 100%); }
+  .RadListBox_Web20 .rlbButton:active {
+    color: white;
+    border-color: #0f1d48;
+    background-color: #687dc1;
+    background-image: linear-gradient(#8d9dd2 0%, #5762a3 50%, #3c4d8f 50%, #687dc1 100%); }
+  .RadListBox_Web20 .rlbButton.rlbDisabled {
+    color: white;
+    border-color: #0f1d48;
+    background-color: #bebebe;
+    background-image: linear-gradient(#cfcfcf 0%, #b0b0b0 50%, #a1a1a1 50%, #bebebe 100%); }
+.RadListBox_Web20 .rlbGroup {
+  background-color: white;
+  border-color: #6788be; }
+.RadListBox_Web20 .rlbItem:hover, .RadListBox_Web20 .rlbItem.rlbHovered {
+  background-color: #e7f1ff;
+  border-color: #e7f1ff; }
+.RadListBox_Web20 .rlbItem.rlbSelected {
+  background-color: #d4ffbc;
+  border-color: #d4ffbc; }
+.RadListBox_Web20 .rlbHighlight {
+  background-color: #e7f1ff; }
+.RadListBox_Web20 .rlbCheckAllItems {
+  background-color: #93b4df; }
+.RadListBox_Web20 .rlbTemplateContent {
+  border-color: #6788be;
+  background-color: white; }
+.RadListBox_Web20 .rlbHeader,
+.RadListBox_Web20 .rlbFooter {
+  border-color: #c7dcf9; }
+.RadListBox_Web20 .rlbHeader {
+  background: #ecf4ff; }
+.RadListBox_Web20 .rlbGroup .rlbDropClueAbove {
+  border-top-color: #6788be; }
+.RadListBox_Web20 .rlbGroup .rlbDropClueBelow {
+  border-bottom-color: #6788be; }
+.RadListBox_Web20 .rlbGroup .rlbSelected.rlbDropClueAbove,
+.RadListBox_Web20 .rlbGroup .rlbHovered.rlbDropClueAbove,
+.RadListBox_Web20 .rlbGroup .rlbSelected.rlbDropClueBelow,
+.RadListBox_Web20 .rlbGroup .rlbHovered.rlbDropClueBelow {
+  border-color: #FFF; }

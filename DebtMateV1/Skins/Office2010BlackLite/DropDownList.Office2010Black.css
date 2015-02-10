@@ -1,0 +1,69 @@
+.RadDropDownList_Office2010Black {
+  color: black;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadDropDownList_Office2010Black .rddlInner {
+    border-radius: 3px;
+    background-image: url('../Office2010Black/Common/radGradientButtonSprite.png');
+    _background-image: none;
+    border-color: #262626;
+    color: black;
+    background-color: #6f6f6f;
+    background-image: linear-gradient(#c7c7c7 0%, #6f6f6f 100%); }
+  .RadDropDownList_Office2010Black .rddlEmptyMessage,
+  .RadDropDownList_Office2010Black .rddlDefaultMessage {
+    color: #656565;
+    font-style: italic; }
+  .RadDropDownList_Office2010Black .rddlIcon {
+    *background-image: url('../Office2010Black/Common/radActionsSprite.png');
+    *background-position: -1px -20px; }
+    .RadDropDownList_Office2010Black .rddlIcon:before {
+      color: #565759; }
+  .RadDropDownList_Office2010Black .rddlHovered {
+    border-color: #f7c840;
+    color: black;
+    background-color: #fff3c9;
+    background-image: linear-gradient(#ffe68b 0%, #ffe176 25%, #ffe176 50%, #fff3c9 100%); }
+    .RadDropDownList_Office2010Black .rddlHovered .rddlIcon {
+      background-position: -21px -20px; }
+  .RadDropDownList_Office2010Black .rddlFocused {
+    border-color: #c2983f;
+    color: black;
+    background-color: #feed76;
+    background-image: linear-gradient(#f8d04c 0%, #f7c840 25%, #f7c840 50%, #feed76 100%); }
+    .RadDropDownList_Office2010Black .rddlFocused .rddlIcon {
+      background-position: -21px -20px; }
+  .RadDropDownList_Office2010Black .rddlDisabled {
+    border-color: #262626;
+    color: #656565;
+    background-color: #6f6f6f;
+    background-image: linear-gradient(#c7c7c7 0%, #6f6f6f 100%); }
+    .RadDropDownList_Office2010Black .rddlDisabled .rddlIcon {
+      background-position: -1px -20px;
+      filter: alpha(opacity=50);
+      opacity: .5; }
+
+.rddlPopup_Office2010Black {
+  border-color: #4b4b4b;
+  color: black;
+  background: #a1a1a1;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 1.33333em; }
+  .rddlPopup_Office2010Black .rddlHeader,
+  .rddlPopup_Office2010Black rddlFooter {
+    color: black;
+    background-color: #f3f3f3; }
+  .rddlPopup_Office2010Black .rddlHeader {
+    border-bottom-color: #4b4b4b; }
+  .rddlPopup_Office2010Black rddlFooter {
+    border-top-color: #4b4b4b; }
+  .rddlPopup_Office2010Black .rddlItemHovered {
+    color: black;
+    background-color: #ffe175; }
+  .rddlPopup_Office2010Black .rddlItemSelected {
+    color: black;
+    background-color: #f7c840; }
+  .rddlPopup_Office2010Black .rddlItemDisabled {
+    color: #656565; }
+  .rddlPopup_Office2010Black .rddlItemLoading {
+    color: black;
+    background-color: #ffe175; }

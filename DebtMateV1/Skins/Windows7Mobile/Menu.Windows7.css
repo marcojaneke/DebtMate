@@ -1,0 +1,36 @@
+.RadMenu_Windows7 .rmRootToggle {
+  color: #1e395b;
+  border-color: #c2cedb;
+  color: #1e395b;
+  background-color: #dde8f6;
+  background-image: linear-gradient(#f4f8fa 0%, #e9f2fb 50%, #dde7f5 50%, #dde8f6 100%); }
+  .RadMenu_Windows7 .rmRootToggle:active, .RadMenu_Windows7 .rmRootToggle.rmExpanded {
+    color: #1e395b;
+    border-color: #9bc9ff;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: linear-gradient(#f3f7fa 0%, #e9f2fb 50%, #dde7f5 50%, #dde8f6 100%); }
+.RadMenu_Windows7.rmDisabled .rmRootToggle:active, .RadMenu_Windows7.rmDisabled .rmRootToggle.rmExpanded {
+  border-color: #c2cedb;
+  color: #1e395b;
+  background-color: #dde8f6;
+  background-image: linear-gradient(#f4f8fa 0%, #e9f2fb 50%, #dde7f5 50%, #dde8f6 100%); }
+
+.RadMenuPopup_Windows7 {
+  color: black;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #a5b3c5;
+  background-color: white; }
+  .RadMenuPopup_Windows7:before {
+    border-color: transparent transparent #a5b3c5; }
+  .RadMenuPopup_Windows7:after {
+    border-color: transparent transparent white; }
+.RadMenuPopup_Windows7 .rmItem {
+  border-color: #e0e0e0; }
+  .RadMenuPopup_Windows7 .rmItem.rmSelected {
+    color: black;
+    background-color: #edf4fd; }
+.RadMenuPopup_Windows7 .rmLoading:after {
+  background-color: rgba(255, 255, 255, 0.8); }
+.RadMenuPopup_Windows7 .rmLoadingIcon:after {
+  background-image: url('../Windows7/Common/loading_small.gif'); }

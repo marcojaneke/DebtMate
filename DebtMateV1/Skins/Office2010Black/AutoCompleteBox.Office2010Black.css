@@ -1,0 +1,67 @@
+.RadAutoCompleteBox_Office2010Black {
+  color: black;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadAutoCompleteBox_Office2010Black .racTokenList {
+    border-color: #8e8e8e;
+    color: black;
+    background-color: #f6f6f6; }
+  .RadAutoCompleteBox_Office2010Black .racDisabled {
+    border-color: #919191;
+    color: #656565;
+    background-color: #c6c6c6; }
+  .RadAutoCompleteBox_Office2010Black .racToken {
+    border-radius: 3px;
+    background-image: url('Common/radGradientButtonSprite.png');
+    _background-image: none;
+    border-color: #262626;
+    color: black;
+    background-color: #6f6f6f;
+    background-image: linear-gradient(#c7c7c7 0%, #6f6f6f 100%); }
+  .RadAutoCompleteBox_Office2010Black .racTokenHovered {
+    border-color: #f7c840;
+    color: black;
+    background-color: #fff3c9;
+    background-image: linear-gradient(#ffe68b 0%, #ffe176 25%, #ffe176 50%, #fff3c9 100%); }
+  .RadAutoCompleteBox_Office2010Black .racTokenSelected {
+    border-color: #c2983f;
+    color: black;
+    background-color: #feed76;
+    background-image: linear-gradient(#f8d04c 0%, #f7c840 25%, #f7c840 50%, #feed76 100%); }
+  .RadAutoCompleteBox_Office2010Black .racDisabled .racToken {
+    border-color: #262626;
+    color: #656565;
+    background-color: #6f6f6f;
+    background-image: linear-gradient(#c7c7c7 0%, #6f6f6f 100%); }
+  .RadAutoCompleteBox_Office2010Black .racRemoveTokenLink {
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -4px -1344px; }
+  .RadAutoCompleteBox_Office2010Black .racInput {
+    color: black;
+    font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+    line-height: 16px; }
+  .RadAutoCompleteBox_Office2010Black .racEmptyMessage {
+    color: #656565;
+    font-style: italic; }
+  .RadAutoCompleteBox_Office2010Black .racLoadingIcon {
+    background-image: url('Common/loading_small.gif'); }
+
+.RadAutoCompleteBoxPopup_Office2010Black {
+  border-color: #4b4b4b;
+  color: black;
+  background: #a1a1a1;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadAutoCompleteBoxPopup_Office2010Black .racHeader,
+  .RadAutoCompleteBoxPopup_Office2010Black .racFooter {
+    color: black;
+    background-color: #f3f3f3; }
+  .RadAutoCompleteBoxPopup_Office2010Black .racHeader {
+    border-bottom-color: #4b4b4b; }
+  .RadAutoCompleteBoxPopup_Office2010Black .racFooter {
+    border-top-color: #4b4b4b; }
+  .RadAutoCompleteBoxPopup_Office2010Black .racShowAll {
+    border-top-color: #919191;
+    color: black;
+    background-color: #f3f3f3; }
+  .RadAutoCompleteBoxPopup_Office2010Black .racItemHovered {
+    color: black;
+    background-color: #ffe175; }

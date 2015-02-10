@@ -1,0 +1,57 @@
+.RadDock_MetroTouch {
+  background-color: white;
+  color: black;
+  font: 100 16px "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #cdcdcd;
+  /* Remove rounded corners */ }
+  .RadDock_MetroTouch.rdRoundedCorner, .RadDock_MetroTouch.rdRoundedCorner div.rdTitleWrapper, .RadDock_MetroTouch.rdRoundedCorner div.rdContentWrapper, .RadDock_MetroTouch.RadDock.rdCollapsed {
+    border-radius: 0; }
+  .RadDock_MetroTouch div.rdTitleWrapper {
+    background-color: #25a0da;
+    color: white;
+    border-bottom-color: #cdcdcd;
+    min-height: 2em; }
+  .RadDock_MetroTouch .rdTitleWrapper .rdTitle {
+    color: white;
+    font-size: 1.375em; }
+  .RadDock_MetroTouch .rdListItem button {
+    background-image: url('../MetroTouch/Common/radActionsSprite.png');
+    _background-image: url('../MetroTouch/Common/radActionsSpriteIE6.png'); }
+  .RadDock_MetroTouch .rdContentWrapper {
+    color: black; }
+  .RadDock_MetroTouch.RadDock.rdCollapsed .rdTitleWrapper {
+    border-bottom-color: #cdcdcd; }
+  .RadDock_MetroTouch .rdCommands {
+    top: 6px; }
+  .RadDock_MetroTouch li.rdListItem {
+    width: 26px;
+    height: 26px;
+    border-radius: 3.75em; }
+  .RadDock_MetroTouch .rdCommands button {
+    width: 26px;
+    height: 26px;
+    border: 1px solid transparent; }
+  .RadDock_MetroTouch .rdCommands button:hover {
+    border-radius: 3.75em;
+    border: 1px solid #cdcdcd;
+    cursor: pointer; }
+  .RadDock_MetroTouch .rdExpand,
+  .RadDock_MetroTouch .rdExpand:hover {
+    background-position: -111px -61px; }
+  .RadDock_MetroTouch .rdCollapse,
+  .RadDock_MetroTouch .rdCollapse:hover {
+    background-position: -111px -11px; }
+  .RadDock_MetroTouch button,
+  .RadDock_MetroTouch button:hover,
+  .RadDock_MetroTouch .rdCustom,
+  .RadDock_MetroTouch .rdCustom:hover {
+    background-position: -111px -2511px; }
+  .RadDock_MetroTouch .rdClose,
+  .RadDock_MetroTouch .rdClose:hover {
+    background-position: -111px -1911px; }
+  .RadDock_MetroTouch .rdPin,
+  .RadDock_MetroTouch .rdPin:hover {
+    background-position: -111px -1211px; }
+  .RadDock_MetroTouch .rdUnpin,
+  .RadDock_MetroTouch .rdUnpin:hover {
+    background-position: -111px -1261px; }

@@ -1,0 +1,96 @@
+.RadWindow_Office2010Silver {
+  background-color: #dadde0;
+  color: #3b3b3b;
+  font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #a4abb2;
+  /* External content iframe styles */
+  /* Dialog styles */ }
+  .RadWindow_Office2010Silver .rwTitleBar {
+    background-image: -webkit-linear-gradient(top, #f2f2f4 0%, #dadde0 100%);
+    background-image: -moz-linear-gradient(top, #f2f2f4 0%, #dadde0 100%);
+    background-image: -ms-linear-gradient(top, #f2f2f4 0%, #dadde0 100%);
+    background-image: -o-linear-gradient(top, #f2f2f4 0%, #dadde0 100%);
+    background-image: linear-gradient(top, #f2f2f4 0%, #dadde0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f2f4', endColorstr='#dadde0',GradientType=0 ); }
+  .RadWindow_Office2010Silver.rwCollapsed .rwTitleBar {
+    border-bottom-color: #828282; }
+  .RadWindow_Office2010Silver .rwIcon {
+    background-image: url('../Office2010Silver/Window/WindowHorizontalSprites.gif'); }
+  .RadWindow_Office2010Silver .rwTitleWrapper .rwTitle {
+    color: #3b3b3b; }
+  .RadWindow_Office2010Silver .rwListItem:hover {
+    background-image: -webkit-linear-gradient(top, #fae186 0%, #fdf1c8 100%);
+    background-image: -moz-linear-gradient(top, #fae186 0%, #fdf1c8 100%);
+    background-image: -ms-linear-gradient(top, #fae186 0%, #fdf1c8 100%);
+    background-image: -o-linear-gradient(top, #fae186 0%, #fdf1c8 100%);
+    background-image: linear-gradient(top, #fae186 0%, #fdf1c8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fae186', endColorstr='#fdf1c8',GradientType=0 );
+    border-color: #f3d64a; }
+  .RadWindow_Office2010Silver .rwListItem .rwCommandButton,
+  .RadWindow_Office2010Silver .rwResize {
+    background-image: url('../Office2010Silver/Common/radActionsSprite.png');
+    _background-image: url('../Office2010Silver/Common/radActionsSpriteIE6.png'); }
+  .RadWindow_Office2010Silver .rwContent {
+    background-color: white;
+    border-color: #9aa0a6; }
+  .RadWindow_Office2010Silver .rwStatusBar {
+    background-image: -webkit-linear-gradient(top, #e6eaee 0%, #bfc3c8 100%);
+    background-image: -moz-linear-gradient(top, #e6eaee 0%, #bfc3c8 100%);
+    background-image: -ms-linear-gradient(top, #e6eaee 0%, #bfc3c8 100%);
+    background-image: -o-linear-gradient(top, #e6eaee 0%, #bfc3c8 100%);
+    background-image: linear-gradient(top, #e6eaee 0%, #bfc3c8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e6eaee', endColorstr='#bfc3c8',GradientType=0 );
+    border-color: #f7fafc #9aa0a6 #9aa0a6; }
+  .RadWindow_Office2010Silver.rwLoading .rwExternalContent {
+    background-image: url('../Office2010Silver/Common/loading.gif'); }
+  .RadWindow_Office2010Silver .rwLoading.rwStatusBar {
+    background-image: url('../Office2010Silver/Common/loading_small.gif'); }
+  .RadWindow_Office2010Silver .rwDialogButtons input {
+    font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+    border-color: #a4abb2;
+    color: #3b3b3b;
+    background-color: #dbdde1;
+    background-image: -webkit-linear-gradient(top, #f1f2f3 0%, #dbdde1 100%);
+    background-image: -moz-linear-gradient(top, #f1f2f3 0%, #dbdde1 100%);
+    background-image: -ms-linear-gradient(top, #f1f2f3 0%, #dbdde1 100%);
+    background-image: -o-linear-gradient(top, #f1f2f3 0%, #dbdde1 100%);
+    background-image: linear-gradient(top, #f1f2f3 0%, #dbdde1 100%);
+    border-color: #a4abb2; }
+  .RadWindow_Office2010Silver .rwDialogButtons input:hover {
+    border-color: #f3d64a;
+    color: black;
+    background-color: #fcf5d9;
+    background-image: -webkit-linear-gradient(top, #fceaab 0%, #fae185 50%, #fcf5d9 100%);
+    background-image: -moz-linear-gradient(top, #fceaab 0%, #fae185 50%, #fcf5d9 100%);
+    background-image: -ms-linear-gradient(top, #fceaab 0%, #fae185 50%, #fcf5d9 100%);
+    background-image: -o-linear-gradient(top, #fceaab 0%, #fae185 50%, #fcf5d9 100%);
+    background-image: linear-gradient(top, #fceaab 0%, #fae185 50%, #fcf5d9 100%);
+    box-shadow: inset 0 0 1px white; }
+  .RadWindow_Office2010Silver .rwDialogButtons input:active {
+    border-color: #c28b31;
+    color: black;
+    background-color: #ffef7c;
+    background-image: -webkit-linear-gradient(top, #ffe272 0%, #ffd86b 50%, #ffef7c 100%);
+    background-image: -moz-linear-gradient(top, #ffe272 0%, #ffd86b 50%, #ffef7c 100%);
+    background-image: -ms-linear-gradient(top, #ffe272 0%, #ffd86b 50%, #ffef7c 100%);
+    background-image: -o-linear-gradient(top, #ffe272 0%, #ffd86b 50%, #ffef7c 100%);
+    background-image: linear-gradient(top, #ffe272 0%, #ffd86b 50%, #ffef7c 100%);
+    box-shadow: inset 0 0 1px white; }
+  .RadWindow_Office2010Silver .rwPromptInput {
+    background-color: white;
+    color: #3b3b3b;
+    border-color: #9aa0a6;
+    font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadWindow_Office2010Silver .rwPromptInput:hover {
+    background-color: white;
+    color: black;
+    border-color: #f3d64a; }
+  .RadWindow_Office2010Silver .rwPromptInput:active,
+  .RadWindow_Office2010Silver .rwPromptInput:focus {
+    background-color: white;
+    color: black;
+    border-color: #c28b31; }
+  .RadWindow_Office2010Silver .rwPromptInput:disabled {
+    background-color: white;
+    color: #a4abb2;
+    border-color: #9babc2; }

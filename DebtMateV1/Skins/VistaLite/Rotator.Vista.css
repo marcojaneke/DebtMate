@@ -1,0 +1,20 @@
+.RadRotator_Vista {
+  /*================== The list ========================*/
+  /* For vertical carousel, not set, width defaults to auto */
+  /* Note if you explicitly set width to auto, this might cause */
+  /* problems with Safari */
+  /* When LoadOnDemand */ }
+  .RadRotator_Vista .rrClipRegion {
+    border-color: #e2e3ea; }
+  .RadRotator_Vista .rrButton {
+    background-image: linear-gradient(#f8f8f8 0%, #ececec 50%, #dddddd 50%, #d2d2d2 100%);
+    border-color: #707070; }
+  .RadRotator_Vista .rrButton:hover {
+    background-image: linear-gradient(#def2fc 0%, #d3effc 50%, #b7e4fd 50%, #adddf7 100%);
+    border-color: #3c7fb1; }
+  .RadRotator_Vista a.rrButton:before {
+    color: #3d3d3d; }
+  .RadRotator_Vista a.rrButton:hover:before {
+    color: #0057ae; }
+  .RadRotator_Vista .rrLoadingSign {
+    background-image: url('../Vista/Common/loading_small.gif'); }

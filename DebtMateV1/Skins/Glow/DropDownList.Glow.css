@@ -1,0 +1,70 @@
+.RadDropDownList_Glow {
+  color: #1c262c;
+  font: normal 13px/22px Arial, Helvetica, sans-serif; }
+  .RadDropDownList_Glow .rddlInner {
+    *height: 22px;
+    background-image: url('Common/radPrimaryGradientButtonSprite.png');
+    border-color: black;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#414c53 0%, #1c262c 100%); }
+  .RadDropDownList_Glow .rddlFakeInput {
+    height: 22px;
+    line-height: 22px; }
+  .RadDropDownList_Glow .rddlEmptyMessage,
+  .RadDropDownList_Glow .rddlDefaultMessage {
+    color: #c1c7ca;
+    font-style: italic; }
+  .RadDropDownList_Glow .rddlIcon {
+    width: 24px;
+    height: 26px;
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -13px -62px; }
+  .RadDropDownList_Glow .rddlHovered {
+    border-color: #ce800f;
+    color: #1c262c;
+    background-color: #d18000;
+    background-image: linear-gradient(#ffa800 0%, #d18000 100%); }
+    .RadDropDownList_Glow .rddlHovered .rddlIcon {
+      background-position: -113px -62px; }
+  .RadDropDownList_Glow .rddlFocused {
+    border-color: #ffa915;
+    color: black;
+    background-color: #ffa915;
+    background-image: linear-gradient(#ffa915 0%, #ffa915 100%); }
+    .RadDropDownList_Glow .rddlFocused .rddlIcon {
+      background-position: -113px -62px; }
+  .RadDropDownList_Glow .rddlDisabled {
+    border-color: #394145;
+    color: #677277;
+    background-color: #1d272d;
+    background-image: linear-gradient(#2d363b 0%, #1d272d 100%); }
+    .RadDropDownList_Glow .rddlDisabled .rddlIcon {
+      background-position: -13px -62px;
+      filter: alpha(opacity=50);
+      opacity: .5; }
+
+.rddlPopup_Glow {
+  border-color: #1b2327;
+  color: #c1c7ca;
+  background: #35434b;
+  font: normal 13px/22px Arial, Helvetica, sans-serif; }
+  .rddlPopup_Glow .rddlHeader,
+  .rddlPopup_Glow rddlFooter {
+    color: #c1c7ca;
+    background-color: #1c262c; }
+  .rddlPopup_Glow .rddlHeader {
+    border-bottom-color: #1b2327; }
+  .rddlPopup_Glow rddlFooter {
+    border-top-color: #1b2327; }
+  .rddlPopup_Glow .rddlItemHovered {
+    color: white;
+    background-color: #4d5c65; }
+  .rddlPopup_Glow .rddlItemSelected {
+    color: black;
+    background-color: #ffa915; }
+  .rddlPopup_Glow .rddlItemDisabled {
+    color: #677277; }
+  .rddlPopup_Glow .rddlItemLoading {
+    color: white;
+    background-color: #4d5c65; }

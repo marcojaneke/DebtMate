@@ -1,0 +1,99 @@
+.RadSlider_Outlook {
+  /* horizontal slider */
+  /* end horizontal slider */
+  /* vertical slider */
+  /* end vertical slider */
+  /* horizontal slider - TrackPosition=Top/Bottom */
+  /* vertical slider - TrackPosition=Left/Right */
+  /* horizontal slider - TrackPosition=Center */
+  /* vertical slider - TrackPosition=Center */ }
+  .RadSlider_Outlook .rslTrack {
+    border-color: #c3d9f9; }
+  .RadSlider_Outlook div.rslTop a.rslDraghandle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fcfcfb', EndColorStr='#ebe8e3')";
+    background-image: linear-gradient(#fcfcfb, #ebe8e3);
+    border-color: #003c74; }
+  .RadSlider_Outlook a.rslHandle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fdfdfd', EndColorStr='#eae7e2')";
+    background-image: linear-gradient(#fdfdfd, #eae7e2);
+    border-color: #003c74; }
+  .RadSlider_Outlook a.rslHandle:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fbfbfa', EndColorStr='#f3d9a2')";
+    background-image: linear-gradient(#fbfbfa, #f3d9a2);
+    border-color: #003c74; }
+  .RadSlider_Outlook a.rslHandle:before {
+    color: #000; }
+  .RadSlider_Outlook a.rslHandle:hover:before {
+    color: #000; }
+  .RadSlider_Outlook .rslHorizontal a.rslDraghandle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fcfcfb', EndColorStr='#ebe8e3')";
+    background-image: linear-gradient(#fcfcfb, #ebe8e3);
+    border-color: #003c74; }
+  .RadSlider_Outlook .rslHorizontal a.rslDraghandle:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fce2ae', EndColorStr='#faca67')";
+    background-image: linear-gradient(#fce2ae, #faca67);
+    border-color: #003c74; }
+  .RadSlider_Outlook .rslHorizontal a.rslDraghandle:focus,
+  .RadSlider_Outlook .rslHorizontal a.rslDraghandle:active {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#f1ca7e', EndColorStr='#e69b0c')";
+    background-image: linear-gradient(#f1ca7e, #e69b0c);
+    border-color: #002d96; }
+  .RadSlider_Outlook .rslHorizontal .rslTrack {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#adc7eb', EndColorStr='#cdd8eb')";
+    background-image: linear-gradient(#adc7eb, #cdd8eb);
+    border-color: #7b9dcb #b6cae7 #8db0dd; }
+  .RadSlider_Outlook .rslHorizontal .rslSelectedregion {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#91b0d8', EndColorStr='#40689e')";
+    background-image: linear-gradient(#91b0d8, #40689e); }
+  .RadSlider_Outlook .rslHorizontal .rslItem {
+    background-image: url('../Outlook/Slider/ItemHorizontalBgr.gif'); }
+  .RadSlider_Outlook .rslVertical .rslTrack {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#adc7eb', EndColorStr='#cdd8eb', GradientType=1)";
+    background-image: linear-gradient(to left, #adc7eb, #cdd8eb);
+    border-color: #7b9dcb #b6cae7 #8db0dd; }
+  .RadSlider_Outlook .rslVertical .rslSelectedregion {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#91b0d8', EndColorStr='#40689e', GradientType=1)";
+    background-image: linear-gradient(to left, #91b0d8, #40689e); }
+  .RadSlider_Outlook .rslVertical a.rslDraghandle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fcfcfb', EndColorStr='#ebe8e3', GradientType=1)";
+    background-image: linear-gradient(to left, #fcfcfb, #ebe8e3);
+    border-color: #003c74; }
+  .RadSlider_Outlook .rslVertical a.rslDraghandle:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fce2ae', EndColorStr='#faca67', GradientType=1)";
+    background-image: linear-gradient(to left, #fce2ae, #faca67);
+    border-color: #003c74; }
+  .RadSlider_Outlook .rslVertical a.rslDraghandle:focus,
+  .RadSlider_Outlook .rslVertical a.rslDraghandle:active {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#f1ca7e', EndColorStr='#e69b0c', GradientType=1)";
+    background-image: linear-gradient(to left, #f1ca7e, #e69b0c);
+    border-color: #002d96; }
+  .RadSlider_Outlook .rslVertical .rslItem {
+    background-image: url('../Outlook/Slider/ItemVerticalBgr.gif'); }
+  .RadSlider_Outlook .rslLeft a.rslDraghandle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fcfcfb', EndColorStr='#ebe8e3', GradientType=1)";
+    background-image: linear-gradient(to left, #fcfcfb, #ebe8e3); }
+  .RadSlider_Outlook .rslItem,
+  .RadSlider_Outlook .rslLargeTick span {
+    color: black; }
+  .RadSlider_Outlook .rslItemsWrapper .rslItemSelected {
+    color: black; }
+  .RadSlider_Outlook .rslTop .rslSmallTick,
+  .RadSlider_Outlook .rslBottom .rslSmallTick {
+    background-image: url('../Outlook/Slider/SmallChangeHorizontal.gif'); }
+  .RadSlider_Outlook .rslTop .rslLargeTick,
+  .RadSlider_Outlook .rslBottom .rslLargeTick {
+    background-image: url('../Outlook/Slider/LargeChangeHorizontal.gif'); }
+  .RadSlider_Outlook .rslLeft .rslSmallTick,
+  .RadSlider_Outlook .rslRight .rslSmallTick {
+    background-image: url('../Outlook/Slider/SmallChangeVertical.gif'); }
+  .RadSlider_Outlook .rslLeft .rslLargeTick,
+  .RadSlider_Outlook .rslRight .rslLargeTick {
+    background-image: url('../Outlook/Slider/LargelChangeVertical.gif'); }
+  .RadSlider_Outlook .rslMiddle .rslSmallTick {
+    background-image: url('../Outlook/Slider/SmallChangeMiddleHorizontal.gif'); }
+  .RadSlider_Outlook .rslLargeTick {
+    background-image: url('../Outlook/Slider/LargeChangeMiddleHorizontal.gif'); }
+  .RadSlider_Outlook .rslCenter .rslSmallTick {
+    background-image: url('../Outlook/Slider/SmallChangeCenterVertical.gif'); }
+  .RadSlider_Outlook .rslCenter .rslLargeTick {
+    background-image: url('../Outlook/Slider/LargelChangeCenterVertical.gif'); }

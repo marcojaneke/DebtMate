@@ -1,0 +1,26 @@
+.RadNotification_Office2010Black {
+  border: 1px solid #919191;
+  background-color: #6f6f6f;
+  color: white;
+  /* base overwrites */ }
+  .RadNotification_Office2010Black.rnShadows {
+    box-shadow: 2px 2px 3px #989797; }
+  .RadNotification_Office2010Black .rnTitleBar {
+    background-image: -webkit-linear-gradient(top, #c9c9c9 0%, #6b6b6b 100%);
+    background-image: -moz-linear-gradient(top, #c9c9c9 0%, #6b6b6b 100%);
+    background-image: -ms-linear-gradient(top, #c9c9c9 0%, #6b6b6b 100%);
+    background-image: -o-linear-gradient(top, #c9c9c9 0%, #6b6b6b 100%);
+    background-image: linear-gradient(top, #c9c9c9 0%, #6b6b6b 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c9c9c9', endColorstr='#6b6b6b',GradientType=0 );
+    border: 1px solid #6c6c6a; }
+  .RadNotification_Office2010Black .rnCommands a {
+    background-image: url('Common/radActionsSprite.png');
+    _background-image: url('Common/radActionsSpriteIE6.png'); }
+  .RadNotification_Office2010Black .rnTitleBarTitle,
+  .RadNotification_Office2010Black .rnContentWrapper {
+    color: white; }
+  .RadNotification_Office2010Black .RadNotification_Office2010Black .rnContentWrapper {
+    border-top: 1px solid #2e2e2e; }
+  .RadNotification_Office2010Black .RadNotification_Office2010Black .rnCommands {
+    margin: 0.25em 0em 0em; }
+

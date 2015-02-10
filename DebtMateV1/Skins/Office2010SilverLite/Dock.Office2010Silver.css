@@ -1,0 +1,31 @@
+.RadDock_Office2010Silver {
+  background-color: white;
+  color: #3b3b3b;
+  font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #828282; }
+  .RadDock_Office2010Silver .rdTitleWrapper {
+    background-image: -webkit-linear-gradient(top, #f2f2f4 0%, #dadde0 100%);
+    background-image: -moz-linear-gradient(top, #f2f2f4 0%, #dadde0 100%);
+    background-image: -ms-linear-gradient(top, #f2f2f4 0%, #dadde0 100%);
+    background-image: -o-linear-gradient(top, #f2f2f4 0%, #dadde0 100%);
+    background-image: linear-gradient(top, #f2f2f4 0%, #dadde0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f2f4', endColorstr='#dadde0',GradientType=0 );
+    color: #3b3b3b;
+    border-bottom-color: #828282; }
+  .RadDock_Office2010Silver .rdTitleWrapper .rdTitle {
+    color: #3b3b3b; }
+  .RadDock_Office2010Silver .rdListItem:hover {
+    background-image: -webkit-linear-gradient(top, #fae186 0%, #fdf1c8 100%);
+    background-image: -moz-linear-gradient(top, #fae186 0%, #fdf1c8 100%);
+    background-image: -ms-linear-gradient(top, #fae186 0%, #fdf1c8 100%);
+    background-image: -o-linear-gradient(top, #fae186 0%, #fdf1c8 100%);
+    background-image: linear-gradient(top, #fae186 0%, #fdf1c8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fae186', endColorstr='#fdf1c8',GradientType=0 );
+    border-color: #f3d64a; }
+  .RadDock_Office2010Silver .rdListItem button {
+    background-image: url('../Office2010Silver/Common/radActionsSprite.png');
+    _background-image: url('../Office2010Silver/Common/radActionsSpriteIE6.png'); }
+  .RadDock_Office2010Silver .rdContentWrapper {
+    color: #3b3b3b; }
+  .RadDock_Office2010Silver.RadDock_Collapsed .rdTitleWrapper {
+    border-bottom-color: #828282; }

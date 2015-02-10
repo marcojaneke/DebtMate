@@ -1,0 +1,98 @@
+.RadSlider_Default {
+  /* horizontal slider */
+  /* end horizontal slider */
+  /* vertical slider */
+  /* end vertical slider */
+  /* horizontal slider - TrackPosition=Top/Bottom */
+  /* vertical slider - TrackPosition=Left/Right */
+  /* horizontal slider - TrackPosition=Center */
+  /* vertical slider - TrackPosition=Center */ }
+  .RadSlider_Default .rslTrack {
+    border-color: #8a8a8a; }
+  .RadSlider_Default div.rslTop a.rslDraghandle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fafafa', EndColorStr='#e1e1e1')";
+    background-image: linear-gradient(#fafafa, #e1e1e1);
+    border-color: #8a8a8a; }
+  .RadSlider_Default a.rslHandle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#e1e1e1', EndColorStr='#c5c5c5')";
+    background-image: linear-gradient(#e1e1e1, #c5c5c5);
+    border-color: #c4c4c4; }
+  .RadSlider_Default a.rslHandle:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#959595', EndColorStr='#828282')";
+    background-image: linear-gradient(#959595, #828282);
+    border-color: #6c6c6c; }
+  .RadSlider_Default a.rslHandle:before {
+    color: #757575; }
+  .RadSlider_Default a.rslHandle:hover:before {
+    color: #fff; }
+  .RadSlider_Default .rslHorizontal a.rslDraghandle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fafafa', EndColorStr='#e1e1e1')";
+    background-image: linear-gradient(#fafafa, #e1e1e1);
+    border-color: #8a8a8a; }
+  .RadSlider_Default .rslHorizontal a.rslDraghandle:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#e1e1e1', EndColorStr='#c7c7c7')";
+    background-image: linear-gradient(#e1e1e1, #c7c7c7);
+    border-color: #515151; }
+  .RadSlider_Default .rslHorizontal a.rslDraghandle:focus,
+  .RadSlider_Default .rslHorizontal a.rslDraghandle:active {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#959595', EndColorStr='#959595')";
+    background-image: linear-gradient(#959595, #848484);
+    border-color: #b6b6b6; }
+  .RadSlider_Default .rslHorizontal .rslTrack {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#e9e9e9', EndColorStr='#e9e9e9')";
+    background-image: linear-gradient(#e9e9e9, #d6d6d6);
+    border-color: #bcbcbc #aeaeae #9a9a9a; }
+  .RadSlider_Default .rslHorizontal .rslSelectedregion {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#e9e9e9', EndColorStr='#9e9e9e')";
+    background-image: linear-gradient(#e9e9e9, #9e9e9e); }
+  .RadSlider_Default .rslHorizontal .rslItem {
+    background-image: url('../Default/Slider/ItemHorizontalBgr.gif'); }
+  .RadSlider_Default .rslVertical .rslTrack {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#e9e9e9', EndColorStr='#d6d6d6', GradientType=1)";
+    background-image: linear-gradient(to left, #e9e9e9, #d6d6d6);
+    border-color: #bcbcbc #aeaeae #9a9a9a; }
+  .RadSlider_Default .rslVertical .rslSelectedregion {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#e9e9e9', EndColorStr='#d6d6d6', GradientType=1)";
+    background-image: linear-gradient(to left, #e9e9e9, #9e9e9e); }
+  .RadSlider_Default .rslVertical a.rslDraghandle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fafafa', EndColorStr='#e1e1e1', GradientType=1)";
+    background-image: linear-gradient(to left, #fafafa, #e1e1e1);
+    border-color: #8a8a8a; }
+  .RadSlider_Default .rslVertical a.rslDraghandle:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#e1e1e1', EndColorStr='#c7c7c7', GradientType=1)";
+    background-image: linear-gradient(to left, #e1e1e1, #c7c7c7);
+    border-color: #515151; }
+  .RadSlider_Default .rslVertical a.rslDraghandle:focus,
+  .RadSlider_Default .rslVertical a.rslDraghandle:active {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#959595', EndColorStr='#848484', GradientType=1)";
+    background-image: linear-gradient(to left, #959595, #848484);
+    border-color: #b6b6b6; }
+  .RadSlider_Default .rslVertical .rslItem {
+    background-image: url('../Default/Slider/ItemVerticalBgr.gif'); }
+  .RadSlider_Default .rslLeft a.rslDraghandle {
+    background-image: linear-gradient(to left, #fafafa, #e1e1e1); }
+  .RadSlider_Default .rslItem,
+  .RadSlider_Default .rslLargeTick span {
+    color: #333333; }
+  .RadSlider_Default .rslItemsWrapper .rslItemSelected {
+    color: #333333; }
+  .RadSlider_Default .rslTop .rslSmallTick,
+  .RadSlider_Default .rslBottom .rslSmallTick {
+    background-image: url('../Default/Slider/SmallChangeHorizontal.gif'); }
+  .RadSlider_Default .rslTop .rslLargeTick,
+  .RadSlider_Default .rslBottom .rslLargeTick {
+    background-image: url('../Default/Slider/LargeChangeHorizontal.gif'); }
+  .RadSlider_Default .rslLeft .rslSmallTick,
+  .RadSlider_Default .rslRight .rslSmallTick {
+    background-image: url('../Default/Slider/SmallChangeVertical.gif'); }
+  .RadSlider_Default .rslLeft .rslLargeTick,
+  .RadSlider_Default .rslRight .rslLargeTick {
+    background-image: url('../Default/Slider/LargelChangeVertical.gif'); }
+  .RadSlider_Default .rslMiddle .rslSmallTick {
+    background-image: url('../Default/Slider/SmallChangeMiddleHorizontal.gif'); }
+  .RadSlider_Default .rslLargeTick {
+    background-image: url('../Default/Slider/LargeChangeMiddleHorizontal.gif'); }
+  .RadSlider_Default .rslCenter .rslSmallTick {
+    background-image: url('../Default/Slider/SmallChangeCenterVertical.gif'); }
+  .RadSlider_Default .rslCenter .rslLargeTick {
+    background-image: url('../Default/Slider/LargelChangeCenterVertical.gif'); }

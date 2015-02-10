@@ -1,0 +1,338 @@
+.RadForm_Glow.RadForm {
+  /* CSS class for styling the decoration zone or the <html /> tag of the page */
+  /* Decorate scrollbars */
+  /* Decorate <input type="button | submit | reset" /> and <button type="button | submit | reset" /> - look if there is a secondary .rfdButton class applied to the root element */
+  /* OPERA width fix - do not remove (and check if it is still necessary) */
+  /* Decorate <h4|5|6 /> */
+  /* Decorate <label /> */
+  /* Decorate <input type="checkbox" /> */
+  /* Decorate <input type="radio" /> */
+  /* <fieldset /> and <legend /> */
+  /* this selector styles the hover of the side bars of the rounded elements */
+  /* Decorate <input type="text | password | search | url | tel | email" /> and <textarea /> */
+  /* For all browsers except IE6 we are using attribute selectors - single or double */
+  /* Decorate <fieldset /> and <legend /> */
+  /* Because of a glitch in IE the following 2 CSS classes must be declared separately for correct parsing of the textarea class in IE6*/
+  /* <select /> */
+  /* the styling of radiobuttons and checkboxes in Safari and Chrome is already fully achieved with CSS */
+  /* ----------------------------------------------- Skin-specific Scrollbar Settings for WebKit ----------------------------------------------- */
+  /* the scrollbar face color */
+  /*GridView, FormView, DetailsView*/
+  /* Validation Summary Control and Login Control  */ }
+  .RadForm_Glow.RadForm.rfdZone {
+    background-color: #29343b; }
+  .RadForm_Glow.RadForm a.rfdSkinnedButton * {
+    font: 13px Arial, Helvetica, sans-serif !important; }
+  .RadForm_Glow.RadForm.rfdButton a.rfdSkinnedButton .rfdDecorated, .RadForm_Glow.RadForm.rfdTextbox input.rfdDecorated[type="text"], .RadForm_Glow.RadForm.rfdTextbox input.rfdDecorated[type="password"], .RadForm_Glow.RadForm.rfdTextarea textarea, .RadForm_Glow.RadForm.rfdTextarea textarea.rfdDecorated[disabled]:hover, .RadForm_Glow.RadForm.rfdTextbox input.rfdDecorated[disabled][type="text"]:hover, .RadForm_Glow.RadForm.rfdTextbox input.rfdDecorated[disabled][type="password"]:hover,
+  .RadForm_Glow.RadForm .rfdSelectText, .RadForm_Glow.RadForm.rfdLabel label,
+  .RadForm_Glow.RadForm .rfdDecorated,
+  .RadForm_Glow.RadForm .rfdCheckboxChecked,
+  .RadForm_Glow.RadForm .rfdInputDisabled.rfdCheckboxChecked:hover,
+  .RadForm_Glow.RadForm .rfdCheckboxUnchecked,
+  .RadForm_Glow.RadForm .rfdInputDisabled.rfdCheckboxUnchecked:hover,
+  .RadForm_Glow.RadForm .rfdAspLabel,
+  .RadForm_Glow.RadForm .rfdRadioUnchecked,
+  .RadForm_Glow.RadForm .rfdInputDisabled.rfdRadioUnchecked:hover,
+  .RadForm_Glow.RadForm .rfdRadioUnchecked:hover,
+  .RadForm_Glow.RadForm .rfdRadioChecked,
+  .RadForm_Glow.RadForm .rfdInputDisabled.rfdRadioChecked:hover,
+  .RadForm_Glow.RadForm .rfdRadioChecked:hover,
+  .RadForm_Glow.RadForm .riTextBox,
+  .RadForm_Glow.RadForm .rfdValidationSummaryControl,
+  .RadForm_Glow.RadForm .rfdLoginControl,
+  .RadForm_Glow.RadForm legend,
+  .RadForm_Glow.RadForm .rfdSelectBox_MetroTouch li,
+  .RadForm_Glow.RadForm .rfdSelectText, .RadForm_Glow.RadForm.rfdGrids .rfdTable th, .RadForm_Glow.RadForm.rfdGrids .rfdTable td {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px; }
+  .RadForm_Glow.RadForm.rfdScrollBars {
+    scrollbar-3dlight-color: #8a9297;
+    scrollbar-arrow-color: white;
+    scrollbar-base-color: #29343b;
+    scrollbar-darkshadow-color: #8a9297;
+    scrollbar-face-color: #29343b;
+    scrollbar-highlight-color: #29343b;
+    scrollbar-shadow-color: #29343b;
+    scrollbar-track-color: #29343b; }
+  .RadForm_Glow.RadForm.rfdButton a.rfdSkinnedButton {
+    background-image: url('../Common/Gradients/radGradientLightV20.png');
+    _background-image: none;
+    border-color: black;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#414c53 0%, #1c262c 100%);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    height: 28px;
+    padding: 0 10px;
+    *padding: 0;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    border-radius: 4px; }
+  .RadForm_Glow.RadForm.rfdButton a.rfdSkinnedButton:hover {
+    border-color: black;
+    color: #e2e8eb;
+    background-color: #2b363d;
+    background-image: linear-gradient(#4e5960 0%, #2b363d 100%);
+    background-position: 0 0; }
+  .RadForm_Glow.RadForm.rfdButton a.rfdSkinnedButton:active, .RadForm_Glow.RadForm.rfdButton a.rfdSkinnedButton:focus {
+    border-color: black;
+    color: white;
+    background-color: #485258;
+    background-image: linear-gradient(#485258 0%, #485258 100%);
+    box-shadow: inset 0 0 4px #888;
+    background-position: 0 0; }
+  .RadForm_Glow.RadForm.rfdButton input.rfdDecorated[type="button"], .RadForm_Glow.RadForm.rfdButton input.rfdDecorated[type="reset"], .RadForm_Glow.RadForm.rfdButton input.rfdDecorated[type="submit"], .RadForm_Glow.RadForm.rfdButton .rfdSkinnedButton button {
+    color: white;
+    height: 28px;
+    line-height: 28px !important; }
+  .RadForm_Glow.RadForm.rfdButton a.rfdSkinnedButton.rfdInputDisabled, .RadForm_Glow.RadForm.rfdButton a.rfdSkinnedButton.rfdInputDisabled:hover, .RadForm_Glow.RadForm.rfdButton a.rfdSkinnedButton.rfdInputDisabled:active, .RadForm_Glow.RadForm.rfdButton a.rfdSkinnedButton.rfdInputDisabled:focus {
+    border-color: black;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#414c53 0%, #1c262c 100%);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    height: 28px;
+    padding: 0 10px;
+    *padding: 0;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    border-radius: 4px; }
+  @media screen and (min-width: 1px) {
+    .RadForm_Glow.RadForm {
+      /*
+         the hack below fixes a strange behavior under Opera -
+         input and button have a different CSS display when in anchor tag
+      */ }
+      .RadForm_Glow.RadForm.rfdButton a.rfdSkinnedButton input {
+        display: block;
+        float: left; } }
+  .RadForm_Glow.RadForm.rfdHeading h4, .RadForm_Glow.RadForm.rfdHeading h5 {
+    color: #e2e8eb;
+    border-bottom: 1px solid #d7d7d7; }
+  .RadForm_Glow.RadForm.rfdHeading h6 {
+    color: #e2e8eb; }
+  .RadForm_Glow.RadForm.rfdLabel label, .RadForm_Glow.RadForm.rfdLabel .rfdAspLabel, .RadForm_Glow.RadForm.rfdRadio .rfdRadioUnchecked, .RadForm_Glow.RadForm.rfdRadio .rfdRadioChecked, .RadForm_Glow.RadForm.rfdCheckbox .rfdCheckboxUnchecked, .RadForm_Glow.RadForm.rfdCheckbox .rfdCheckboxChecked {
+    color: #e2e8eb; }
+  .RadForm_Glow.RadForm .rfdCheckboxUnchecked,
+  .RadForm_Glow.RadForm .rfdCheckboxChecked,
+  .RadForm_Glow.RadForm .rfdInputDisabled.rfdCheckboxUnchecked,
+  .RadForm_Glow.RadForm .rfdInputDisabled.rfdCheckboxChecked {
+    background-image: url('FormDecorator/CheckBoxSprites.png'); }
+  .RadForm_Glow.RadForm .rfdRadioUnchecked,
+  .RadForm_Glow.RadForm .rfdRadioChecked,
+  .RadForm_Glow.RadForm .rfdInputDisabled.rfdRadioUnchecked,
+  .RadForm_Glow.RadForm .rfdInputDisabled.rfdRadioChecked {
+    background-image: url('FormDecorator/RadioButtonSprites.png'); }
+  .RadForm_Glow.RadForm .rfdCheckboxChecked,
+  .RadForm_Glow.RadForm .rfdCheckboxUnchecked,
+  .RadForm_Glow.RadForm .rfdRadioUnchecked,
+  .RadForm_Glow.RadForm .rfdRadioChecked {
+    line-height: 22px !important; }
+  .RadForm_Glow.RadForm.rfdFieldset table.rfdRoundedWrapper_fieldset legend, .RadForm_Glow.RadForm.rfdFieldset fieldset legend, .RadForm_Glow.RadForm.rfdFieldset legend {
+    color: #e2e8eb; }
+  .RadForm_Glow.RadForm table.rfdRoundedWrapper:hover div.rfdRoundedInner {
+    background-color: white;
+    border-color: #b9b9b9 !important; }
+  .RadForm_Glow.RadForm table.rfdRoundedWrapper:hover .rfdRoundedOuter {
+    background-color: #f89d26 !important; }
+  .RadForm_Glow.RadForm.rfdTextbox input[type="text"].rfdDecorated, .RadForm_Glow.RadForm.rfdTextbox input[type="password"].rfdDecorated, .RadForm_Glow.RadForm.rfdTextbox input[type="search"].rfdDecorated, .RadForm_Glow.RadForm.rfdTextbox input[type="url"].rfdDecorated, .RadForm_Glow.RadForm.rfdTextbox input[type="tel"].rfdDecorated, .RadForm_Glow.RadForm.rfdTextbox input[type="email"].rfdDecorated, .RadForm_Glow.RadForm.rfdTextarea textarea, .RadForm_Glow.RadForm.rfdTextarea textarea[disabled].rfdDecorated:hover, .RadForm_Glow.RadForm.rfdTextbox input[disabled][type="text"].rfdDecorated:hover, .RadForm_Glow.RadForm.rfdTextbox input[disabled][type="password"].rfdDecorated:hover, .RadForm_Glow.RadForm.rfdTextbox input[disabled][type="search"].rfdDecorated:hover, .RadForm_Glow.RadForm.rfdTextbox input[disabled][type="url"].rfdDecorated:hover, .RadForm_Glow.RadForm.rfdTextbox input[disabled][type="tel"].rfdDecorated:hover, .RadForm_Glow.RadForm.rfdTextbox input[disabled][type="email"].rfdDecorated:hover {
+    height: 23px;
+    border: 1px solid #8a9297;
+    background-color: #29343b;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px; }
+  .RadForm_Glow.RadForm .rfdRoundedWrapper input {
+    height: 17px !important; }
+  .RadForm_Glow.RadForm.rfdTextarea textarea {
+    height: auto; }
+  .RadForm_Glow.RadForm.rfdTextbox input[type="text"].rfdDecorated:hover, .RadForm_Glow.RadForm.rfdTextbox input[type="password"].rfdDecorated:hover, .RadForm_Glow.RadForm.rfdTextbox input[type="search"].rfdDecorated:hover, .RadForm_Glow.RadForm.rfdTextbox input[type="url"].rfdDecorated:hover, .RadForm_Glow.RadForm.rfdTextbox input[type="tel"].rfdDecorated:hover, .RadForm_Glow.RadForm.rfdTextbox input[type="email"].rfdDecorated:hover, .RadForm_Glow.RadForm.rfdTextarea textarea:hover, .RadForm_Glow.RadForm.rfdTextbox input[type="text"].rfdDecorated:focus, .RadForm_Glow.RadForm.rfdTextbox input[type="password"].rfdDecorated:focus, .RadForm_Glow.RadForm.rfdTextbox input[type="search"].rfdDecorated:focus, .RadForm_Glow.RadForm.rfdTextbox input[type="url"].rfdDecorated:focus, .RadForm_Glow.RadForm.rfdTextbox input[type="tel"].rfdDecorated:focus, .RadForm_Glow.RadForm.rfdTextbox input[type="email"].rfdDecorated:focus, .RadForm_Glow.RadForm.rfdTextarea textarea:focus {
+    border: 1px solid #f89d26;
+    background-color: #29343b;
+    color: #f89d26; }
+  .RadForm_Glow.RadForm.rfdFieldset table.rfdRoundedWrapper_fieldset legend, .RadForm_Glow.RadForm.rfdFieldset fieldset.rfdFieldset legend {
+    color: #e2e8eb; }
+  .RadForm_Glow.RadForm.rfdFieldset fieldset, .RadForm_Glow.RadForm.rfdFieldset table.rfdRoundedWrapper_fieldset fieldset, .RadForm_Glow.RadForm.rfdFieldset fieldset.rfdFieldset {
+    border: 1px solid #192227;
+    background-color: #1c262c; }
+  .RadForm_Glow.RadForm table.rfdRoundedWrapper input,
+  .RadForm_Glow.RadForm table.rfdRoundedWrapper textarea,
+  .RadForm_Glow.RadForm input.rfdInput,
+  .RadForm_Glow.RadForm textarea.rfdTextarea {
+    border: 1px solid #8a9297;
+    background-color: #29343b;
+    color: white; }
+  .RadForm_Glow.RadForm textarea.rfdTextarea,
+  .RadForm_Glow.RadForm table.rfdRoundedWrapper textarea {
+    overflow: auto; }
+  .RadForm_Glow.RadForm .rfdSelect_Glow .rfdSelectOuter,
+  .RadForm_Glow.RadForm .rfdSelect_Glow.rfdSelectDisabled:hover .rfdSelectOuter,
+  .RadForm_Glow.RadForm .rfdSelect_Glow.rfdSelectDisabled:active .rfdSelectOuter,
+  .RadForm_Glow.RadForm .rfdSelect_Glow.rfdSelectDisabled:focus .rfdSelectOuter {
+    color: white;
+    height: 26px;
+    line-height: 27px; }
+  .RadForm_Glow.RadForm .rfdSelect_Glow,
+  .RadForm_Glow.RadForm .rfdSelect_Glow.rfdSelectDisabled:hover,
+  .RadForm_Glow.RadForm .rfdSelect_Glow.rfdSelectDisabled:active,
+  .RadForm_Glow.RadForm .rfdSelect_Glow.rfdSelectDisabled:focus {
+    background-image: url('../Common/Gradients/radGradientLightV50.png');
+    _background-image: none;
+    border-color: black;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#414c53 0%, #1c262c 100%);
+    box-shadow: none;
+    border: 1px solid black;
+    position: relative;
+    border-radius: 4px; }
+  .RadForm_Glow.RadForm .rfdSelect_Glow:before,
+  .RadForm_Glow.RadForm .rfdSelect_Glow.rfdSelectDisabled:hover:before,
+  .RadForm_Glow.RadForm .rfdSelect_Glow.rfdSelectDisabled:active:before,
+  .RadForm_Glow.RadForm .rfdSelect_Glow.rfdSelectDisabled:focus:before {
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -12px -64px;
+    content: "";
+    width: 26px;
+    height: 22px;
+    position: absolute;
+    top: 2px;
+    left: auto;
+    right: 0; }
+  .RadForm_Glow.RadForm .rfdRtl .rfdSelect_Glow:before {
+    left: 0;
+    right: auto; }
+  .RadForm_Glow.RadForm .rfdSelect_Glow:hover {
+    border-color: black;
+    color: #e2e8eb;
+    background-color: #2b363d;
+    background-image: linear-gradient(#4e5960 0%, #2b363d 100%);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+    color: white;
+    background-position: 0 0; }
+  .RadForm_Glow.RadForm .rfdSelect_Glow:active,
+  .RadForm_Glow.RadForm .rfdSelect_Glow:focus {
+    border-color: black;
+    color: white;
+    background-color: #485258;
+    background-image: linear-gradient(#485258 0%, #485258 100%);
+    box-shadow: inset 0 0 4px #1c262c;
+    color: white;
+    background-position: 0 0; }
+  .RadForm_Glow.RadForm .rfdSelect_Glow:hover:before,
+  .RadForm_Glow.RadForm .rfdSelect_Glow:active:before,
+  .RadForm_Glow.RadForm .rfdSelect_Glow:focus:before {
+    background-position: -12px -64px; }
+  .RadForm_Glow.RadForm .rfdSelect_Glow:hover .rfdSelectText,
+  .RadForm_Glow.RadForm .rfdSelect_Glow:active .rfdSelectText,
+  .RadForm_Glow.RadForm .rfdSelect_Glow:focus .rfdSelectText {
+    color: white; }
+  @media screen and (-webkit-min-device-pixel-ratio: 0) {
+    .RadForm_Glow.RadForm {
+      /* checkboxes */
+      /* radio buttons */ }
+      .RadForm_Glow.RadForm.rfdCheckbox input[type="checkbox"], .RadForm_Glow.RadForm.rfdCheckbox input[type="checkbox"][disabled]:hover {
+        background-image: url('FormDecorator/CheckBoxSprites.png'); }
+      .RadForm_Glow.RadForm.rfdRadio input[type="radio"], .RadForm_Glow.RadForm.rfdRadio input[type="radio"][disabled="disabled"]:hover {
+        background-image: url('FormDecorator/RadioButtonSprites.png'); } }
+  .RadForm_Glow.RadForm.rfdScrollBars {
+    /* scrollbar track background color */
+    /* increment / decrement button settings */
+    /* horizontal scroll left button */
+    /* horizontal scroll right button */
+    /* vertical scroll up button */
+    /* vertical scroll down button */ }
+    .RadForm_Glow.RadForm.rfdScrollBars body::-webkit-scrollbar,
+    .RadForm_Glow.RadForm.rfdScrollBars body::-webkit-scrollbar-thumb:vertical,
+    .RadForm_Glow.RadForm.rfdScrollBars body::-webkit-scrollbar-thumb:horizontal,
+    .RadForm_Glow.RadForm.rfdScrollBars div::-webkit-scrollbar,
+    .RadForm_Glow.RadForm.rfdScrollBars div::-webkit-scrollbar-thumb:vertical,
+    .RadForm_Glow.RadForm.rfdScrollBars div::-webkit-scrollbar-thumb:horizontal
+    form::-webkit-scrollbar,
+    .RadForm_Glow.RadForm.rfdScrollBars form::-webkit-scrollbar-thumb:vertical,
+    .RadForm_Glow.RadForm.rfdScrollBars form::-webkit-scrollbar-thumb:horizontal {
+      background-color: #29343b; }
+    .RadForm_Glow.RadForm.rfdScrollBars ::-webkit-scrollbar-track-piece,
+    .RadForm_Glow.RadForm.rfdScrollBars ::-webkit-scrollbar-corner {
+      background-color: #29343b; }
+    .RadForm_Glow.RadForm.rfdScrollBars ::-webkit-scrollbar-button:vertical:decrement,
+    .RadForm_Glow.RadForm.rfdScrollBars ::-webkit-scrollbar-button:vertical:increment,
+    .RadForm_Glow.RadForm.rfdScrollBars ::-webkit-scrollbar-button:horizontal:decrement,
+    .RadForm_Glow.RadForm.rfdScrollBars ::-webkit-scrollbar-button:horizontal:increment,
+    .RadForm_Glow.RadForm.rfdScrollBars ::-webkit-scrollbar-thumb:vertical,
+    .RadForm_Glow.RadForm.rfdScrollBars ::-webkit-scrollbar-thumb:horizontal {
+      border-color: #8a9297; }
+    .RadForm_Glow.RadForm.rfdScrollBars ::-webkit-scrollbar-button:vertical:decrement,
+    .RadForm_Glow.RadForm.rfdScrollBars ::-webkit-scrollbar-button:vertical:increment,
+    .RadForm_Glow.RadForm.rfdScrollBars ::-webkit-scrollbar-button:horizontal:decrement,
+    .RadForm_Glow.RadForm.rfdScrollBars ::-webkit-scrollbar-button:horizontal:increment {
+      background-image: url('Common/radActionsSprite.png');
+      background-color: #29343b; }
+    .RadForm_Glow.RadForm.rfdScrollBars.rfdScrollBars ::-webkit-scrollbar-button:horizontal:decrement {
+      background-position: -18px -1118px; }
+    .RadForm_Glow.RadForm.rfdScrollBars.rfdScrollBars ::-webkit-scrollbar-button:horizontal:increment {
+      background-position: -18px -1168px; }
+    .RadForm_Glow.RadForm.rfdScrollBars.rfdScrollBars ::-webkit-scrollbar-button:vertical:decrement {
+      background-position: -18.5px -1017.5px; }
+    .RadForm_Glow.RadForm.rfdScrollBars.rfdScrollBars ::-webkit-scrollbar-button:vertical:increment {
+      background-position: -18.5px -1067.5px; }
+  .RadForm_Glow.RadForm.rfdGrids .rfdTable {
+    border: 1px solid #192227;
+    background: #35434b;
+    color: #e2e8eb;
+    font: 13px Arial, Helvetica, sans-serif; }
+  .RadForm_Glow.RadForm.rfdGrids .rfdTable th, .RadForm_Glow.RadForm.rfdGrids .rfdTable td {
+    height: 20px;
+    padding: 3px 4px; }
+  .RadForm_Glow.RadForm.rfdGrids .rfdTable th {
+    background-image: url('../Common/Gradients/radGradientLightV20.png');
+    _background-image: none;
+    background-repeat: repeat-x;
+    background-image: linear-gradient(#404c54, #2b373d);
+    border-bottom: 1px solid #192227;
+    border-left: 1px solid #192227;
+    color: #e2e8eb; }
+  .RadForm_Glow.RadForm.rfdGrids .rfdTable a {
+    color: #ffa915; }
+  .RadForm_Glow.RadForm .rfdValidationSummaryControl,
+  .RadForm_Glow.RadForm .rfdLoginControl {
+    background-color: #35434b;
+    border: 1px solid #192227;
+    color: #e2e8eb; }
+  .RadForm_Glow.RadForm a.rfdLoginControl,
+  .RadForm_Glow.RadForm a.rfdLoginControl:active,
+  .RadForm_Glow.RadForm a.rfdLoginControl:visited {
+    color: #ffa915; }
+  .RadForm_Glow.RadForm a.rfdLoginControl:hover {
+    color: #ffba43; }
+
+/* dropdown settings */
+div.rfdSelectBox_Glow {
+  background-color: #29343b;
+  color: white;
+  padding: 5px 4px;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 1px 1px #000;
+  *border: 1px solid #8a9297; }
+
+@media \0screen {
+  div.rfdSelectBox_Glow {
+    border: 1px solid #8a9297; } }
+.rfdSelectBox_Glow ul li {
+  padding: 4px 5px;
+  color: #c1c7ca; }
+
+.rfdSelectBox.rfdSelectBox_Glow .rfdSelect_selected {
+  background-color: #ffa915;
+  color: black; }
+
+.rfdSelectBox.rfdSelectBox_Glow .rfdSelect_selected:hover,
+.rfdSelectBox.rfdSelectBox_Glow li:hover,
+.rfdSelectBox_Glow .rfdSelect_hovered {
+  background-color: #4d5c65;
+  color: white; }
+
+.rfdSelectBox_Glow .rfdSelectBox_optgroup_label:hover {
+  background: #29343b;
+  color: #f89d26; }

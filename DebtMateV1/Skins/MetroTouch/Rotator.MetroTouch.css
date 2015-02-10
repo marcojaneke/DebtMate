@@ -1,0 +1,49 @@
+.RadRotator_MetroTouch {
+  /*================== The list ========================*/
+  /* For vertical carousel, not set, width defaults to auto */
+  /* Note if you explicitly set width to auto, this might cause */
+  /* problems with Safari */
+  /* When LoadOnDemand */ }
+  .RadRotator_MetroTouch .rrClipRegion {
+    border-color: #cdcdcd; }
+  .RadRotator_MetroTouch a.rrButton {
+    width: 26px;
+    height: 26px;
+    border-radius: 100px;
+    background-color: #f9f9f9;
+    border: 1px solid #767676;
+    background-image: url('../Common/MetroTouch/metrotouch-sprite.png');
+    background-repeat: no-repeat; }
+  .RadRotator_MetroTouch .rrButton:hover {
+    background-color: #e8e8e8; }
+  .RadRotator_MetroTouch .rrButton:active {
+    background-color: #25a0da; }
+  .RadRotator_MetroTouch a.rrButton.rrButtonLeft {
+    background-position: -12px -112px; }
+  .RadRotator_MetroTouch a.rrButton.rrButtonLeft:hover {
+    background-position: -12px -112px; }
+  .RadRotator_MetroTouch a.rrButton.rrButtonLeft:active {
+    background-position: -112px -112px; }
+  .RadRotator_MetroTouch a.rrButton.rrButtonRight {
+    background-position: -12px -162px; }
+  .RadRotator_MetroTouch a.rrButton.rrButtonRight:hover {
+    background-position: -12px -162px; }
+  .RadRotator_MetroTouch a.rrButton.rrButtonRight:active {
+    background-position: -112px -162px; }
+  .RadRotator_MetroTouch a.rrButton.rrButtonUp {
+    background-position: -12px -12px; }
+  .RadRotator_MetroTouch a.rrButton.rrButtonUp:hover {
+    background-position: -12px -12px; }
+  .RadRotator_MetroTouch a.rrButton.rrButtonUp:active {
+    background-position: -112px -12px; }
+  .RadRotator_MetroTouch a.rrButton.rrButtonDown {
+    top: auto;
+    background-position: -12px -62px; }
+  .RadRotator_MetroTouch a.rrButton.rrButtonDown:hover {
+    background-position: -12px -62px; }
+  .RadRotator_MetroTouch a.rrButton.rrButtonDown:active {
+    background-position: -112px -62px; }
+  .RadRotator_MetroTouch .rrLoadingSign {
+    background: url('Common/loading_small.gif') no-repeat center; }
+  .RadRotator_MetroTouch.rrNoBorder .rrRelativeWrapper {
+    border-width: 0 !important; }

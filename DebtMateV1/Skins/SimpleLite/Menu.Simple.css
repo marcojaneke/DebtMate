@@ -1,0 +1,101 @@
+.RadMenu_Simple {
+  font: 12px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadMenu_Simple .rmGroup,
+  .RadMenu_Simple .rmRootGroup,
+  .RadMenu_Simple .rmMultiColumn {
+    border-color: #828282; }
+  .RadMenu_Simple .rmGroup,
+  .RadMenu_Simple .rmMultiColumn {
+    color: black;
+    background-color: white; }
+  .RadMenu_Simple .rmRootGroup {
+    color: black;
+    background-color: #eaeaea; }
+  .RadMenu_Simple .rmVertical:before,
+  .RadMenu_Simple .rmMultiColumn:before {
+    content: "";
+    width: 2.5em;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #ececec;
+    border-radius: 5px 0 0 5px; }
+  .RadMenu_Simple .rmToggle {
+    top: 0; }
+  .RadMenu_Simple .rmVertical li.rmSeparator {
+    border-top-color: #e6e6e6;
+    border-bottom-color: white; }
+  .RadMenu_Simple .rmHorizontal li.rmSeparator {
+    border-left-color: #e6e6e6;
+    border-right-color: white; }
+  .RadMenu_Simple .rmShadows .rmGroup {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2); }
+  .RadMenu_Simple .rmArrow {
+    border-color: #d9d9d9;
+    background-color: #f2f2f2; }
+    .RadMenu_Simple .rmArrow:hover {
+      background-color: #e6e6e6; }
+  .RadMenu_Simple .rmRootGroup .rmItem {
+    border-color: #9b9b9b; }
+  .RadMenu_Simple .rmRootGroup > .rmItem {
+    padding: 1px; }
+  .RadMenu_Simple .rmRootGroup .rmRootLink {
+    border: 1px solid transparent;
+    padding-top: .17em;
+    padding-bottom: .17em; }
+  .RadMenu_Simple .rmRootGroup a.rmRootLink {
+    *color: black; }
+  .RadMenu_Simple .rmRootGroup .rmRootLink:hover {
+    color: #882501;
+    border-color: #c98400;
+    background-color: #ffe79c; }
+  .RadMenu_Simple .rmRootGroup .rmFocused > .rmRootLink {
+    border-color: #c98400; }
+  .RadMenu_Simple .rmRootGroup .rmSelected > .rmRootLink,
+  .RadMenu_Simple .rmRootGroup .rmExpanded > .rmRootLink {
+    color: #882501;
+    border-color: #882501;
+    background-color: #ffa517; }
+  .RadMenu_Simple .rmPopup,
+  .RadMenu_Simple .rmGroup {
+    border: 1px solid #616161; }
+    .RadMenu_Simple .rmPopup a.rmLink,
+    .RadMenu_Simple .rmGroup a.rmLink {
+      *color: black; }
+    .RadMenu_Simple .rmPopup .rmLink:hover,
+    .RadMenu_Simple .rmPopup .rmExpanded > .rmLink,
+    .RadMenu_Simple .rmGroup .rmLink:hover,
+    .RadMenu_Simple .rmGroup .rmExpanded > .rmLink {
+      color: #882501;
+      border-color: #c98400;
+      background: #ffe79c; }
+    .RadMenu_Simple .rmPopup .rmFocused > .rmLink,
+    .RadMenu_Simple .rmPopup .rmFocused > .rmLink .rmToggle,
+    .RadMenu_Simple .rmGroup .rmFocused > .rmLink,
+    .RadMenu_Simple .rmGroup .rmFocused > .rmLink .rmToggle {
+      border-color: #c98400; }
+    .RadMenu_Simple .rmPopup .rmSelected > .rmLink,
+    .RadMenu_Simple .rmGroup .rmSelected > .rmLink {
+      color: #882501;
+      border-color: #ca4b0c;
+      background: #ffa517; }
+    .RadMenu_Simple .rmPopup .rmDisabled > .rmLink,
+    .RadMenu_Simple .rmGroup .rmDisabled > .rmLink {
+      color: black;
+      border-color: transparent;
+      background: transparent; }
+    .RadMenu_Simple .rmPopup .rmToggle:hover,
+    .RadMenu_Simple .rmGroup .rmToggle:hover {
+      border-color: #c98400;
+      background: #ffe79c; }
+    .RadMenu_Simple .rmPopup .rmExpanded > .rmLink .rmToggle,
+    .RadMenu_Simple .rmGroup .rmExpanded > .rmLink .rmToggle {
+      border-color: #ca4b0c;
+      background: #ffa517; }
+
+.RadMenu_Simple_rtl .rmVertical:before,
+.RadMenu_Simple_rtl .rmMultiColumn:before {
+  left: auto;
+  right: 0;
+  border-radius: 0 4px 4px 0; }

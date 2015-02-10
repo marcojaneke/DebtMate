@@ -1,0 +1,45 @@
+.RadRotator_Silk {
+  font-size: 13px;
+  /*================== The list ========================*/
+  /* For vertical carousel, not set, width defaults to auto */
+  /* Note if you explicitly set width to auto, this might cause */
+  /* problems with Safari */
+  /* When LoadOnDemand */ }
+  .RadRotator_Silk div.rrClipRegion {
+    border: 1px solid #d7d7d7;
+    box-shadow: 0 1px 3px #d7d7d7; }
+  .RadRotator_Silk a.rrButton {
+    width: 2.15385em;
+    height: 2.15385em;
+    border-radius: 0.23077em;
+    background-color: #ebebeb;
+    border-color: #c9c9c9;
+    background-image: linear-gradient(#fefefe 0%, #e3e3e3 100%);
+    background-repeat: no-repeat; }
+  .RadRotator_Silk a.rrButton:hover,
+  .RadRotator_Silk a.rrButton:active {
+    background-color: #b4b4b4;
+    background-image: linear-gradient(#d6d6d6 0%, #939393 100%);
+    border-color: #939393; }
+  .RadRotator_Silk a.rrButton:before {
+    font-size: 1.8em;
+    line-height: 1;
+    font-family: TelerikWebUI, monospace;
+    color: #a9a9a9; }
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .RadRotator_Silk a.rrButton:before {
+      font-size: 1em; }
+    .RadRotator_Silk ::-ms-backdrop, .RadRotator_Silk a.rrButton:before {
+      font-size: .6em; } }
+  .RadRotator_Silk a.rrButton:hover:before {
+    color: #858585; }
+  .RadRotator_Silk a.rrButtonRight:before {
+    content: "\E000"; }
+  .RadRotator_Silk a.rrButtonLeft:before {
+    content: "\E003"; }
+  .RadRotator_Silk a.rrButtonUp:before {
+    content: "\E001"; }
+  .RadRotator_Silk a.rrButtonDown:before {
+    content: "\E002"; }
+  .RadRotator_Silk .rrLoadingSign {
+    background-image: url('../Silk/Common/loading_small.gif'); }

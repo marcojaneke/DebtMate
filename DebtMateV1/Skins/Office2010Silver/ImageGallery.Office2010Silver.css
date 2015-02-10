@@ -1,0 +1,91 @@
+.RadImageGallery_Office2010Silver {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: normal;
+  color: #3b3b3b; }
+  .RadImageGallery_Office2010Silver .rigDescriptionBox {
+    background-color: #a4abb2;
+    background-color: rgba(164, 171, 178, 0.8);
+    color: white; }
+  .RadImageGallery_Office2010Silver .rigToolbar,
+  .RadImageGallery_Office2010Silver .rigCloseButton,
+  .RadImageGallery_Office2010Silver .rigDrawerButton {
+    background-color: #dbdfe4;
+    background-color: rgba(219, 223, 228, 0.8); }
+  .RadImageGallery_Office2010Silver .rigProgressBar div {
+    background-color: #f2c527; }
+  .RadImageGallery_Office2010Silver .rigPager {
+    background-color: #eeeeee;
+    color: #3b3b3b; }
+    .RadImageGallery_Office2010Silver .rigPager a {
+      color: #3b3b3b; }
+    .RadImageGallery_Office2010Silver .rigPager a.rigCurrentPage {
+      color: #000;
+      border-color: #898989;
+      background: #fff; }
+  .RadImageGallery_Office2010Silver .rigIcon {
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadImageGallery_Office2010Silver .rigDotList > a {
+    border-color: #9aa0a6; }
+  .RadImageGallery_Office2010Silver .rigDotList a span {
+    background-color: white; }
+  .RadImageGallery_Office2010Silver .rigDotList a.rigCurrentItem span {
+    background-color: #ffa919;
+    border-color: white; }
+  .RadImageGallery_Office2010Silver .rigTooltip {
+    background-color: #f1f3f5;
+    border-color: #9aa0a6; }
+    .RadImageGallery_Office2010Silver .rigTooltip:after {
+      border-top-color: #f1f3f5; }
+  .RadImageGallery_Office2010Silver .rigPrevButton,
+  .RadImageGallery_Office2010Silver .rigNextButton,
+  .RadImageGallery_Office2010Silver .rigScrollPrevIcon,
+  .RadImageGallery_Office2010Silver .rigScrollNextIcon,
+  .RadImageGallery_Office2010Silver .rigCloseIcon {
+    background-image: url('LightBox/sprite.png'); }
+  .RadImageGallery_Office2010Silver .rigPrevButton {
+    background-position: 0 -140px; }
+  .RadImageGallery_Office2010Silver .rigNextButton {
+    background-position: -60px -140px; }
+  .RadImageGallery_Office2010Silver .rigScrollPrevIcon {
+    background-position: -79px  -49px; }
+  .RadImageGallery_Office2010Silver .rigScrollNextIcon {
+    background-position: -104px -49px; }
+  .RadImageGallery_Office2010Silver.RadImageGallery_RightOutside .rigScrollPrevIcon,
+  .RadImageGallery_Office2010Silver.RadImageGallery_RightOutside .rigScrollNextIcon,
+  .RadImageGallery_Office2010Silver .rigThumbnailsBoxVertical .rigScrollPrevIcon,
+  .RadImageGallery_Office2010Silver .rigThumbnailsBoxVertical .rigScrollNextIcon {
+    background-position: -62px -89px; }
+  .RadImageGallery_Office2010Silver .RadImageGallery_RightOutside .rigScrollNextIcon,
+  .RadImageGallery_Office2010Silver .rigThumbnailsBoxVertical .rigScrollNextIcon {
+    background-position: -96px -89px; }
+  .RadImageGallery_Office2010Silver .rigCloseIcon {
+    background-position: -79px -12px; }
+  .RadImageGallery_Office2010Silver .rigActionButton:hover .rigCloseIcon {
+    background-position: -101px -12px; }
+  .RadImageGallery_Office2010Silver .rigDrawerIcon {
+    background-position: -52px -60px; }
+  .RadImageGallery_Office2010Silver .rigPlayIcon {
+    background-position: 1px -1999px; }
+  .RadImageGallery_Office2010Silver .rigPauseIcon {
+    background-position: 1px -2019px; }
+  .RadImageGallery_Office2010Silver .rigFullScrIcon {
+    background-position: 1px -2099px; }
+  .RadImageGallery_Office2010Silver .rigExtFullScrIcon {
+    background-position: 1px -2119px; }
+  .RadImageGallery_Office2010Silver .rigActionButton:hover .rigPlayIcon {
+    background-position: -19px -1999px; }
+  .RadImageGallery_Office2010Silver .rigActionButton:hover .rigPauseIcon {
+    background-position: -19px -2019px; }
+  .RadImageGallery_Office2010Silver .rigActionButton:hover .rigFullScrIcon {
+    background-position: -19px -2099px; }
+  .RadImageGallery_Office2010Silver .rigActionButton:hover .rigExtFullScrIcon {
+    background-position: -19px -2119px; }
+  .RadImageGallery_Office2010Silver .rigShowThumbnIcon {
+    background-position: 0px -2159px; }
+  .RadImageGallery_Office2010Silver .rigHideThumbnIcon {
+    background-position: 0px -2179px; }
+  .RadImageGallery_Office2010Silver .rigActionButton:hover .rigShowThumbnIcon {
+    background-position: -20px -2159px; }
+  .RadImageGallery_Office2010Silver .rigActionButton:hover .rigHideThumbnIcon {
+    background-position: -20px -2179px; }

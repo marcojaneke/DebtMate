@@ -1,0 +1,23 @@
+.RadDock_Office2007 {
+  background-color: white;
+  color: black;
+  font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #688caf; }
+  .RadDock_Office2007 .rdTitleWrapper {
+    background-image: -webkit-linear-gradient(top, #dee8f5 0%, #c3d8f1 100%);
+    background-image: -moz-linear-gradient(top, #dee8f5 0%, #c3d8f1 100%);
+    background-image: -ms-linear-gradient(top, #dee8f5 0%, #c3d8f1 100%);
+    background-image: -o-linear-gradient(top, #dee8f5 0%, #c3d8f1 100%);
+    background-image: linear-gradient(top, #dee8f5 0%, #c3d8f1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dee8f5', endColorstr='#c3d8f1',GradientType=0 );
+    color: black;
+    border-bottom-color: #688caf; }
+  .RadDock_Office2007 .rdTitleWrapper .rdTitle {
+    color: black; }
+  .RadDock_Office2007 .rdListItem button {
+    background-image: url('../Office2007/Common/radActionsSprite.png');
+    _background-image: url('../Office2007/Common/radActionsSpriteIE6.png'); }
+  .RadDock_Office2007 .rdContentWrapper {
+    color: black; }
+  .RadDock_Office2007.RadDock_Collapsed .rdTitleWrapper {
+    border-bottom-color: #688caf; }

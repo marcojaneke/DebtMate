@@ -1,0 +1,61 @@
+.RadListBox_Telerik {
+  color: black;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 1.33333em; }
+.RadListBox_Telerik .rlbButton {
+  color: black;
+  border-radius: 0.41667em;
+  border-color: #cccccc;
+  background-color: #eeeeee;
+  background-image: url('../Telerik/Common/radGradientButtonSprite.png');
+  background-image: linear-gradient(#fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%); }
+  .RadListBox_Telerik .rlbButton:hover {
+    background-color: #63ac39;
+    background-image: linear-gradient(#d2f8c5 0%, #bcf1ab 50%, #b9f0a7 50%, #a2ea8b 100%); }
+  .RadListBox_Telerik .rlbButton:active {
+    background-color: #93da59;
+    background-image: linear-gradient(#a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%); }
+  .RadListBox_Telerik .rlbButton.rlbDisabled {
+    background-color: #eeeeee;
+    background-image: linear-gradient(#fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%); }
+.RadListBox_Telerik .rlbGroup {
+  background-color: white;
+  border-color: #8e8e8e; }
+.RadListBox_Telerik .rlbItem:hover, .RadListBox_Telerik .rlbItem.rlbHovered {
+  background-color: #9ddf6c;
+  border-color: #9ddf6c; }
+.RadListBox_Telerik .rlbItem.rlbSelected {
+  background-color: #63ac39;
+  border-color: #63ac39; }
+.RadListBox_Telerik .rlbHighlight {
+  background-color: #9ddf6c; }
+.RadListBox_Telerik .rlbCheckAllItems {
+  background-color: #e6e6e6; }
+.RadListBox_Telerik .rlbTemplateContent {
+  border-color: #8e8e8e;
+  background-color: white; }
+.RadListBox_Telerik .rlbHeader,
+.RadListBox_Telerik .rlbFooter {
+  border-color: #8e8e8e; }
+.RadListBox_Telerik .rlbHeader {
+  background-image: -webkit-linear-gradient(white 0, white 40%, #f7f8fa 40%, #f1f2f4 100%);
+  background-image: -moz-linear-gradient(white 0, white 40%, #f7f8fa 40%, #f1f2f4 100%);
+  background-image: -ms-linear-gradient(white 0, white 40%, #f7f8fa 40%, #f1f2f4 100%);
+  background-image: -o-linear-gradient(white 0, white 40%, #f7f8fa 40%, #f1f2f4 100%);
+  background-image: linear-gradient(white 0, white 40%, #f7f8fa 40%, #f1f2f4 100%); }
+.RadListBox_Telerik .rlbFooter {
+  background-image: -webkit-linear-gradient(#fafafa, #e6e6e6);
+  background-image: -moz-linear-gradient(#fafafa, #e6e6e6);
+  background-image: -ms-linear-gradient(#fafafa, #e6e6e6);
+  background-image: -o-linear-gradient(#fafafa, #e6e6e6);
+  background-image: linear-gradient(#fafafa, #e6e6e6); }
+.RadListBox_Telerik .rlbGroup .rlbDropClueAbove {
+  border-top-color: #8e8e8e; }
+.RadListBox_Telerik .rlbGroup .rlbDropClueBelow {
+  border-bottom-color: #8e8e8e; }
+.RadListBox_Telerik .rlbGroup .rlbSelected.rlbDropClueAbove,
+.RadListBox_Telerik .rlbGroup .rlbHovered.rlbDropClueAbove,
+.RadListBox_Telerik .rlbGroup .rlbSelected.rlbDropClueBelow,
+.RadListBox_Telerik .rlbGroup .rlbHovered.rlbDropClueBelow {
+  border-color: #FFF; }

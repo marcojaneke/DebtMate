@@ -1,0 +1,140 @@
+.RadWindow_Silk {
+  background-color: white;
+  color: #767676;
+  font: normal 13px Arial, Helvetica, sans-serif;
+  border-color: #d9d9d9;
+  /* Base Overrides */
+  /* External content iframe styles */
+  /* Button overrides */
+  /* Dialog styles */
+  /* Right to left support */ }
+  .RadWindow_Silk.RadWindow.rwRoundedCorner, .RadWindow_Silk.RadWindow.rwCollapsed.rwRoundedCorner .rwTitleBar, .RadWindow_Silk.RadWindow.rwMinimizedWindow.rwRoundedCorner .rwTitleBar {
+    border-radius: 0.5em; }
+  .RadWindow_Silk.RadWindow.rwRoundedCorner .rwTitleBar {
+    border-radius: 0.5em 0.5em 0em 0em; }
+  .RadWindow_Silk .rwTitleBar {
+    background-image: -webkit-linear-gradient(top, white 0%, #d6d5d4 100%);
+    background-image: -moz-linear-gradient(top, white 0%, #d6d5d4 100%);
+    background-image: -ms-linear-gradient(top, white 0%, #d6d5d4 100%);
+    background-image: -o-linear-gradient(top, white 0%, #d6d5d4 100%);
+    background-image: linear-gradient(top, white 0%, #d6d5d4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='#d6d5d4',GradientType=0 ); }
+  .RadWindow_Silk.rwCollapsed .rwTitleBar {
+    border-bottom-color: #828282; }
+  .RadWindow_Silk .rwTitleWrapper .rwTitle {
+    color: #767676;
+    font-size: 1.231em;
+    font-weight: normal; }
+  .RadWindow_Silk span.rwIcon {
+    top: .5em;
+    background-image: url('../Silk/Window/rwIcon.png');
+    background-position: 0 -80px; }
+  .RadWindow_Silk ul.rwCommands {
+    top: .1em; }
+  .RadWindow_Silk .rwListItem .rwCommandButton,
+  .RadWindow_Silk .rwResize {
+    background-image: url('../Silk/Common/radActionsSprite.png');
+    _background-image: url('../Silk/Common/radActionsSpriteIE6.png'); }
+  .RadWindow_Silk .rwContent {
+    background-color: white;
+    border: 0; }
+  .RadWindow_Silk .rwStatusBar {
+    background-color: #e6e6e6;
+    border-color: transparent;
+    margin: 0.66667em -0.5em 0em -0.5em;
+    border-radius: 0em 0em 0.5em 0.5em; }
+  .RadWindow_Silk .rwStatusBar input {
+    color: #767676;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif; }
+  .RadWindow_Silk.rwLoading .rwExternalContent {
+    background-image: url('../Silk/Common/loading.gif'); }
+  .RadWindow_Silk .rwLoading.rwStatusBar {
+    background-image: url('../Silk/Common/loading_small.gif'); }
+  .RadWindow_Silk li.rwListItem {
+    width: 28px;
+    height: 28px; }
+  .RadWindow_Silk li.rwListItem .rwCommandButton {
+    width: 28px;
+    height: 28px;
+    margin: 0em 0.16667em; }
+  .RadWindow_Silk .rwCommandButton.rwCloseButton, .RadWindow_Silk.rwInactiveWindow .rwCommandButton.rwCloseButton:hover {
+    background-position: -11px -1911px; }
+  .RadWindow_Silk .rwCommandButton.rwCloseButton:hover {
+    background-position: -61px -1911px; }
+  .RadWindow_Silk .rwCommandButton.rwPinButton, .RadWindow_Silk.rwInactiveWindow .rwCommandButton.rwPinButton:hover {
+    background-position: -11px -1261px; }
+  .RadWindow_Silk .rwCommandButton.rwPinButton:hover {
+    background-position: -61px -1261px; }
+  .RadWindow_Silk .rwCommandButton.rwPinButton.on, .RadWindow_Silk.rwInactiveWindow .rwCommandButton.rwPinButton.on:hover {
+    background-position: -11px -1211px; }
+  .RadWindow_Silk .rwCommandButton.rwPinButton.on:hover {
+    background-position: -61px -1211px; }
+  .RadWindow_Silk .rwCommandButton.rwMinimizeButton,
+  .RadWindow_Silk .rwInactiveWindow .rwCommandButton.rwMinimizeButton:hover {
+    background-position: -11px -1511px; }
+  .RadWindow_Silk .rwCommandButton.rwMinimizeButton:hover {
+    background-position: -61px -1511px; }
+  .RadWindow_Silk .rwCommandButton.rwMaximizeButton,
+  .RadWindow_Silk .rwInactiveWindow .rwCommandButton.rwMaximizeButton:hover {
+    background-position: -11px -1611px; }
+  .RadWindow_Silk .rwCommandButton.rwMaximizeButton:hover {
+    background-position: -61px -1611px; }
+  .RadWindow_Silk.rwMaximizedWindow .rwMaximizeButton, .RadWindow_Silk.rwMinimizedWindow .rwMinimizeButton {
+    background-position: -11px -1811px; }
+  .RadWindow_Silk.rwMaximizedWindow .rwMaximizeButton:hover, .RadWindow_Silk.rwMinimizedWindow .rwMinimizeButton:hover {
+    background-position: -61px -1811px; }
+  .RadWindow_Silk .rwCommandButton.rwReloadButton,
+  .RadWindow_Silk .rwInactiveWindow .rwCommandButton.rwReloadButton:hover {
+    background-position: -11px -1361px; }
+  .RadWindow_Silk .rwCommandButton.rwReloadButton:hover {
+    background-position: -61px -1361px; }
+  .RadWindow_Silk .rwStatusBar span.rwResize {
+    background-position: -17px -2217px; }
+  .RadWindow_Silk div.rwDialog {
+    margin: 0.41667em 0em 0em; }
+  .RadWindow_Silk .rwDialogButtons input {
+    font-size: 13px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.16667em 0.5em;
+    border-color: #c9c9c9;
+    color: #767676;
+    background-color: #e3e3e3;
+    background-image: linear-gradient(#fefefe 0%, #e3e3e3 100%);
+    border-color: #c9c9c9; }
+  .RadWindow_Silk .rwDialogButtons input:hover {
+    border-color: #939393;
+    color: #444444;
+    background-color: #939393;
+    background-image: linear-gradient(#d6d6d6 0%, #939393 100%);
+    box-shadow: inset 0 0 1px white; }
+  .RadWindow_Silk .rwDialogButtons input:active {
+    border-color: darkgrey;
+    color: black;
+    background-color: #dedede;
+    background-image: linear-gradient(#c7c7c7 0%, #dedede 100%);
+    box-shadow: inset 0 0 1px white; }
+  .RadWindow_Silk .rwPromptInput {
+    background-color: white;
+    color: #555555;
+    border-color: #d7d7d7;
+    font-size: 13px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif; }
+  .RadWindow_Silk .rwPromptInput:hover {
+    background-color: white;
+    color: #444444;
+    border-color: #36b4cb; }
+  .RadWindow_Silk .rwPromptInput:active,
+  .RadWindow_Silk .rwPromptInput:focus {
+    background-color: white;
+    color: black;
+    border-color: #36b4cb; }
+  .RadWindow_Silk .rwPromptInput:disabled {
+    background-color: white;
+    color: #d7d7d7;
+    border-color: #d7d7d7; }
+  .RadWindow_Silk.RadWindow.rwRtl .rwStatusBar .rwResize {
+    background-position: -17px -2267px; }
+

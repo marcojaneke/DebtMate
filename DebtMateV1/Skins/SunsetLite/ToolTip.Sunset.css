@@ -1,0 +1,16 @@
+.RadToolTip_Sunset {
+  background-color: #fff3a8;
+  color: #272722;
+  font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #bb903e; }
+  .RadToolTip_Sunset .rtTitleWrapper .rtTitle {
+    color: #272722; }
+  .RadToolTip_Sunset .rtClose {
+    background-image: url('../Sunset/ToolTip/ToolTipSprites.png'); }
+  .RadToolTip_Sunset .rtContent {
+    background-color: #fff3a8;
+    color: #272722; }
+  .RadToolTip_Sunset .rtCallout {
+    background-image: url('../Sunset/ToolTip/Callouts.gif'); }
+  .RadToolTip_Sunset.rtLoading {
+    background-image: url('../Sunset/Common/loading.gif'); }

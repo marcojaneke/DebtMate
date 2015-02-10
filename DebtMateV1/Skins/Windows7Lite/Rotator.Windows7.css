@@ -1,0 +1,21 @@
+.RadRotator_Windows7 {
+  /*================== The list ========================*/
+  /* For vertical carousel, not set, width defaults to auto */
+  /* Note if you explicitly set width to auto, this might cause */
+  /* problems with Safari */
+  /* When LoadOnDemand */ }
+  .RadRotator_Windows7 .rrClipRegion {
+    border-color: #b8cbde; }
+  .RadRotator_Windows7 a.rrButton {
+    background-image: linear-gradient(#eef3f8 0%, #eff4fb 50%, #d7e4f4 50%, #ccdbed 100%);
+    border-color: #c2cedb;
+    border-radius: 45px; }
+  .RadRotator_Windows7 .rrButton:hover {
+    background-image: linear-gradient(#c4cbd9 0%, #dbdfe8 50%, #dfe3eb 50%, #f5f7fa 100%);
+    border-color: #9bc9ff; }
+  .RadRotator_Windows7 a.rrButton:before {
+    color: #4c607a; }
+  .RadRotator_Windows7 a.rrButton:hover:before {
+    color: #4c607a; }
+  .RadRotator_Windows7 .rrLoadingSign {
+    background-image: url('../Windows7/Common/loading_small.gif'); }

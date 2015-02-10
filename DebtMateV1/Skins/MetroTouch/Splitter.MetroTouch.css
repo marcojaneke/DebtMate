@@ -1,0 +1,115 @@
+.RadSplitter_MetroTouch {
+  /* Borders */
+  /* When ShowContentDuringLoad="false" */
+  /* RadSplitBar/RadSlidingPane resize elements */
+  /* RadSlidingPane header */
+  /* RadSlidingPane header elements */ }
+  .RadSplitter_MetroTouch,
+  .RadSplitter_MetroTouch .rspPaneTabContainer,
+  .RadSplitter_MetroTouch .rspPane,
+  .RadSplitter_MetroTouch td.rspResizeBar,
+  .RadSplitter_MetroTouch .rspSlideContainerResize,
+  .RadSplitter_MetroTouch .rspPaneHorizontal,
+  .RadSplitter_MetroTouch .rspResizeBarHorizontal,
+  .RadSplitter_MetroTouch .rspSlideContainerResizeHorizontal {
+    border-color: #cdcdcd; }
+  .RadSplitter_MetroTouch div.rspSlideTitle,
+  .RadSplitter_MetroTouch span.rspPaneTabText {
+    font-size: 16px; }
+  .RadSplitter_MetroTouch .rspLoading {
+    background-image: url('Common/loading.gif'); }
+  .RadSplitter_MetroTouch .rspResizeBar,
+  .RadSplitter_MetroTouch .rspResizeBarOver,
+  .RadSplitter_MetroTouch td.rspSlideContainerResize,
+  .RadSplitter_MetroTouch td.rspResizeBar,
+  .RadSplitter_MetroTouch .rspResizeBarOver .rspCollapseBarExpand,
+  .RadSplitter_MetroTouch .rspResizeBarOver .rspCollapseBarCollapse,
+  .RadSplitter_MetroTouch .rspResizeBarOverHorizontal .rspCollapseBarHorizontalExpand,
+  .RadSplitter_MetroTouch .rspResizeBarOverHorizontal .rspCollapseBarHorizontalCollapse,
+  .RadSplitter_MetroTouch div.rspPaneTabContainer {
+    background-color: white; }
+  .RadSplitter_MetroTouch .rspSlideContainer td.rspSlideContainerResize {
+    padding: 0 2px;
+    border-color: #cdcdcd; }
+  .RadSplitter_MetroTouch input.rspCollapseBarExpand,
+  .RadSplitter_MetroTouch input.rspCollapseBarCollapse {
+    background-color: #f9f9f9;
+    background-image: url('Common/radActionsSprite.png');
+    height: 27px;
+    line-height: 27px;
+    width: 14px;
+    margin: 2px 0; }
+  .RadSplitter_MetroTouch input.rspCollapseBarExpand {
+    background-position: -18px -161.5px; }
+  .RadSplitter_MetroTouch input.rspCollapseBarCollapse {
+    background-position: -18px -111.5px; }
+  .RadSplitter_MetroTouch td.rspSlideContainerResizeOver,
+  .RadSplitter_MetroTouch td.rspResizeBarOver,
+  .RadSplitter_MetroTouch td.rspResizeBarOverHorizontal,
+  .RadSplitter_MetroTouch td.rspSlideContainerResizeOverHorizontal {
+    background-color: #25a0da; }
+  .RadSplitter_MetroTouch .rspResizeBarHorizontal,
+  .RadSplitter_MetroTouch .rspSlideContainerResizeHorizontal,
+  .RadSplitter_MetroTouch .rspResizeBarOverHorizontal,
+  .RadSplitter_MetroTouch .rspSlideContainerResizeOverHorizontal {
+    background-color: white;
+    border-bottom-color: #cdcdcd; }
+  .RadSplitter_MetroTouch input.rspCollapseBarHorizontalExpand,
+  .RadSplitter_MetroTouch input.rspCollapseBarHorizontalCollapse {
+    width: 27px;
+    height: 14px;
+    line-height: 27px;
+    background-color: #f9f9f9;
+    margin: 0 1px;
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadSplitter_MetroTouch input.rspCollapseBarHorizontalExpand {
+    background-position: -11.5px -68px; }
+  .RadSplitter_MetroTouch input.rspCollapseBarHorizontalCollapse {
+    background-position: -11.5px -18px; }
+  .RadSplitter_MetroTouch .rspSlideContainer td.rspSlideContainerResizeHorizontal {
+    padding: 2px 0 3px 0; }
+  .RadSplitter_MetroTouch .rspPaneTabContainer:hover {
+    background-color: #f9f9f9; }
+  .RadSplitter_MetroTouch .rspTabsContainer .rspPaneTabContainerDocked {
+    background-color: #25a0da !important; }
+  .RadSplitter_MetroTouch .rspTabsContainer .rspPaneTabContainerDocked span {
+    color: white; }
+  .RadSplitter_MetroTouch tr.rspSlideHeader,
+  .RadSplitter_MetroTouch td.rspSlideTitleContainer {
+    background-color: #25a0da; }
+  .RadSplitter_MetroTouch .rspSlideHeader table {
+    height: 49px; }
+  .RadSplitter_MetroTouch .rspSlideHeader .rspSlideTitle {
+    color: white;
+    margin: 0 5px 0 15px; }
+  .RadSplitter_MetroTouch div.rspSlideHeaderDockIcon,
+  .RadSplitter_MetroTouch div.rspSlideHeaderUndockIcon,
+  .RadSplitter_MetroTouch div.rspSlideHeaderCollapseIcon {
+    height: 28px;
+    width: 28px;
+    border-radius: 45px;
+    border: 1px solid transparent;
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadSplitter_MetroTouch div.rspSlideHeaderDockIcon:hover,
+  .RadSplitter_MetroTouch div.rspSlideHeaderUndockIcon:hover,
+  .RadSplitter_MetroTouch div.rspSlideHeaderCollapseIcon:hover {
+    border: 1px solid white; }
+  .RadSplitter_MetroTouch div.rspSlideHeaderDockIcon {
+    background-position: -111px -1261px; }
+  .RadSplitter_MetroTouch div.rspSlideHeaderUndockIcon {
+    background-position: -111px -1211px; }
+  .RadSplitter_MetroTouch div.rspSlideHeaderCollapseIcon {
+    background-position: -111px -1911px; }
+  .RadSplitter_MetroTouch .rspSlideHeader,
+  .RadSplitter_MetroTouch .rspSlideTitleContainer,
+  .RadSplitter_MetroTouch .rspBottom .rspPaneTabContainer,
+  .RadSplitter_MetroTouch .rspTop .rspPaneTabContainer {
+    background-color: white; }
+  .RadSplitter_MetroTouch .rspPaneTabContainer:hover {
+    background-color: #e8e8e8; }
+  .RadSplitter_MetroTouch .rspPaneTabText {
+    color: black; }
+  .RadSplitter_MetroTouch .rspSlideTitleContainer,
+  .RadSplitter_MetroTouch .rspSlideHeaderIconWrapper {
+    border-bottom: 1px solid #cdcdcd; }
+

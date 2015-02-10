@@ -1,0 +1,15 @@
+.ReminderDialog_Simple .rsRemList .rsLi:hover {
+  color: black;
+  background-color: #fff7ac; }
+.ReminderDialog_Simple .rsRemList .rsLiSelected,
+.ReminderDialog_Simple .rsRemList .rsLiSelected:hover {
+  color: #882501;
+  background-color: #ffe79c; }
+.ReminderDialog_Simple .rsRemSnoozePanel .rsLi:before {
+  border-color: white;
+  background-color: white;
+  box-shadow: 0 0 1px #616161; }
+.ReminderDialog_Simple .rsRemSnoozePanel .rsLi:hover:before {
+  background-color: #616161; }
+.ReminderDialog_Simple .rsRemSnoozePanel .rsLi:active:before {
+  background-color: #ca4b0c; }

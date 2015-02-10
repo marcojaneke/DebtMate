@@ -1,0 +1,24 @@
+.RadNotification_Sunset {
+  border: 1px solid #938879;
+  background-color: #e1dac7;
+  /* base style overwrites */ }
+  .RadNotification_Sunset.rnShadows {
+    box-shadow: 2px 2px 3px #e0cbc3; }
+  .RadNotification_Sunset .rnTitleBar {
+    background-image: -webkit-linear-gradient(top, #e1dac7 0%, #e1dac7 100%);
+    background-image: -moz-linear-gradient(top, #e1dac7 0%, #e1dac7 100%);
+    background-image: -ms-linear-gradient(top, #e1dac7 0%, #e1dac7 100%);
+    background-image: -o-linear-gradient(top, #e1dac7 0%, #e1dac7 100%);
+    background-image: linear-gradient(top, #e1dac7 0%, #e1dac7 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e1dac7', endColorstr='#e1dac7',GradientType=0 );
+    border-bottom: 1px solid transparent; }
+  .RadNotification_Sunset .rnCommands a {
+    background-image: url('Common/radActionsSprite.png');
+    _background-image: url('Common/radActionsSpriteIE6.png'); }
+  .RadNotification_Sunset .rnTitleBarTitle {
+    color: #272722; }
+  .RadNotification_Sunset .rnContentWrapper {
+    border-top: 1px solid #938879; }
+  .RadNotification_Sunset .rnCommands {
+    margin: 0.16667em 0em 0em; }
+

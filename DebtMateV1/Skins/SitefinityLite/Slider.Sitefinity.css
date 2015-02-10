@@ -1,0 +1,102 @@
+.RadSlider_Sitefinity {
+  /* horizontal slider */
+  /* end horizontal slider */
+  /* vertical slider */
+  /* end vertical slider */
+  /* horizontal slider - TrackPosition=Top/Bottom */
+  /* vertical slider - TrackPosition=Left/Right */
+  /* horizontal slider - TrackPosition=Center */
+  /* vertical slider - TrackPosition=Center */ }
+  .RadSlider_Sitefinity .rslTrack {
+    border-color: #dbdfe6; }
+  .RadSlider_Sitefinity div.rslTop a.rslDraghandle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#e1e5ea', EndColorStr='#c6c8cb')";
+    background-image: linear-gradient(#e1e5ea, #c6c8cb);
+    border-color: #cccccc; }
+  .RadSlider_Sitefinity a.rslHandle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fff', EndColorStr='#fff')";
+    background-image: linear-gradient(white, white);
+    border-color: #cccccc;
+    border-radius: 45px; }
+  .RadSlider_Sitefinity a.rslHandle:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fff', EndColorStr='#fff')";
+    background-image: linear-gradient(white, white);
+    border-color: #666666; }
+  .RadSlider_Sitefinity a.rslHandle:before {
+    color: #606060; }
+  .RadSlider_Sitefinity a.rslHandle:hover:before {
+    color: #000; }
+  .RadSlider_Sitefinity .rslHorizontal a.rslDraghandle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#e1e5ea', EndColorStr='#c6c8cb')";
+    background-image: linear-gradient(#e1e5ea, #c6c8cb);
+    border-color: #cccccc;
+    border-radius: 45px; }
+  .RadSlider_Sitefinity .rslHorizontal a.rslDraghandle:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ced0d3', EndColorStr='#b9bec3')";
+    background-image: linear-gradient(#ced0d3, #b9bec3);
+    border-color: #cccccc; }
+  .RadSlider_Sitefinity .rslHorizontal a.rslDraghandle:focus,
+  .RadSlider_Sitefinity .rslHorizontal a.rslDraghandle:active {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ced0d3', EndColorStr='#b9bec3')";
+    background-image: linear-gradient(#ced0d3, #b9bec3);
+    border-color: #666666; }
+  .RadSlider_Sitefinity .rslHorizontal .rslTrack {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#e8e9ea', EndColorStr='#dcddde')";
+    background-image: linear-gradient(#e8e9ea, #dcddde);
+    border-color: #fdfefe #e2e3e4 #dcddde; }
+  .RadSlider_Sitefinity .rslHorizontal .rslSelectedregion {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#aeb2b8', EndColorStr='#777b82')";
+    background-image: linear-gradient(#aeb2b8, #777b82); }
+  .RadSlider_Sitefinity .rslHorizontal .rslItem {
+    background-image: url('../Sitefinity/Slider/ItemHorizontalBgr.gif'); }
+  .RadSlider_Sitefinity .rslVertical .rslTrack {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#e8e9ea', EndColorStr='#dcddde', GradientType=1)";
+    background-image: linear-gradient(to left, #e8e9ea, #dcddde);
+    border-color: #fdfefe #e2e3e4 #dcddde; }
+  .RadSlider_Sitefinity .rslVertical .rslSelectedregion {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#aeb2b8', EndColorStr='#777b82', GradientType=1)";
+    background-image: linear-gradient(to left, #aeb2b8, #777b82); }
+  .RadSlider_Sitefinity .rslVertical a.rslDraghandle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#e1e5ea', EndColorStr='#c6c8cb', GradientType=1)";
+    background-image: linear-gradient(to left, #e1e5ea, #c6c8cb);
+    border-color: #cccccc;
+    border-radius: 45px; }
+  .RadSlider_Sitefinity .rslVertical a.rslDraghandle:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ced0d3', EndColorStr='#b9bec3', GradientType=1)";
+    background-image: linear-gradient(to left, #ced0d3, #b9bec3);
+    border-color: #cccccc; }
+  .RadSlider_Sitefinity .rslVertical a.rslDraghandle:focus,
+  .RadSlider_Sitefinity .rslVertical a.rslDraghandle:active {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ced0d3', EndColorStr='#b9bec3', GradientType=1)";
+    background-image: linear-gradient(to left, #ced0d3, #b9bec3);
+    border-color: #666666; }
+  .RadSlider_Sitefinity .rslVertical .rslItem {
+    background-image: url('../Sitefinity/Slider/ItemVerticalBgr.gif'); }
+  .RadSlider_Sitefinity .rslLeft a.rslDraghandle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#e1e5ea', EndColorStr='#c6c8cb', GradientType=1)";
+    background-image: linear-gradient(to left, #e1e5ea, #c6c8cb); }
+  .RadSlider_Sitefinity .rslItem,
+  .RadSlider_Sitefinity .rslLargeTick span {
+    color: black; }
+  .RadSlider_Sitefinity .rslItemsWrapper .rslItemSelected {
+    color: black; }
+  .RadSlider_Sitefinity .rslTop .rslSmallTick,
+  .RadSlider_Sitefinity .rslBottom .rslSmallTick {
+    background-image: url('../Sitefinity/Slider/SmallChangeHorizontal.gif'); }
+  .RadSlider_Sitefinity .rslTop .rslLargeTick,
+  .RadSlider_Sitefinity .rslBottom .rslLargeTick {
+    background-image: url('../Sitefinity/Slider/LargeChangeHorizontal.gif'); }
+  .RadSlider_Sitefinity .rslLeft .rslSmallTick,
+  .RadSlider_Sitefinity .rslRight .rslSmallTick {
+    background-image: url('../Sitefinity/Slider/SmallChangeVertical.gif'); }
+  .RadSlider_Sitefinity .rslLeft .rslLargeTick,
+  .RadSlider_Sitefinity .rslRight .rslLargeTick {
+    background-image: url('../Sitefinity/Slider/LargelChangeVertical.gif'); }
+  .RadSlider_Sitefinity .rslMiddle .rslSmallTick {
+    background-image: url('../Sitefinity/Slider/SmallChangeMiddleHorizontal.gif'); }
+  .RadSlider_Sitefinity .rslLargeTick {
+    background-image: url('../Sitefinity/Slider/LargeChangeMiddleHorizontal.gif'); }
+  .RadSlider_Sitefinity .rslCenter .rslSmallTick {
+    background-image: url('../Sitefinity/Slider/SmallChangeCenterVertical.gif'); }
+  .RadSlider_Sitefinity .rslCenter .rslLargeTick {
+    background-image: url('../Sitefinity/Slider/LargelChangeCenterVertical.gif'); }

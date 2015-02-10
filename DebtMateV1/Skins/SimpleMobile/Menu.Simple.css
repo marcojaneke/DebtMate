@@ -1,0 +1,31 @@
+.RadMenu_Simple .rmRootToggle {
+  color: black;
+  border-color: #7e7e7e;
+  background-color: #e2e2e2; }
+  .RadMenu_Simple .rmRootToggle:active, .RadMenu_Simple .rmRootToggle.rmExpanded {
+    color: #882501;
+    border-color: #ca4b0c;
+    background-color: #ffa517; }
+.RadMenu_Simple.rmDisabled .rmRootToggle:active, .RadMenu_Simple.rmDisabled .rmRootToggle.rmExpanded {
+  color: black;
+  border-color: #7e7e7e;
+  background-color: #e2e2e2; }
+
+.RadMenuPopup_Simple {
+  color: black;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #616161;
+  background-color: white; }
+  .RadMenuPopup_Simple:before {
+    border-color: transparent transparent #616161; }
+  .RadMenuPopup_Simple:after {
+    border-color: transparent transparent white; }
+.RadMenuPopup_Simple .rmItem {
+  border-color: #999999; }
+  .RadMenuPopup_Simple .rmItem.rmSelected {
+    color: black;
+    background-color: #ffe79c; }
+.RadMenuPopup_Simple .rmLoading:after {
+  background-color: rgba(255, 255, 255, 0.8); }
+.RadMenuPopup_Simple .rmLoadingIcon:after {
+  background-image: url('../Simple/Common/loading_small.gif'); }

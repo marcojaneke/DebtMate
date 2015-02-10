@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DebtMateDataClasses">
+  <DataContextMoniker Name="/DebtMateDataClassesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="aa3b3835-16ea-411d-bdcc-992d24376f7e" absoluteBounds="0.5, 0.5, 2, 4.0785139973958326">
+      <DataClassMoniker Name="/DebtMateDataClassesDataContext/CompanySetup" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a50854bc-63c7-4e94-b2d9-9fe7acf138c5" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a6353409-3f00-4e71-82b8-aafa7bbad09f" absoluteBounds="5.25, 0.5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/DebtMateDataClassesDataContext/Debtor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d526febd-54bb-4440-84a6-48809067cdef" absoluteBounds="5.265, 0.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="15999116-be6d-4f0b-b0e0-e53d24a08cd5" absoluteBounds="7.75, 0.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DebtMateDataClassesDataContext/Gender" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d7a37903-e308-40e7-9043-f65d1f5ce573" absoluteBounds="7.765, 0.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c6a4b80c-0c46-4a08-849e-1a762e33fe06" absoluteBounds="7.75, 2, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DebtMateDataClassesDataContext/MaritalStatuse" />
+      <nestedChildShapes>
+        <elementListCompartment Id="92df6a3c-d73b-4c74-ade6-3e189e3f383c" absoluteBounds="7.765, 2.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.25 : 1.19314697265625); (7.75 : 1.19314697265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DebtMateDataClassesDataContext/Debtor/Debtor_Gender" />
+      <nodes>
+        <classShapeMoniker Id="a6353409-3f00-4e71-82b8-aafa7bbad09f" />
+        <classShapeMoniker Id="15999116-be6d-4f0b-b0e0-e53d24a08cd5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.25 : 2.42390055338542); (7.75 : 2.42390055338542)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DebtMateDataClassesDataContext/Debtor/Debtor_MaritalStatuse" />
+      <nodes>
+        <classShapeMoniker Id="a6353409-3f00-4e71-82b8-aafa7bbad09f" />
+        <classShapeMoniker Id="c6a4b80c-0c46-4a08-849e-1a762e33fe06" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="122c12f8-bd93-46eb-8ffb-a2d7c048b14c" absoluteBounds="2.75, 0.5, 2, 4.2708154296875">
+      <DataClassMoniker Name="/DebtMateDataClassesDataContext/DebtorContactDetail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b13fa516-1681-4f5c-8d24-914266d6a2d2" absoluteBounds="2.765, 0.96, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.75 : 1.67390055338542); (5.25 : 1.67390055338542)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DebtMateDataClassesDataContext/DebtorContactDetail/DebtorContactDetail_Debtor" />
+      <nodes>
+        <classShapeMoniker Id="122c12f8-bd93-46eb-8ffb-a2d7c048b14c" />
+        <classShapeMoniker Id="a6353409-3f00-4e71-82b8-aafa7bbad09f" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="57fba386-eaee-407e-b3b8-309888349141" absoluteBounds="5.625, 4, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DebtMateDataClassesDataContext/CaseStatuse" />
+      <nestedChildShapes>
+        <elementListCompartment Id="77152ecf-6aad-4ba9-8742-53899db9913d" absoluteBounds="5.64, 4.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ebea414f-84e8-442d-ade3-0a082b1d5f1b" absoluteBounds="5.5, 3.125, 2, 4.0785139973958326">
+      <DataClassMoniker Name="/DebtMateDataClassesDataContext/CompanySetup1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b90cf3bf-bf42-4b7e-8415-83c2ab39d000" absoluteBounds="5.515, 3.585, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f5b4586f-bce4-4b15-a249-2ffda1bcba44" absoluteBounds="2.25, 5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DebtMateDataClassesDataContext/MaritalStatuse1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="14cb06db-dca5-4bfd-ad95-6f21fcc59c99" absoluteBounds="2.265, 5.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3892020f-ff75-41ad-b724-eef8653ce52f" absoluteBounds="0.5, 4.875, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DebtMateDataClassesDataContext/Gender1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1da1f6e1-5c57-4fbc-b364-2823c9fded48" absoluteBounds="0.515, 5.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

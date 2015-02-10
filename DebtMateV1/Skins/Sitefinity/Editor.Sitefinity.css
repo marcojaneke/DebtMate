@@ -1,0 +1,256 @@
+.Sitefinity {
+  /* common settings for .reModule, .reEditorModes and .reWrapper */
+  /* end of module */
+  /*Toolbar sprites*/
+  /* these settings will not be included in the common CSS file of RadEditor */
+  /* end of reTool_text */
+  /* add weight to the selector for IE6 so it is applied */
+  /* end of reSplitButton */
+  /* reDropdown */
+  /* InsertTable itself is a kind of tool strip, so it must be styled as a toolstrip */
+  /* spinbox */
+  /* editor input elements */
+  /* DOM inspector */
+  /* end of DOM inspector */
+  /* end of expanded dropdowns */
+  /* color picker */
+  /* end of color picker */
+  /* ajax spellchecker */
+  /* ajax spellchecker */
+  /* custom links */
+  /* end of custom links */
+  /* insert table dropdown */
+  /* Popup Comments */
+  /* Commnet popups */
+  /* Right to Left */ }
+  .Sitefinity.RadEditor .reContentCell {
+    border: 1px solid #cccccc;
+    background: white; }
+  .Sitefinity .reEmptyMessage {
+    color: #999999; }
+  .Sitefinity.reColorPicker, .Sitefinity.reInsertTable, .Sitefinity.reDropDownBody, .Sitefinity.reCustomLinks a:hover {
+    border: 1px solid #cccccc; }
+  .Sitefinity.reDropDownBody table {
+    background: transparent; }
+  .Sitefinity.RadEditor .reBottomZone .reModule {
+    border-top: 0; }
+  .Sitefinity.RadEditor .reModule {
+    border-top: 1px solid #cccccc; }
+  .Sitefinity.reCustomLinks a, .Sitefinity.reCustomLinks a:link, .Sitefinity.reCustomLinks a:visited {
+    border: 1px solid #fff;
+    /* should be the same as the background of the dropdown */
+    color: black !important; }
+  .Sitefinity.reCustomLinks a:hover {
+    background-color: #828282;
+    border-top: 1px solid #8d8d8d;
+    border-right: 1px solid #717171;
+    border-bottom: 1px solid #6c6c6c;
+    border-left: 1px solid #7a7a7a; }
+  .Sitefinity .reDialog .reTool:hover,
+  .Sitefinity .reToolbar .reTool:hover,
+  .Sitefinity .reModule .reTool:hover,
+  .Sitefinity .reToolbar .reTool.reTool_selected,
+  .Sitefinity .reToolbar .reTool.reTool_selected:hover,
+  .Sitefinity .reToolbar .reTool_text:hover,
+  .Sitefinity .reToolbar .reTool_text.reTool_selected,
+  .Sitefinity .reToolbar .reTool_text.reTool_selected:hover,
+  .Sitefinity .reTool .split_arrow,
+  .Sitefinity .reSplitButton.reTool_text .split_arrow,
+  .Sitefinity .reToolbar .reTool_text .split_arrow,
+  .Sitefinity .reDialog .reTool.reSplitButton,
+  .Sitefinity .reModule .reTool.reSplitButton,
+  .Sitefinity .reDropdown,
+  .Sitefinity .reTool_disabled.reDropdown:hover,
+  .Sitefinity .reResizeCell div, .Sitefinity.reInsertTable .reToolbar li .reTool:hover, .Sitefinity.RadEditor.reRtl .reDropdown:hover {
+    background-image: url('Editor/ToolBarSprites.gif'); }
+  .Sitefinity.RadEditor .reTlbVertical li,
+  .Sitefinity .reDropdown:hover, .Sitefinity.RadEditor .reTlbVertical .reToolbar.Default .reGrip, .Sitefinity.RadEditor.reTlbVertical .reToolbar.Default .reSeparator,
+  .Sitefinity .reTlbVertical .reTool:hover,
+  .Sitefinity .reTlbVertical .reTool_text.reSplitButton:hover,
+  .Sitefinity .reTlbVertical .reSplitButton:hover,
+  .Sitefinity .reTlbVertical .reTool_text:hover,
+  .Sitefinity .reTlbVertical .reTool.reTool_selected,
+  .Sitefinity .reTlbVertical .reTool_text.reTool_selected,
+  .Sitefinity .reTlbVertical .reTool_text.reTool_selected:hover, .Sitefinity.reDropDownBody .reTlbVertical ul li a:hover, .Sitefinity.reDropDownBody .reTlbVertical .reToolbar,
+  .Sitefinity .reMode_selected, .Sitefinity.reDropDownBody.reInsertTable div.reTlbVertical a.reTool_text:hover {
+    background-image: url('Editor/ToolbarVerticalSprites.gif'); }
+  .Sitefinity .reToolbar li {
+    color: black; }
+  .Sitefinity .reToolbar .reTool_text:hover,
+  .Sitefinity .reToolbar .reTool_text.reTool_selected,
+  .Sitefinity .reToolbar .reTool_text.reTool_selected:hover {
+    margin-left: 0;
+    margin-right: 0;
+    border-left: 1px solid #878787;
+    border-right: 1px solid #878787; }
+  .Sitefinity .reToolbar .reTool_text.reTool_disabled,
+  .Sitefinity .reToolbar .reTool_text.reTool_disabled:hover {
+    margin-left: 0;
+    margin-right: 0;
+    border: 0; }
+  .Sitefinity .reToolbar .reTool.reSplitButton.reTool_disabled:hover {
+    _background: none; }
+  .Sitefinity .reDropdown:link,
+  .Sitefinity .reDropdown:visited {
+    color: black !important; }
+  .Sitefinity .reDropdown,
+  .Sitefinity .reTool_disabled.reDropdown:hover {
+    border-top: 1px solid #abadb3;
+    border-right: 1px solid #dbdfe6;
+    border-bottom: 1px solid #e3e9ef;
+    border-left: 1px solid #e2e3ea;
+    background-color: #fff; }
+  .Sitefinity .reDropdown:hover {
+    border-top: 1px solid #dfdfdf;
+    border-right: 1px solid #949494;
+    border-bottom: 1px solid #949494;
+    border-left: 1px solid #dfdfdf; }
+  .Sitefinity.reInsertTable {
+    background-color: white; }
+  .Sitefinity table.reSpinBox {
+    border-top: 1px solid #abadb3;
+    border-right: 1px solid #dbdfe6;
+    border-bottom: 1px solid #e3e9ef;
+    border-left: 1px solid #e2e3ea;
+    background: white; }
+  .Sitefinity table.reSpinBox:hover {
+    border-top: 1px solid #dfdfdf;
+    border-right: 1px solid #949494;
+    border-bottom: 1px solid #949494;
+    border-left: 1px solid #dfdfdf; }
+  .Sitefinity.RadEditor input {
+    border-top: 1px solid #abadb3;
+    border-right: 1px solid #dbdfe6;
+    border-bottom: 1px solid #e3e9ef;
+    border-left: 1px solid #e2e3ea;
+    background-color: white; }
+  .Sitefinity .reModule_domlink_selected,
+  .Sitefinity .reModule_domlink {
+    color: black; }
+  .Sitefinity.reDropDownBody .reItemOver {
+    background: #dfdfdf;
+    color: black; }
+  .Sitefinity .reTool_selected.reTool {
+    _border-left-width: 0 !important;
+    _border-right-width: 0 !important; }
+  .Sitefinity.reColorPicker table div {
+    border: 1px solid #c5c5c5; }
+  .Sitefinity.reColorPicker table td.reItemOver div {
+    border-color: #000; }
+  .Sitefinity.reColorPicker span {
+    border: 1px solid #c5c5c5; }
+  .Sitefinity .reAjaxspell_button {
+    border: 1px solid #828282;
+    background: #ececec;
+    color: #828282; }
+  .Sitefinity .reAjaxSpellCheckSuggestions table {
+    border-width: 0;
+    width: 100%; }
+  .Sitefinity .reAjaxSpellCheckSeparator {
+    background-color: #979797; }
+  .Sitefinity.reCustomLinks, .Sitefinity.reCustomLinks ul {
+    color: black; }
+  .Sitefinity.reCustomLinks a {
+    background: none transparent;
+    color: black;
+    cursor: default !important; }
+  .Sitefinity.reCustomLinks a:hover {
+    color: #fff; }
+  .Sitefinity.reInsertTable table {
+    background: white; }
+  .Sitefinity.reInsertTable table td {
+    border: 1px solid #828282;
+    background: white; }
+  .Sitefinity.reInsertTable .reTlbVertical ul {
+    background-color: white; }
+  .Sitefinity.reDropDownBody.reInsertTable div.reTlbVertical a.reTool_text, .Sitefinity.reDropDownBody.reInsertTable div.reTlbVertical a.reTool_text:link, .Sitefinity.reDropDownBody.reInsertTable div.reTlbVertical a.reTool_text:visited {
+    color: black !important;
+    background: transparent none;
+    _background: none !important; }
+  .Sitefinity.RadEditor .reEditorModes a span {
+    background-image: none;
+    padding-left: 18px; }
+  .Sitefinity .reToolbar.Sitefinity a,
+  .Sitefinity .reToolbar.Sitefinity a span,
+  .Sitefinity .reDropdown,
+  .Sitefinity .reDropdown span,
+  .Sitefinity .reSpinBox a,
+  .Sitefinity .reSpinBox span {
+    cursor: pointer; }
+  .Sitefinity.RadEditor .reModule {
+    border: 0; }
+  .Sitefinity.RadEditor .reEditorModes a {
+    width: 50px; }
+  .Sitefinity.RadEditor .reEditorModes a span, .Sitefinity.RadEditor .reEditorModes a {
+    padding: 0;
+    margin: 0;
+    text-align: center; }
+  .Sitefinity.RadEditor .reMode_selected {
+    color: #fff; }
+  .Sitefinity.RadEditor, .Sitefinity.RadEditor * {
+    font-family: Arial, Sans-Serif; }
+  .Sitefinity .reCommentEdit,
+  .Sitefinity .reCommentTextArea,
+  .Sitefinity .reCommentView {
+    border-color: #ccc;
+    background-color: white; }
+  .Sitefinity .reCommentTitle {
+    color: black; }
+  .Sitefinity .reCommentTextArea {
+    border-color: #abadb3 #dbdfe6 #e3e9ef #e2e3ea;
+    background-color: white; }
+  .Sitefinity.RadEditor .reCommentButton,
+  .Sitefinity .rePopupButtonContainer .rePopupButton {
+    border-color: #ccc #666 #666 #ccc;
+    color: black;
+    background-color: #efefef; }
+  .Sitefinity.RadEditor .reCommentButton:hover,
+  .Sitefinity .rePopupButtonContainer .rePopupButton:hover {
+    border-color: #ccc #666 #666 #ccc;
+    color: black;
+    background-color: white; }
+  .Sitefinity.RadEditor .reCommentButton:active,
+  .Sitefinity .rePopupButtonContainer .rePopupButton:active {
+    border-color: #666 #ccc #ccc #666;
+    color: black;
+    background-color: #efefef; }
+  .Sitefinity.rePopupContainer {
+    border-color: #ccc;
+    background-color: white; }
+  .Sitefinity.rePopupContainer .rePopupTitle,
+  .Sitefinity .reCommentInfoPanel {
+    color: black;
+    border-color: #ccc;
+    background-color: white; }
+  .Sitefinity.RadEditor.reRtl .reTool .split_arrow:hover {
+    border-right-color: #cccccc; }
+  .Sitefinity.RadEditor.reRtl .reDropdown:hover {
+    background-color: #e8e8e8; }
+
+/* the rule below styles RadWindow's content cell, which is used in the floating and show on focus toolbar modes */
+.RadWindow.RadWindow_Sitefinity.reToolbarWindow td.rwWindowContent,
+.RadWindow.RadWindow_Sitefinity.reToolbarWindow div.rwContent {
+  background-color: #ececec; }
+
+.RadWindow_Sitefinity .reInsertTableLightWrapper .lightTable {
+  border-color: #828282; }
+
+.Sitefinity .reTool.reSplitButton:hover {
+  background-image: url('Editor/ToolBarSprites.gif'); }
+
+/* reTool */
+.reTool span,
+.Sitefinity.reInsertTable .reTlbVertical ul .reTool_text span,
+.reToolbar .reTool_text span {
+  background-image: url('../Common/CommandSpritesLight.png'); }
+
+/* IE6 does not support PNG alpha channel, so we use gifs for the command sprites instead */
+.reTool span,
+.reTool_text span,
+.Sitefinity .reTlbVertical .reTool_text span,
+.reToolbar .reSplitButton.reTool_text span {
+  _background-image: url('../Common/CommandSpritesLightIE6.gif'); }
+
+.reTool .split_arrow:hover {
+  border-left-color: #cccccc; }
+

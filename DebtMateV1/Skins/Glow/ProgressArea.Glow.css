@@ -1,0 +1,68 @@
+.RadUploadProgressArea_Glow {
+  color: #1c262c;
+  font: normal 13px/22px Arial, Helvetica, sans-serif;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 12px; }
+  .RadUploadProgressArea_Glow .ruProgressHeader {
+    border-color: #20282d;
+    color: #ffffff;
+    background: #2b373d url('../Common/Gradients/radGradientLightV50.png') 0 0 repeat-x;
+    _background-image: none;
+    background-image: -webkit-linear-gradient(top, #404c54 0%, #2b373d 100%);
+    background-image: -moz-linear-gradient(top, #404c54 0%, #2b373d 100%);
+    background-image: -ms-linear-gradient(top, #404c54 0%, #2b373d 100%);
+    background-image: -o-linear-gradient(top, #404c54 0%, #2b373d 100%);
+    background-image: linear-gradient(top, #404c54 0%, #2b373d 100%);
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.2); }
+  .RadUploadProgressArea_Glow .ruActions {
+    border-color: #20282d;
+    color: #ffffff;
+    background-color: #1c262c; }
+  .RadUploadProgressArea_Glow .ruButton {
+    padding: 5px;
+    border-radius: 3px;
+    background: #1c262c url('../Common/Gradients/radGradientLightV50.png') 0 0 repeat-x;
+    _background-image: none;
+    border-color: black;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: -webkit-linear-gradient(top, #414c53 0%, #1c262c 100%);
+    background-image: -moz-linear-gradient(top, #414c53 0%, #1c262c 100%);
+    background-image: -ms-linear-gradient(top, #414c53 0%, #1c262c 100%);
+    background-image: -o-linear-gradient(top, #414c53 0%, #1c262c 100%);
+    background-image: linear-gradient(top, #414c53 0%, #1c262c 100%);
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-size: 13px; }
+  .RadUploadProgressArea_Glow .ruButtonHover {
+    background-color: #2b363d;
+    border-color: black;
+    color: #e2e8eb;
+    background-color: #2b363d;
+    background-image: -webkit-linear-gradient(top, #4e5960 0%, #2b363d 100%);
+    background-image: -moz-linear-gradient(top, #4e5960 0%, #2b363d 100%);
+    background-image: -ms-linear-gradient(top, #4e5960 0%, #2b363d 100%);
+    background-image: -o-linear-gradient(top, #4e5960 0%, #2b363d 100%);
+    background-image: linear-gradient(top, #4e5960 0%, #2b363d 100%); }
+  .RadUploadProgressArea_Glow .ruProgress {
+    border-color: #20282d;
+    color: #c1c7ca;
+    background-color: #35434b; }
+  .RadUploadProgressArea_Glow .ruCurrentFile {
+    color: #ffffff; }
+  .RadUploadProgressArea_Glow .ruBar {
+    padding: 1px;
+    height: 22px;
+    border-color: #5e6b73;
+    background: #2b373d url('../Common/Gradients/radGradientLightV50.png') 0 0 repeat-x;
+    _background-image: none;
+    background-image: -webkit-linear-gradient(top, #404c54 0%, #2b373d 100%);
+    background-image: -moz-linear-gradient(top, #404c54 0%, #2b373d 100%);
+    background-image: -ms-linear-gradient(top, #404c54 0%, #2b373d 100%);
+    background-image: -o-linear-gradient(top, #404c54 0%, #2b373d 100%);
+    background-image: linear-gradient(top, #404c54 0%, #2b373d 100%);
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.2); }
+    .RadUploadProgressArea_Glow .ruBar div {
+      margin: 0;
+      height: 22px;
+      border: 0;
+      background-color: #ffc863; }

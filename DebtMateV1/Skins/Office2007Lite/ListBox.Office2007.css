@@ -1,0 +1,56 @@
+.RadListBox_Office2007 {
+  color: #00156e;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 1.33333em; }
+.RadListBox_Office2007 .rlbButton {
+  color: #00156e;
+  border-radius: 0.16667em;
+  border-color: #a7bedb;
+  background-color: #e8f1fc;
+  background-image: url('../Office2007/Common/radGradientButtonSprite.png');
+  background-image: linear-gradient(#e8f1fc 0%, #e9f1fc 50%, #d2e1f4 50%, #e8f1fc 100%); }
+  .RadListBox_Office2007 .rlbButton:hover {
+    color: black;
+    border-color: #c6ba9d;
+    background-color: #ffe18a;
+    background-image: linear-gradient(#fffce8 0%, #ffedb3 50%, #ffd563 50%, #ffe18a 100%); }
+  .RadListBox_Office2007 .rlbButton:active {
+    color: black;
+    border-color: #c3bdae;
+    background-color: #ffe18a;
+    background-image: linear-gradient(#fffce8 0%, #ffedb3 50%, #ffd563 50%, #ffe18a 100%); }
+  .RadListBox_Office2007 .rlbButton.rlbDisabled {
+    color: #00156e;
+    border-color: #a7bedb;
+    background-color: #e8f1fc;
+    background-image: linear-gradient(#e8f1fc 0%, #e9f1fc 50%, #d2e1f4 50%, #e8f1fc 100%); }
+.RadListBox_Office2007 .rlbGroup {
+  background-color: white;
+  border-color: #abc1de; }
+.RadListBox_Office2007 .rlbItem:hover, .RadListBox_Office2007 .rlbItem.rlbHovered {
+  border-color: #ffe27b;
+  background-color: #ffe27b; }
+.RadListBox_Office2007 .rlbItem.rlbSelected {
+  border-color: #fcc365;
+  background-color: #fcc365; }
+.RadListBox_Office2007 .rlbHighlight {
+  background-color: #ffe27b; }
+.RadListBox_Office2007 .rlbCheckAllItems {
+  background-color: #c3d8f1; }
+.RadListBox_Office2007 .rlbTemplateContent {
+  border-color: #abc1de;
+  background-color: white; }
+.RadListBox_Office2007 .rlbHeader,
+.RadListBox_Office2007 .rlbFooter {
+  border-color: #abc1de; }
+.RadListBox_Office2007 .rlbHeader {
+  background-image: -webkit-linear-gradient(white 0, white 40%, #f7f8fa 40%, #f1f2f4 100%);
+  background-image: -moz-linear-gradient(white 0, white 40%, #f7f8fa 40%, #f1f2f4 100%);
+  background-image: -ms-linear-gradient(white 0, white 40%, #f7f8fa 40%, #f1f2f4 100%);
+  background-image: -o-linear-gradient(white 0, white 40%, #f7f8fa 40%, #f1f2f4 100%);
+  background-image: linear-gradient(white 0, white 40%, #f7f8fa 40%, #f1f2f4 100%); }
+.RadListBox_Office2007 .rlbGroup .rlbDropClueAbove {
+  border-top-color: #000; }
+.RadListBox_Office2007 .rlbGroup .rlbDropClueBelow {
+  border-bottom-color: #000; }

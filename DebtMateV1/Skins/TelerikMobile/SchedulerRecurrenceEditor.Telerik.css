@@ -1,0 +1,21 @@
+.RecurrenceEditor_Telerik {
+  background-color: #ececec; }
+  .RecurrenceEditor_Telerik .tsAdvRecurrenceTitle {
+    border-color: #828282;
+    color: black;
+    background-color: #e6e6e6; }
+  .RecurrenceEditor_Telerik .rsTabbedOptionList {
+    border-color: #cccccc;
+    color: black;
+    background-color: #eeeeee;
+    background-image: linear-gradient(#fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%); }
+    .RecurrenceEditor_Telerik .rsTabbedOptionList li {
+      border-color: #cccccc; }
+    .RecurrenceEditor_Telerik .rsTabbedOptionList label:hover {
+      color: black;
+      background-color: #a2ea8b;
+      background-image: linear-gradient(#d2f8c5 0%, #bcf1ab 50%, #b9f0a7 50%, #a2ea8b 100%); }
+    .RecurrenceEditor_Telerik .rsTabbedOptionList input:checked + label {
+      color: black;
+      background-color: #65b33f;
+      background-image: linear-gradient(#a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%); }

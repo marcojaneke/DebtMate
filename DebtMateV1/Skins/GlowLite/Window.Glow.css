@@ -1,0 +1,144 @@
+.RadWindow_Glow {
+  background-color: #29343b;
+  color: #e2e8eb;
+  font: normal 13px Arial, Helvetica, sans-serif;
+  border-color: #1d252a;
+  /* Base Overrides */
+  /* External content iframe styles */
+  /* Button overrides */
+  /* Dialog styles */
+  /* Right to left support */ }
+  .RadWindow_Glow.RadWindow.rwRoundedCorner, .RadWindow_Glow.RadWindow.rwCollapsed.rwRoundedCorner .rwTitleBar, .RadWindow_Glow.RadWindow.rwMinimizedWindow.rwRoundedCorner .rwTitleBar {
+    border-radius: 0.5em; }
+  .RadWindow_Glow.RadWindow.rwRoundedCorner .rwTitleBar {
+    border-radius: 0.5em 0.5em 0em 0em; }
+  .RadWindow_Glow .rwTitleBar {
+    background-image: -webkit-linear-gradient(top, #404c54 0%, #2b373d 100%);
+    background-image: -moz-linear-gradient(top, #404c54 0%, #2b373d 100%);
+    background-image: -ms-linear-gradient(top, #404c54 0%, #2b373d 100%);
+    background-image: -o-linear-gradient(top, #404c54 0%, #2b373d 100%);
+    background-image: linear-gradient(top, #404c54 0%, #2b373d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#404c54', endColorstr='#2b373d',GradientType=0 ); }
+  .RadWindow_Glow.rwCollapsed .rwTitleBar {
+    border-bottom-color: #192227; }
+  .RadWindow_Glow .rwTitleWrapper .rwTitle {
+    color: #e2e8eb;
+    font-size: 1.231em;
+    font-weight: normal; }
+  .RadWindow_Glow span.rwIcon {
+    top: .5em;
+    background-position: 0 -80px;
+    background-image: url('../Glow/Window/rwIcon.png'); }
+  .RadWindow_Glow ul.rwCommands {
+    top: .1em; }
+  .RadWindow_Glow .rwListItem .rwCommandButton,
+  .RadWindow_Glow .rwResize {
+    background-image: url('../Glow/Common/radActionsSprite.png');
+    _background-image: url('../Glow/Common/radActionsSpriteIE6.png'); }
+  .RadWindow_Glow .rwContent {
+    background-color: #29343b;
+    border: 0; }
+  .RadWindow_Glow .rwStatusBar {
+    background-color: #1c262c;
+    border-color: transparent;
+    margin: 0.66667em -0.5em 0em -0.5em;
+    border-radius: 0em 0em 0.5em 0.5em; }
+  .RadWindow_Glow .rwStatusBar input {
+    color: #e2e8eb;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif; }
+  .RadWindow_Glow.rwLoading .rwExternalContent {
+    background-image: url('../Glow/Common/loading.gif'); }
+  .RadWindow_Glow .rwLoading.rwStatusBar {
+    background-image: url('../Glow/Common/loading_small.gif'); }
+  .RadWindow_Glow li.rwListItem {
+    width: 28px;
+    height: 28px; }
+  .RadWindow_Glow li.rwListItem .rwCommandButton {
+    width: 28px;
+    height: 28px;
+    margin: 0em 0.16667em; }
+  .RadWindow_Glow .rwCommandButton.rwCloseButton, .RadWindow_Glow.rwInactiveWindow .rwCommandButton.rwCloseButton:hover {
+    background-position: -11px -1911px; }
+  .RadWindow_Glow .rwCommandButton.rwCloseButton:hover {
+    background-position: -61px -1911px; }
+  .RadWindow_Glow .rwCommandButton.rwPinButton, .RadWindow_Glow.rwInactiveWindow .rwCommandButton.rwPinButton:hover {
+    background-position: -11px -1261px; }
+  .RadWindow_Glow .rwCommandButton.rwPinButton:hover {
+    background-position: -61px -1261px; }
+  .RadWindow_Glow .rwCommandButton.rwPinButton.on, .RadWindow_Glow.rwInactiveWindow .rwCommandButton.rwPinButton.on:hover {
+    background-position: -11px -1211px; }
+  .RadWindow_Glow .rwCommandButton.rwPinButton.on:hover {
+    background-position: -61px -1211px; }
+  .RadWindow_Glow .rwCommandButton.rwMinimizeButton,
+  .RadWindow_Glow .rwInactiveWindow .rwCommandButton.rwMinimizeButton:hover {
+    background-position: -11px -1511px; }
+  .RadWindow_Glow .rwCommandButton.rwMinimizeButton:hover {
+    background-position: -61px -1511px; }
+  .RadWindow_Glow .rwCommandButton.rwMaximizeButton,
+  .RadWindow_Glow .rwInactiveWindow .rwCommandButton.rwMaximizeButton:hover {
+    background-position: -11px -1611px; }
+  .RadWindow_Glow .rwCommandButton.rwMaximizeButton:hover {
+    background-position: -61px -1611px; }
+  .RadWindow_Glow.rwMaximizedWindow .rwMaximizeButton, .RadWindow_Glow.rwMinimizedWindow .rwMinimizeButton {
+    background-position: -11px -1811px; }
+  .RadWindow_Glow.rwMaximizedWindow .rwMaximizeButton:hover, .RadWindow_Glow.rwMinimizedWindow .rwMinimizeButton:hover {
+    background-position: -61px -1811px; }
+  .RadWindow_Glow .rwCommandButton.rwReloadButton,
+  .RadWindow_Glow .rwInactiveWindow .rwCommandButton.rwReloadButton:hover {
+    background-position: -11px -1361px; }
+  .RadWindow_Glow .rwCommandButton.rwReloadButton:hover {
+    background-position: -61px -1361px; }
+  .RadWindow_Glow .rwStatusBar span.rwResize {
+    background-position: -17px -2217px; }
+  .RadWindow_Glow div.rwDialog {
+    margin: 0.41667em 0em 0em; }
+  .RadWindow_Glow .rwDialogButtons input {
+    font-size: 13px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.16667em 0.5em;
+    border-color: black;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#414c53 0%, #1c262c 100%);
+    border-color: black; }
+  .RadWindow_Glow .rwDialogButtons input:hover {
+    border-color: black;
+    color: #e2e8eb;
+    background-color: #2b363d;
+    background-image: linear-gradient(#4e5960 0%, #2b363d 100%);
+    box-shadow: inset 0 0 1px white; }
+  .RadWindow_Glow .rwDialogButtons input:active {
+    border-color: black;
+    color: white;
+    background-color: #485258;
+    background-image: linear-gradient(#485258 0%, #485258 100%);
+    box-shadow: inset 0 0 1px white; }
+  .RadWindow_Glow .rwPromptInput {
+    background-color: #29343b;
+    color: white;
+    border-color: #8a9297;
+    font-size: 13px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif; }
+  .RadWindow_Glow .rwPromptInput:hover {
+    background-color: #29343b;
+    color: #f89d26;
+    border-color: #f89d26; }
+  .RadWindow_Glow .rwPromptInput:active,
+  .RadWindow_Glow .rwPromptInput:focus {
+    background-color: #29343b;
+    color: white;
+    border-color: #f89d26; }
+  .RadWindow_Glow .rwPromptInput:disabled {
+    background-color: #29343b;
+    color: #677277;
+    border-color: #474f53; }
+  .RadWindow_Glow.RadWindow.rwRtl .rwStatusBar .rwResize {
+    background-position: -17px -2267px; }
+  .RadWindow_Glow div.rwAlertDialog {
+    background-image: url('../Common/ModalDialogAlertDark.gif'); }
+  .RadWindow_Glow div.rwConfirmDialog {
+    background-image: url('../Common/ModalDialogConfirmDark.gif'); }
+

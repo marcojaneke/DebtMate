@@ -1,0 +1,40 @@
+.RadTreeView_Sitefinity {
+  color: black;
+  font: normal 12px/16px Arial, Helvetica, sans-serif; }
+  .RadTreeView_Sitefinity .rtIn {
+    padding: 4px 5px 3px; }
+  .RadTreeView_Sitefinity a.rtIn {
+    *color: black; }
+  .RadTreeView_Sitefinity .rtHover .rtIn {
+    padding: 4px 5px 3px;
+    border: 0;
+    text-decoration: underline; }
+  .RadTreeView_Sitefinity .rtSelected .rtIn {
+    padding: 4px 5px 3px;
+    border: 0;
+    color: #ffffff;
+    background: #999999; }
+  .RadTreeView_Sitefinity .rtEdit .rtIn {
+    border-color: #6c6c6c;
+    background: #ffffff; }
+    .RadTreeView_Sitefinity .rtEdit .rtIn input {
+      color: black;
+      font: normal 12px/16px Arial, Helvetica, sans-serif; }
+  .RadTreeView_Sitefinity .rtChecked,
+  .RadTreeView_Sitefinity .rtUnchecked,
+  .RadTreeView_Sitefinity .rtIndeterminate {
+    background-image: url('Common/radFormToggleSprite.png');
+    _background-image: url('Common/radFormToggleSpriteIE6.png'); }
+  .RadTreeView_Sitefinity .rtLoadingIcon {
+    background-image: url('Common/loading_small.gif'); }
+  .RadTreeView_Sitefinity .rtSelected .rtLoadingBefore,
+  .RadTreeView_Sitefinity .rtSelected .rtLoadingAfter,
+  .RadTreeView_Sitefinity .rtSelected .rtLoadingBelow {
+    color: #333333; }
+  .RadTreeView_Sitefinity .rtPlus,
+  .RadTreeView_Sitefinity .rtMinus {
+    background-image: url('TreeView/PlusMinus.png'); }
+
+.RadTreeView_Sitefinity_disabled .rtIn,
+.RadTreeView_Sitefinity .rtDisabled .rtIn {
+  color: #ccc; }

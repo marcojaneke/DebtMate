@@ -1,0 +1,126 @@
+.RadMenu_Outlook {
+  font: 12px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadMenu_Outlook .rmGroup,
+  .RadMenu_Outlook .rmRootGroup,
+  .RadMenu_Outlook .rmMultiColumn {
+    border-color: #b7bdcd; }
+  .RadMenu_Outlook .rmGroup,
+  .RadMenu_Outlook .rmMultiColumn {
+    color: black;
+    background-color: white; }
+  .RadMenu_Outlook .rmRootGroup {
+    color: black;
+    background-color: #adc9f7; }
+  .RadMenu_Outlook .rmVertical:before,
+  .RadMenu_Outlook .rmMultiColumn:before {
+    content: "";
+    width: 2.5em;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url('../Outlook/Menu/rmVSprite.png');
+    background-image: linear-gradient(to right, #e3eeff, #7da5e0); }
+  .RadMenu_Outlook .rmVertical li.rmSeparator {
+    border-top-color: #e6e6e6;
+    border-bottom-color: white; }
+  .RadMenu_Outlook .rmHorizontal li.rmSeparator {
+    border-left-color: #e6e6e6;
+    border-right-color: white; }
+  .RadMenu_Outlook .rmShadows .rmGroup {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2); }
+  .RadMenu_Outlook .rmArrow {
+    border-color: #d9d9d9;
+    background-color: #f2f2f2; }
+    .RadMenu_Outlook .rmArrow:hover {
+      background-color: #e6e6e6; }
+  .RadMenu_Outlook .rmRootGroup .rmItem {
+    border-color: #d5d9e2; }
+  .RadMenu_Outlook .rmRootGroup > .rmItem {
+    padding: 1px; }
+  .RadMenu_Outlook .rmRootGroup .rmRootLink {
+    border: 1px solid transparent;
+    padding-top: .17em;
+    padding-bottom: .17em; }
+    .RadMenu_Outlook .rmRootGroup .rmRootLink .rmToggle {
+      margin-right: -0.8em; }
+  .RadMenu_Outlook .rmRootGroup a.rmRootLink {
+    *color: black; }
+  .RadMenu_Outlook .rmRootGroup .rmRootLink:hover,
+  .RadMenu_Outlook .rmRootGroup .rmSelected > .rmRootLink {
+    color: black;
+    border-color: #003c74;
+    background-color: #d6e5f3;
+    background-image: -webkit-linear-gradient(#fff3ca, #ffd294);
+    background-image: -moz-linear-gradient(#fff3ca, #ffd294);
+    background-image: -ms-linear-gradient(#fff3ca, #ffd294);
+    background-image: -o-linear-gradient(#fff3ca, #ffd294);
+    background-image: linear-gradient(#fff3ca, #ffd294); }
+  .RadMenu_Outlook .rmRootGroup .rmFocused > .rmLink {
+    border-color: #003c74; }
+  .RadMenu_Outlook .rmRootGroup .rmExpanded > .rmRootLink {
+    color: black;
+    border-color: #002d96;
+    background-image: -webkit-linear-gradient(#dceafc, #97b8e8);
+    background-image: -moz-linear-gradient(#dceafc, #97b8e8);
+    background-image: -ms-linear-gradient(#dceafc, #97b8e8);
+    background-image: -o-linear-gradient(#dceafc, #97b8e8);
+    background-image: linear-gradient(#dceafc, #97b8e8); }
+  .RadMenu_Outlook .rmPopup a.rmLink,
+  .RadMenu_Outlook .rmGroup a.rmLink {
+    *color: black; }
+  .RadMenu_Outlook .rmPopup .rmLink:hover,
+  .RadMenu_Outlook .rmPopup .rmExpanded > .rmLink,
+  .RadMenu_Outlook .rmGroup .rmLink:hover,
+  .RadMenu_Outlook .rmGroup .rmExpanded > .rmLink {
+    border-color: #002d96;
+    color: black;
+    background-color: #ffd294;
+    background-image: linear-gradient(#fff3ca, #ffd294); }
+  .RadMenu_Outlook .rmPopup .rmExpanded > .rmLink,
+  .RadMenu_Outlook .rmGroup .rmExpanded > .rmLink {
+    border-color: #002d96; }
+  .RadMenu_Outlook .rmPopup .rmFocused > .rmLink,
+  .RadMenu_Outlook .rmPopup .rmFocused > .rmLink .rmToggle,
+  .RadMenu_Outlook .rmGroup .rmFocused > .rmLink,
+  .RadMenu_Outlook .rmGroup .rmFocused > .rmLink .rmToggle {
+    border-color: #003c74; }
+  .RadMenu_Outlook .rmPopup .rmSelected > .rmLink,
+  .RadMenu_Outlook .rmGroup .rmSelected > .rmLink {
+    border-color: #002d96;
+    background-image: -webkit-linear-gradient(#dceafc, #97b8e8);
+    background-image: -moz-linear-gradient(#dceafc, #97b8e8);
+    background-image: -ms-linear-gradient(#dceafc, #97b8e8);
+    background-image: -o-linear-gradient(#dceafc, #97b8e8);
+    background-image: linear-gradient(#dceafc, #97b8e8); }
+  .RadMenu_Outlook .rmPopup .rmDisabled > .rmLink,
+  .RadMenu_Outlook .rmGroup .rmDisabled > .rmLink {
+    border-color: transparent;
+    background: transparent; }
+  .RadMenu_Outlook .rmPopup .rmToggle:hover,
+  .RadMenu_Outlook .rmGroup .rmToggle:hover {
+    border-color: #002d96;
+    color: black;
+    background-color: #ffd294;
+    background-image: linear-gradient(#fff3ca, #ffd294); }
+  .RadMenu_Outlook .rmPopup .rmExpanded > .rmLink .rmToggle,
+  .RadMenu_Outlook .rmGroup .rmExpanded > .rmLink .rmToggle {
+    border-color: #002d96;
+    color: white;
+    background-color: #97b8e8;
+    background-image: linear-gradient(#dceafc, #97b8e8); }
+  .RadMenu_Outlook .rmContentTemplate {
+    background: white;
+    border: 1px solid #c3d9f9; }
+
+.RadMenu_Outlook_rtl .rmGroup:before,
+.RadMenu_Outlook_rtl .rmMultiColumn:before,
+.RadMenu_Outlook_rtl .rmScrollWrap .rmVertical:before {
+  background-image: linear-gradient(to left, #e3eeff, #7da5e0); }
+.RadMenu_Outlook_rtl .rmVertical:before,
+.RadMenu_Outlook_rtl .rmMultiColumn:before {
+  left: auto;
+  right: 0;
+  border-radius: 0 4px 4px 0; }
+.RadMenu_Outlook_rtl .rmRootGroup .rmRootLink .rmToggle {
+  margin-right: 0.33em; }

@@ -1,0 +1,68 @@
+.RadDropDownTree_Office2010Blue {
+  color: #384e73;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadDropDownTree_Office2010Blue .rddtInner {
+    border-radius: 0.25em;
+    background-image: url('../Office2010Blue/Common/radGradientButtonSprite.png');
+    _background-image: none;
+    border-color: #8ba0bc;
+    color: #384e73;
+    background-color: #bfcddf;
+    background-image: linear-gradient(#fafbfd 0%, #bfcddf 100%); }
+  .RadDropDownTree_Office2010Blue .rddtEmptyMessage {
+    color: #8ba0bc;
+    font-style: italic; }
+  .RadDropDownTree_Office2010Blue .rddtClearButton {
+    background-position: -2px -204px; }
+  .RadDropDownTree_Office2010Blue .rddtHovered {
+    border-color: #f3d64a;
+    color: #1e395b;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab 0%, #fae185 50%, #fcf5d9 100%); }
+    .RadDropDownTree_Office2010Blue .rddtHovered .rddtClearButton {
+      background-position: -22px -204px; }
+      .RadDropDownTree_Office2010Blue .rddtHovered .rddtClearButton.rddtClearButtonHovered {
+        background-position: -62px -204px; }
+  .RadDropDownTree_Office2010Blue .rddtFocused {
+    border-color: #c28b31;
+    color: #1e395b;
+    background-color: #ffef7c;
+    background-image: linear-gradient(#ffe272 0%, #ffd86b 50%, #ffef7c 100%); }
+    .RadDropDownTree_Office2010Blue .rddtFocused .rddtClearButton {
+      background-position: -42px -204px; }
+      .RadDropDownTree_Office2010Blue .rddtFocused .rddtClearButton.rddtClearButtonHovered {
+        background-position: -82px -204px; }
+  .RadDropDownTree_Office2010Blue .rddtDisabled {
+    border-color: #8ba0bc;
+    color: #8ba0bc;
+    background-color: #bfcddf;
+    background-image: linear-gradient(#fafbfd 0%, #bfcddf 100%); }
+
+.rddtPopup_Office2010Blue {
+  border-color: #9babc2;
+  color: #384e73;
+  background: white;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .rddtPopup_Office2010Blue .rddtHeader,
+  .rddtPopup_Office2010Blue .rddtFooter {
+    color: #384e73;
+    background-color: #edeff2; }
+  .rddtPopup_Office2010Blue .rddtHeader {
+    border-bottom-color: #9babc2; }
+  .rddtPopup_Office2010Blue .rddtFooter {
+    border-top-color: #9babc2; }
+  .rddtPopup_Office2010Blue .rddtFilter {
+    border-bottom-color: #9babc2;
+    color: #384e73;
+    background: #edeff2; }
+    .rddtPopup_Office2010Blue .rddtFilter .rddtFilterInput {
+      font: 12px "Segoe UI", Arial, Helvetica, sans-serif;
+      border-color: #8e8e8e;
+      color: #384e73;
+      background-color: white; }
+    .rddtPopup_Office2010Blue .rddtFilter .rddtFilterEmptyMessage {
+      color: #8ba0bc;
+      font-style: italic; }
+  .rddtPopup_Office2010Blue .RadTreeView em {
+    color: #384e73;
+    background-color: #fae185; }

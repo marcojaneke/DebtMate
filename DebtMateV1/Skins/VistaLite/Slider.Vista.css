@@ -1,0 +1,93 @@
+.RadSlider_Vista {
+  /* horizontal slider */
+  /* end horizontal slider */
+  /* vertical slider */
+  /* end vertical slider */
+  /* horizontal slider - TrackPosition=Top/Bottom */
+  /* vertical slider - TrackPosition=Left/Right */
+  /* horizontal slider - TrackPosition=Center */
+  /* vertical slider - TrackPosition=Center */ }
+  .RadSlider_Vista .rslTrack {
+    border-color: #e2e3ea; }
+  .RadSlider_Vista a.rslHandle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#f8f8f8', EndColorStr='#d2d2d2')";
+    background-image: linear-gradient(#f8f8f8 0%, #ececec 50%, #dddddd 50%, #d2d2d2 100%);
+    border-color: #707070; }
+  .RadSlider_Vista a.rslHandle:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#def2fc', EndColorStr='#def2fc')";
+    background-image: linear-gradient(#def2fc 0%, #d3effc 50%, #b7e4fd 50%, #def2fc 100%);
+    border-color: #3c7fb1; }
+  .RadSlider_Vista a.rslHandle:before {
+    color: #3d3d3d; }
+  .RadSlider_Vista a.rslHandle:hover:before {
+    color: #0057ae; }
+  .RadSlider_Vista .rslHorizontal a.rslDraghandle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#f8f8f8', EndColorStr='#d2d2d2')";
+    background-image: linear-gradient(#f8f8f8 0%, #ebebeb 50%, gainsboro 50%, #d2d2d2 100%);
+    border-color: #707070; }
+  .RadSlider_Vista .rslHorizontal a.rslDraghandle:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#def2fc', EndColorStr='#acdcf7')";
+    background-image: linear-gradient(#def2fc 0%, #daf0fc 50%, #bde5fd 50%, #acdcf7 100%);
+    border-color: #3c7fb1; }
+  .RadSlider_Vista .rslHorizontal a.rslDraghandle:focus,
+  .RadSlider_Vista .rslHorizontal a.rslDraghandle:active {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#e6f5fc', EndColorStr='#4a9ac6')";
+    background-image: linear-gradient(#e6f5fc 0%, #a4d8f4 50%, #67b7e1 50%, #4a9ac6 100%);
+    border-color: #3c7fb1; }
+  .RadSlider_Vista .rslHorizontal .rslTrack {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#e7eaea', EndColorStr='#e7eaea')";
+    background-image: linear-gradient(#e7eaea, #e7eaea);
+    border-color: #b0b0b0 #b0b0b0 #e7eaea; }
+  .RadSlider_Vista .rslHorizontal .rslSelectedregion {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#84c5ff', EndColorStr='#0f41cd')";
+    background-image: linear-gradient(#84c5ff, #0f41cd); }
+  .RadSlider_Vista .rslHorizontal .rslItem {
+    background-image: url('../Vista/Slider/ItemHorizontalBgr.gif'); }
+  .RadSlider_Vista .rslVertical .rslTrack {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#e7eaea', EndColorStr='#e7eaea', GradientType=1)";
+    background-image: linear-gradient(to left, #e7eaea, #e7eaea);
+    border-color: #b0b0b0 #b0b0b0 #e7eaea; }
+  .RadSlider_Vista .rslVertical .rslSelectedregion {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#84c5ff', EndColorStr='#0f41cd', GradientType=1)";
+    background-image: linear-gradient(to left, #84c5ff, #0f41cd); }
+  .RadSlider_Vista .rslVertical a.rslDraghandle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#f8f8f8', EndColorStr='#d2d2d2', GradientType=1)";
+    background-image: linear-gradient(to left, #f8f8f8 0%, #ebebeb 50%, gainsboro 50%, #d2d2d2 100%);
+    border-color: #707070; }
+  .RadSlider_Vista .rslVertical a.rslDraghandle:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#def2fc', EndColorStr='#acdcf7', GradientType=1)";
+    background-image: linear-gradient(to left, #def2fc 0%, #daf0fc 50%, #bde5fd 50%, #acdcf7 100%);
+    border-color: #3c7fb1; }
+  .RadSlider_Vista .rslVertical a.rslDraghandle:focus,
+  .RadSlider_Vista .rslVertical a.rslDraghandle:active {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#e6f5fc', EndColorStr='#4a9ac6', GradientType=1)";
+    background-image: linear-gradient(to left, #e6f5fc 0%, #a4d8f4 50%, #67b7e1 50%, #4a9ac6 100%);
+    border-color: #3c7fb1; }
+  .RadSlider_Vista .rslVertical .rslItem {
+    background-image: url('../Vista/Slider/ItemVerticalBgr.gif'); }
+  .RadSlider_Vista .rslLeft a.rslDraghandle {
+    background-image: linear-gradient(to left, #fafafa, #e1e1e1); }
+  .RadSlider_Vista .rslItem,
+  .RadSlider_Vista .rslLargeTick span,
+  .RadSlider_Vista .rslItemsWrapper .rslItemSelected {
+    color: black; }
+  .RadSlider_Vista .rslTop .rslSmallTick,
+  .RadSlider_Vista .rslBottom .rslSmallTick {
+    background-image: url('../Vista/Slider/SmallChangeHorizontal.gif'); }
+  .RadSlider_Vista .rslTop .rslLargeTick,
+  .RadSlider_Vista .rslBottom .rslLargeTick {
+    background-image: url('../Vista/Slider/LargeChangeHorizontal.gif'); }
+  .RadSlider_Vista .rslLeft .rslSmallTick,
+  .RadSlider_Vista .rslRight .rslSmallTick {
+    background-image: url('../Vista/Slider/SmallChangeVertical.gif'); }
+  .RadSlider_Vista .rslLeft .rslLargeTick,
+  .RadSlider_Vista .rslRight .rslLargeTick {
+    background-image: url('../Vista/Slider/LargelChangeVertical.gif'); }
+  .RadSlider_Vista .rslMiddle .rslSmallTick {
+    background-image: url('../Vista/Slider/SmallChangeMiddleHorizontal.gif'); }
+  .RadSlider_Vista .rslLargeTick {
+    background-image: url('../Vista/Slider/LargeChangeMiddleHorizontal.gif'); }
+  .RadSlider_Vista .rslCenter .rslSmallTick {
+    background-image: url('../Vista/Slider/SmallChangeCenterVertical.gif'); }
+  .RadSlider_Vista .rslCenter .rslLargeTick {
+    background-image: url('../Vista/Slider/LargelChangeCenterVertical.gif'); }

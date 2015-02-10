@@ -1,0 +1,74 @@
+.RadToolBar_MetroTouch {
+  color: white;
+  background-color: black;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 34px;
+  font-weight: 100; }
+  .RadToolBar_MetroTouch .rtbOuter {
+    border-color: black; }
+  .RadToolBar_MetroTouch .rtbMiddle,
+  .RadToolBar_MetroTouch .rtbInner {
+    padding: 0;
+    border: 0; }
+  .RadToolBar_MetroTouch .rtbWrap {
+    padding: 2px 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    color: white; }
+  .RadToolBar_MetroTouch .rtbOut,
+  .RadToolBar_MetroTouch .rtbMid,
+  .RadToolBar_MetroTouch .rtbIn {
+    padding: 0; }
+  .RadToolBar_MetroTouch .rtbText {
+    padding: 0 5px; }
+  .RadToolBar_MetroTouch .rtbChoiceArrow {
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -117px -65px; }
+  .RadToolBar_MetroTouch .rtbSplBtn .rtbChoiceArrow {
+    width: 18px; }
+  .RadToolBar_MetroTouch .rtbItemHovered .rtbWrap {
+    border-color: rgba(255, 255, 255, 0.5); }
+  .RadToolBar_MetroTouch .rtbChecked .rtbWrap,
+  .RadToolBar_MetroTouch .rtbItemClicked .rtbWrap {
+    border-color: #25a0da;
+    color: white;
+    background-color: #25a0da; }
+  .RadToolBar_MetroTouch .rtbDisabled .rtbWrap {
+    color: white; }
+  .RadToolBar_MetroTouch .rtbSeparator {
+    margin: 0 3px;
+    border-width: 0;
+    background-color: white; }
+
+.RadToolBarDropDown_MetroTouch {
+  border-color: black;
+  color: white;
+  background-color: black;
+  font-size: 16px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 2; }
+  .RadToolBarDropDown_MetroTouch.rtbNoBackground .rtbScrollWrap {
+    border-color: black;
+    background-color: black; }
+  .RadToolBarDropDown_MetroTouch .rtbRoundedCorners {
+    padding: 1px; }
+  .RadToolBarDropDown_MetroTouch .rtbItem {
+    padding: 0; }
+  .RadToolBarDropDown_MetroTouch .rtbWrap {
+    color: white;
+    line-height: 2; }
+  .RadToolBarDropDown_MetroTouch .rtbIcon {
+    top: 10px; }
+  .RadToolBarDropDown_MetroTouch .rtbItemHovered .rtbWrap {
+    background-color: #25a0da; }
+  .RadToolBarDropDown_MetroTouch .rtbItemCliked .rtbWrap {
+    background-color: #25a0da; }
+  .RadToolBarDropDown_MetroTouch .rtbTopLeft,
+  .RadToolBarDropDown_MetroTouch .rtbTopRight,
+  .RadToolBarDropDown_MetroTouch .rtbBottomLeft,
+  .RadToolBarDropDown_MetroTouch .rtbBottomRight,
+  .RadToolBarDropDown_MetroTouch .rtbTopFix,
+  .RadToolBarDropDown_MetroTouch .rtbBottomFix {
+    display: none; }

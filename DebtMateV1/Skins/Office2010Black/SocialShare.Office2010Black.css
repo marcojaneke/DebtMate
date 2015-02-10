@@ -1,0 +1,16 @@
+.RadSocialShare_Office2010Black {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  border: 1px solid #919191;
+  background-color: #949494;
+  /* used pivot var to match the right bg color */ }
+  .RadSocialShare_Office2010Black .sshLinkItem .sshText {
+    color: black; }
+  .RadSocialShare_Office2010Black .sshLinkItem:hover .sshText {
+    color: black; }
+
+.RadComboBoxDropDown_Office2010Black .rcbItem .sshLinkItem .sshText,
+.RadComboBoxDropDown_Office2010Black .rcbHovered .sshLinkItem .sshText,
+.RadWindow_Office2010Black .sshForm label .sshLabelBellow {
+  color: black; }
+

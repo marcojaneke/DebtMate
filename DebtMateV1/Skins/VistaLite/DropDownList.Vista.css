@@ -1,0 +1,73 @@
+.RadDropDownList_Vista {
+  color: black;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadDropDownList_Vista .rddlInner {
+    border-radius: 3px;
+    background-image: url('../Vista/Common/radGradientButtonSprite.png');
+    _background-image: none;
+    border-color: #707070;
+    color: black;
+    background-color: #d2d2d2;
+    background-image: linear-gradient(#f3f3f3 0%, #ececec 50%, #dddddd 50%, #d2d2d2 100%); }
+  .RadDropDownList_Vista .rddlEmptyMessage,
+  .RadDropDownList_Vista .rddlDefaultMessage {
+    color: #8a8a8a;
+    font-style: italic; }
+  .RadDropDownList_Vista .rddlIcon {
+    *background-image: url('../Vista/Common/radActionsSprite.png');
+    *background-position: -1px -20px; }
+    .RadDropDownList_Vista .rddlIcon:before {
+      color: #6e6e6e; }
+  .RadDropDownList_Vista .rddlHovered {
+    border-color: #3c7fb1;
+    color: black;
+    background-color: #abdcf7;
+    background-image: linear-gradient(#e8f5fd 0%, #dbf1fc 50%, #bee6fd 50%, #abdcf7 100%); }
+    .RadDropDownList_Vista .rddlHovered .rddlIcon {
+      *background-position: -1px -20px; }
+      .RadDropDownList_Vista .rddlHovered .rddlIcon:before {
+        color: #000; }
+  .RadDropDownList_Vista .rddlFocused {
+    border-color: #3c7fb1;
+    color: black;
+    background-color: #ced7dd;
+    background-image: linear-gradient(#eff2f4 0%, #eaeef0 50%, #d8e0e5 50%, #ced7dd 100%); }
+    .RadDropDownList_Vista .rddlFocused .rddlIcon {
+      *background-position: -1px -20px; }
+      .RadDropDownList_Vista .rddlFocused .rddlIcon:before {
+        color: #000; }
+  .RadDropDownList_Vista .rddlDisabled {
+    border-color: #adb2b5;
+    color: #8a8a8a;
+    background-color: #d2d2d2;
+    background-image: linear-gradient(#f3f3f3 0%, #ececec 50%, #dddddd 50%, #d2d2d2 100%); }
+    .RadDropDownList_Vista .rddlDisabled .rddlIcon {
+      background-position: -1px -20px;
+      filter: alpha(opacity=50);
+      opacity: .5; }
+
+.rddlPopup_Vista {
+  border-color: #979797;
+  color: black;
+  background: white;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 1.33333em; }
+  .rddlPopup_Vista .rddlHeader,
+  .rddlPopup_Vista rddlFooter {
+    color: black;
+    background-color: #e0e5f5; }
+  .rddlPopup_Vista .rddlHeader {
+    border-bottom-color: #979797; }
+  .rddlPopup_Vista rddlFooter {
+    border-top-color: #979797; }
+  .rddlPopup_Vista .rddlItemHovered {
+    color: black;
+    background-color: #55bbff; }
+  .rddlPopup_Vista .rddlItemSelected {
+    color: white;
+    background-color: #3399ff; }
+  .rddlPopup_Vista .rddlItemDisabled {
+    color: #a5a5a5; }
+  .rddlPopup_Vista .rddlItemLoading {
+    color: black;
+    background-color: #55bbff; }

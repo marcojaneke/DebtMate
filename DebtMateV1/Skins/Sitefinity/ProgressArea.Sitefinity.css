@@ -1,0 +1,44 @@
+.RadUploadProgressArea_Sitefinity {
+  color: black;
+  font: normal 12px/16px Arial, Helvetica, sans-serif; }
+  .RadUploadProgressArea_Sitefinity .ruProgressHeader {
+    background-image: -webkit-linear-gradient(top, #efefef 0%, #efefef 100%);
+    background-image: -moz-linear-gradient(top, #efefef 0%, #efefef 100%);
+    background-image: -ms-linear-gradient(top, #efefef 0%, #efefef 100%);
+    background-image: -o-linear-gradient(top, #efefef 0%, #efefef 100%);
+    background-image: linear-gradient(top, #efefef 0%, #efefef 100%); }
+  .RadUploadProgressArea_Sitefinity .ruActions {
+    border-color: #dbdfe6;
+    color: black;
+    background-color: #eff0f1; }
+  .RadUploadProgressArea_Sitefinity .ruButton {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #dfe1ca;
+    background-image: -webkit-linear-gradient(top, #f5f5e6);
+    background-image: -moz-linear-gradient(top, #f5f5e6);
+    background-image: -ms-linear-gradient(top, #f5f5e6);
+    background-image: -o-linear-gradient(top, #f5f5e6);
+    background-image: linear-gradient(top, #f5f5e6);
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif; }
+  .RadUploadProgressArea_Sitefinity .ruButtonHover {
+    border-color: #cccccc;
+    color: black;
+    background-color: #dbf4c7;
+    background-image: -webkit-linear-gradient(top, #f4fdec);
+    background-image: -moz-linear-gradient(top, #f4fdec);
+    background-image: -ms-linear-gradient(top, #f4fdec);
+    background-image: -o-linear-gradient(top, #f4fdec);
+    background-image: linear-gradient(top, #f4fdec); }
+  .RadUploadProgressArea_Sitefinity .ruProgress {
+    border-color: #b8c3d0;
+    color: #222222;
+    background-color: #ffffff; }
+  .RadUploadProgressArea_Sitefinity .ruCurrentFile {
+    color: #222222; }
+  .RadUploadProgressArea_Sitefinity .ruBar {
+    border-color: #dee2e7 #d6dadf #cfd2d7; }
+    .RadUploadProgressArea_Sitefinity .ruBar div {
+      background-image: url('Upload/ruProgress.png'); }

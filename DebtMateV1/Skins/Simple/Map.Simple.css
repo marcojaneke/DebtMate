@@ -1,0 +1,53 @@
+.RadMap_Simple {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  /* Additional styles */
+  /* Remove border radius */
+  /*Buttons*/
+  /* Markers */
+  /* Older IE Fix */ }
+  .RadMap_Simple .k-header, .RadMap_Simple .k-widget, .RadMap_Simple .k-popup {
+    color: #000000; }
+  .RadMap_Simple .k-widget, .RadMap_Simple .k-header {
+    border-color: #616161; }
+  .RadMap_Simple .k-widget, .RadMap_Simple .k-header, .RadMap_Simple .k-button {
+    background-color: #c6c6c6; }
+  .RadMap_Simple .k-button {
+    border-color: #616161;
+    color: #000000; }
+  .RadMap_Simple.k-widget.k-tooltip {
+    background-color: #ffe79c;
+    color: #000000;
+    border-color: #ffa517;
+    background-image: none, linear-gradient(to bottom, #ffcb78 0, #ffa517 100%); }
+  .RadMap_Simple .k-tooltip-button {
+    background-color: #282828; }
+  .RadMap_Simple .k-tooltip-button:hover {
+    background-color: #882501; }
+  .RadMap_Simple .k-i-close:before {
+    color: #fff; }
+  .RadMap_Simple .k-callout-s {
+    border-top-color: #ffa517;
+    bottom: -0.91667em; }
+  .RadMap_Simple .k-buttons-horizontal .k-zoom-out, .RadMap_Simple .k-buttons-horizontal *:first-child, .RadMap_Simple .k-touch-scrollbar {
+    border-radius: 0; }
+  .RadMap_Simple div.k-navigator > .k-button .k-icon:before {
+    color: #000000; }
+  .RadMap_Simple .k-button:hover, .RadMap_Simple div.k-navigator > .k-button:hover {
+    background-color: #ffe79c;
+    border-color: #c98400;
+    color: #882501; }
+  .RadMap_Simple .k-button:active, .RadMap_Simple .k-button:focus, .RadMap_Simple div.k-navigator > .k-button:active, .RadMap_Simple div.k-navigator > .k-button:focus {
+    background-color: #ffa517;
+    border-color: #ca4b0c;
+    color: #882501; }
+  .RadMap_Simple div.k-navigator > .k-button:hover .k-icon:before {
+    color: #882501; }
+  .RadMap_Simple div.k-navigator > .k-button:active .k-icon:before, .RadMap_Simple div.k-navigator > .k-button:focus .k-icon:before {
+    color: #882501; }
+  .RadMap_Simple .k-marker:before {
+    color: #ffa517; }
+  @media \0screen\,screen\9 {
+    .RadMap_Simple .k-icon {
+      background-image: url('Common/radActionsSprite.png');
+      _background-image: url('Common/radActionsSpriteIE6.png'); } }
+

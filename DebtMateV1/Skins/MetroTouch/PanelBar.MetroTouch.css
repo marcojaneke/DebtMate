@@ -1,0 +1,72 @@
+.RadPanelBar_MetroTouch {
+  color: black;
+  background-color: white;
+  font: 100 16px "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 34px; }
+  .RadPanelBar_MetroTouch .rpRootGroup {
+    border-color: #cdcdcd; }
+  .RadPanelBar_MetroTouch .rpItem {
+    font-size: 22px;
+    line-height: 50px;
+    border-top: 1px solid #cdcdcd; }
+    .RadPanelBar_MetroTouch .rpItem.rpFirst {
+      border-top: 0; }
+  .RadPanelBar_MetroTouch .rpTemplate {
+    font-size: 16px;
+    line-height: 34px; }
+  .RadPanelBar_MetroTouch .rpLink,
+  .RadPanelBar_MetroTouch .rpHeaderTemplate {
+    border: 0 !important;
+    color: black;
+    background-color: #f9f9f9;
+    position: relative; }
+    .RadPanelBar_MetroTouch .rpLink:hover, .RadPanelBar_MetroTouch .rpLink.rpFocused,
+    .RadPanelBar_MetroTouch .rpHeaderTemplate:hover,
+    .RadPanelBar_MetroTouch .rpHeaderTemplate.rpFocused {
+      background-color: #e8e8e8; }
+    .RadPanelBar_MetroTouch .rpLink.rpExpanded,
+    .RadPanelBar_MetroTouch .rpHeaderTemplate.rpExpanded {
+      border-bottom: 1px solid #cdcdcd !important;
+      color: white;
+      background-color: #25a0da; }
+  .RadPanelBar_MetroTouch .rpOut {
+    padding: 0 !important;
+    border: 0 !important; }
+  .RadPanelBar_MetroTouch .rpGroup .rpItem {
+    font-size: 16px;
+    line-height: 34px;
+    border: 0; }
+    .RadPanelBar_MetroTouch .rpGroup .rpItem .rpLink,
+    .RadPanelBar_MetroTouch .rpGroup .rpItem .rpHeaderTemplate {
+      font-size: 16px;
+      line-height: 34px; }
+      .RadPanelBar_MetroTouch .rpGroup .rpItem .rpLink:hover, .RadPanelBar_MetroTouch .rpGroup .rpItem .rpLink.rpFocused,
+      .RadPanelBar_MetroTouch .rpGroup .rpItem .rpHeaderTemplate:hover,
+      .RadPanelBar_MetroTouch .rpGroup .rpItem .rpHeaderTemplate.rpFocused {
+        background-color: #e8e8e8; }
+      .RadPanelBar_MetroTouch .rpGroup .rpItem .rpLink.rpSelected,
+      .RadPanelBar_MetroTouch .rpGroup .rpItem .rpHeaderTemplate.rpSelected {
+        color: white;
+        background-color: #25a0da; }
+      .RadPanelBar_MetroTouch .rpGroup .rpItem .rpLink.rpExpanded,
+      .RadPanelBar_MetroTouch .rpGroup .rpItem .rpHeaderTemplate.rpExpanded {
+        color: white;
+        background-color: #25a0da; }
+  .RadPanelBar_MetroTouch .rpExpandHandle {
+    margin: 0 !important;
+    width: 28px !important;
+    height: 28px !important;
+    border: 1px solid;
+    border-radius: 15px;
+    position: absolute;
+    top: 10px;
+    left: auto;
+    right: 5px; }
+  .RadPanelBar_MetroTouch .rpGroup .rpExpandHandle {
+    border: 0 !important;
+    top: 2px; }
+  .RadPanelBar_MetroTouch .rpExpandable .rpExpandHandle {
+    background-image: url('../Common/MetroTouch/metrotouch-sprite.png');
+    background-position: -11px -61px; }
+  .RadPanelBar_MetroTouch .rpExpanded .rpExpandHandle {
+    background-position: -111px -11px; }

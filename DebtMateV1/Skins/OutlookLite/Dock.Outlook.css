@@ -1,0 +1,23 @@
+.RadDock_Outlook {
+  background-color: white;
+  color: black;
+  font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #b7bdcd; }
+  .RadDock_Outlook .rdTitleWrapper {
+    background-image: -webkit-linear-gradient(top, #e3eeff 0%, #7da5e0 100%);
+    background-image: -moz-linear-gradient(top, #e3eeff 0%, #7da5e0 100%);
+    background-image: -ms-linear-gradient(top, #e3eeff 0%, #7da5e0 100%);
+    background-image: -o-linear-gradient(top, #e3eeff 0%, #7da5e0 100%);
+    background-image: linear-gradient(top, #e3eeff 0%, #7da5e0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e3eeff', endColorstr='#7da5e0',GradientType=0 );
+    color: black;
+    border-bottom-color: #b7bdcd; }
+  .RadDock_Outlook .rdTitleWrapper .rdTitle {
+    color: black; }
+  .RadDock_Outlook .rdListItem button {
+    background-image: url('../Outlook/Common/radActionsSprite.png');
+    _background-image: url('../Outlook/Common/radActionsSpriteIE6.png'); }
+  .RadDock_Outlook .rdContentWrapper {
+    color: black; }
+  .RadDock_Outlook.RadDock_Collapsed .rdTitleWrapper {
+    border-bottom-color: #b7bdcd; }

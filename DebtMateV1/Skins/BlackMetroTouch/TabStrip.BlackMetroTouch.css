@@ -1,0 +1,134 @@
+.RadTabStrip_BlackMetroTouch {
+  color: white;
+  font: 100 16px/34px "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 26px; }
+  .RadTabStrip_BlackMetroTouch .rtsGhostTab {
+    border-color: #4e4e4e;
+    color: white;
+    background-color: #222222; }
+
+.RadTabStrip_BlackMetroTouch {
+  color: white;
+  font: 100 16px/34px "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 2.5; }
+  .RadTabStrip_BlackMetroTouch .rtsDisabled .rtsTxt {
+    opacity: .5;
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    /* IE 5-7 */
+    filter: alpha(opacity=50); }
+  .RadTabStrip_BlackMetroTouch .rtsLink {
+    padding: 0 10px;
+    color: white; }
+  .RadTabStrip_BlackMetroTouch .rtsOut,
+  .RadTabStrip_BlackMetroTouch .rtsIn {
+    padding: 0; }
+  .RadTabStrip_BlackMetroTouch .rtsTxt {
+    padding: 0; }
+  .RadTabStrip_BlackMetroTouch .rtsLevel1 .rtsLink {
+    margin: 0 0 0 -1px;
+    border: 1px solid #4e4e4e;
+    background-color: #222222; }
+  .RadTabStrip_BlackMetroTouch .rtsLevel1 .rtsLink:hover {
+    border-color: #25a0da;
+    color: white;
+    background-color: #25a0da; }
+  .RadTabStrip_BlackMetroTouch .rtsLevel1 .rtsSelected,
+  .RadTabStrip_BlackMetroTouch .rtsLevel1 .rtsSelected:hover {
+    border-color: #0082cc;
+    color: white;
+    background-color: #0082cc; }
+  .RadTabStrip_BlackMetroTouch .rtsLevel1 .rtsDisabled,
+  .RadTabStrip_BlackMetroTouch .rtsLevel1 .rtsDisabled:hover {
+    background: #222222;
+    border-color: #4e4e4e; }
+  .RadTabStrip_BlackMetroTouch .rtsLevel1 .rtsFirst .rtsLink {
+    margin-left: 0; }
+  .RadTabStrip_BlackMetroTouch .rtsLevel2 {
+    padding: 1px;
+    width: auto;
+    background-color: #0082cc; }
+    .RadTabStrip_BlackMetroTouch .rtsLevel2 .rtsLink {
+      margin: 0 0 0 1px;
+      border: 1px solid #0082cc;
+      color: white; }
+    .RadTabStrip_BlackMetroTouch .rtsLevel2 .rtsLink:hover {
+      border-color: #25a0da; }
+    .RadTabStrip_BlackMetroTouch .rtsLevel2 .rtsSelected,
+    .RadTabStrip_BlackMetroTouch .rtsLevel2 .rtsSelected:hover {
+      border-color: #25a0da; }
+    .RadTabStrip_BlackMetroTouch .rtsLevel2 .rtsFirst .rtsLink {
+      margin-left: 0; }
+  .RadTabStrip_BlackMetroTouch .rtsScroll {
+    height: auto; }
+  .RadTabStrip_BlackMetroTouch .rtsNextArrow,
+  .RadTabStrip_BlackMetroTouch .rtsPrevArrow,
+  .RadTabStrip_BlackMetroTouch .rtsPrevArrowDisabled,
+  .RadTabStrip_BlackMetroTouch .rtsNextArrowDisabled {
+    width: 28px !important;
+    height: 28px !important;
+    border: 1px solid #4e4e4e !important;
+    border-radius: 34px !important;
+    background-color: #222222 !important;
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadTabStrip_BlackMetroTouch .rtsNextArrow {
+    background-position: -11px -161px !important; }
+  .RadTabStrip_BlackMetroTouch .rtsNextArrowDisabled {
+    background-position: -111px -161px !important; }
+  .RadTabStrip_BlackMetroTouch .rtsPrevArrow {
+    background-position: -11px -111px !important; }
+  .RadTabStrip_BlackMetroTouch .rtsPrevArrowDisabled {
+    background-position: -111px -111px !important; }
+
+.RadTabStripTop_BlackMetroTouch .rtsLevel1 {
+  border-bottom: 3px solid #0082cc; }
+  .RadTabStripTop_BlackMetroTouch .rtsLevel1 .rtsLink {
+    border-bottom: 0; }
+
+.RadTabStripBottom_BlackMetroTouch .rtsLevel1 {
+  border-top: 3px solid #0082cc; }
+  .RadTabStripBottom_BlackMetroTouch .rtsLevel1 .rtsLink {
+    border-top: 0; }
+
+.RadTabStrip_BlackMetroTouch_disabled {
+  opacity: 0.5;
+  /* IE 5-7 */
+  filter: alpha(opacity=50); }
+  .RadTabStrip_BlackMetroTouch_disabled .rtsTxt,
+  .RadTabStrip_BlackMetroTouch_disabled .rtsLevel1 .rtsTxt {
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; }
+  .RadTabStrip_BlackMetroTouch_disabled .rtsLevel1 .rtsDisabled .rtsTxt {
+    opacity: 1;
+    /* IE 5-7 */
+    filter: alpha(opacity=100);
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; }
+  .RadTabStrip_BlackMetroTouch_disabled .rtsLevel1 .rtsLink:hover {
+    background-color: #222222;
+    border-color: #4e4e4e;
+    cursor: default; }
+
+/** DropClues */
+.rtsDropClue_BlackMetroTouch {
+  width: 16px;
+  height: 16px;
+  background-image: url('Common/radActionsSprite.png'); }
+
+.rtsDropClueTop_BlackMetroTouch {
+  margin-top: -16px;
+  margin-left: -8px;
+  background-position: -117px -67px; }
+
+.rtsDropClueRight_BlackMetroTouch {
+  margin-top: -8px;
+  background-position: -117px -117px; }
+
+.rtsDropClueBottom_BlackMetroTouch {
+  margin-left: -8px;
+  background-position: -117px -17px; }
+
+.rtsDropClueLeft_BlackMetroTouch {
+  margin-top: -8px;
+  margin-left: -16px;
+  background-position: -117px -167px; }

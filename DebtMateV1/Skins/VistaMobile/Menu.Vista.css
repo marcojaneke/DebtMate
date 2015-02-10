@@ -1,0 +1,39 @@
+.RadMenu_Vista .rmRootToggle {
+  color: black;
+  border-color: #707070;
+  color: black;
+  background-color: #d2d2d2;
+  background-image: linear-gradient(#f3f3f3 0%, #ececec 50%, #dddddd 50%, #d2d2d2 100%); }
+  .RadMenu_Vista .rmRootToggle:active, .RadMenu_Vista .rmRootToggle.rmExpanded {
+    color: black;
+    border-color: #3c7fb1;
+    color: black;
+    background-color: #ced7dd;
+    background-image: linear-gradient(#eff2f4 0%, #eaeef0 50%, #d8e0e5 50%, #ced7dd 100%); }
+.RadMenu_Vista.rmDisabled .rmRootToggle:active, .RadMenu_Vista.rmDisabled .rmRootToggle.rmExpanded {
+  border-color: #707070;
+  color: black;
+  background-color: #d2d2d2;
+  background-image: linear-gradient(#f3f3f3 0%, #ececec 50%, #dddddd 50%, #d2d2d2 100%); }
+
+.RadMenuPopup_Vista {
+  color: black;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #979797;
+  background-color: #f0f0f0; }
+  .RadMenuPopup_Vista:before {
+    border-color: transparent transparent #979797; }
+  .RadMenuPopup_Vista:after {
+    border-color: transparent transparent #f0f0f0; }
+.RadMenuPopup_Vista .rmItem {
+  border-color: #fff;
+  border-bottom: 1px solid #e0e0e0; }
+  .RadMenuPopup_Vista .rmItem:last-child {
+    border-bottom: 0; }
+  .RadMenuPopup_Vista .rmItem.rmSelected {
+    color: black;
+    background-color: #d6effc; }
+.RadMenuPopup_Vista .rmLoading:after {
+  background-color: rgba(255, 255, 255, 0.8); }
+.RadMenuPopup_Vista .rmLoadingIcon:after {
+  background-image: url('../Vista/Common/loading_small.gif'); }

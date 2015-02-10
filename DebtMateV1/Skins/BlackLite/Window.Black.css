@@ -1,0 +1,97 @@
+.RadWindow_Black {
+  background-color: #191919;
+  color: white;
+  font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #202020;
+  /* External content iframe styles */
+  /* Dialog styles */ }
+  .RadWindow_Black .rwTitleBar {
+    background-image: -webkit-linear-gradient(top, #7e7e7e 0%, #191919 100%);
+    background-image: -moz-linear-gradient(top, #7e7e7e 0%, #191919 100%);
+    background-image: -ms-linear-gradient(top, #7e7e7e 0%, #191919 100%);
+    background-image: -o-linear-gradient(top, #7e7e7e 0%, #191919 100%);
+    background-image: linear-gradient(top, #7e7e7e 0%, #191919 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7e7e7e', endColorstr='#191919',GradientType=0 ); }
+  .RadWindow_Black.rwCollapsed .rwTitleBar {
+    border-bottom-color: #202020; }
+  .RadWindow_Black .rwIcon {
+    background-image: url('../Black/Window/WindowHorizontalSprites.gif'); }
+  .RadWindow_Black .rwTitleWrapper .rwTitle {
+    color: white; }
+  .RadWindow_Black .rwListItem:hover {
+    background-image: -webkit-linear-gradient(top, #737373 0%, #1d1d1d 100%);
+    background-image: -moz-linear-gradient(top, #737373 0%, #1d1d1d 100%);
+    background-image: -ms-linear-gradient(top, #737373 0%, #1d1d1d 100%);
+    background-image: -o-linear-gradient(top, #737373 0%, #1d1d1d 100%);
+    background-image: linear-gradient(top, #737373 0%, #1d1d1d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#737373', endColorstr='#1d1d1d',GradientType=0 );
+    border-color: #1d1d1d; }
+  .RadWindow_Black .rwListItem .rwCommandButton,
+  .RadWindow_Black .rwResize {
+    background-image: url('../Black/Common/radActionsSprite.png');
+    _background-image: url('../Black/Common/radActionsSpriteIE6.png'); }
+  .RadWindow_Black .rwContent {
+    background-color: #464646;
+    border-color: #202020; }
+  .RadWindow_Black .rwStatusBar {
+    background-color: #2c2c2c;
+    border-color: #3a3a3a #080808 #080808; }
+  .RadWindow_Black .rwStatusBar input {
+    color: white; }
+  .RadWindow_Black.rwLoading .rwExternalContent {
+    background-image: url('../Black/Common/loading.gif'); }
+  .RadWindow_Black .rwLoading.rwStatusBar {
+    background-image: url('../Black/Common/loading_small.gif'); }
+  .RadWindow_Black .rwDialogButtons input {
+    font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+    border-color: #080808;
+    color: white;
+    background-color: #1b1b1b;
+    background-image: -webkit-linear-gradient(top, #7b7b7b 0%, #4a4a4a 50%, #313131 50%, #1b1b1b 100%);
+    background-image: -moz-linear-gradient(top, #7b7b7b 0%, #4a4a4a 50%, #313131 50%, #1b1b1b 100%);
+    background-image: -ms-linear-gradient(top, #7b7b7b 0%, #4a4a4a 50%, #313131 50%, #1b1b1b 100%);
+    background-image: -o-linear-gradient(top, #7b7b7b 0%, #4a4a4a 50%, #313131 50%, #1b1b1b 100%);
+    background-image: linear-gradient(top, #7b7b7b 0%, #4a4a4a 50%, #313131 50%, #1b1b1b 100%);
+    border-color: #080808; }
+  .RadWindow_Black .rwDialogButtons input:hover {
+    border-color: #080808;
+    color: #9eda29;
+    background-color: #020202;
+    background-image: -webkit-linear-gradient(top, #5c5c5c 0%, #2a2a2c 50%, #060606 50%, #020202 100%);
+    background-image: -moz-linear-gradient(top, #5c5c5c 0%, #2a2a2c 50%, #060606 50%, #020202 100%);
+    background-image: -ms-linear-gradient(top, #5c5c5c 0%, #2a2a2c 50%, #060606 50%, #020202 100%);
+    background-image: -o-linear-gradient(top, #5c5c5c 0%, #2a2a2c 50%, #060606 50%, #020202 100%);
+    background-image: linear-gradient(top, #5c5c5c 0%, #2a2a2c 50%, #060606 50%, #020202 100%);
+    box-shadow: inset 0 0 1px #464646; }
+  .RadWindow_Black .rwDialogButtons input:active {
+    border-color: #080808;
+    color: white;
+    background-color: #202020;
+    background-image: -webkit-linear-gradient(top, #6e6e6e 0%, #2b2b2d 50%, #050505 50%, #202020 100%);
+    background-image: -moz-linear-gradient(top, #6e6e6e 0%, #2b2b2d 50%, #050505 50%, #202020 100%);
+    background-image: -ms-linear-gradient(top, #6e6e6e 0%, #2b2b2d 50%, #050505 50%, #202020 100%);
+    background-image: -o-linear-gradient(top, #6e6e6e 0%, #2b2b2d 50%, #050505 50%, #202020 100%);
+    background-image: linear-gradient(top, #6e6e6e 0%, #2b2b2d 50%, #050505 50%, #202020 100%);
+    box-shadow: inset 0 0 1px #464646; }
+  .RadWindow_Black .rwPromptInput {
+    background-color: #444444;
+    color: white;
+    border-color: #080808;
+    font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadWindow_Black .rwPromptInput:hover {
+    background-color: #444444;
+    color: white;
+    border-color: #515151; }
+  .RadWindow_Black .rwPromptInput:active,
+  .RadWindow_Black .rwPromptInput:focus {
+    background-color: #444444;
+    color: white;
+    border-color: #515151; }
+  .RadWindow_Black .rwPromptInput:disabled {
+    background-color: #444444;
+    color: #6f6f6f;
+    border-color: #141414; }
+  .RadWindow_Black div.rwAlertDialog {
+    background-image: url('../Common/ModalDialogAlertDark.gif'); }
+  .RadWindow_Black div.rwConfirmDialog {
+    background-image: url('../Common/ModalDialogConfirmDark.gif'); }

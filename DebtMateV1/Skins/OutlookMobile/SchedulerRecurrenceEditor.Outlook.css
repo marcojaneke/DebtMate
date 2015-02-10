@@ -1,0 +1,21 @@
+.RecurrenceEditor_Outlook {
+  background-color: white; }
+  .RecurrenceEditor_Outlook .rsAdvRecurrenceTitle {
+    border-color: #b7bdcd;
+    color: black;
+    background-color: #d6e5f3; }
+  .RecurrenceEditor_Outlook .rsTabbedOptionList {
+    border-color: #003c74;
+    color: black;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd 0%, #ebe8e3 100%); }
+    .RecurrenceEditor_Outlook .rsTabbedOptionList li {
+      border-color: #003c74; }
+    .RecurrenceEditor_Outlook .rsTabbedOptionList label:hover {
+      color: black;
+      background-color: #ece9e4;
+      background-image: linear-gradient(#fcfcfc 0%, #f3d8a1 100%); }
+    .RecurrenceEditor_Outlook .rsTabbedOptionList input:checked + label {
+      color: black;
+      background-color: #ece9e4;
+      background-image: linear-gradient(#fcfcfc 0%, #e7c073 100%); }

@@ -1,0 +1,21 @@
+.RecurrenceEditor_Office2010Silver {
+  background-color: white; }
+  .RecurrenceEditor_Office2010Silver .rsAdvRecurrenceTitle {
+    border-color: #828282;
+    color: #3b3b3b;
+    background-color: #edeff2; }
+  .RecurrenceEditor_Office2010Silver .rsTabbedOptionList {
+    border-color: #a4abb2;
+    color: #3b3b3b;
+    background-color: #dbdde1;
+    background-image: linear-gradient(#f1f2f3 0%, #dbdde1 100%); }
+    .RecurrenceEditor_Office2010Silver .rsTabbedOptionList li {
+      border-color: #a4abb2; }
+    .RecurrenceEditor_Office2010Silver .rsTabbedOptionList label:hover {
+      color: black;
+      background-color: #fae185;
+      background-image: linear-gradient(#fceaab 0%, #fae185 50%, #fcf5d9 100%); }
+    .RecurrenceEditor_Office2010Silver .rsTabbedOptionList input:checked + label {
+      color: black;
+      background-color: #ffd86b;
+      background-image: linear-gradient(#ffe272 0%, #ffd86b 50%, #ffef7c 100%); }

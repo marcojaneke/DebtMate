@@ -1,0 +1,168 @@
+.RadComboBox_Outlook {
+  color: black;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadComboBox_Outlook .rcbInputCell,
+  .RadComboBox_Outlook .rcbArrowCell {
+    background-image: url('Common/radFormSprite.png');
+    _background-image: url('Common/radFormSpriteIE6.png'); }
+  .RadComboBox_Outlook .rcbInputCellLeft {
+    background-position: 0 0; }
+  .RadComboBox_Outlook .rcbInputCellRight {
+    background-position: 100% 0; }
+  .RadComboBox_Outlook .rcbInput {
+    color: black;
+    font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+    line-height: 16px; }
+  .RadComboBox_Outlook .rcbEmptyMessage {
+    color: gray;
+    font-style: italic; }
+  .RadComboBox_Outlook .rcbArrowCellLeft {
+    background-position: 0 -176px; }
+  .RadComboBox_Outlook .rcbArrowCellRight {
+    background-position: -18px -176px; }
+  .RadComboBox_Outlook .rcbArrowCellLeft.rcbArrowCellHidden {
+    background-position: 0 0; }
+  .RadComboBox_Outlook .rcbArrowCellRight.rcbArrowCellHidden {
+    background-position: 100% 0; }
+  .RadComboBox_Outlook .rcbHovered .rcbInputCellLeft {
+    background-position: 0 -22px; }
+  .RadComboBox_Outlook .rcbHovered .rcbInputCellRight {
+    background-position: 100% -22px; }
+  .RadComboBox_Outlook .rcbHovered .rcbInput {
+    color: black; }
+  .RadComboBox_Outlook .rcbHovered .rcbArrowCellLeft {
+    background-position: -36px -176px; }
+  .RadComboBox_Outlook .rcbHovered .rcbArrowCellRight {
+    background-position: -54px -176px; }
+  .RadComboBox_Outlook .rcbHovered .rcbArrowCellLeft.rcbArrowCellHidden {
+    background-position: 0 -22px; }
+  .RadComboBox_Outlook .rcbHovered .rcbArrowCellRight.rcbArrowCellHidden {
+    background-position: 100% -22px; }
+  .RadComboBox_Outlook .rcbFocused .rcbInputCellLeft {
+    background-position: 0 -44px; }
+  .RadComboBox_Outlook .rcbFocused .rcbInputCellRight {
+    background-position: 100% -44px; }
+  .RadComboBox_Outlook .rcbFocused .rcbInput {
+    color: black; }
+  .RadComboBox_Outlook .rcbFocused .rcbArrowCellLeft {
+    background-position: -72px -176px; }
+  .RadComboBox_Outlook .rcbFocused .rcbArrowCellRight {
+    background-position: -90px -176px; }
+  .RadComboBox_Outlook .rcbFocused .rcbArrowCellLeft.rcbArrowCellHidden {
+    background-position: 0 -44px; }
+  .RadComboBox_Outlook .rcbFocused .rcbArrowCellRight.rcbArrowCellHidden {
+    background-position: 100% -44px; }
+  .RadComboBox_Outlook .rcbDisabled .rcbInputCellLeft {
+    background-position: 0 -66px; }
+  .RadComboBox_Outlook .rcbDisabled .rcbInputCellRight {
+    background-position: 100% -66px; }
+  .RadComboBox_Outlook .rcbDisabled .rcbInput {
+    color: #8d8d8d; }
+  .RadComboBox_Outlook .rcbDisabled .rcbArrowCellLeft {
+    background-position: -108px -176px; }
+  .RadComboBox_Outlook .rcbDisabled .rcbArrowCellRight {
+    background-position: -126px -176px; }
+  .RadComboBox_Outlook .rcbDisabled .rcbArrowCellLeft.rcbArrowCellHidden {
+    background-position: 0 -66px; }
+  .RadComboBox_Outlook .rcbDisabled .rcbArrowCellRight.rcbArrowCellHidden {
+    background-position: 100% -66px; }
+  .RadComboBox_Outlook .rcbReadOnly .rcbInputCellLeft {
+    background-position: 0 -88px; }
+  .RadComboBox_Outlook .rcbReadOnly .rcbInputCellRight {
+    background-position: 100% -88px; }
+  .RadComboBox_Outlook .rcbReadOnly .rcbInput {
+    color: black; }
+  .RadComboBox_Outlook .rcbReadOnly .rcbArrowCellLeft {
+    background-position: -144px -176px; }
+  .RadComboBox_Outlook .rcbReadOnly .rcbArrowCellRight {
+    background-position: -162px -176px; }
+  .RadComboBox_Outlook .rcbReadOnly .rcbArrowCellLeft.rcbArrowCellHidden {
+    background-position: 0 -88px; }
+  .RadComboBox_Outlook .rcbReadOnly .rcbArrowCellRight.rcbArrowCellHidden {
+    background-position: 100% -88px; }
+  .RadComboBox_Outlook .rcbHovered .rcbReadOnly .rcbInputCellLeft {
+    background-position: 0 -110px; }
+  .RadComboBox_Outlook .rcbHovered .rcbReadOnly .rcbInputCellRight {
+    background-position: 100% -110px; }
+  .RadComboBox_Outlook .rcbHovered .rcbReadOnly .rcbInput {
+    color: black; }
+  .RadComboBox_Outlook .rcbHovered .rcbReadOnly .rcbArrowCellLeft {
+    background-position: -180px -176px; }
+  .RadComboBox_Outlook .rcbHovered .rcbReadOnly .rcbArrowCellRight {
+    background-position: -198px -176px; }
+  .RadComboBox_Outlook .rcbHovered .rcbReadOnly .rcbArrowCellLeft.rcbArrowCellHidden {
+    background-position: 0 -110px; }
+  .RadComboBox_Outlook .rcbHovered .rcbReadOnly .rcbArrowCellRight.rcbArrowCellHidden {
+    background-position: 100% -110px; }
+  .RadComboBox_Outlook .rcbFocused .rcbReadOnly .rcbInputCellLeft {
+    background-position: 0 -132px; }
+  .RadComboBox_Outlook .rcbFocused .rcbReadOnly .rcbInputCellRight {
+    background-position: 100% -132px; }
+  .RadComboBox_Outlook .rcbFocused .rcbReadOnly .rcbInput {
+    color: black; }
+  .RadComboBox_Outlook .rcbFocused .rcbReadOnly .rcbArrowCellLeft {
+    background-position: -216px -176px; }
+  .RadComboBox_Outlook .rcbFocused .rcbReadOnly .rcbArrowCellRight {
+    background-position: -234px -176px; }
+  .RadComboBox_Outlook .rcbFocused .rcbReadOnly .rcbArrowCellLeft.rcbArrowCellHidden {
+    background-position: 0 -132px; }
+  .RadComboBox_Outlook .rcbFocused .rcbReadOnly .rcbArrowCellRight.rcbArrowCellHidden {
+    background-position: 100% -132px; }
+  .RadComboBox_Outlook .rcbDisabled .rcbReadOnly .rcbInputCellLeft {
+    background-position: 0 -154px; }
+  .RadComboBox_Outlook .rcbDisabled .rcbReadOnly .rcbInputCellRight {
+    background-position: 100% -154px; }
+  .RadComboBox_Outlook .rcbDisabled .rcbReadOnly .rcbInput {
+    color: #8d8d8d; }
+  .RadComboBox_Outlook .rcbDisabled .rcbReadOnly .rcbArrowCellLeft {
+    background-position: -252px -176px; }
+  .RadComboBox_Outlook .rcbDisabled .rcbReadOnly .rcbArrowCellRight {
+    background-position: -270px -176px; }
+  .RadComboBox_Outlook .rcbDisabled .rcbReadOnly .rcbArrowCellLeft.rcbArrowCellHidden {
+    background-position: 0 -154px; }
+  .RadComboBox_Outlook .rcbDisabled .rcbReadOnly .rcbArrowCellRight.rcbArrowCellHidden {
+    background-position: 100% -154px; }
+
+.RadComboBoxDropDown_Outlook {
+  border-color: #89aee5;
+  color: black;
+  background: white;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadComboBoxDropDown_Outlook .rcbHeader,
+  .RadComboBoxDropDown_Outlook .rcbFooter {
+    color: black;
+    background-color: #d6e5f3; }
+  .RadComboBoxDropDown_Outlook .rcbHeader {
+    border-bottom-color: #89aee5; }
+  .RadComboBoxDropDown_Outlook .rcbFooter {
+    border-top-color: #89aee5; }
+  .RadComboBoxDropDown_Outlook .rcbHovered {
+    color: black;
+    background: #ffeec2; }
+  .RadComboBoxDropDown_Outlook .rcbDisabled {
+    color: #8d8d8d;
+    background-color: transparent; }
+  .RadComboBoxDropDown_Outlook .rcbLoading {
+    color: black;
+    background: #ffeec2; }
+  .RadComboBoxDropDown_Outlook .rcbItem em,
+  .RadComboBoxDropDown_Outlook .rcbHovered em {
+    color: black;
+    background: #ffeec2; }
+  .RadComboBoxDropDown_Outlook .rcbCheckAllItems {
+    color: black;
+    background-color: #d6e5f3; }
+  .RadComboBoxDropDown_Outlook .rcbCheckAllItemsHovered {
+    color: black;
+    background-color: #d6e5f3; }
+  .RadComboBoxDropDown_Outlook .rcbMoreResults {
+    border-top-color: #c3d9f9;
+    color: black;
+    background-color: #d6e5f3; }
+    .RadComboBoxDropDown_Outlook .rcbMoreResults a {
+      background-image: url('Common/radFormSprite.png');
+      _background-image: url('Common/radFormSpriteIE6.png');
+      background-position: -308px -181px; }
+  .RadComboBoxDropDown_Outlook .rcbSeparator {
+    color: #ffffff;
+    background: #8a8a8a; }

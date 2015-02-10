@@ -1,0 +1,30 @@
+.RadMenu_BlackMetroTouch .rmRootToggle {
+  color: white;
+  border-color: #222222;
+  border-radius: 0;
+  background-color: #222222;
+  box-shadow: none; }
+  .RadMenu_BlackMetroTouch .rmRootToggle:active, .RadMenu_BlackMetroTouch .rmRootToggle.rmExpanded {
+    border-color: #0082cc;
+    background-color: #0082cc; }
+.RadMenu_BlackMetroTouch.rmDisabled .rmRootToggle:active, .RadMenu_BlackMetroTouch.rmDisabled .rmRootToggle.rmExpanded {
+  border-color: #222222;
+  background-color: #222222; }
+
+.RadMenuPopup_BlackMetroTouch {
+  color: white;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #333333;
+  background-color: black; }
+  .RadMenuPopup_BlackMetroTouch:before {
+    border-color: transparent transparent #333333; }
+  .RadMenuPopup_BlackMetroTouch:after {
+    border-color: transparent transparent black; }
+.RadMenuPopup_BlackMetroTouch .rmItem {
+  border-color: #333333; }
+  .RadMenuPopup_BlackMetroTouch .rmItem.rmSelected {
+    background-color: #0082cc; }
+.RadMenuPopup_BlackMetroTouch .rmLoading:after {
+  background-color: rgba(0, 0, 0, 0.6); }
+.RadMenuPopup_BlackMetroTouch .rmLoadingIcon:after {
+  background-image: url('../BlackMetroTouch/Common/loading_small.gif'); }

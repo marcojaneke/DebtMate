@@ -1,0 +1,120 @@
+.RadSearchBox_Glow {
+  color: #1c262c;
+  font: normal 13px/22px Arial, Helvetica, sans-serif;
+  line-height: 1.69231em; }
+  .RadSearchBox_Glow .rsbInner {
+    border-color: #8a9297;
+    color: white;
+    background-color: #29343b; }
+    .RadSearchBox_Glow .rsbInner.rsbHovered {
+      border-color: #f89d26;
+      color: #f89d26;
+      background-color: #29343b; }
+    .RadSearchBox_Glow .rsbInner.rsbFocused {
+      border-color: #f89d26;
+      color: white;
+      background-color: #29343b; }
+    .RadSearchBox_Glow .rsbInner.rsbDisabled {
+      border-color: #474f53;
+      color: #677277;
+      background-color: #29343b; }
+  .RadSearchBox_Glow .rsbInput {
+    font: inherit;
+    *font: normal 13px Arial, Helvetica, sans-serif;
+    height: 1.69231em; }
+    @media screen\0 {
+      .RadSearchBox_Glow .rsbInput {
+        line-height: 1.69231em; } }
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+      .RadSearchBox_Glow .rsbInput {
+        line-height: 1.23077em; } }
+  .RadSearchBox_Glow .rsbEmptyMessage {
+    color: #c1c7ca;
+    font-style: italic; }
+  .RadSearchBox_Glow .rsbButton {
+    width: 24px;
+    height: 24px;
+    border-radius: 2px;
+    background-image: url('../Glow/Common/radPrimaryGradientButtonSprite.png');
+    _background-image: none;
+    background-image: -webkit-linear-gradient(top, transparent, transparent);
+    background-image: -moz-linear-gradient(top, transparent, transparent);
+    background-image: -ms-linear-gradient(top, transparent, transparent);
+    background-image: -o-linear-gradient(top, transparent, transparent);
+    background-image: linear-gradient(top, transparent, transparent); }
+    .RadSearchBox_Glow .rsbButton:hover {
+      border-color: #ce800f;
+      color: #1c262c;
+      background-color: #d18000;
+      background-image: linear-gradient(#ffa800 0%, #d18000 100%); }
+    .RadSearchBox_Glow .rsbButton:focus {
+      border-color: #ffa915;
+      color: black;
+      background-color: #ffa915;
+      background-image: linear-gradient(#ffa915 0%, #ffa915 100%); }
+  .RadSearchBox_Glow .rsbLoadingIcon {
+    background-image: url('../Glow/Common/loading_small.gif'); }
+  .RadSearchBox_Glow .rsbButtonSearch {
+    width: 2.15385em;
+    height: 2.15385em;
+    color: white; }
+  .RadSearchBox_Glow .rsbSCInner {
+    height: 2.15385em;
+    line-height: 1.69231em;
+    background-image: url('../Glow/Common/radPrimaryGradientButtonSprite.png');
+    _background-image: none;
+    border-color: black;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#414c53 0%, #1c262c 100%);
+    background-color: #334147; }
+  .RadSearchBox_Glow .rsbSCIcon:before {
+    content: "\E002"; }
+  .RadSearchBox_Glow .rsbSCHovered {
+    border-color: #ce800f;
+    color: #1c262c;
+    background-color: #d18000;
+    background-image: linear-gradient(#ffa800 0%, #d18000 100%); }
+  .RadSearchBox_Glow .rsbSCFocused {
+    border-color: #ffa915;
+    color: black;
+    background-color: #ffa915;
+    background-image: linear-gradient(#ffa915 0%, #ffa915 100%); }
+  .RadSearchBox_Glow .rsbSCDisabled {
+    border-color: #b87f1b;
+    color: #a56100;
+    background-color: #b87f1b;
+    background-image: linear-gradient(#d29c3e 0%, #b87f1b 100%); }
+    .RadSearchBox_Glow .rsbSCDisabled .rsbSCIcon {
+      *background-position: -117px -1067px; }
+
+.rsbPopup_Glow {
+  border-color: #1b2327;
+  color: #c1c7ca;
+  background: #35434b;
+  font: normal 13px/22px Arial, Helvetica, sans-serif;
+  line-height: 1.69231em; }
+  .rsbPopup_Glow .rsbHeader,
+  .rsbPopup_Glow .rsbFooter {
+    color: #c1c7ca;
+    background-color: #1c262c; }
+  .rsbPopup_Glow .rsbHeader {
+    border-bottom-color: #1b2327; }
+  .rsbPopup_Glow .rsbFooter {
+    border-top-color: #1b2327; }
+  .rsbPopup_Glow .rsbShowAll {
+    border-color: #1b2327; }
+  .rsbPopup_Glow .rsbList {
+    color: #c1c7ca;
+    background-color: #242e35; }
+  .rsbPopup_Glow .rsbListItemHovered {
+    color: white;
+    background-color: #4d5c65; }
+  .rsbPopup_Glow .rsbListItemSelected {
+    color: black;
+    background-color: #ffa915; }
+  .rsbPopup_Glow .rsbListItemDisabled {
+    color: #677277; }
+  .rsbPopup_Glow .rsbListItemLoading {
+    color: white;
+    background-color: #4d5c65; }

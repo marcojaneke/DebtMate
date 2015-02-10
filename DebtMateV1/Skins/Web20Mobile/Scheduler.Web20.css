@@ -1,0 +1,227 @@
+.RadScheduler_Web20 {
+  color: black;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadScheduler_Web20 .rsList > li {
+    border-color: #6788be; }
+  .RadScheduler_Web20 select,
+  .RadScheduler_Web20 input[type="text"],
+  .RadScheduler_Web20 input[type="date"],
+  .RadScheduler_Web20 input[type="time"],
+  .RadScheduler_Web20 input[type="number"],
+  .RadScheduler_Web20 textarea {
+    border-color: #6788be;
+    color: black;
+    background-color: white; }
+    .RadScheduler_Web20 select:hover,
+    .RadScheduler_Web20 input[type="text"]:hover,
+    .RadScheduler_Web20 input[type="date"]:hover,
+    .RadScheduler_Web20 input[type="time"]:hover,
+    .RadScheduler_Web20 input[type="number"]:hover,
+    .RadScheduler_Web20 textarea:hover {
+      border-color: #3f5f94;
+      color: black;
+      background-color: white; }
+    .RadScheduler_Web20 select:focus,
+    .RadScheduler_Web20 input[type="text"]:focus,
+    .RadScheduler_Web20 input[type="date"]:focus,
+    .RadScheduler_Web20 input[type="time"]:focus,
+    .RadScheduler_Web20 input[type="number"]:focus,
+    .RadScheduler_Web20 textarea:focus {
+      border-color: #3f5f94;
+      color: black;
+      background-color: white; }
+  .RadScheduler_Web20 .rsButton {
+    border-color: #0f1d48;
+    color: white;
+    background-color: #324d92;
+    background-image: linear-gradient(#8d9dd2 0%, #5762a3 50%, #3c4d8f 50%, #687dc1 100%); }
+    .RadScheduler_Web20 .rsButton:hover {
+      border-color: #3f5f94;
+      color: #0f3789;
+      background-color: #95aed8;
+      background-image: linear-gradient(#dee7f4 0%, #afbede 50%, #98acd5 50%, #cddcf1 100%); }
+    .RadScheduler_Web20 .rsButton:active {
+      border-color: #0f1d48;
+      color: white;
+      background-color: #324d92;
+      background-image: linear-gradient(#8d9dd2 0%, #5762a3 50%, #3c4d8f 50%, #687dc1 100%); }
+  .RadScheduler_Web20 .rsTopWrap {
+    border-color: #6788be;
+    background-color: #93b4df; }
+  .RadScheduler_Web20 .rsToolbar {
+    border-color: #d2dcec;
+    color: white;
+    background-color: #93b4df; }
+    .RadScheduler_Web20 .rsToolbar .rsPrimary {
+      background-image: linear-gradient(#8d9dd2 0%, #5762a3 50%, #3c4d8f 50%, #687dc1 100%); }
+    .RadScheduler_Web20 .rsToolbar .rsSecondary {
+      border-color: #6788be;
+      background-color: #93b4df; }
+    .RadScheduler_Web20 .rsToolbar .rsViewSwitcher,
+    .RadScheduler_Web20 .rsToolbar .rsToday,
+    .RadScheduler_Web20 .rsToolbar .rsAddAppointment,
+    .RadScheduler_Web20 .rsToolbar .rsDatePicker,
+    .RadScheduler_Web20 .rsToolbar .rsPrevDay,
+    .RadScheduler_Web20 .rsToolbar .rsNextDay {
+      background-repeat: repeat-x; }
+      .RadScheduler_Web20 .rsToolbar .rsViewSwitcher:hover,
+      .RadScheduler_Web20 .rsToolbar .rsToday:hover,
+      .RadScheduler_Web20 .rsToolbar .rsAddAppointment:hover,
+      .RadScheduler_Web20 .rsToolbar .rsDatePicker:hover,
+      .RadScheduler_Web20 .rsToolbar .rsPrevDay:hover,
+      .RadScheduler_Web20 .rsToolbar .rsNextDay:hover {
+        color: #0f3789;
+        background-color: #95aed8;
+        background-image: linear-gradient(#dee7f4 0%, #afbede 50%, #98acd5 50%, #cddcf1 100%); }
+      .RadScheduler_Web20 .rsToolbar .rsViewSwitcher:active,
+      .RadScheduler_Web20 .rsToolbar .rsToday:active,
+      .RadScheduler_Web20 .rsToolbar .rsAddAppointment:active,
+      .RadScheduler_Web20 .rsToolbar .rsDatePicker:active,
+      .RadScheduler_Web20 .rsToolbar .rsPrevDay:active,
+      .RadScheduler_Web20 .rsToolbar .rsNextDay:active {
+        color: white;
+        background-color: #324d92;
+        background-image: linear-gradient(#dee7f4 0%, #afbede 50%, #98acd5 50%, #cddcf1 100%); }
+    .RadScheduler_Web20 .rsToolbar .rsAddAppointment,
+    .RadScheduler_Web20 .rsToolbar .rsPrevDay,
+    .RadScheduler_Web20 .rsToolbar .rsNextDay {
+      color: transparent; }
+    .RadScheduler_Web20 .rsToolbar .rsAddAppointment:before,
+    .RadScheduler_Web20 .rsToolbar .rsPrevDay:before,
+    .RadScheduler_Web20 .rsToolbar .rsNextDay:before {
+      color: white; }
+    .RadScheduler_Web20 .rsToolbar .rsAddAppointment:hover,
+    .RadScheduler_Web20 .rsToolbar .rsPrevDay:hover,
+    .RadScheduler_Web20 .rsToolbar .rsNextDay:hover {
+      color: transparent; }
+    .RadScheduler_Web20 .rsToolbar .rsAddAppointment:hover:before,
+    .RadScheduler_Web20 .rsToolbar .rsPrevDay:hover:before,
+    .RadScheduler_Web20 .rsToolbar .rsNextDay:hover:before {
+      color: #0f3789; }
+    .RadScheduler_Web20 .rsToolbar .rsAddAppointment:active,
+    .RadScheduler_Web20 .rsToolbar .rsPrevDay:active,
+    .RadScheduler_Web20 .rsToolbar .rsNextDay:active {
+      color: transparent; }
+    .RadScheduler_Web20 .rsToolbar .rsAddAppointment:active:before,
+    .RadScheduler_Web20 .rsToolbar .rsPrevDay:active:before,
+    .RadScheduler_Web20 .rsToolbar .rsNextDay:active:before {
+      color: white; }
+  .RadScheduler_Web20 .rsFooter {
+    border-color: #6788be;
+    color: black;
+    background-color: #93b4df; }
+    .RadScheduler_Web20 .rsFooter a {
+      color: #555555; }
+    .RadScheduler_Web20 .rsFooter a:hover {
+      color: #888888; }
+  .RadScheduler_Web20 .rsContent {
+    color: black;
+    background: white; }
+  .RadScheduler_Web20 .rsSubHeader {
+    border-color: #6788be;
+    color: black;
+    background-color: #93b4df; }
+  .RadScheduler_Web20 .rsSpacerCell,
+  .RadScheduler_Web20 .rsAllDayHeader,
+  .RadScheduler_Web20 .rsAllDayRow td,
+  .RadScheduler_Web20 .rsContentTable .rsAllDayRow td,
+  .RadScheduler_Web20 .rsVerticalHeaderTable th,
+  .RadScheduler_Web20 .rsHorizontalHeaderTable th {
+    border-color: #d2dcec; }
+  .RadScheduler_Web20 .rsVerticalHeaderTable {
+    color: black;
+    background-color: #a7c2e5; }
+  .RadScheduler_Web20 .rsVerticalHeaderTable th {
+    border-color: transparent #d2dcec; }
+  .RadScheduler_Web20 .rsVerticalHeaderTable .rsAlt th,
+  .RadScheduler_Web20 .rsVerticalHeaderTable .rsMainHeader th {
+    border-color: #d2dcec; }
+  .RadScheduler_Web20 .rsSpacerCell,
+  .RadScheduler_Web20 .rsHorizontalHeaderTable {
+    color: black;
+    background-color: #93b4df;
+    background-image: linear-gradient(#9db7db, #7b95c6 50%, #698ac0 50%, #93b4df); }
+  .RadScheduler_Web20 .rsAllDayRow,
+  .RadScheduler_Web20 .rsAllDayHeader {
+    color: black;
+    background-color: #93b4df; }
+  .RadScheduler_Web20 .rsContentTable td {
+    border-color: #e6eef8 #e6eef8; }
+  .RadScheduler_Web20 .rsContentTable .rsAlt td {
+    border-color: #a4b7d0 #e6eef8; }
+  .RadScheduler_Web20 .rsOtherMonth,
+  .RadScheduler_Web20 .rsNonWorkHour,
+  .RadScheduler_Web20 .rsSunCol,
+  .RadScheduler_Web20 .rsSatCol {
+    background-color: #f5fcff; }
+  .RadScheduler_Web20 .rsAptCreate {
+    background-color: #e7f1ff; }
+  .RadScheduler_Web20 .rsAptCreateRow1 {
+    background-image: linear-gradient(#e7f1ff, #e7f1ff); }
+  .RadScheduler_Web20 .rsSelectedSlot {
+    border-color: #808080;
+    background-color: #909090; }
+  .RadScheduler_Web20 .rsAptCreate.rsSelectedSlot {
+    border-color: #707070;
+    background-color: #808080;
+    background-image: none; }
+  .RadScheduler_Web20 .rsArrowContainer .rsOvertimeArrow {
+    border-color: #0f1d48;
+    color: white;
+    background-image: linear-gradient(#8d9dd2 0%, #5762a3 50%, #3c4d8f 50%, #687dc1 100%);
+    background-color: #324d92; }
+  .RadScheduler_Web20 .rsArrowContainer .rsOvertimeArrow:hover {
+    border-color: #3f5f94;
+    color: #0f3789;
+    background-image: linear-gradient(#dee7f4 0%, #afbede 50%, #98acd5 50%, #cddcf1 100%);
+    background-color: #95aed8; }
+  .RadScheduler_Web20 .rsAptContent {
+    border-color: #4d9e1f;
+    background-color: #cbf5b4; }
+  .RadScheduler_Web20 .rsAptSelected .rsAptContent {
+    border-color: #000000; }
+  .RadScheduler_Web20 .rsAgendaTable th, .RadScheduler_Web20 .rsAgendaTable td {
+    border-bottom-color: #2a3f62;
+    border-right-color: #2a3f62; }
+  .RadScheduler_Web20 .rsAgendaTable th {
+    color: black;
+    background-color: #a7c2e5; }
+  .RadScheduler_Web20 .rsAgendaTable .rsAgendaRowHovered {
+    border-color: #bcd2f1;
+    color: black;
+    background-color: #e7f1ff;
+    background-image: linear-gradient(#e7f1ff, #e7f1ff); }
+  .RadScheduler_Web20 .rsAgendaTable .rsAgendaRowSelected {
+    border-color: #85c843;
+    color: black;
+    background-color: #d4ffbc;
+    background-image: linear-gradient(#d4ffbc, #d4ffbc); }
+  .RadScheduler_Web20 .rsPopup {
+    border-color: #6788be;
+    color: black;
+    background-color: white; }
+    .RadScheduler_Web20 .rsPopup .rsTitle {
+      border-color: #6788be;
+      color: black;
+      background-color: #93b4df; }
+    .RadScheduler_Web20 .rsPopup .rsCommandFooter .rsButton {
+      width: 50%; }
+  .RadScheduler_Web20 .rsAdvancedEdit {
+    border-color: #6788be;
+    color: black;
+    background-color: white; }
+  .RadScheduler_Web20 .rsAdvTitle {
+    border-color: #6788be;
+    color: black;
+    background-color: #93b4df; }
+
+/* RadScheduler Default skin */
+/* common */
+/* header */
+/* content */
+/* <appointments> */
+.RadScheduler_Default .rsFullTime {
+  color: #000; }
+
+/* </appointments> */

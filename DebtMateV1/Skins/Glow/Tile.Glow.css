@@ -1,0 +1,26 @@
+.RadTile_Glow {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #e2e8eb;
+  background-color: #1c262c;
+  /* Loading image */ }
+  .RadTile_Glow.rtileSelected {
+    border-color: #ffa915; }
+  .RadTile_Glow.rtileHovered {
+    border-color: #4d5c65; }
+  .RadTile_Glow.rtileSelected.rtileHovered {
+    border-color: rgba(255, 169, 21, 0.7); }
+  .RadTile_Glow.rtileSelected .rtileSelectedIcon {
+    background-image: url('Tile/rtileSprite.png');
+    _background-image: url('Tile/rtileSpriteIE6.png'); }
+  .RadTile_Glow div.rtileBadgeIcon {
+    background-image: url('../Common/Tile/rtileBadgeIconsDark.png');
+    _background-image: url('../Common/Tile/rtileBadgeIconsDarkIE6.png'); }
+  html .RadTile_Glow.RadTile h6.rtileTitle {
+    color: #e2e8eb; }
+  .RadTile_Glow .rtilePeekContent {
+    background-color: #1c262c; }
+  .RadTile_Glow.rtileLoading,
+  .RadTile_Glow .rtileLoading {
+    background-image: url('Common/loading_small.gif'); }
+

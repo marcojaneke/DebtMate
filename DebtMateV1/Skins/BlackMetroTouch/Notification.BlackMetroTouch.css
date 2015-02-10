@@ -1,0 +1,53 @@
+.RadNotification_BlackMetroTouch {
+  border: 1px solid #4e4e4e;
+  background-color: black;
+  color: white;
+  /* base style overwrites */ }
+  .RadNotification_BlackMetroTouch div.rnTitleBar {
+    height: 4.08333em;
+    background-color: black;
+    border-radius: 0;
+    border-bottom: 1px solid #4e4e4e; }
+  .RadNotification_BlackMetroTouch.rnRoundedCorners, .RadNotification_BlackMetroTouch.rnRoundedCorners .rnTitleBar {
+    border-radius: 0; }
+  .RadNotification_BlackMetroTouch span.rnTitleBarTitle {
+    font-size: 1.833em;
+    height: 2.25em;
+    line-height: 2.16667em; }
+  .RadNotification_BlackMetroTouch span.rnTitleBarIcon {
+    margin: 10px 4px 0 0;
+    position: relative;
+    width: 32px;
+    height: 32px; }
+  .RadNotification_BlackMetroTouch .rnTitleBarIcon img {
+    position: absolute;
+    top: -16px; }
+  .RadNotification_BlackMetroTouch.rnRtl span.rnTitleBarIcon {
+    margin: 10px 0 0 0; }
+  .RadNotification_BlackMetroTouch ul.rnCommands {
+    height: 29px;
+    line-height: 30px;
+    margin: 9px 0 0; }
+  .RadNotification_BlackMetroTouch ul.rnCommands a {
+    width: 28px;
+    height: 28px;
+    border: 1px solid transparent;
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadNotification_BlackMetroTouch ul.rnCommands a:hover {
+    border: 1px solid #4e4e4e;
+    background-color: #222222;
+    border-radius: 45px; }
+  .RadNotification_BlackMetroTouch ul.rnCommands a:active,
+  .RadNotification_BlackMetroTouch ul.rnCommands a:focus {
+    outline: 0; }
+  .RadNotification_BlackMetroTouch ul.rnCommands .rnMenuIcon a,
+  .RadNotification_BlackMetroTouch ul.rnCommands .rnMenuIcon a:hover {
+    background-position: -11px -61px; }
+  .RadNotification_BlackMetroTouch ul.rnCommands .rnCloseIcon a,
+  .RadNotification_BlackMetroTouch ul.rnCommands .rnCloseIcon a:hover {
+    background-position: -11px -1911px; }
+  .RadNotification_BlackMetroTouch .rnContentWrapper {
+    border-top: 1px solid transparent;
+    font-size: 16px; }
+  .RadNotification_BlackMetroTouch .rnCommands {
+    margin: 4px 0 0; }

@@ -1,0 +1,268 @@
+.Vista {
+  /* reWrapper */
+  /* common settings for .reModule, .reEditorModes and .reWrapper */
+  /* end of module */
+  /*Toolbar sprites*/
+  /* .reTool_text */
+  /* these settings will not be included in the common CSS file of RadEditor */
+  /* end of reTool_text */
+  /* add weight to the selector for IE6 so it is applied */
+  /* end of reSplitButton */
+  /* reDropdown */
+  /* end of reDropdown */
+  /* InsertTable itself is a kind of tool strip, so it must be styled as a toolstrip */
+  /* end of context menu and toolstrip */
+  /* spinbox */
+  /* end of spinbox */
+  /* DOM inspector */
+  /* end of DOM inspector */
+  /* end of expanded dropdowns */
+  /* color picker */
+  /* end of color picker */
+  /* ajax spellchecker */
+  /* ajax spellchecker */
+  /* custom links */
+  /* end of custom links */
+  /* insert table dropdown */
+  /* end of insert table dropdown */
+  /* Popup Comments */
+  /* Commnet popups */
+  /* Right to Left */ }
+  .Vista.RadEditor, .Vista.RadEditor .reModule, .Vista.RadEditor .reEditorModes, .Vista.RadEditor .reWrapper {
+    background-color: #c2dcf0; }
+  .Vista.reWrapper, .Vista.RadEditor .reContentCell, .Vista.reColorPicker, .Vista.reInsertTable, .Vista.reCustomLinks a:hover {
+    border: 1px solid #b7bdcd;
+    background-color: #c2dcf0; }
+  .Vista .reEmptyMessage {
+    color: #8a8a8a; }
+  .Vista.RadEditor .reContentCell {
+    background-color: white; }
+  .Vista.reDropDownBody {
+    border: 1px solid #b7bdcd;
+    background-color: #c2dcf0; }
+  .Vista.reDropDownBody table {
+    background: transparent; }
+  .Vista.RadEditor .reModule {
+    border-top: 1px solid #b7bdcd; }
+  .Vista.reCustomLinks a, .Vista.reCustomLinks a:link, .Vista.reCustomLinks a:visited {
+    border: 1px solid white;
+    /* should be the same as the background of the dropdown */
+    color: black !important; }
+  .Vista.reCustomLinks a:hover {
+    background-color: #bee6fd;
+    border: 1px solid #707070; }
+  .Vista .reToolbar li,
+  .Vista .reSpinBox a, .Vista.reToolbar .reSeparator, .Vista.reToolbar .reGrip,
+  .Vista .reDialog .reTool,
+  .Vista .reModule .reTool,
+  .Vista .reDialog .reTool:hover,
+  .Vista .reToolbar .reTool:hover,
+  .Vista .reModule .reTool:hover,
+  .Vista .reToolbar .reTool.reTool_selected,
+  .Vista .reToolbar .reTool.reTool_selected:hover,
+  .Vista .reToolbar .reTool_text:hover,
+  .Vista .reToolbar .reTool_text.reTool_selected,
+  .Vista .reToolbar .reTool_text.reTool_selected:hover,
+  .Vista .reTool .split_arrow,
+  .Vista .reSplitButton.reTool_text .split_arrow,
+  .Vista .reToolbar .reTool_text .split_arrow,
+  .Vista .reDialog .reTool.reSplitButton,
+  .Vista .reModule .reTool.reSplitButton,
+  .Vista .reDropdown,
+  .Vista .reTool_disabled.reDropdown:hover,
+  .Vista .reResizeCell div, .Vista.reInsertTable .reToolbar li .reTool:hover, .Vista.RadEditor.reRtl .reDropdown:hover {
+    background-image: url('Editor/ToolBarSprites.gif'); }
+  .Vista.RadEditor .reTlbVertical li,
+  .Vista .reDropdown:hover, .Vista.RadEditor .reTlbVertical .reToolbar.Default .reGrip, .Vista.RadEditor.reTlbVertical .reToolbar.Default .reSeparator,
+  .Vista .reTlbVertical .reTool:hover,
+  .Vista .reTlbVertical .reTool_text.reSplitButton:hover,
+  .Vista .reTlbVertical .reSplitButton:hover,
+  .Vista .reTlbVertical .reTool_text:hover,
+  .Vista .reTlbVertical .reTool.reTool_selected,
+  .Vista .reTlbVertical .reTool_text.reTool_selected,
+  .Vista .reTlbVertical .reTool_text.reTool_selected:hover, .Vista.reDropDownBody .reTlbVertical ul li a:hover, .Vista.reDropDownBody .reTlbVertical .reToolbar,
+  .Vista .reMode_selected, .Vista.reDropDownBody.reInsertTable div.reTlbVertical a.reTool_text:hover {
+    background-image: url('Editor/ToolbarVerticalSprites.gif'); }
+  .Vista .reToolbar li {
+    color: black; }
+  .Vista .reToolbar .reTool_text:hover,
+  .Vista .reToolbar .reTool_text.reTool_selected,
+  .Vista .reToolbar .reTool_text.reTool_selected:hover {
+    border-left: 1px solid #3c7fb1;
+    border-right: 1px solid #3c7fb1; }
+  .Vista .reToolbar .reTool_text.reTool_disabled,
+  .Vista .reToolbar .reTool_text.reTool_disabled:hover {
+    margin-left: 0;
+    margin-right: 0;
+    border: 0; }
+  .Vista .reToolbar .reTool.reSplitButton.reTool_disabled:hover {
+    _background: none; }
+  .Vista .reDropdown:link,
+  .Vista .reDropdown:visited {
+    color: black !important; }
+  .Vista .reDropdown,
+  .Vista .reTool_disabled.reDropdown:hover {
+    border: 1px solid #e2e3ea;
+    background-color: white; }
+  .Vista .reDropdown:hover {
+    border-color: #c5daed;
+    color: black; }
+  .Vista.reDropDownBody .reTlbVertical .reToolbar {
+    background-color: white; }
+  .Vista table.reSpinBox, .Vista.RadEditor input {
+    border-color: #e2e3ea;
+    background-color: white; }
+  .Vista table.reSpinBox:hover, .Vista.RadEditor input:hover {
+    border: 1px solid #3c7fb1; }
+  .Vista .reModule_domlink_selected,
+  .Vista .reModule_domlink {
+    color: black; }
+  .Vista.reDropDownBody .reItemOver {
+    background: #86c7e9;
+    color: black; }
+  .Vista.reColorPicker table div, .Vista.reColorPicker span {
+    border: 1px solid #b7bdcd; }
+  .Vista.reColorPicker table td.reItemOver div {
+    border-color: black; }
+  .Vista .reAjaxspell_button {
+    border: 1px solid #707070;
+    background-color: #dddddd;
+    color: black; }
+  .Vista .reAjaxSpellCheckSeparator {
+    background-color: white; }
+  .Vista.reCustomLinks, .Vista.reCustomLinks ul {
+    color: black; }
+  .Vista.reCustomLinks a {
+    background: none transparent;
+    color: black;
+    cursor: default !important; }
+  .Vista.reCustomLinks a:hover {
+    color: white; }
+  .Vista.reInsertTable table {
+    background-color: white; }
+  .Vista.reInsertTable table td {
+    border: 1px solid #e2e3ea;
+    background-color: white; }
+  .Vista.reInsertTable table .reItemOver {
+    border: 1px solid #c5daed;
+    background-color: #86c7e9; }
+  .Vista.reInsertTable .reTlbVertical ul {
+    background-color: white; }
+  .Vista.reDropDownBody.reInsertTable div.reTlbVertical a.reTool_text, .Vista.reDropDownBody.reInsertTable div.reTlbVertical a.reTool_text:link, .Vista.reDropDownBody.reInsertTable div.reTlbVertical a.reTool_text:visited {
+    color: black !important;
+    background: transparent none;
+    _background: none !important; }
+  .Vista .reCommentEdit,
+  .Vista .reCommentTextArea,
+  .Vista .reCommentView,
+  .Vista .reCommentInfoPanel {
+    border-color: transparent;
+    background-color: #c2dcf0; }
+  .Vista .reCommentTitle,
+  .Vista .reCommentInfoPanel {
+    color: black; }
+  .Vista .reCommentTextArea {
+    border-color: #b7bdcd;
+    background-color: #c2dcf0; }
+  .Vista.RadEditor .reCommentButton,
+  .Vista .rePopupButtonContainer .rePopupButton {
+    border-color: #707070;
+    color: #000;
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: -moz-linear-gradient(top, #f3f3f3 25%, #ececec 50%, #dddddd 75%, #d2d2d2 100%);
+    /* FF3.6+ */
+    background: -webkit-linear-gradient(top, #f3f3f3 25%, #ececec 50%, #dddddd 75%, #d2d2d2 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #f3f3f3 25%, #ececec 50%, #dddddd 75%, #d2d2d2 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #f3f3f3 25%, #ececec 50%, #dddddd 75%, #d2d2d2 100%);
+    /* IE10+ */
+    background: linear-gradient(top, #f3f3f3 25%, #ececec 50%, #dddddd 75%, #d2d2d2 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f3f3f3', endColorstr='#d2d2d2',GradientType=0 );
+    /* IE6-8 */ }
+  .Vista.RadEditor .reCommentButton:hover,
+  .Vista .rePopupButtonContainer .rePopupButton:hover {
+    border-color: #3c7fb1;
+    color: #000;
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: -moz-linear-gradient(top, #e8f5fd 25%, #dbf1fc 50%, #bee6fd 75%, #abdcf7 100%);
+    /* FF3.6+ */
+    background: -webkit-linear-gradient(top, #e8f5fd 25%, #dbf1fc 50%, #bee6fd 75%, #abdcf7 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #e8f5fd 25%, #dbf1fc 50%, #bee6fd 75%, #abdcf7 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #e8f5fd 25%, #dbf1fc 50%, #bee6fd 75%, #abdcf7 100%);
+    /* IE10+ */
+    background: linear-gradient(top, #e8f5fd 25%, #dbf1fc 50%, #bee6fd 75%, #abdcf7 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e8f5fd', endColorstr='#abdcf7',GradientType=0 );
+    /* IE6-8 */ }
+  .Vista.RadEditor .reCommentButton:active,
+  .Vista .rePopupButtonContainer .rePopupButton:active {
+    color: #000;
+    border-color: #c28b31;
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: -moz-linear-gradient(top, #eff2f4 25%, #eaeef0 50%, #d8e0e5 75%, #ced7dd 100%);
+    /* FF3.6+ */
+    background: -webkit-linear-gradient(top, #eff2f4 25%, #eaeef0 50%, #d8e0e5 75%, #ced7dd 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #eff2f4 25%, #eaeef0 50%, #d8e0e5 75%, #ced7dd 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #eff2f4 25%, #eaeef0 50%, #d8e0e5 75%, #ced7dd 100%);
+    /* IE10+ */
+    background: linear-gradient(top, #eff2f4 25%, #eaeef0 50%, #d8e0e5 75%, #ced7dd 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eff2f4', endColorstr='#ced7dd',GradientType=0 );
+    /* IE6-8 */ }
+  .Vista.rePopupContainer {
+    border-color: #e2e3ea;
+    background-color: #c2dcf0; }
+  .Vista.rePopupContainer .rePopupTitle {
+    color: #000;
+    border-color: #000;
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: -moz-linear-gradient(top, #c8dff5 0%, #cae1f8 100%);
+    /* FF3.6+ */
+    background: -webkit-linear-gradient(top, #c8dff5 0%, #cae1f8 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #c8dff5 0%, #cae1f8 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #c8dff5 0%, #cae1f8 100%);
+    /* IE10+ */
+    background: linear-gradient(top, #c8dff5 0%, #cae1f8 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c8dff5', endColorstr='#cae1f8',GradientType=0 );
+    /* IE6-8 */ }
+  .Vista.RadEditor.reRtl .reTool .split_arrow:hover {
+    border-right-color: #3c7fb1; }
+  .Vista.RadEditor.reRtl .reDropdown:hover {
+    background-color: #55bbff; }
+
+/* the rule below styles RadWindow's content cell, which is used in the floating and show on focus toolbar modes */
+.RadWindow.RadWindow_Vista.reToolbarWindow td.rwWindowContent,
+.RadWindow.RadWindow_Vista.reToolbarWindow div.rwContent {
+  background-color: #c2dcf0; }
+
+.RadWindow_Vista .reInsertTableLightWrapper .lightTable {
+  border-color: #b7bdcd; }
+
+.Vista .reTool.reSplitButton:hover {
+  background-image: url('Editor/ToolBarSprites.gif'); }
+
+/* reTool */
+.reTool span,
+.Vista.reInsertTable .reTlbVertical ul .reTool_text span,
+.reToolbar .reTool_text span {
+  background-image: url('../Common/CommandSpritesLight.png'); }
+
+/* IE6 does not support PNG alpha channel, so we use gifs for the command sprites instead */
+.reTool span,
+.reTool_text span,
+.Vista .reTlbVertical .reTool_text span,
+.reToolbar .reSplitButton.reTool_text span {
+  _background-image: url('../Common/CommandSpritesLightIE6.gif'); }
+
+.reTool .split_arrow:hover {
+  border-left-color: #3c7fb1; }
+

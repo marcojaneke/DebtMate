@@ -1,0 +1,54 @@
+.RadListBox_Simple {
+  color: black;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 1.33333em; }
+.RadListBox_Simple .rlbButton {
+  color: black;
+  border-color: #7e7e7e;
+  background-color: #c6c6c6; }
+  .RadListBox_Simple .rlbButton:hover {
+    color: #882501;
+    border-color: #c98400;
+    background-color: #ffe79c; }
+  .RadListBox_Simple .rlbButton:active {
+    color: #882501;
+    border-color: #ca4b0c;
+    background-color: #ffa517; }
+  .RadListBox_Simple .rlbButton.rlbDisabled {
+    color: #999999;
+    border-color: #9b9b9b;
+    background-color: #dfdfdf; }
+.RadListBox_Simple .rlbGroup {
+  border-color: #616161;
+  background-color: white; }
+.RadListBox_Simple .rlbItem:hover, .RadListBox_Simple .rlbItem.rlbHovered {
+  border-color: #fff7ac;
+  background-color: #fff7ac; }
+.RadListBox_Simple .rlbItem.rlbSelected {
+  color: #882501;
+  border-color: #ffe79c;
+  background-color: #ffe79c; }
+.RadListBox_Simple .rlbHighlight {
+  background-color: #fff7ac; }
+.RadListBox_Simple .rlbCheckAllItems {
+  background-color: #eaeaea; }
+.RadListBox_Simple .rlbTemplateContent {
+  border-color: #616161;
+  background-color: white; }
+.RadListBox_Simple .rlbHeader,
+.RadListBox_Simple .rlbFooter {
+  background: #e4e4e4; }
+.RadListBox_Simple .rlbHeader {
+  border-color: #616161; }
+.RadListBox_Simple .rlbFooter {
+  border-color: #c3c3c3; }
+.RadListBox_Simple .rlbGroup .rlbDropClueAbove {
+  border-top-color: #616161; }
+.RadListBox_Simple .rlbGroup .rlbDropClueBelow {
+  border-bottom-color: #616161; }
+.RadListBox_Simple .rlbGroup .rlbSelected.rlbDropClueAbove,
+.RadListBox_Simple .rlbGroup .rlbHovered.rlbDropClueAbove,
+.RadListBox_Simple .rlbGroup .rlbSelected.rlbDropClueBelow,
+.RadListBox_Simple .rlbGroup .rlbHovered.rlbDropClueBelow {
+  border-color: #FFF; }

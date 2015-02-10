@@ -1,0 +1,21 @@
+.RadRotator_Sitefinity {
+  /*================== The list ========================*/
+  /* For vertical carousel, not set, width defaults to auto */
+  /* Note if you explicitly set width to auto, this might cause */
+  /* problems with Safari */
+  /* When LoadOnDemand */ }
+  .RadRotator_Sitefinity .rrClipRegion {
+    border-color: #dbdfe6; }
+  .RadRotator_Sitefinity a.rrButton {
+    background-image: linear-gradient(white, white);
+    border-color: #cccccc;
+    border-radius: 45px; }
+  .RadRotator_Sitefinity .rrButton:hover {
+    background-image: linear-gradient(white, white);
+    border-color: #666666; }
+  .RadRotator_Sitefinity a.rrButton:before {
+    color: #606060; }
+  .RadRotator_Sitefinity a.rrButton:hover:before {
+    color: #000; }
+  .RadRotator_Sitefinity .rrLoadingSign {
+    background-image: url('../Sitefinity/Common/loading_small.gif'); }

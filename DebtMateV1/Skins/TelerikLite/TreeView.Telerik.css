@@ -1,0 +1,53 @@
+.RadTreeView_Telerik {
+  color: black;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 1.33333em; }
+  .RadTreeView_Telerik a.rtIn {
+    *color: black; }
+  .RadTreeView_Telerik .rtHover .rtIn {
+    color: black;
+    border-color: #2ebf00 #2bb500 #28a800;
+    background-color: #A2EA8B;
+    background-image: url('../Telerik/TreeView/ItemHoveredBg.png'); }
+  .RadTreeView_Telerik .rtSelected .rtIn {
+    color: black;
+    border-color: #239500 #1c7600 #155800;
+    background-color: #63ac39;
+    background-image: url('../Telerik/TreeView/ItemSelectedBg.png'); }
+  .RadTreeView_Telerik .rtEdit .rtIn {
+    border-color: #6c6c6c;
+    background: #ffffff; }
+    .RadTreeView_Telerik .rtEdit .rtIn input {
+      color: black;
+      font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadTreeView_Telerik .rtChecked,
+  .RadTreeView_Telerik .rtUnchecked,
+  .RadTreeView_Telerik .rtIndeterminate {
+    background-image: url('../Telerik/Common/radFormToggleSprite.png');
+    _background-image: url('../Telerik/Common/radFormToggleSpriteIE6.png'); }
+  .RadTreeView_Telerik .rtLoadingIcon {
+    background-image: url('../Telerik/Common/loading_small.gif'); }
+  .RadTreeView_Telerik .rtSelected .rtLoadingBefore,
+  .RadTreeView_Telerik .rtSelected .rtLoadingAfter,
+  .RadTreeView_Telerik .rtSelected .rtLoadingBelow {
+    color: #333333; }
+  .RadTreeView_Telerik .rtPlus,
+  .RadTreeView_Telerik .rtMinus {
+    *background-image: url('../Telerik/TreeView/PlusMinus.png'); }
+    .RadTreeView_Telerik .rtPlus:before,
+    .RadTreeView_Telerik .rtMinus:before {
+      color: #666;
+      border-color: #b8b8b8;
+      background-color: #eeeeee;
+      background-image: url('../Telerik/Common/radGradientButtonSprite.png');
+      background-image: linear-gradient(to bottom right, white 40%, #aaaaaa); }
+    .RadTreeView_Telerik .rtPlus:hover:before,
+    .RadTreeView_Telerik .rtMinus:hover:before {
+      color: black;
+      border-color: #8e8e8e;
+      background-color: #a2ea8b;
+      background-image: linear-gradient(to bottom right, white 40%, #7f7f7f); }
+
+.RadTreeView_Telerik_disabled .rtIn,
+.RadTreeView_Telerik .rtDisabled .rtIn {
+  color: #ccc; }

@@ -1,0 +1,64 @@
+.RadListBox_Office2010Silver {
+  color: #3b3b3b;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 1.33333em; }
+.RadListBox_Office2010Silver .rlbButton {
+  color: #3b3b3b;
+  border-radius: 0.16667em;
+  border-color: #a4abb2;
+  background-color: #dbdde1;
+  background-image: url('../Office2010Silver/Common/radGradientButtonSprite.png');
+  background-image: linear-gradient(#f1f2f3 0%, #dbdde1 100%); }
+  .RadListBox_Office2010Silver .rlbButton:hover {
+    border-color: #f3d64a;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab 0%, #fae185 50%, #fcf5d9 100%); }
+  .RadListBox_Office2010Silver .rlbButton:active {
+    border-color: #c28b31;
+    background-color: #ffef7c;
+    background-image: linear-gradient(#ffe272 0%, #ffd86b 50%, #ffef7c 100%); }
+  .RadListBox_Office2010Silver .rlbButton.rlbDisabled {
+    border-color: #a4abb2;
+    background-color: #dbdde1;
+    background-image: linear-gradient(#f1f2f3 0%, #dbdde1 100%); }
+.RadListBox_Office2010Silver .rlbGroup {
+  background-color: white;
+  border-color: #9aa0a6; }
+.RadListBox_Office2010Silver .rlbItem:hover, .RadListBox_Office2010Silver .rlbItem.rlbHovered {
+  background-color: #fae185;
+  border-color: #fae185; }
+.RadListBox_Office2010Silver .rlbItem.rlbSelected {
+  background-color: #ffd86b;
+  border-color: #ffd86b; }
+.RadListBox_Office2010Silver .rlbHighlight {
+  background-color: #fae185; }
+.RadListBox_Office2010Silver .rlbCheckAllItems {
+  background-color: #edeff2; }
+.RadListBox_Office2010Silver .rlbTemplateContent {
+  border-color: #9aa0a6;
+  background-color: white; }
+.RadListBox_Office2010Silver .rlbHeader,
+.RadListBox_Office2010Silver .rlbFooter {
+  border-color: #9aa0a6; }
+.RadListBox_Office2010Silver .rlbHeader {
+  background-image: -webkit-linear-gradient(#f2f2f4, #dadde0);
+  background-image: -moz-linear-gradient(#f2f2f4, #dadde0);
+  background-image: -ms-linear-gradient(#f2f2f4, #dadde0);
+  background-image: -o-linear-gradient(#f2f2f4, #dadde0);
+  background-image: linear-gradient(#f2f2f4, #dadde0); }
+.RadListBox_Office2010Silver .rlbFooter {
+  background-image: -webkit-linear-gradient(#e6eaee, #b8bdc2);
+  background-image: -moz-linear-gradient(#e6eaee, #b8bdc2);
+  background-image: -ms-linear-gradient(#e6eaee, #b8bdc2);
+  background-image: -o-linear-gradient(#e6eaee, #b8bdc2);
+  background-image: linear-gradient(#e6eaee, #b8bdc2); }
+.RadListBox_Office2010Silver .rlbGroup .rlbDropClueAbove {
+  border-top-color: #9aa0a6; }
+.RadListBox_Office2010Silver .rlbGroup .rlbDropClueBelow {
+  border-bottom-color: #9aa0a6; }
+.RadListBox_Office2010Silver .rlbGroup .rlbSelected.rlbDropClueAbove,
+.RadListBox_Office2010Silver .rlbGroup .rlbHovered.rlbDropClueAbove,
+.RadListBox_Office2010Silver .rlbGroup .rlbSelected.rlbDropClueBelow,
+.RadListBox_Office2010Silver .rlbGroup .rlbHovered.rlbDropClueBelow {
+  border-color: #FFF; }

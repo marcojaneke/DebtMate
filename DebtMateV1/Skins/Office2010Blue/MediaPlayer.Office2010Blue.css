@@ -1,0 +1,228 @@
+.RadMediaPlayer_Office2010Blue {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  color: #384e73; }
+  .RadMediaPlayer_Office2010Blue .rmpToolbar {
+    color: #384e73;
+    background-image: -webkit-linear-gradient(top, rgba(239, 246, 253, 0.85) 0%, rgba(239, 246, 253, 0.85) 100%);
+    background-image: -moz-linear-gradient(top, rgba(239, 246, 253, 0.85) 0%, rgba(239, 246, 253, 0.85) 100%);
+    background-image: -ms-linear-gradient(top, rgba(239, 246, 253, 0.85) 0%, rgba(239, 246, 253, 0.85) 100%);
+    background-image: -o-linear-gradient(top, rgba(239, 246, 253, 0.85) 0%, rgba(239, 246, 253, 0.85) 100%);
+    background-image: linear-gradient(to bottom, rgba(239, 246, 253, 0.85) 0%, rgba(239, 246, 253, 0.85) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#D9EFF6FD', endColorstr='#D9EFF6FD',GradientType=0 );
+    border-color: #9fb2c7 #93a7c0 #8ca0bc; }
+  .RadMediaPlayer_Office2010Blue div.rmpVolContrBar {
+    background-image: -webkit-linear-gradient(top, rgba(239, 246, 253, 0.85) 0%, rgba(239, 246, 253, 0.85) 100%);
+    background-image: -moz-linear-gradient(top, rgba(239, 246, 253, 0.85) 0%, rgba(239, 246, 253, 0.85) 100%);
+    background-image: -ms-linear-gradient(top, rgba(239, 246, 253, 0.85) 0%, rgba(239, 246, 253, 0.85) 100%);
+    background-image: -o-linear-gradient(top, rgba(239, 246, 253, 0.85) 0%, rgba(239, 246, 253, 0.85) 100%);
+    background-image: linear-gradient(to bottom, rgba(239, 246, 253, 0.85) 0%, rgba(239, 246, 253, 0.85) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#D9EFF6FD', endColorstr='#D9EFF6FD',GradientType=0 ); }
+  .RadMediaPlayer_Office2010Blue .rmpSolidBgr div.rmpVolContrBar,
+  .RadMediaPlayer_Office2010Blue .rmpSolidBgr .rmpToolbar {
+    background-image: -webkit-linear-gradient(top, #eff6fd 0%, #d8e4f2 100%);
+    background-image: -moz-linear-gradient(top, #eff6fd 0%, #d8e4f2 100%);
+    background-image: -ms-linear-gradient(top, #eff6fd 0%, #d8e4f2 100%);
+    background-image: -o-linear-gradient(top, #eff6fd 0%, #d8e4f2 100%);
+    background-image: linear-gradient(to bottom, #eff6fd 0%, #d8e4f2 100%); }
+  .RadMediaPlayer_Office2010Blue .rmpToolbar div.rslTrack {
+    background: #d0dded;
+    border: 1px solid #8ba0bc; }
+  .RadMediaPlayer_Office2010Blue div.rslHorizontal .rslTrack {
+    background-image: -webkit-linear-gradient(top, #b3c4d8 0%, #dce8f6 100%);
+    background-image: -moz-linear-gradient(top, #b3c4d8 0%, #dce8f6 100%);
+    background-image: -ms-linear-gradient(top, #b3c4d8 0%, #dce8f6 100%);
+    background-image: -o-linear-gradient(top, #b3c4d8 0%, #dce8f6 100%);
+    background-image: linear-gradient(to bottom, #b3c4d8 0%, #dce8f6 100%); }
+  .RadMediaPlayer_Office2010Blue div.rslVertical .rslTrack {
+    width: 4px !important;
+    background-image: -webkit-linear-gradient(left, #b3c4d8 0%, #dce8f6 100%);
+    background-image: -moz-linear-gradient(left, #b3c4d8 0%, #dce8f6 100%);
+    background-image: -ms-linear-gradient(left, #b3c4d8 0%, #dce8f6 100%);
+    background-image: -o-linear-gradient(left, #b3c4d8 0%, #dce8f6 100%);
+    background-image: linear-gradient(to right, #b3c4d8 0%, #dce8f6 100%); }
+  .RadMediaPlayer_Office2010Blue .rmpToolbar div.rslSelectedregion {
+    background: #fbd55e; }
+  .RadMediaPlayer_Office2010Blue div.rslHorizontal .rslSelectedregion {
+    background-image: -webkit-linear-gradient(top, #ffe37c 0%, #f7c840 100%);
+    background-image: -moz-linear-gradient(top, #ffe37c 0%, #f7c840 100%);
+    background-image: -ms-linear-gradient(top, #ffe37c 0%, #f7c840 100%);
+    background-image: -o-linear-gradient(top, #ffe37c 0%, #f7c840 100%);
+    background-image: linear-gradient(to bottom, #ffe37c 0%, #f7c840 100%); }
+  .RadMediaPlayer_Office2010Blue div.rslVertical .rslSelectedregion {
+    width: 4px;
+    margin-top: -1px;
+    background-image: -webkit-linear-gradient(left, #ffe37c 0%, #f7c840 100%);
+    background-image: -moz-linear-gradient(left, #ffe37c 0%, #f7c840 100%);
+    background-image: -ms-linear-gradient(left, #ffe37c 0%, #f7c840 100%);
+    background-image: -o-linear-gradient(left, #ffe37c 0%, #f7c840 100%);
+    background-image: linear-gradient(to right, #ffe37c 0%, #f7c840 100%); }
+  .RadMediaPlayer_Office2010Blue .rmpLoadProgressBar {
+    background-color: #a3b6cd;
+    opacity: 0.6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    *filter: alpha("opacity=60"); }
+  .RadMediaPlayer_Office2010Blue div.rmpToolbar a.rslDraghandle {
+    background-image: -webkit-linear-gradient(top, #f9fafc 0%, #c2cfe0 100%);
+    background-image: -moz-linear-gradient(top, #f9fafc 0%, #c2cfe0 100%);
+    background-image: -ms-linear-gradient(top, #f9fafc 0%, #c2cfe0 100%);
+    background-image: -o-linear-gradient(top, #f9fafc 0%, #c2cfe0 100%);
+    background-image: linear-gradient(to bottom, #f9fafc 0%, #c2cfe0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9fafc', endColorstr='#c2cfe0',GradientType=0 );
+    background-position: 0 0;
+    border: 1px solid #8ba0bc; }
+    .RadMediaPlayer_Office2010Blue div.rmpToolbar a.rslDraghandle:hover, .RadMediaPlayer_Office2010Blue div.rmpToolbar a.rslDraghandle:active {
+      background-image: -webkit-linear-gradient(top, #fcecb2 0%, #ffe175 50%, #fdf5d5 100%);
+      background-image: -moz-linear-gradient(top, #fcecb2 0%, #ffe175 50%, #fdf5d5 100%);
+      background-image: -ms-linear-gradient(top, #fcecb2 0%, #ffe175 50%, #fdf5d5 100%);
+      background-image: -o-linear-gradient(top, #fcecb2 0%, #ffe175 50%, #fdf5d5 100%);
+      background-image: linear-gradient(to bottom, #fcecb2 0%, #ffe175 50%, #fdf5d5 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcecb2', endColorstr='#fdf5d5',GradientType=0 );
+      background-position: 0 0;
+      border-color: #f3d64a;
+      box-shadow: 0 0 0 1px #fcf5d9 inset; }
+  .RadMediaPlayer_Office2010Blue div.rslHorizontal a.rslDraghandle {
+    width: 7px;
+    height: 12px;
+    margin-top: -4px; }
+  .RadMediaPlayer_Office2010Blue div.rslVertical a.rslDraghandle {
+    width: 10px;
+    height: 7px;
+    margin-left: -4px; }
+  .RadMediaPlayer_Office2010Blue .rmpPlaylist {
+    background: #dae7f5; }
+    .RadMediaPlayer_Office2010Blue .rmpPlaylist li a {
+      background: #dae7f5;
+      color: #384e73; }
+      .RadMediaPlayer_Office2010Blue .rmpPlaylist li a:hover {
+        background: #a5bfe1; }
+    .RadMediaPlayer_Office2010Blue .rmpPlaylist li.rmpActive a {
+      background: #eae4bd; }
+    .RadMediaPlayer_Office2010Blue .rmpPlaylist .rmpTitle {
+      margin-right: 12px;
+      font: normal 10px/17px "Segoe UI", Arial, sans-serif; }
+    .RadMediaPlayer_Office2010Blue .rmpPlaylist .rmpPlaylistPrevButton,
+    .RadMediaPlayer_Office2010Blue .rmpPlaylist .rmpPlaylistNextButton {
+      width: 100%;
+      height: 100%;
+      background: #c5d7ed;
+      vertical-align: top; }
+      .RadMediaPlayer_Office2010Blue .rmpPlaylist .rmpPlaylistPrevButton:hover,
+      .RadMediaPlayer_Office2010Blue .rmpPlaylist .rmpPlaylistNextButton:hover {
+        background: #a5bfe1; }
+    .RadMediaPlayer_Office2010Blue .rmpPlaylist .rmpIcon {
+      margin: 0; }
+    .RadMediaPlayer_Office2010Blue .rmpPlaylist .rmpPlaylistNextIcon,
+    .RadMediaPlayer_Office2010Blue .rmpPlaylist .rmpPlaylistPrevIcon {
+      margin: 2px; }
+  .RadMediaPlayer_Office2010Blue .rmpPlaylistVertical,
+  .RadMediaPlayer_Office2010Blue .rmpPlaylistVerticalInside {
+    border-left: 1px solid #95accb;
+    border-right: 1px solid #95accb; }
+    .RadMediaPlayer_Office2010Blue .rmpPlaylistVertical li,
+    .RadMediaPlayer_Office2010Blue .rmpPlaylistVerticalInside li {
+      border-top: 1px solid white;
+      border-bottom: 1px solid #95accb; }
+    .RadMediaPlayer_Office2010Blue .rmpPlaylistVertical .rmpPlaylistPrevButtonWrap,
+    .RadMediaPlayer_Office2010Blue .rmpPlaylistVertical .rmpPlaylistNextButtonWrap,
+    .RadMediaPlayer_Office2010Blue .rmpPlaylistVerticalInside .rmpPlaylistPrevButtonWrap,
+    .RadMediaPlayer_Office2010Blue .rmpPlaylistVerticalInside .rmpPlaylistNextButtonWrap {
+      border: 1px solid #95accb;
+      border-left: 0 none; }
+  .RadMediaPlayer_Office2010Blue .rmpPlaylistHorizontal.rmpPlaylistNavButtons {
+    border-bottom: 1px solid #95accb; }
+  .RadMediaPlayer_Office2010Blue .rmpPlaylistHorizontal li {
+    border-left: 1px solid white;
+    border-right: 1px solid #95accb; }
+    .RadMediaPlayer_Office2010Blue .rmpPlaylistHorizontal li .rmpTitle {
+      padding-top: 7px;
+      max-height: 45px;
+      line-height: 15px; }
+  .RadMediaPlayer_Office2010Blue .rmpPlaylistHorizontal .rmpPlaylistPrevButtonWrap,
+  .RadMediaPlayer_Office2010Blue .rmpPlaylistHorizontal .rmpPlaylistNextButtonWrap {
+    border-left: 1px solid #95accb;
+    border-right: 1px solid #95accb; }
+  .RadMediaPlayer_Office2010Blue .rmpBanner {
+    border: 1px solid #a5bfe1; }
+    .RadMediaPlayer_Office2010Blue .rmpBanner .rmpActionButton {
+      background: #a5bfe1; }
+  .RadMediaPlayer_Office2010Blue .rmpBigPlayButton,
+  .RadMediaPlayer_Office2010Blue .rmpBigPauseButton {
+    background: rgba(219, 227, 238, 0.6);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99DBE3EE', endColorstr='#99DBE3EE',GradientType=0 ); }
+  .RadMediaPlayer_Office2010Blue .rmpIcon {
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadMediaPlayer_Office2010Blue .rmpToolTip,
+  .RadMediaPlayer_Office2010Blue .rmpBigPlayIcon,
+  .RadMediaPlayer_Office2010Blue .rmpBigPauseIcon {
+    background-image: url('MediaPlayer/sprite.png'); }
+  .RadMediaPlayer_Office2010Blue .rmpBigPlayIcon {
+    background-position: 6px -108px; }
+  .RadMediaPlayer_Office2010Blue .rmpBigPauseIcon {
+    background-position: -122px 4px; }
+  .RadMediaPlayer_Office2010Blue .rmpToolTip {
+    background-position: -123px -241px; }
+  .RadMediaPlayer_Office2010Blue .rmpPlayIcon {
+    background-position: 0px -1999px; }
+  .RadMediaPlayer_Office2010Blue .rmpPauseIcon {
+    background-position: 0px -2019px; }
+  .RadMediaPlayer_Office2010Blue .rmpVolumeIcon {
+    background-position: 1px -2039px; }
+  .RadMediaPlayer_Office2010Blue .rmpMuteIcon {
+    background-position: 1px -2059px; }
+  .RadMediaPlayer_Office2010Blue .rmpHDIcon {
+    background-position: 0px -2079px; }
+  .RadMediaPlayer_Office2010Blue .rmpFullScrIcon {
+    background-position: 0px -2099px; }
+  .RadMediaPlayer_Office2010Blue .rmpExtFullScrIcon {
+    background-position: 0px -2119px; }
+  .RadMediaPlayer_Office2010Blue .rmpShareIcon {
+    background-position: 0px -2139px; }
+  .RadMediaPlayer_Office2010Blue .rmpClosePlaylistIcon {
+    background-position: 0px -2220px; }
+  .RadMediaPlayer_Office2010Blue .rmpOpenPlaylistIcon {
+    background-position: 0px -2200px; }
+  .RadMediaPlayer_Office2010Blue .rmpPlaylistVertical .rmpPlaylistPrevIcon,
+  .RadMediaPlayer_Office2010Blue .rmpPlaylistVerticalInside .rmpPlaylistPrevIcon {
+    background-position: 0px -2240px; }
+  .RadMediaPlayer_Office2010Blue .rmpPlaylistVertical .rmpPlaylistNextIcon,
+  .RadMediaPlayer_Office2010Blue .rmpPlaylistVerticalInside .rmpPlaylistNextIcon {
+    background-position: 0px -2260px; }
+  .RadMediaPlayer_Office2010Blue .rmpPlaylistHorizontal .rmpPlaylistPrevIcon {
+    background-position: 0px -2280px; }
+  .RadMediaPlayer_Office2010Blue .rmpPlaylistHorizontal .rmpPlaylistNextIcon {
+    background-position: 0px -2300px; }
+  .RadMediaPlayer_Office2010Blue .rmpActionButton:hover .rmpPlayIcon {
+    background-position: -20px -1999px; }
+  .RadMediaPlayer_Office2010Blue .rmpActionButton:hover .rmpPauseIcon {
+    background-position: -20px -2019px; }
+  .RadMediaPlayer_Office2010Blue .rmpVolContr:hover .rmpVolumeIcon {
+    background-position: -19px -2039px; }
+  .RadMediaPlayer_Office2010Blue .rmpActionButton:hover .rmpMuteIcon {
+    background-position: -19px -2059px; }
+  .RadMediaPlayer_Office2010Blue .rmpHDActiveIcon,
+  .RadMediaPlayer_Office2010Blue .rmpActionButton:hover .rmpHDIcon {
+    background-position: -34px -2079px; }
+  .RadMediaPlayer_Office2010Blue .rmpActionButton:hover .rmpFullScrIcon {
+    background-position: -20px -2099px; }
+  .RadMediaPlayer_Office2010Blue .rmpActionButton:hover .rmpExtFullScrIcon {
+    background-position: -20px -2119px; }
+  .RadMediaPlayer_Office2010Blue .rmpPlaylistVertical .rmpActionButton:hover .rmpPlaylistPrevIcon,
+  .RadMediaPlayer_Office2010Blue .rmpPlaylistVerticalInside .rmpActionButton:hover .rmpPlaylistPrevIcon {
+    background-position: -20px -2240px; }
+  .RadMediaPlayer_Office2010Blue .rmpPlaylistVertical .rmpActionButton:hover .rmpPlaylistNextIcon,
+  .RadMediaPlayer_Office2010Blue .rmpPlaylistVerticalInside .rmpActionButton:hover .rmpPlaylistNextIcon {
+    background-position: -20px -2260px; }
+  .RadMediaPlayer_Office2010Blue .rmpPlaylistHorizontal .rmpActionButton:hover .rmpPlaylistPrevIcon {
+    background-position: -20px -2280px; }
+  .RadMediaPlayer_Office2010Blue .rmpPlaylistHorizontal .rmpActionButton:hover .rmpPlaylistNextIcon {
+    background-position: -20px -2300px; }
+  .RadMediaPlayer_Office2010Blue .rmpCloseBannerIcon {
+    background-position: 0px -760px; }
+  .RadMediaPlayer_Office2010Blue .rmpCloseBannerIcon:hover {
+    background-position: -20px -760px; }
+
+._Telerik_IE9 .RadMediaPlayer_Office2010Blue div.rslVertical .rslSelectedregion {
+  margin-top: 0; }

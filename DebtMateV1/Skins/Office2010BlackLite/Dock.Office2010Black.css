@@ -1,0 +1,31 @@
+.RadDock_Office2010Black {
+  background-color: #4b4b4b;
+  color: black;
+  font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #828282; }
+  .RadDock_Office2010Black .rdTitleWrapper {
+    background-image: -webkit-linear-gradient(top, #5f5f5f 0%, #737373 100%);
+    background-image: -moz-linear-gradient(top, #5f5f5f 0%, #737373 100%);
+    background-image: -ms-linear-gradient(top, #5f5f5f 0%, #737373 100%);
+    background-image: -o-linear-gradient(top, #5f5f5f 0%, #737373 100%);
+    background-image: linear-gradient(top, #5f5f5f 0%, #737373 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5f5f5f', endColorstr='#737373',GradientType=0 );
+    color: white;
+    border-bottom-color: #828282; }
+  .RadDock_Office2010Black .rdTitleWrapper .rdTitle {
+    color: white; }
+  .RadDock_Office2010Black .rdListItem:hover {
+    background-image: -webkit-linear-gradient(top, #ffe68e 0%, #fff5cf 100%);
+    background-image: -moz-linear-gradient(top, #ffe68e 0%, #fff5cf 100%);
+    background-image: -ms-linear-gradient(top, #ffe68e 0%, #fff5cf 100%);
+    background-image: -o-linear-gradient(top, #ffe68e 0%, #fff5cf 100%);
+    background-image: linear-gradient(top, #ffe68e 0%, #fff5cf 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe68e', endColorstr='#fff5cf',GradientType=0 );
+    border-color: #f7c840; }
+  .RadDock_Office2010Black .rdListItem button {
+    background-image: url('../Office2010Black/Common/radActionsSprite.png');
+    _background-image: url('../Office2010Black/Common/radActionsSpriteIE6.png'); }
+  .RadDock_Office2010Black .rdContentWrapper {
+    color: white; }
+  .RadDock_Office2010Black.RadDock_Collapsed .rdTitleWrapper {
+    border-bottom-color: #828282; }

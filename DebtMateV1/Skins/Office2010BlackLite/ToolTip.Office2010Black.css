@@ -1,0 +1,19 @@
+.RadToolTip_Office2010Black {
+  background-color: #4b4b4b;
+  color: white;
+  font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #828282; }
+  .RadToolTip_Office2010Black .rtTitleWrapper .rtTitle {
+    color: white; }
+  .RadToolTip_Office2010Black .rtClose {
+    background-image: url('../Office2010Black/ToolTip/ToolTipSprites.png'); }
+  .RadToolTip_Office2010Black .rtContent {
+    background-color: #4b4b4b;
+    color: white; }
+  .RadToolTip_Office2010Black .rtCallout {
+    background-image: url('../Office2010Black/ToolTip/Callouts.gif'); }
+  .RadToolTip_Office2010Black.rtLoading {
+    background-image: url('../Office2010Black/Common/loading.gif'); }
+  .RadToolTip_Office2010Black span.rtCalloutTopLeft {
+    top: -7px; }
+

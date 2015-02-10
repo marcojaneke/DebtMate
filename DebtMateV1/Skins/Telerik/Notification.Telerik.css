@@ -1,0 +1,24 @@
+.RadNotification_Telerik {
+  border: 1px solid #8e8e8e;
+  background-color: white;
+  /* base style overwrites */ }
+  .RadNotification_Telerik.rnShadows {
+    box-shadow: 2px 2px 3px #b8b7b7; }
+  .RadNotification_Telerik .rnTitleBar {
+    background-image: -webkit-linear-gradient(top, #fcfbfb 0%, #e6e6e6 100%);
+    background-image: -moz-linear-gradient(top, #fcfbfb 0%, #e6e6e6 100%);
+    background-image: -ms-linear-gradient(top, #fcfbfb 0%, #e6e6e6 100%);
+    background-image: -o-linear-gradient(top, #fcfbfb 0%, #e6e6e6 100%);
+    background-image: linear-gradient(top, #fcfbfb 0%, #e6e6e6 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfbfb', endColorstr='#e6e6e6',GradientType=0 );
+    border-top: 1px solid #fff; }
+  .RadNotification_Telerik .rnCommands a {
+    background-image: url('Common/radActionsSprite.png');
+    _background-image: url('Common/radActionsSpriteIE6.png'); }
+  .RadNotification_Telerik .rnTitleBarTitle {
+    color: black; }
+  .RadNotification_Telerik .rnContentWrapper {
+    border-top: 1px solid #c4c4c4; }
+  .RadNotification_Telerik .RadNotification_Telerik .rnCommands {
+    margin: 0.16667em 0em 0em; }
+

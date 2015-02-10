@@ -1,0 +1,16 @@
+.RadToolTip_Black {
+  background-color: #ccc;
+  color: black;
+  font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #202020; }
+  .RadToolTip_Black .rtTitleWrapper .rtTitle {
+    color: black; }
+  .RadToolTip_Black .rtClose {
+    background-image: url('../Black/ToolTip/ToolTipSprites.png'); }
+  .RadToolTip_Black .rtContent {
+    background-color: #ccc;
+    color: black; }
+  .RadToolTip_Black .rtCallout {
+    background-image: url('../Black/ToolTip/Callouts.gif'); }
+  .RadToolTip_Black.rtLoading {
+    background-image: url('../Black/Common/loading.gif'); }

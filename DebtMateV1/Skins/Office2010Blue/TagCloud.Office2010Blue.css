@@ -1,0 +1,17 @@
+.RadTagCloud_Office2010Blue {
+  background-color: #dbe3ee;
+  border: 1px dotted #9babc2;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  /* Loading image */ }
+  .RadTagCloud_Office2010Blue .rtcTagList .rtcTagItem {
+    color: #607eb1; }
+  .RadTagCloud_Office2010Blue .rtcTagList .rtcTagItem:hover {
+    color: #384e73; }
+  .RadTagCloud_Office2010Blue .rtcTagList .rtcTagItem a {
+    color: #384e73; }
+  .RadTagCloud_Office2010Blue .rtcTagList .rtcTagItem a:hover {
+    color: #384e73;
+    background: #f3d64a; }
+  .RadTagCloud_Office2010Blue.rtcLoading {
+    background-image: url('Common/loading_small.gif'); }
+

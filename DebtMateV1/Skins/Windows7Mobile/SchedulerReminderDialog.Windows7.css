@@ -1,0 +1,15 @@
+.ReminderDialog_Windows7 .rsRemList .rsLi:hover {
+  color: #1e395b;
+  background-color: #eef6ff; }
+.ReminderDialog_Windows7 .rsRemList .rsLiSelected,
+.ReminderDialog_Windows7 .rsRemList .rsLiSelected:hover {
+  color: #1e395b;
+  background-color: #c3dcfc; }
+.ReminderDialog_Windows7 .rsRemSnoozePanel .rsLi:before {
+  border-color: white;
+  background-color: white;
+  box-shadow: 0 0 1px #b8cbde; }
+.ReminderDialog_Windows7 .rsRemSnoozePanel .rsLi:hover:before {
+  background-color: #b8cbde; }
+.ReminderDialog_Windows7 .rsRemSnoozePanel .rsLi:active:before {
+  background-color: #c1dbfc; }

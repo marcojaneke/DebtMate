@@ -1,0 +1,112 @@
+.RadMenu_Windows7 {
+  font: 12px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadMenu_Windows7 .rmGroup,
+  .RadMenu_Windows7 .rmRootGroup,
+  .RadMenu_Windows7 .rmMultiColumn {
+    border-color: #aabfd6; }
+  .RadMenu_Windows7 .rmGroup,
+  .RadMenu_Windows7 .rmMultiColumn {
+    color: black;
+    background-color: white; }
+  .RadMenu_Windows7 .rmRootGroup {
+    color: black;
+    background-color: #f1f5fb; }
+  .RadMenu_Windows7 .rmVertical:before,
+  .RadMenu_Windows7 .rmMultiColumn:before {
+    content: "";
+    width: 2.5em;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #f1f5fb; }
+  .RadMenu_Windows7 .rmVertical li.rmSeparator {
+    border-top-color: #e6e6e6;
+    border-bottom-color: white; }
+  .RadMenu_Windows7 .rmHorizontal li.rmSeparator {
+    border-left-color: #e6e6e6;
+    border-right-color: white; }
+  .RadMenu_Windows7 .rmShadows .rmGroup {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2); }
+  .RadMenu_Windows7 .rmArrow {
+    border-color: #d9d9d9;
+    background-color: #f2f2f2; }
+    .RadMenu_Windows7 .rmArrow:hover {
+      background-color: #e6e6e6; }
+  .RadMenu_Windows7 .rmRootGroup .rmItem {
+    border-color: #ccd9e7; }
+  .RadMenu_Windows7 .rmRootGroup > .rmItem {
+    padding: 1px 1px 0 1px; }
+  .RadMenu_Windows7 .rmRootGroup .rmRootLink {
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding-top: .17em;
+    padding-bottom: .17em; }
+  .RadMenu_Windows7 .rmRootGroup a.rmRootLink {
+    *color: black; }
+  .RadMenu_Windows7 .rmRootGroup .rmRootLink:hover,
+  .RadMenu_Windows7 .rmRootGroup .rmSelected > .rmRootLink {
+    color: black;
+    background-color: #f1f5fb;
+    background-image: linear-gradient(#fdfeff, #e8f2fa 50%, #dce6f4 50%, #c2d3e9); }
+  .RadMenu_Windows7 .rmRootGroup .rmFocused > .rmLink {
+    box-shadow: inset 0 0 3px #8fb0d6; }
+  .RadMenu_Windows7 .rmRootGroup .rmExpanded > .rmRootLink {
+    color: black;
+    background-image: linear-gradient(#c9d4e4, #d8e4f1 50%, #cfdbec 50%, #cfdced); }
+  .RadMenu_Windows7 .rmPopup,
+  .RadMenu_Windows7 .rmGroup {
+    background-position: -1px 0; }
+    .RadMenu_Windows7 .rmPopup .rmLink,
+    .RadMenu_Windows7 .rmGroup .rmLink {
+      border-radius: 3px; }
+    .RadMenu_Windows7 .rmPopup a.rmLink,
+    .RadMenu_Windows7 .rmGroup a.rmLink {
+      *color: black; }
+    .RadMenu_Windows7 .rmPopup .rmLink:hover,
+    .RadMenu_Windows7 .rmPopup .rmExpanded > .rmLink,
+    .RadMenu_Windows7 .rmGroup .rmLink:hover,
+    .RadMenu_Windows7 .rmGroup .rmExpanded > .rmLink {
+      border-color: #bdd9fb;
+      color: #1e395b;
+      background-color: #edf4fd;
+      background-image: linear-gradient(#f9fbfd, #edf4fd); }
+    .RadMenu_Windows7 .rmPopup .rmExpanded > .rmLink,
+    .RadMenu_Windows7 .rmGroup .rmExpanded > .rmLink {
+      border-color: #8fb0d6; }
+    .RadMenu_Windows7 .rmPopup .rmFocused > .rmLink,
+    .RadMenu_Windows7 .rmPopup .rmFocused > .rmLink .rmToggle,
+    .RadMenu_Windows7 .rmGroup .rmFocused > .rmLink,
+    .RadMenu_Windows7 .rmGroup .rmFocused > .rmLink .rmToggle {
+      box-shadow: inset 0 0 3px 1px #8fb0d6; }
+    .RadMenu_Windows7 .rmPopup .rmSelected > .rmLink,
+    .RadMenu_Windows7 .rmGroup .rmSelected > .rmLink {
+      border-color: #8fb0d6;
+      color: #1e395b;
+      background-color: #c2dcfc;
+      background-image: linear-gradient(#daeafc, #c2dcfc); }
+    .RadMenu_Windows7 .rmPopup .rmDisabled > .rmLink,
+    .RadMenu_Windows7 .rmGroup .rmDisabled > .rmLink {
+      border-color: transparent;
+      background: transparent; }
+    .RadMenu_Windows7 .rmPopup .rmToggle:hover,
+    .RadMenu_Windows7 .rmGroup .rmToggle:hover {
+      border-color: #bdd9fb;
+      color: #1e395b;
+      background-color: #edf4fd;
+      background-image: linear-gradient(#f9fbfd, #edf4fd); }
+    .RadMenu_Windows7 .rmPopup .rmExpanded > .rmLink .rmToggle,
+    .RadMenu_Windows7 .rmGroup .rmExpanded > .rmLink .rmToggle {
+      border-color: #8fb0d6;
+      color: #1e395b;
+      background-color: #c2dcfc;
+      background-image: linear-gradient(#daeafc, #c2dcfc); }
+  .RadMenu_Windows7 .rmContentTemplate {
+    background: white;
+    border: 1px solid #b8cbde; }
+
+.RadMenu_Windows7_rtl .rmVertical:before,
+.RadMenu_Windows7_rtl .rmMultiColumn:before {
+  left: auto;
+  right: 0;
+  border-radius: 0 4px 4px 0; }

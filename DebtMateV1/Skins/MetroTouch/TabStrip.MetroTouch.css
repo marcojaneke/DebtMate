@@ -1,0 +1,134 @@
+.RadTabStrip_MetroTouch {
+  color: black;
+  font: 16px "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 26px; }
+  .RadTabStrip_MetroTouch .rtsGhostTab {
+    border-color: #cdcdcd;
+    color: black;
+    background-color: #f9f9f9; }
+
+html .RadTabStrip_MetroTouch {
+  color: white;
+  font: 100 16px "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 2.5; }
+  html .RadTabStrip_MetroTouch .rtsDisabled .rtsTxt {
+    opacity: .5;
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    /* IE 5-7 */
+    filter: alpha(opacity=50); }
+  html .RadTabStrip_MetroTouch .rtsLink {
+    padding: 0 10px;
+    color: black; }
+  html .RadTabStrip_MetroTouch .rtsOut,
+  html .RadTabStrip_MetroTouch .rtsIn {
+    padding: 0; }
+  html .RadTabStrip_MetroTouch .rtsTxt {
+    padding: 0; }
+  html .RadTabStrip_MetroTouch .rtsLevel1 .rtsLink {
+    margin: 0 0 0 -1px;
+    border: 1px solid #cdcdcd;
+    background-color: #f9f9f9; }
+  html .RadTabStrip_MetroTouch .rtsLevel1 .rtsLink:hover {
+    background-color: #e8e8e8; }
+  html .RadTabStrip_MetroTouch .rtsLevel1 .rtsSelected,
+  html .RadTabStrip_MetroTouch .rtsLevel1 .rtsSelected:hover {
+    border-color: #25a0da;
+    color: white;
+    background-color: #25a0da; }
+  html .RadTabStrip_MetroTouch .rtsLevel1 .rtsDisabled,
+  html .RadTabStrip_MetroTouch .rtsLevel1 .rtsDisabled:hover {
+    border-color: #cdcdcd;
+    background: #f9f9f9; }
+  html .RadTabStrip_MetroTouch .rtsLevel1 .rtsFirst .rtsLink {
+    margin-left: 0; }
+  html .RadTabStrip_MetroTouch .rtsLevel2 {
+    padding: 1px;
+    width: auto;
+    background-color: #25a0da; }
+    html .RadTabStrip_MetroTouch .rtsLevel2 .rtsLink {
+      margin: 0 0 0 1px;
+      border: 1px solid #25a0da;
+      color: white; }
+    html .RadTabStrip_MetroTouch .rtsLevel2 .rtsLink:hover {
+      border-color: white; }
+    html .RadTabStrip_MetroTouch .rtsLevel2 .rtsSelected,
+    html .RadTabStrip_MetroTouch .rtsLevel2 .rtsSelected:hover {
+      border-color: white; }
+    html .RadTabStrip_MetroTouch .rtsLevel2 .rtsFirst .rtsLink {
+      margin-left: 0; }
+  html .RadTabStrip_MetroTouch .rtsScroll {
+    height: auto; }
+  html .RadTabStrip_MetroTouch .rtsNextArrow,
+  html .RadTabStrip_MetroTouch .rtsPrevArrow,
+  html .RadTabStrip_MetroTouch .rtsPrevArrowDisabled,
+  html .RadTabStrip_MetroTouch .rtsNextArrowDisabled {
+    width: 28px !important;
+    height: 28px !important;
+    border: 1px solid #cdcdcd !important;
+    border-radius: 34px !important;
+    background-color: #f9f9f9 !important;
+    background-image: url('../Common/MetroTouch/metrotouch-sprite.png'); }
+  html .RadTabStrip_MetroTouch .rtsNextArrow {
+    background-position: -11px -161px !important; }
+  html .RadTabStrip_MetroTouch .rtsNextArrowDisabled {
+    background-position: -11px -161px !important; }
+  html .RadTabStrip_MetroTouch .rtsPrevArrow {
+    background-position: -11px -111px !important; }
+  html .RadTabStrip_MetroTouch .rtsPrevArrowDisabled {
+    background-position: -11px -111px !important; }
+
+.RadTabStrip_MetroTouch.RadTabStripVertical .rtsLevel1 .rtsLink {
+  margin: 0;
+  border-width: 0 1px 1px; }
+.RadTabStrip_MetroTouch.RadTabStripVertical .rtsLevel1 .rtsFirst .rtsLink {
+  border-top-width: 1px; }
+
+.RadTabStripTop_MetroTouch .rtsLevel1 {
+  border-bottom: 3px solid #25a0da; }
+  .RadTabStripTop_MetroTouch .rtsLevel1 .rtsLink {
+    border-bottom: 0; }
+
+.RadTabStripBottom_MetroTouch .rtsLevel1 {
+  border-top: 3px solid #25a0da; }
+  .RadTabStripBottom_MetroTouch .rtsLevel1 .rtsLink {
+    border-top-width: 0; }
+
+.RadTabStripLeft_MetroTouch .rtsLink {
+  border-right-width: 0; }
+
+.RadTabStripRight_MetroTouch .rtsLink {
+  border-left: 0; }
+
+html .RadTabStrip_MetroTouch_disabled .rtsLevel1 .rtsLink {
+  border-color: #c5c5c5;
+  color: #c5c5c5;
+  cursor: default; }
+  html .RadTabStrip_MetroTouch_disabled .rtsLevel1 .rtsLink:hover {
+    background-color: #f9f9f9; }
+html .RadTabStrip_MetroTouch_disabled .rtsDisabled {
+  opacity: 1; }
+
+/** DropClues */
+.rtsDropClue_MetroTouch {
+  width: 16px;
+  height: 16px;
+  background-image: url('../Common/MetroTouch/metrotouch-sprite.png'); }
+
+.rtsDropClueTop_MetroTouch {
+  margin-top: -16px;
+  margin-left: -8px;
+  background-position: -17px -67px; }
+
+.rtsDropClueRight_MetroTouch {
+  margin-top: -8px;
+  background-position: -17px -117px; }
+
+.rtsDropClueBottom_MetroTouch {
+  margin-left: -8px;
+  background-position: -17px -17px; }
+
+.rtsDropClueLeft_MetroTouch {
+  margin-top: -8px;
+  margin-left: -16px;
+  background-position: -17px -167px; }

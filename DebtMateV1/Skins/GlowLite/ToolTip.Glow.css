@@ -1,0 +1,96 @@
+.RadToolTip_Glow {
+  background-color: #1c262c;
+  color: #e2e8eb;
+  font: normal 13px Arial, Helvetica, sans-serif;
+  border-color: #192227;
+  /* Right to left support */ }
+  .RadToolTip_Glow .rtTitleWrapper .rtTitle {
+    color: #e2e8eb;
+    font-size: 1.7em; }
+  .RadToolTip_Glow button.rtClose {
+    width: 20px;
+    height: 20px;
+    border-radius: 3.75em;
+    background-color: #ffba43;
+    background-image: -webkit-linear-gradient(top, #ffba43 0%, #dd9415 100%);
+    background-image: -moz-linear-gradient(top, #ffba43 0%, #dd9415 100%);
+    background-image: -ms-linear-gradient(top, #ffba43 0%, #dd9415 100%);
+    background-image: -o-linear-gradient(top, #ffba43 0%, #dd9415 100%);
+    background-image: linear-gradient(top, #ffba43 0%, #dd9415 100%);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    background-position: 0 0;
+    *background-image: url('../Glow/Common/radActionsSprite.png');
+    *background-position: -15px -1965px; }
+  .RadToolTip_Glow button.rtClose:hover, .RadToolTip_Glow button.rtClose:active, .RadToolTip_Glow button.rtClose:focus {
+    background-color: #ffa800;
+    background-image: -webkit-linear-gradient(top, #ffa800 0%, #d07f00 100%);
+    background-image: -moz-linear-gradient(top, #ffa800 0%, #d07f00 100%);
+    background-image: -ms-linear-gradient(top, #ffa800 0%, #d07f00 100%);
+    background-image: -o-linear-gradient(top, #ffa800 0%, #d07f00 100%);
+    background-image: linear-gradient(top, #ffa800 0%, #d07f00 100%);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    background-position: 0 0;
+    *background-image: url('../Glow/Common/radActionsSprite.png');
+    *background-position: -15px -1965px; }
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .RadToolTip_Glow .rtCloseIcon {
+      margin-left: -5px; } }
+  .RadToolTip_Glow .rtCloseIcon {
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 3.75em;
+    background-image: url('../Glow/Common/radActionsSprite.png');
+    background-position: -18px -1968px;
+    margin-left: -5px\9; }
+  @media screen and (-webkit-min-device-pixel-ratio: 0) {
+    .RadToolTip_Glow .rtCloseIcon {
+      margin: 1px 0 0 -3px; } }
+  .RadToolTip_Glow .rtContent {
+    background-color: #1c262c;
+    color: #e2e8eb; }
+  .RadToolTip_Glow .rtCallout {
+    background-image: url('../Glow/ToolTip/Callouts.png'); }
+  .RadToolTip_Glow.rtLoading {
+    background-image: url('../Glow/Common/loading.gif'); }
+  .RadToolTip_Glow.rtVisibleCallout span.rtCallout {
+    background-image: url('../Glow/ToolTip/Callouts.png');
+    width: 11x;
+    height: 9px; }
+  .RadToolTip_Glow.rtVisibleCallout .rtCallout.rtCalloutTopRight, .RadToolTip_Glow.rtVisibleCallout .rtCallout.rtCalloutTopLeft {
+    background-position: 0 0;
+    margin-top: -2px; }
+  .RadToolTip_Glow.rtVisibleCallout .rtCallout.rtCalloutTopCenter {
+    margin-top: 0; }
+  .RadToolTip_Glow.rtVisibleCallout .rtCallout.rtCalloutTopRight {
+    background-position: 0 -14px;
+    margin-left: -40px; }
+  .RadToolTip_Glow.rtVisibleCallout .rtCallout.rtCalloutTopLeft {
+    background-position: 0 -24px; }
+  .RadToolTip_Glow.rtVisibleCallout .rtCallout.rtCalloutMiddleRight {
+    height: 11px;
+    background-position: 0 -33px;
+    margin-left: -5px; }
+  .RadToolTip_Glow.rtVisibleCallout .rtCallout.rtCalloutMiddleLeft {
+    height: 11px;
+    background-position: 0 -44px;
+    margin-left: 0; }
+  .RadToolTip_Glow.rtVisibleCallout .rtCallout.rtCalloutBottomCenter, .RadToolTip_Glow.rtVisibleCallout .rtCallout.rtCalloutBottomLeft {
+    height: 11px; }
+  .RadToolTip_Glow.rtVisibleCallout .rtCallout.rtCalloutBottomCenter {
+    background-position: 0 -60px; }
+  .RadToolTip_Glow.rtVisibleCallout .rtCallout.rtCalloutBottomRight {
+    background-position: 0 -68px;
+    height: 13px;
+    margin-top: -6px; }
+  .RadToolTip_Glow.rtVisibleCallout .rtCallout.rtCalloutBottomLeft {
+    background-position: 0 -79px;
+    height: 13px;
+    margin-top: -3px; }
+  @media screen and (-webkit-min-device-pixel-ratio: 0) {
+    .RadToolTip_Glow.RadToolTip.rtRtl .rtCloseIcon {
+      margin-right: -5px;
+      margin-left: auto; } }
+  .RadToolTip_Glow.RadToolTip.rtRtl .rtCloseIcon {
+    margin-right: -7px\9;
+    margin-left: auto\9; }

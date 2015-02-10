@@ -1,0 +1,16 @@
+.RadSocialShare_Office2010Blue {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  border: 1px solid #9babc2;
+  background-color: #dbe3ee; }
+  .RadSocialShare_Office2010Blue .sshLinkItem .sshText {
+    color: #384e73; }
+  .RadSocialShare_Office2010Blue .sshLinkItem:hover .sshText {
+    color: #384e73; }
+
+.RadComboBoxDropDown_Office2010Blue .rcbItem .sshLinkItem .sshText {
+  color: #384e73; }
+
+.RadComboBoxDropDown_Office2010Blue .rcbHovered .sshLinkItem .sshText {
+  color: #384e73; }
+

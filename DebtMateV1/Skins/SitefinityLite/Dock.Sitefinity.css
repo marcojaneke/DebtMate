@@ -1,0 +1,23 @@
+.RadDock_Sitefinity {
+  background-color: white;
+  color: black;
+  font: normal 12px Arial, Helvetica, sans-serif;
+  border-color: #cccccc; }
+  .RadDock_Sitefinity .rdTitleWrapper {
+    background-image: -webkit-linear-gradient(top, #efefef 0%, #efefef 100%);
+    background-image: -moz-linear-gradient(top, #efefef 0%, #efefef 100%);
+    background-image: -ms-linear-gradient(top, #efefef 0%, #efefef 100%);
+    background-image: -o-linear-gradient(top, #efefef 0%, #efefef 100%);
+    background-image: linear-gradient(top, #efefef 0%, #efefef 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#efefef', endColorstr='#efefef',GradientType=0 );
+    color: black;
+    border-bottom-color: #cccccc; }
+  .RadDock_Sitefinity .rdTitleWrapper .rdTitle {
+    color: black; }
+  .RadDock_Sitefinity .rdListItem button {
+    background-image: url('../Sitefinity/Common/radActionsSprite.png');
+    _background-image: url('../Sitefinity/Common/radActionsSpriteIE6.png'); }
+  .RadDock_Sitefinity .rdContentWrapper {
+    color: black; }
+  .RadDock_Sitefinity.RadDock_Collapsed .rdTitleWrapper {
+    border-bottom-color: #cccccc; }

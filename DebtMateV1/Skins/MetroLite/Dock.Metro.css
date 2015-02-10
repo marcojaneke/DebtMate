@@ -1,0 +1,45 @@
+.RadDock_Metro {
+  background-color: white;
+  color: black;
+  font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #e5e5e5; }
+  .RadDock_Metro.rdRoundedCorner, .RadDock_Metro.rdRoundedCorner div.rdTitleWrapper, .RadDock_Metro.rdRoundedCorner div.rdContentWrapper, .RadDock_Metro.RadDock.rdCollapsed {
+    border-radius: 0; }
+  .RadDock_Metro .rdTitleWrapper {
+    border-bottom-color: #e5e5e5;
+    background-color: #25a0da;
+    color: white; }
+  .RadDock_Metro .rdTitleWrapper .rdTitle {
+    color: white;
+    border-bottom: 0; }
+  .RadDock_Metro .rdListItem button {
+    background-image: url('../Metro/Common/radActionsSprite.png');
+    _background-image: url('../Metro/Common/radActionsSpriteIE6.png'); }
+  .RadDock_Metro .rdListItem:hover button,
+  .RadDock_Metro .rdListItem button:hover {
+    opacity: .7; }
+  .RadDock_Metro .rdContentWrapper {
+    color: black; }
+  .RadDock_Metro.RadDock_Collapsed .rdTitleWrapper {
+    border-bottom-color: #e5e5e5; }
+  .RadDock_Metro .rdExpand,
+  .RadDock_Metro .rdExpand:hover {
+    background-position: -42px -22px; }
+  .RadDock_Metro .rdCollapse,
+  .RadDock_Metro .rdCollapse:hover {
+    background-position: -42px -2px; }
+  .RadDock_Metro button,
+  .RadDock_Metro button:hover,
+  .RadDock_Metro .rdCustom,
+  .RadDock_Metro .rdCustom:hover {
+    background-position: -42px -1002px; }
+  .RadDock_Metro .rdClose,
+  .RadDock_Metro .rdClose:hover {
+    background-position: -41px -761px; }
+  .RadDock_Metro .rdPin,
+  .RadDock_Metro .rdPin:hover {
+    background-position: -42px -482px; }
+  .RadDock_Metro .rdUnpin,
+  .RadDock_Metro .rdUnpin:hover {
+    background-position: -42px -502px; }
+

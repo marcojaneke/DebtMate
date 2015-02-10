@@ -1,0 +1,335 @@
+/* this is the topmost cell of the dialogs that have RadTabStrip */
+.reTopcell {
+  background-color: #ffffff; }
+
+/* File Manager dialogs */
+.selectedFileName {
+  border-top: 1px solid #cdcdcd; }
+
+/* background for the bottom positioned RadTabStrip */
+.RadTabStripBottom_MetroTouch {
+  background: #ffffff;
+  width: 264px;
+  border-bottom: 1px solid #cdcdcd;
+  padding-bottom: 6px !important; }
+
+.reTableWizardSelectAllBtn {
+  color: #000000; }
+
+.imagePreviewer {
+  overflow: hidden; }
+
+/*Sprite from RFE*/
+.RadToolBar_MetroTouch .rtbText {
+  background-image: url('FileExplorer/FileExplorerToolbarSprites.png');
+  background-repeat: no-repeat; }
+
+/* Editor ImageManager Properties */
+.RadForm_MetroTouch .imagePreviewer #propertiesPage {
+  height: 515px !important; }
+
+.RadForm_MetroTouch .flashPreviewer #propertiesPage, .RadForm_MetroTouch #flashMultiPage {
+  height: 400px !important;
+  font-size: 16px; }
+
+#ImagePreviewToolBar.RadToolBar_MetroTouch .rtbText {
+  margin-top: 10px; }
+
+#ImagePreviewToolBar.RadToolBar_MetroTouch .icnImageEditor .rtbText {
+  padding-left: 10px !important;
+  width: 105px;
+  text-align: right; }
+
+.RadForm_MetroTouch .FindAndReplaceDialog #FindButton, .RadForm_MetroTouch .FindAndReplaceDialog #rFindButton, .RadForm_MetroTouch .FindAndReplaceDialog #ReplaceButton, .RadForm_MetroTouch .FindAndReplaceDialog #ReplaceAllButton {
+  width: 110px; }
+
+.RadForm_MetroTouch .FindAndReplaceDialog, .RadForm_MetroTouch .FindAndReplaceDialog .rfdRoundedCorners {
+  font: 16px "Segoe UI", Arial, Sans-serif; }
+
+.MetroTouch.reDropDownBody.reAlignmentSelector {
+  width: 81px !important;
+  height: 145px !important; }
+
+.MetroTouch.reAlignmentSelector table tr td {
+  min-width: inherit !important; }
+
+.RadForm_MetroTouch .radfd_skipme {
+  height: 26px; }
+
+/* RAD EDITOR DIALOGS REDESIGN */
+div.redWrapper {
+  padding: 20px;
+  font-size: 16px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  /* Base overrides */
+  /* used when you have two inputs on the same row */
+  /* used when you have an input after tool - colorpicker */
+  /* FileBrowserLayout */
+  /* FileBrowser Layout End */
+  /* Dialog specific */
+  /* Image Properties */
+  /* Base Overrides End */ }
+  div.redWrapper .redSectionTop {
+    padding: 0 0 13px 0; }
+  div.redWrapper .redRow {
+    padding-top: 13px; }
+  div.redWrapper #propertiesPage, div.redWrapper div#flashMultiPage, div.redWrapper #mediaMultiPage, div.redWrapper iframe#templateIframe, div.redWrapper #silverlightMultiPage, div.redWrapper #mediaMultiPage {
+    height: 600px !important; }
+  div.redWrapper #DocumentPreviewer {
+    height: 700px; }
+  div.redWrapper .redShortRow {
+    width: 145px; }
+  div.redWrapper .redMoreShortRow {
+    width: 80px; }
+  div.redWrapper .redLabel {
+    width: 165px;
+    *margin-top: -7px; }
+  div.redWrapper .redSection .redRow .rfdTextInput {
+    width: 240px; }
+  div.redWrapper .redSection .redRow textarea {
+    width: 245px; }
+  div.redWrapper .redSecondLabel {
+    width: 110px; }
+  div.redWrapper .redSecondLabelAfterTool {
+    width: 142px; }
+  div.redWrapper .redConstrainWrapper .redConstrainButton {
+    top: 14px;
+    left: 283px;
+    height: 9px; }
+  div.redWrapper .redRow .redConstrainWrapper .rfdTextInput {
+    width: 35px; }
+  div.redWrapper .reToolWrapper .redRow .reTool, div.redWrapper .redRow .reTool {
+    width: 34px;
+    height: 34px;
+    border-radius: 0;
+    margin: 0; }
+  div.redWrapper .redRow .reTool span, div.redWrapper .reToolWrapper .redRow .reTool span {
+    margin: 7px 3px 3px 7px; }
+  div.redWrapper .reToolWrapper .reSplitButton.reTool {
+    width: 45px; }
+  div.redWrapper .reToolWrapper .reSplitButton.reTool span {
+    margin: 9px 3px 3px; }
+  div.redWrapper .reToolWrapper .reSplitButton.reTool .split_arrow {
+    height: 34px;
+    margin: -10px 0 0 4px;
+    top: 10px;
+    background-position: -15px -56px; }
+  div.redWrapper .reToolWrapper .reSplitButton.reTool:hover .split_arrow, div.redWrapper .reToolWrapper .reSplitButton.reTool .split_arrow:hover {
+    background-position: -115px -56px; }
+  div.redWrapper a.reDropdown {
+    border-radius: 0;
+    width: 238px; }
+  div.redWrapper a.reDropdown:hover {
+    background-color: #e8e8e8; }
+  div.redWrapper a.reDropdown:hover:before {
+    height: 23px;
+    background-position: -12px -64px; }
+  div.redWrapper a.reDropdown:hover span {
+    color: #000000; }
+  div.redWrapper .rfdSelect {
+    width: 233px !important; }
+  div.redWrapper .redActionButtonsWrapper {
+    margin: 13px 0 0; }
+  div.redWrapper .redCheckRadioWrapper {
+    margin: 0 0 0 180px; }
+  div.redWrapper .redFBDialogContent {
+    width: 515px; }
+  div.redWrapper .redFBDialogContent #imageMultiPage {
+    height: 605px; }
+  div.redWrapper .redDialogSeparator {
+    width: 14px;
+    height: 745px;
+    border-left: 1px solid #cdcdcd;
+    border-right: 1px solid #cdcdcd;
+    background-color: #ffffff; }
+  div.redWrapper .redFBDialogContentButton.redActionButtonsAbsoluteWrapper {
+    bottom: 2px;
+    right: 25px; }
+  div.redWrapper #ImageSrc .rfdTextInput, div.redWrapper .redSection .redRow .rfdTextInput.redInputTool {
+    width: 209px; }
+  div.redWrapper.LinkManager .redSection {
+    height: 355px; }
+  div.redWrapper .redSection {
+    border-bottom-color: #cdcdcd; }
+  div.redWrapper .reTool {
+    background-color: #f9f9f9;
+    border-color: #cdcdcd;
+    color: #000000; }
+  div.redWrapper .reTool:hover {
+    background-color: #e8e8e8;
+    border-color: #cdcdcd;
+    color: #000000; }
+  div.redWrapper .reTool:active, div.redWrapper .reTool:focus {
+    background-color: #007acc;
+    border-color: #25a0da;
+    color: #ffffff; }
+  div.redWrapper .redMsgContainerFBDialogs #propertyValueDescription, div.redWrapper .redMsgContainerFBDialogs #propertyValuePane {
+    background-color: #ffffff;
+    color: #000000; }
+  div.redWrapper .redRow .reToolWrapper .reTool.reSplitButton .BackColor {
+    margin-top: 6px; }
+
+/* should be roemoved after the redesign is complete */
+.reTablePropertiesLayout {
+  width: 350px !important; }
+
+.reTablePropertiesLayout .reLabelCell .reDialogLabel {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  width: 95px; }
+
+.reTablePropertiesCssClass {
+  width: 350px !important; }
+
+.reInsertSelectTextboxWrapper {
+  width: 115px; }
+
+/* end what should be removed after the redesign */
+/* Right to Left Support */
+.RadForm_MetroTouch .redRtl {
+  /* to be removed after the redesign */ }
+  .RadForm_MetroTouch .redRtl .redWrapper .reTool .split_arrow:hover {
+    border-right-color: #cdcdcd; }
+  .RadForm_MetroTouch .redRtl .reDropdown:hover {
+    background-image: url('Editor/ToolbarSprites.gif');
+    background-color: #e8e8e8; }
+  .RadForm_MetroTouch .redRtl .redWrapper .redConstrainWrapper .redConstrainButton {
+    left: 165px; }
+  .RadForm_MetroTouch .redRtl .redConstrainWrapper .redSecondLabel {
+    width: 130px; }
+  .RadForm_MetroTouch .redRtl .redConstrainWrapper .redDimensionPixels.redRtlFix {
+    margin-right: 55px; }
+  .RadForm_MetroTouch .redRtl .redWrapper .redCheckRadioWrapper {
+    margin: 0 180px 0 0; }
+  .RadForm_MetroTouch .redRtl .reSplitButton span.split_arrow {
+    right: auto;
+    left: auto; }
+  .RadForm_MetroTouch .redRtl .reDropdown:before {
+    right: auto;
+    left: 0; }
+  .RadForm_MetroTouch .redRtl .reStyleBuilderLayoutContent #clip li .RadInputRTL, .RadForm_MetroTouch .redRtl .reStyleBuilderBoxSize .RadInputRTL, .RadForm_MetroTouch .redRtl #borderWidthPane .RadInputRTL {
+    margin-left: 15px; }
+  .RadForm_MetroTouch .redRtl .reStyleBuilderSize .reInlineBlock.reMetroTouchFix .riContentWrapper {
+    width: 50px !important; }
+
+/* Styles that should be out of the redWrapper */
+.RadForm_MetroTouch .rfdSelect .rfdDropDownArrow {
+  background-image: url('Common/radActionsSprite.png');
+  _background-image: url('Common/radActionsSpriteIE6.png');
+  margin: 0; }
+
+/* Dialogs Dimensions  */
+.redImageProperties.RadForm_MetroTouch body {
+  width: 520px;
+  height: 585px; }
+
+.redInsertSelectDialog.RadForm_MetroTouch body {
+  width: 580px;
+  height: 400px; }
+
+.redPasteHtml.RadForm_MetroTouch body {
+  width: 510px;
+  height: 370px; }
+
+.redImageManager.RadForm_MetroTouch body {
+  width: 935px;
+  height: 750px; }
+
+.redXhtmlValidator.RadForm_MetroTouch body {
+  width: 800px;
+  height: 600px; }
+
+.redTrackChangesDialog.RadForm_MetroTouch body {
+  width: 750px;
+  height: 550px; }
+
+.redImageMapDialog.RadForm_MetroTouch body {
+  width: 870px;
+  height: 660px; }
+
+.redFlashManager.RadForm_MetroTouch body {
+  width: 932px;
+  height: 750px; }
+
+.redSilverlightManager.RadForm_MetroTouch body {
+  width: 932px;
+  height: 750px; }
+
+.redMediaManager.RadForm_MetroTouch body {
+  width: 932px;
+  height: 750px; }
+
+.redInsertExternalVideo.RadForm_MetroTouch body {
+  width: 730px;
+  height: 610px; }
+
+.redDocumentManager.RadForm_MetroTouch body {
+  width: 932px;
+  height: 750px; }
+
+.redTemplateManager.RadForm_MetroTouch body {
+  width: 932px;
+  height: 750px; }
+
+.redFindAndReplace.RadForm_MetroTouch body {
+  width: 497px;
+  height: 470px; }
+
+.redTableWizard.RadForm_MetroTouch body {
+  width: 800px;
+  height: 680px; }
+
+.redLinkManager.RadForm_MetroTouch body {
+  width: 500px;
+  height: 500px; }
+
+.redPageProperties.RadForm_MetroTouch body {
+  width: 530px;
+  height: 720px; }
+
+.redAboutDialog.RadForm_MetroTouch body {
+  width: 490px;
+  height: 330px; }
+
+.redHelp.RadForm_MetroTouch body {
+  width: 700px;
+  height: 470px; }
+
+.redFormatCodeBlock.RadForm_MetroTouch body {
+  width: 740px;
+  height: 720px; }
+
+.redCleanPasteHtmlContent.RadForm_MetroTouch body {
+  width: 600px;
+  height: 330px; }
+
+.redCleanPasteTextContent.RadForm_MetroTouch body {
+  width: 510px;
+  height: 380px; }
+
+.redStyleBuilder.RadForm_MetroTouch body {
+  width: 650px;
+  height: 610px; }
+
+.redImageEditor.RadForm_MetroTouch body {
+  width: 700px;
+  height: 540px; }
+
+.redPasteMarkdown.RadForm_MetroTouch body {
+  width: 510px;
+  height: 370px; }
+
+/* this a temp fix for the unredisegned dialogs and should be removed after the redesign */
+.RadForm_MetroTouch .reDialog.FormatCodeBlock, .RadForm_MetroTouch .reDialog.TableWizard .reTableWizardColumns, .RadForm_MetroTouch .reDialog.TableWizard .reTablePropertiesDimensions, .RadForm_MetroTouch .reDialog.TableWizard .reTablePropertiesCssClass, .RadForm_MetroTouch .reDialog.TableWizard .reCellPropertiesPreview, .RadForm_MetroTouch .reDialog.TableWizard .reCellProperties, .RadForm_MetroTouch .reDialog.TableWizard .reTableWizardAccessible, .RadForm_MetroTouch .reDialog.ImageMapEditor, .RadForm_MetroTouch .reDialog.PageProperties {
+  margin: 20px 5px 5px\9; }
+
+.RadForm_MetroTouch .reInsertSelectDialogTable .reInsertSelectItemsWrapper, .RadForm_MetroTouch .reInsertSelectDialogTable .reInsertSelectCssClass {
+  margin: 10px 5px 5px\9; }
+
+.redStyleBuilder.RadForm_MetroTouch .reStyleBuilderFontAttr, .redStyleBuilder.RadForm_MetroTouch .reStyleBuilderEffects {
+  width: 100%; }
+
+
+.RadForm_MetroTouch .reControlCell .rfdCheckboxChecked .rfdToggleImage, .RadForm_MetroTouch .reControlCell .rfdCheckboxUnchecked .rfdToggleImage, .RadForm_MetroTouch .reControlCell .rfdRadioChecked .rfdToggleImage, .RadForm_MetroTouch .reControlCell .rfdRadioUnchecked .rfdToggleImage {
+  top: 9px\9; }

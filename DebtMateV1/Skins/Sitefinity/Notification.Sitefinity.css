@@ -1,0 +1,15 @@
+.RadNotification_Sitefinity {
+  border: 1px solid #dbdfe6;
+  background-color: white; }
+  .RadNotification_Sitefinity.rnShadows {
+    box-shadow: 2px 2px 3px #e8eaed; }
+  .RadNotification_Sitefinity .rnTitleBar,
+  .RadNotification_Sitefinity .rnCommands a {
+    background-image: url('Notification/NotificationSprite.png'); }
+  .RadNotification_Sitefinity .rnTitleBar {
+    border: 1px solid #fff; }
+  .RadNotification_Sitefinity .rnTitleBarTitle {
+    color: black; }
+  .RadNotification_Sitefinity .rnContentWrapper {
+    border-top: 1px solid #d2d4d8; }
+

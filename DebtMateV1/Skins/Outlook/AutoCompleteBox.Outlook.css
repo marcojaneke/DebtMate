@@ -1,0 +1,67 @@
+.RadAutoCompleteBox_Outlook {
+  color: black;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadAutoCompleteBox_Outlook .racTokenList {
+    border-color: #c3d9f9;
+    color: black;
+    background-color: white; }
+  .RadAutoCompleteBox_Outlook .racDisabled {
+    border-color: #ccdbed;
+    color: #8d8d8d;
+    background-color: white; }
+  .RadAutoCompleteBox_Outlook .racToken {
+    border-radius: 3px;
+    background-image: url('Common/radGradientButtonSprite.png');
+    _background-image: none;
+    border-color: #003c74;
+    color: black;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd 0%, #ebe8e3 100%); }
+  .RadAutoCompleteBox_Outlook .racTokenHovered {
+    border-color: #003c74;
+    color: black;
+    background-color: #f3d8a1;
+    background-image: linear-gradient(#fcfcfc 0%, #f3d8a1 100%); }
+  .RadAutoCompleteBox_Outlook .racTokenSelected {
+    border-color: #002d96;
+    color: black;
+    background-color: #e7c073;
+    background-image: linear-gradient(#fcfcfc 0%, #e7c073 100%); }
+  .RadAutoCompleteBox_Outlook .racDisabled .racToken {
+    border-color: #809eba;
+    color: #8d8d8d;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd 0%, #ebe8e3 100%); }
+  .RadAutoCompleteBox_Outlook .racRemoveTokenLink {
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -4px -1344px; }
+  .RadAutoCompleteBox_Outlook .racInput {
+    color: black;
+    font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+    line-height: 16px; }
+  .RadAutoCompleteBox_Outlook .racEmptyMessage {
+    color: gray;
+    font-style: italic; }
+  .RadAutoCompleteBox_Outlook .racLoadingIcon {
+    background-image: url('Common/loading_small.gif'); }
+
+.RadAutoCompleteBoxPopup_Outlook {
+  border-color: #89aee5;
+  color: black;
+  background: white;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadAutoCompleteBoxPopup_Outlook .racHeader,
+  .RadAutoCompleteBoxPopup_Outlook .racFooter {
+    color: black;
+    background-color: #d6e5f3; }
+  .RadAutoCompleteBoxPopup_Outlook .racHeader {
+    border-bottom-color: #89aee5; }
+  .RadAutoCompleteBoxPopup_Outlook .racFooter {
+    border-top-color: #89aee5; }
+  .RadAutoCompleteBoxPopup_Outlook .racShowAll {
+    border-top-color: #c3d9f9;
+    color: black;
+    background-color: #d6e5f3; }
+  .RadAutoCompleteBoxPopup_Outlook .racItemHovered {
+    color: black;
+    background-color: #ffeec2; }

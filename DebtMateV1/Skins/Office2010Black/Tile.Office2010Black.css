@@ -1,0 +1,26 @@
+.RadTile_Office2010Black {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: white;
+  background-color: #4b4b4b;
+  /* Loading image */ }
+  .RadTile_Office2010Black.rtileSelected {
+    border-color: #f7c840; }
+  .RadTile_Office2010Black.rtileHovered {
+    border-color: #262626; }
+  .RadTile_Office2010Black.rtileSelected.rtileHovered {
+    border-color: rgba(247, 200, 64, 0.5); }
+  .RadTile_Office2010Black.rtileSelected .rtileSelectedIcon {
+    background-image: url('Tile/rtileSprite.png');
+    _background-image: url('Tile/rtileSpriteIE6.png'); }
+  .RadTile_Office2010Black div.rtileBadgeIcon {
+    background-image: url('../Common/Tile/rtileBadgeIconsDark.png');
+    _background-image: url('../Common/Tile/rtileBadgeIconsDarkIE6.png'); }
+  html .RadTile_Office2010Black.RadTile h6.rtileTitle {
+    color: white; }
+  .RadTile_Office2010Black .rtilePeekContent {
+    background-color: #4b4b4b; }
+  .RadTile_Office2010Black.rtileLoading,
+  .RadTile_Office2010Black .rtileLoading {
+    background-image: url('Common/loading_small.gif'); }
+

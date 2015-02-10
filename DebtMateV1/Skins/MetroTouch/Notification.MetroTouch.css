@@ -1,0 +1,50 @@
+.RadNotification_MetroTouch {
+  border: 1px solid #cdcdcd;
+  background-color: white;
+  /* base style overwrites */ }
+  .RadNotification_MetroTouch div.rnTitleBar {
+    height: 4.08333em;
+    background-color: #25a0da;
+    border-radius: 0;
+    border-bottom: 1px solid transparent; }
+  .RadNotification_MetroTouch.rnRoundedCorners, .RadNotification_MetroTouch.rnRoundedCorners .rnTitleBar {
+    border-radius: 0; }
+  .RadNotification_MetroTouch span.rnTitleBarTitle {
+    font-size: 1.833em;
+    height: 2.25em;
+    line-height: 2.16667em;
+    color: white; }
+  .RadNotification_MetroTouch span.rnTitleBarIcon {
+    margin: 10px 4px 0 0;
+    position: relative;
+    width: 32px;
+    height: 32px; }
+  .RadNotification_MetroTouch .rnTitleBarIcon img {
+    position: absolute;
+    top: -16px; }
+  .RadNotification_MetroTouch.rnRtl span.rnTitleBarIcon {
+    margin: 10px 0 0 0; }
+  .RadNotification_MetroTouch ul.rnCommands {
+    height: 29px;
+    line-height: 30px;
+    margin: 9px 0 0; }
+  .RadNotification_MetroTouch ul.rnCommands a {
+    width: 28px;
+    height: 28px;
+    border: 1px solid transparent;
+    background-image: url('Common/radActionsSprite.png');
+    _background-image: url('Common/radActionsSpriteIE6.png'); }
+  .RadNotification_MetroTouch ul.rnCommands a:hover {
+    border: 1px solid white;
+    border-radius: 45px; }
+  .RadNotification_MetroTouch ul.rnCommands .rnMenuIcon a,
+  .RadNotification_MetroTouch ul.rnCommands .rnMenuIcon a:hover {
+    background-position: -111px -61px; }
+  .RadNotification_MetroTouch ul.rnCommands .rnCloseIcon a,
+  .RadNotification_MetroTouch ul.rnCommands .rnCloseIcon a:hover {
+    background-position: -111px -1911px; }
+  .RadNotification_MetroTouch .rnContentWrapper {
+    border-top: 1px solid transparent;
+    font-size: 16px; }
+  .RadNotification_MetroTouch .rnCommands {
+    margin: 4px 0 0; }

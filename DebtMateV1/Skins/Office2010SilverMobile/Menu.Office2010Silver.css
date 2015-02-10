@@ -1,0 +1,36 @@
+.RadMenu_Office2010Silver .rmRootToggle {
+  color: #3b3b3b;
+  border-color: #a4abb2;
+  color: #3b3b3b;
+  background-color: #dbdde1;
+  background-image: linear-gradient(#f1f2f3 0%, #dbdde1 100%); }
+  .RadMenu_Office2010Silver .rmRootToggle:active, .RadMenu_Office2010Silver .rmRootToggle.rmExpanded {
+    color: black;
+    border-color: #c28b31;
+    color: black;
+    background-color: #ffef7c;
+    background-image: linear-gradient(#ffe272 0%, #ffd86b 50%, #ffef7c 100%); }
+.RadMenu_Office2010Silver.rmDisabled .rmRootToggle:active, .RadMenu_Office2010Silver.rmDisabled .rmRootToggle.rmExpanded {
+  border-color: #a4abb2;
+  color: #3b3b3b;
+  background-color: #dbdde1;
+  background-image: linear-gradient(#f1f2f3 0%, #dbdde1 100%); }
+
+.RadMenuPopup_Office2010Silver {
+  color: #3b3b3b;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #a7abb0;
+  background-color: white; }
+  .RadMenuPopup_Office2010Silver:before {
+    border-color: transparent transparent  #a7abb0; }
+  .RadMenuPopup_Office2010Silver:after {
+    border-color: transparent transparent white; }
+.RadMenuPopup_Office2010Silver .rmItem {
+  border-color: #c7c8c9; }
+  .RadMenuPopup_Office2010Silver .rmItem.rmSelected {
+    color: #3b3b3b;
+    background-color: #fff17e; }
+.RadMenuPopup_Office2010Silver .rmLoading:after {
+  background-color: rgba(255, 255, 255, 0.8); }
+.RadMenuPopup_Office2010Silver .rmLoadingIcon:after {
+  background-image: url('../Office2010Silver/Common/loading_small.gif'); }

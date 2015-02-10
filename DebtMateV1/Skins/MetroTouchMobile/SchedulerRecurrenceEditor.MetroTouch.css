@@ -1,0 +1,18 @@
+.RecurrenceEditor_MetroTouch {
+  background-color: white; }
+  .RecurrenceEditor_MetroTouch .rsAdvRecurrenceTitle {
+    border-color: #cdcdcd;
+    color: black;
+    background-color: #f9f9f9; }
+  .RecurrenceEditor_MetroTouch .rsTabbedOptionList {
+    border-color: #cdcdcd;
+    color: black;
+    background-color: #f9f9f9; }
+    .RecurrenceEditor_MetroTouch .rsTabbedOptionList li {
+      border-color: #cdcdcd; }
+    .RecurrenceEditor_MetroTouch .rsTabbedOptionList label:hover {
+      color: black;
+      background-color: #e8e8e8; }
+    .RecurrenceEditor_MetroTouch .rsTabbedOptionList input:checked + label {
+      color: white;
+      background-color: #25a0da; }

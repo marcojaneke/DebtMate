@@ -1,0 +1,49 @@
+.RadMap_Office2010Black {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  /* Additional styles */
+  /*Buttons*/
+  /* Markers */
+  /* Older IE Fix */ }
+  .RadMap_Office2010Black .k-header, .RadMap_Office2010Black .k-widget, .RadMap_Office2010Black .k-popup {
+    color: #000000; }
+  .RadMap_Office2010Black .k-widget, .RadMap_Office2010Black .k-header {
+    background-color: #f6f6f6;
+    border-color: #262626; }
+  .RadMap_Office2010Black .k-header, .RadMap_Office2010Black .k-button {
+    background-color: #999;
+    background-image: none, linear-gradient(to bottom, #c8c8c8 0, #6e6e6e 100%); }
+  .RadMap_Office2010Black .k-button {
+    border-color: #262626;
+    color: #000; }
+  .RadMap_Office2010Black.k-widget.k-tooltip {
+    background-color: #ffe272;
+    border-color: #ffce47;
+    background-image: none, linear-gradient(to bottom, #ffe977 0, #ffdb6d 100%);
+    color: #282828; }
+  .RadMap_Office2010Black .k-tooltip-button {
+    background-color: #000; }
+  .RadMap_Office2010Black .k-tooltip-button:hover {
+    background-color: #ffc34f; }
+  .RadMap_Office2010Black .k-i-close:before {
+    color: #fff; }
+  .RadMap_Office2010Black .k-callout-s {
+    border-top-color: #ffdb6d; }
+  .RadMap_Office2010Black .k-button:hover, .RadMap_Office2010Black div.k-navigator > .k-button:hover {
+    border-color: #f7c840;
+    background-color: #fae185;
+    background-image: none, linear-gradient(to bottom, #fbe69a 0, #fdf5d4 100%);
+    color: #4c4d4f; }
+  .RadMap_Office2010Black .k-button:active, .RadMap_Office2010Black .k-button:focus, .RadMap_Office2010Black div.k-navigator > .k-button:active, .RadMap_Office2010Black div.k-navigator > .k-button:focus {
+    border-color: #c28b31;
+    background-color: #ffd86b;
+    background-image: none, linear-gradient(to bottom, #ffdd6f 0, #fff07d 100%);
+    color: #4c4d4f; }
+  .RadMap_Office2010Black div.k-navigator > .k-button:hover .k-icon:before, .RadMap_Office2010Black div.k-navigator > .k-button:active .k-icon:before, .RadMap_Office2010Black div.k-navigator > .k-button:focus .k-icon:before {
+    color: #4c4d4f; }
+  .RadMap_Office2010Black .k-marker:before {
+    color: #ffc34f; }
+  @media \0screen\,screen\9 {
+    .RadMap_Office2010Black .k-icon {
+      background-image: url('Common/radActionsSprite.png');
+      _background-image: url('Common/radActionsSpriteIE6.png'); } }
+

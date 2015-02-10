@@ -1,0 +1,55 @@
+.RadDock_Silk {
+  background-color: white;
+  color: #767676;
+  font: normal 13px Arial, Helvetica, sans-serif;
+  border-color: #828282; }
+  .RadDock_Silk .rdTitleWrapper {
+    background-image: -webkit-linear-gradient(top, white 0%, #d6d5d4 100%);
+    background-image: -moz-linear-gradient(top, white 0%, #d6d5d4 100%);
+    background-image: -ms-linear-gradient(top, white 0%, #d6d5d4 100%);
+    background-image: -o-linear-gradient(top, white 0%, #d6d5d4 100%);
+    background-image: linear-gradient(top, white 0%, #d6d5d4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='#d6d5d4',GradientType=0 );
+    color: #767676;
+    border-bottom-color: #b6b6b6;
+    min-height: 1.9em; }
+  .RadDock_Silk .rdTitleWrapper .rdTitle {
+    color: #767676;
+    font-size: 1.308em; }
+  .RadDock_Silk li.rdListItem {
+    width: 28px;
+    height: 28px; }
+  .RadDock_Silk li.rdListItem button {
+    background-image: url('../Silk/Common/radActionsSprite.png');
+    width: 28px;
+    height: 28px; }
+  .RadDock_Silk button.rdExpand {
+    background-position: -11px -1661px; }
+  .RadDock_Silk button.rdExpand:hover {
+    background-position: -61px -1661px; }
+  .RadDock_Silk button.rdCollapse {
+    background-position: -11px -1561px; }
+  .RadDock_Silk button.rdCollapse:hover {
+    background-position: -61px -1561px; }
+  .RadDock_Silk button,
+  .RadDock_Silk button.rdCustom {
+    background-position: -11px -2511px; }
+  .RadDock_Silk button:hover,
+  .RadDock_Silk button.rdCustom:hover {
+    background-position: -61px -2511px; }
+  .RadDock_Silk button.rdClose {
+    background-position: -11px -1911px; }
+  .RadDock_Silk button.rdClose:hover {
+    background-position: -61px -1911px; }
+  .RadDock_Silk button.rdPin {
+    background-position: -11px -1211px; }
+  .RadDock_Silk button.rdPin:hover {
+    background-position: -61px -1211px; }
+  .RadDock_Silk button.rdUnpin {
+    background-position: -11px -1261px; }
+  .RadDock_Silk button.rdUnpin:hover {
+    background-position: -61px -1261px; }
+  .RadDock_Silk .rdContentWrapper {
+    color: #767676; }
+  .RadDock_Silk.RadDock.rdCollapsed .rdTitleWrapper {
+    border-bottom-color: #828282; }

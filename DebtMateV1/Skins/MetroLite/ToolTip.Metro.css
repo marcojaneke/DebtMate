@@ -1,0 +1,27 @@
+.RadToolTip_Metro {
+  background-color: #25a0da;
+  color: white;
+  font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #cdcdcd;
+  /* Base overrides */ }
+  .RadToolTip_Metro.RadToolTip.rtShadow {
+    box-shadow: none; }
+  .RadToolTip_Metro.RadToolTip.rtRoundedCorner, .RadToolTip_Metro.RadToolTip.rtRoundedCorner .rtTitleBar, .RadToolTip_Metro.RadToolTip.rtRoundedCorner .rtContent, .RadToolTip_Metro.RadToolTip.rtRoundedCorner .rtTitleBar + .rtContent {
+    border-radius: 0; }
+  .RadToolTip_Metro .rtTitleWrapper .rtTitle {
+    color: white; }
+  .RadToolTip_Metro button.rtClose {
+    height: 16px;
+    background-image: url('../Metro/ToolTip/ToolTipSprites.png');
+    background-position: 0 0; }
+  .RadToolTip_Metro button.rtClose:hover {
+    background-position: 0 -16px; }
+  .RadToolTip_Metro .rtContent {
+    background-color: #25a0da;
+    color: white; }
+  .RadToolTip_Metro .rtCallout {
+    background-image: url('../Metro/ToolTip/Callouts.gif'); }
+  .RadToolTip_Metro.rtLoading {
+    background-image: url('../Metro/Common/loading.gif'); }
+  .RadToolTip_Metro.RadToolTip .rtCalloutTopLeft {
+    top: -7px; }

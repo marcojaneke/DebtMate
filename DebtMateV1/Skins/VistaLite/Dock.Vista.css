@@ -1,0 +1,44 @@
+.RadDock_Vista {
+  background-color: white;
+  color: black;
+  font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #b7bdcd; }
+  .RadDock_Vista .rdTitleWrapper {
+    background-image: -webkit-linear-gradient(top, #e5f4fd 0%, #a6d9f4 100%);
+    background-image: -moz-linear-gradient(top, #e5f4fd 0%, #a6d9f4 100%);
+    background-image: -ms-linear-gradient(top, #e5f4fd 0%, #a6d9f4 100%);
+    background-image: -o-linear-gradient(top, #e5f4fd 0%, #a6d9f4 100%);
+    background-image: linear-gradient(top, #e5f4fd 0%, #a6d9f4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5f4fd', endColorstr='#a6d9f4',GradientType=0 );
+    color: black;
+    border-bottom-color: #b7bdcd; }
+  .RadDock_Vista .rdTitleWrapper .rdTitle {
+    color: black; }
+  .RadDock_Vista .rdListItem button {
+    background-image: url('../Vista/Common/radActionsSprite.png');
+    _background-image: url('../Vista/Common/radActionsSpriteIE6.png'); }
+  .RadDock_Vista .rdContentWrapper {
+    color: black; }
+  .RadDock_Vista.RadDock_Collapsed .rdTitleWrapper {
+    border-bottom-color: #b7bdcd; }
+  .RadDock_Vista .rdExpand,
+  .RadDock_Vista .rdExpand:hover {
+    background-position: -22px -662px; }
+  .RadDock_Vista .rdCollapse,
+  .RadDock_Vista .rdCollapse:hover {
+    background-position: -22px -622px; }
+  .RadDock_Vista button,
+  .RadDock_Vista button:hover,
+  .RadDock_Vista .rdCustom,
+  .RadDock_Vista .rdCustom:hover {
+    background-position: -22px -1002px; }
+  .RadDock_Vista .rdClose,
+  .RadDock_Vista .rdClose:hover {
+    background-position: -21px -761px; }
+  .RadDock_Vista .rdPin,
+  .RadDock_Vista .rdPin:hover {
+    background-position: -22px -482px; }
+  .RadDock_Vista .rdUnpin,
+  .RadDock_Vista .rdUnpin:hover {
+    background-position: -22px -502px; }
+

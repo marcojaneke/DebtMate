@@ -1,0 +1,9 @@
+.RadAjax_Glow .raDiv {
+  background-image: url('Common/loading.gif'); }
+.RadAjax_Glow .raColor {
+  background-color: white;
+  color: #1c262c; }
+.RadAjax_Glow .raTransp {
+  opacity: 0.6;
+  -moz-opacity: 0.6;
+  filter: alpha(opacity=60); }

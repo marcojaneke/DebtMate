@@ -1,0 +1,109 @@
+.RadSearchBox_Office2010Blue {
+  color: #384e73;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 1.33333em; }
+  .RadSearchBox_Office2010Blue .rsbInner {
+    border-radius: 3px;
+    border-color: #8e8e8e;
+    color: #384e73;
+    background-color: white; }
+    .RadSearchBox_Office2010Blue .rsbInner.rsbHovered {
+      border-color: #515151;
+      color: black;
+      background-color: white; }
+    .RadSearchBox_Office2010Blue .rsbInner.rsbFocused {
+      border-color: #515151;
+      color: black;
+      background-color: white; }
+    .RadSearchBox_Office2010Blue .rsbInner.rsbDisabled {
+      border-color: #9babc2;
+      color: #8ba0bc;
+      background-color: white; }
+  .RadSearchBox_Office2010Blue .rsbInput {
+    font: normal inherit "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadSearchBox_Office2010Blue .rsbEmptyMessage {
+    color: #8ba0bc;
+    font-style: italic; }
+  .RadSearchBox_Office2010Blue .rsbButton {
+    border-radius: 2px;
+    background-image: url('../Office2010Blue/Common/radGradientButtonSprite.png');
+    _background-image: none;
+    background-image: -webkit-linear-gradient(top, transparent, transparent);
+    background-image: -moz-linear-gradient(top, transparent, transparent);
+    background-image: -ms-linear-gradient(top, transparent, transparent);
+    background-image: -o-linear-gradient(top, transparent, transparent);
+    background-image: linear-gradient(top, transparent, transparent); }
+    .RadSearchBox_Office2010Blue .rsbButton:hover {
+      border-color: #f3d64a;
+      color: #1e395b;
+      background-color: #fcf5d9;
+      background-image: linear-gradient(#fceaab 0%, #fae185 50%, #fcf5d9 100%); }
+    .RadSearchBox_Office2010Blue .rsbButton:focus {
+      border-color: #c28b31;
+      color: #1e395b;
+      background-color: #ffef7c;
+      background-image: linear-gradient(#ffe272 0%, #ffd86b 50%, #ffef7c 100%); }
+  .RadSearchBox_Office2010Blue .rsbLoadingIcon {
+    background-image: url('../Office2010Blue/Common/loading_small.gif'); }
+  .RadSearchBox_Office2010Blue .rsbButtonSearch {
+    color: #8ba0bc;
+    border-radius: 0 3px 3px 0; }
+    .RadSearchBox_Office2010Blue .rsbButtonSearch .rsbIcon {
+      *background-image: url('../Office2010Blue/Common/radActionsSprite.png');
+      *background-position: -2px -1882px; }
+  .RadSearchBox_Office2010Blue .rsbSCInner {
+    border-radius: 3px 0 0 3px;
+    background-image: url('../Office2010Blue/Common/radGradientButtonSprite.png');
+    _background-image: none;
+    border-color: #8ba0bc;
+    color: #384e73;
+    background-color: #bfcddf;
+    background-image: linear-gradient(#fafbfd 0%, #bfcddf 100%); }
+  .RadSearchBox_Office2010Blue .rsbSCIcon {
+    *background-image: url('../Office2010Blue/Common/radActionsSprite.png');
+    *background-position: -2px -422px; }
+  .RadSearchBox_Office2010Blue .rsbSCHovered {
+    border-color: #f3d64a;
+    color: #1e395b;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab 0%, #fae185 50%, #fcf5d9 100%); }
+  .RadSearchBox_Office2010Blue .rsbSCFocused {
+    border-color: #c28b31;
+    color: #1e395b;
+    background-color: #ffef7c;
+    background-image: linear-gradient(#ffe272 0%, #ffd86b 50%, #ffef7c 100%); }
+  .RadSearchBox_Office2010Blue .rsbSCDisabled {
+    border-color: #8ba0bc;
+    color: #8ba0bc;
+    background-color: #bfcddf;
+    background-image: linear-gradient(#fafbfd 0%, #bfcddf 100%); }
+
+.rsbPopup_Office2010Blue {
+  border-color: #9babc2;
+  color: #384e73;
+  background: white;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 1.33333em; }
+  .rsbPopup_Office2010Blue .rsbHeader,
+  .rsbPopup_Office2010Blue .rsbFooter {
+    color: #384e73;
+    background-color: #edeff2; }
+  .rsbPopup_Office2010Blue .rsbHeader {
+    border-bottom-color: #9babc2; }
+  .rsbPopup_Office2010Blue .rsbFooter {
+    border-top-color: #9babc2; }
+  .rsbPopup_Office2010Blue .rsbShowAll {
+    border-top-color: #9babc2;
+    color: #384e73;
+    background-color: #edeff2; }
+  .rsbPopup_Office2010Blue .rsbListItemHovered {
+    color: #384e73;
+    background-color: #fae185; }
+  .rsbPopup_Office2010Blue .rsbListItemSelected {
+    color: #1e395b;
+    background-color: #ffd86b; }
+  .rsbPopup_Office2010Blue .rsbListItemDisabled {
+    color: #8ba0bc; }
+  .rsbPopup_Office2010Blue .rsbListItemLoading {
+    color: #384e73;
+    background-color: #fae185; }

@@ -1,0 +1,65 @@
+.RadTreeView_Office2010Blue {
+  color: #384e73;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 1.33333em; }
+  .RadTreeView_Office2010Blue a.rtIn {
+    *color: #384e73; }
+  .RadTreeView_Office2010Blue .rtHover .rtIn {
+    color: #1e395b;
+    border-color: #f7c840 #f7c840;
+    background-color: #fff3c9;
+    background-image: url('../Office2010Blue/TreeView/ItemHoveredBg.png'); }
+  .RadTreeView_Office2010Blue .rtSelected .rtIn {
+    color: #1e395b;
+    border-color: #c28b31 #c2a34c;
+    background-color: #feed76;
+    background-image: url('../Office2010Blue/TreeView/ItemSelectedBg.png'); }
+  .RadTreeView_Office2010Blue .rtEdit .rtIn {
+    border-color: #515151;
+    background: #ffffff; }
+    .RadTreeView_Office2010Blue .rtEdit .rtIn input {
+      color: #384e73;
+      font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadTreeView_Office2010Blue .rtChecked,
+  .RadTreeView_Office2010Blue .rtUnchecked,
+  .RadTreeView_Office2010Blue .rtIndeterminate {
+    background-image: url('../Office2010Blue/Common/radFormToggleSprite.png');
+    _background-image: url('../Office2010Blue/Common/radFormToggleSpriteIE6.png'); }
+  .RadTreeView_Office2010Blue .rtLoadingIcon {
+    background-image: url('../Office2010Blue/Common/loading_small.gif'); }
+  .RadTreeView_Office2010Blue .rtSelected .rtLoadingBefore,
+  .RadTreeView_Office2010Blue .rtSelected .rtLoadingAfter,
+  .RadTreeView_Office2010Blue .rtSelected .rtLoadingBelow {
+    color: #333333; }
+  .RadTreeView_Office2010Blue .rtPlus,
+  .RadTreeView_Office2010Blue .rtMinus {
+    margin-left: -1.1em;
+    color: #616ba1;
+    font-family: Arial,Helvetica,sans-serif; }
+    .RadTreeView_Office2010Blue .rtPlus:before,
+    .RadTreeView_Office2010Blue .rtMinus:before {
+      font-size: 0.7em;
+      border: 0; }
+      @media screen and (min-width: 0 \0) {
+        .RadTreeView_Office2010Blue .rtPlus:before,
+        .RadTreeView_Office2010Blue .rtMinus:before {
+          font-size: 1.5em; } }
+  .RadTreeView_Office2010Blue .rtPlus:before {
+    content: "\25B6"; }
+  .RadTreeView_Office2010Blue .rtMinus:before {
+    content: "\25E2";
+    color: #384e73; }
+  @media screen\9 {
+    .RadTreeView_Office2010Blue .rtPlus,
+    .RadTreeView_Office2010Blue .rtMinus {
+      margin-left: -18px;
+      background-image: url('../Office2010Blue/TreeView/PlusMinus.png'); } }
+  .RadTreeView_Office2010Blue .rtLines .rtTop:before,
+  .RadTreeView_Office2010Blue .rtLines .rtMid:before,
+  .RadTreeView_Office2010Blue .rtLines .rtBot:before,
+  .RadTreeView_Office2010Blue .rtLines .rtLI:before {
+    border-color: #7f7f7f; }
+
+.RadTreeView_Office2010Blue_disabled .rtIn,
+.RadTreeView_Office2010Blue .rtDisabled .rtIn {
+  color: #cccccc; }

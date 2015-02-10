@@ -1,0 +1,37 @@
+.RadRotator_Simple {
+  /*================== The list ========================*/
+  /* For vertical carousel, not set, width defaults to auto */
+  /* Note if you explicitly set width to auto, this might cause */
+  /* problems with Safari */
+  /* When LoadOnDemand */ }
+  .RadRotator_Simple .rrClipRegion {
+    border-color: #999999;
+    /* used $pivot-border-color var to match the right border color */ }
+  .RadRotator_Simple a.rrButton {
+    background-image: linear-gradient(#c6c6c6, #c6c6c6);
+    border-color: #7e7e7e;
+    border-radius: 0; }
+  .RadRotator_Simple .rrButton:hover {
+    background-image: linear-gradient(#ffe79c, #ffe79c);
+    border-color: #c98400; }
+  .RadRotator_Simple a.rrButton:before {
+    font-size: 1.2em;
+    margin: -0.6em 0 0 -0.6em;
+    color: #333; }
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .RadRotator_Simple a.rrButton:before {
+      font-size: 1em; }
+    .RadRotator_Simple ::-ms-backdrop, .RadRotator_Simple a.rrButton:before {
+      font-size: .6em; } }
+  .RadRotator_Simple a.rrButton:hover:before {
+    color: #882501; }
+  .RadRotator_Simple a.rrButtonRight:before {
+    content: "\E010"; }
+  .RadRotator_Simple a.rrButtonLeft:before {
+    content: "\E013"; }
+  .RadRotator_Simple a.rrButtonUp:before {
+    content: "\E011"; }
+  .RadRotator_Simple a.rrButtonDown:before {
+    content: "\E012"; }
+  .RadRotator_Simple .rrLoadingSign {
+    background-image: url('../Simple/Common/loading_small.gif'); }

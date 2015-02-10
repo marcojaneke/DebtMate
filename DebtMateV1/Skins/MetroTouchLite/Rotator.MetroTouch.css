@@ -1,0 +1,46 @@
+.RadRotator_MetroTouch {
+  font-size: 16px;
+  /*================== The list ========================*/
+  /* For vertical carousel, not set, width defaults to auto */
+  /* Note if you explicitly set width to auto, this might cause */
+  /* problems with Safari */
+  /* When LoadOnDemand */ }
+  .RadRotator_MetroTouch .rrClipRegion {
+    border-color: #cdcdcd; }
+  .RadRotator_MetroTouch a.rrButton {
+    width: 1.625em;
+    height: 1.625em;
+    border-radius: 45px;
+    background-color: #f9f9f9;
+    border: 1px solid #cdcdcd;
+    background-image: linear-gradient(#f9f9f9, #f9f9f9);
+    background-repeat: no-repeat; }
+  .RadRotator_MetroTouch .rrButton:hover,
+  .RadRotator_MetroTouch .rrButton:active {
+    background-color: #25a0da;
+    background-image: linear-gradient(#25a0da, #25a0da);
+    border-color: #25a0da; }
+  .RadRotator_MetroTouch a.rrButton:before {
+    font-size: 1.8em;
+    line-height: 1;
+    font-family: TelerikWebUI, monospace;
+    color: black; }
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .RadRotator_MetroTouch a.rrButton:before {
+      font-size: 1em; }
+    .RadRotator_MetroTouch ::-ms-backdrop, .RadRotator_MetroTouch a.rrButton:before {
+      font-size: .6em; } }
+  .RadRotator_MetroTouch a.rrButton:hover:before {
+    color: white; }
+  .RadRotator_MetroTouch a.rrButtonRight:before {
+    content: "\E000"; }
+  .RadRotator_MetroTouch a.rrButtonLeft:before {
+    content: "\E003"; }
+  .RadRotator_MetroTouch a.rrButtonUp:before {
+    content: "\E001"; }
+  .RadRotator_MetroTouch a.rrButtonDown:before {
+    content: "\E002"; }
+  .RadRotator_MetroTouch .rrLoadingSign {
+    background-image: url('../MetroTouch/Common/loading_small.gif'); }
+  .RadRotator_MetroTouch.rrNoBorder .rrRelativeWrapper {
+    border-width: 0 !important; }

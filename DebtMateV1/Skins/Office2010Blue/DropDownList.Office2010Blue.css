@@ -1,0 +1,66 @@
+.RadDropDownList_Office2010Blue {
+  color: #384e73;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadDropDownList_Office2010Blue .rddlInner {
+    border-radius: 3px;
+    background-image: url('Common/radGradientButtonSprite.png');
+    _background-image: none;
+    border-color: #8ba0bc;
+    color: #384e73;
+    background-color: #bfcddf;
+    background-image: linear-gradient(#fafbfd 0%, #bfcddf 100%); }
+  .RadDropDownList_Office2010Blue .rddlEmptyMessage,
+  .RadDropDownList_Office2010Blue .rddlDefaultMessage {
+    color: #8ba0bc;
+    font-style: italic; }
+  .RadDropDownList_Office2010Blue .rddlIcon {
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -1px -20px; }
+  .RadDropDownList_Office2010Blue .rddlHovered {
+    border-color: #f3d64a;
+    color: #1e395b;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab 0%, #fae185 50%, #fcf5d9 100%); }
+    .RadDropDownList_Office2010Blue .rddlHovered .rddlIcon {
+      background-position: -21px -20px; }
+  .RadDropDownList_Office2010Blue .rddlFocused {
+    border-color: #c28b31;
+    color: #1e395b;
+    background-color: #ffef7c;
+    background-image: linear-gradient(#ffe272 0%, #ffd86b 50%, #ffef7c 100%); }
+    .RadDropDownList_Office2010Blue .rddlFocused .rddlIcon {
+      background-position: -21px -20px; }
+  .RadDropDownList_Office2010Blue .rddlDisabled {
+    border-color: #8ba0bc;
+    color: #8ba0bc;
+    background-color: #bfcddf;
+    background-image: linear-gradient(#fafbfd 0%, #bfcddf 100%); }
+    .RadDropDownList_Office2010Blue .rddlDisabled .rddlIcon {
+      background-position: -1px -20px;
+      filter: alpha(opacity=50);
+      opacity: .5; }
+
+.rddlPopup_Office2010Blue {
+  border-color: #9babc2;
+  color: #384e73;
+  background: white;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .rddlPopup_Office2010Blue .rddlHeader,
+  .rddlPopup_Office2010Blue rddlFooter {
+    color: #384e73;
+    background-color: #edeff2; }
+  .rddlPopup_Office2010Blue .rddlHeader {
+    border-bottom-color: #9babc2; }
+  .rddlPopup_Office2010Blue rddlFooter {
+    border-top-color: #9babc2; }
+  .rddlPopup_Office2010Blue .rddlItemHovered {
+    color: #384e73;
+    background-color: #fae185; }
+  .rddlPopup_Office2010Blue .rddlItemSelected {
+    color: #1e395b;
+    background-color: #ffd86b; }
+  .rddlPopup_Office2010Blue .rddlItemDisabled {
+    color: #8ba0bc; }
+  .rddlPopup_Office2010Blue .rddlItemLoading {
+    color: #384e73;
+    background-color: #fae185; }

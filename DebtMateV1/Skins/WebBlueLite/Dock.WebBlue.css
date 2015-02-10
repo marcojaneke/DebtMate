@@ -1,0 +1,39 @@
+.RadDock_WebBlue {
+  background-color: white;
+  color: black;
+  font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #3d556c; }
+  .RadDock_WebBlue .rdTitleWrapper {
+    background-image: -webkit-linear-gradient(top, #597791 0%, #748da2 100%);
+    background-image: -moz-linear-gradient(top, #597791 0%, #748da2 100%);
+    background-image: -ms-linear-gradient(top, #597791 0%, #748da2 100%);
+    background-image: -o-linear-gradient(top, #597791 0%, #748da2 100%);
+    background-image: linear-gradient(top, #597791 0%, #748da2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#597791', endColorstr='#748da2',GradientType=0 );
+    color: white;
+    border-bottom-color: #3d556c; }
+  .RadDock_WebBlue .rdTitleWrapper .rdTitle {
+    color: white; }
+  .RadDock_WebBlue .rdListItem {
+    background-image: -webkit-linear-gradient(top, #6b88a2 0%, #597b97 100%);
+    background-image: -moz-linear-gradient(top, #6b88a2 0%, #597b97 100%);
+    background-image: -ms-linear-gradient(top, #6b88a2 0%, #597b97 100%);
+    background-image: -o-linear-gradient(top, #6b88a2 0%, #597b97 100%);
+    background-image: linear-gradient(top, #6b88a2 0%, #597b97 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6b88a2', endColorstr='#597b97',GradientType=0 );
+    border-color: #495e72; }
+  .RadDock_WebBlue .rdListItem:hover {
+    background-image: -webkit-linear-gradient(top, #d9edf9 0%, #9edaf2 100%);
+    background-image: -moz-linear-gradient(top, #d9edf9 0%, #9edaf2 100%);
+    background-image: -ms-linear-gradient(top, #d9edf9 0%, #9edaf2 100%);
+    background-image: -o-linear-gradient(top, #d9edf9 0%, #9edaf2 100%);
+    background-image: linear-gradient(top, #d9edf9 0%, #9edaf2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d9edf9', endColorstr='#9edaf2',GradientType=0 );
+    border-color: #5d9fb7; }
+  .RadDock_WebBlue .rdListItem button {
+    background-image: url('../WebBlue/Common/radActionsSprite.png');
+    _background-image: url('../WebBlue/Common/radActionsSpriteIE6.png'); }
+  .RadDock_WebBlue .rdContentWrapper {
+    color: black; }
+  .RadDock_WebBlue.RadDock_Collapsed .rdTitleWrapper {
+    border-bottom-color: #3d556c; }

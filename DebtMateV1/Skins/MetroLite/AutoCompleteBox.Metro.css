@@ -1,0 +1,65 @@
+.RadAutoCompleteBox_Metro {
+  color: black;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 1.33333em; }
+  .RadAutoCompleteBox_Metro .racTokenList {
+    border-color: #e5e5e5;
+    color: black;
+    background-color: white; }
+  .RadAutoCompleteBox_Metro .racDisabled {
+    border-color: #e6e6e6;
+    color: #767676;
+    background-color: white; }
+  .RadAutoCompleteBox_Metro .racToken {
+    border-color: #e5e5e5;
+    color: black;
+    background-color: #f9f9f9; }
+  .RadAutoCompleteBox_Metro .racTokenHovered {
+    border-color: #e5e5e5;
+    color: black;
+    background-color: #e5e5e5; }
+  .RadAutoCompleteBox_Metro .racTokenSelected {
+    border-color: #25a0da;
+    color: white;
+    background-color: #25a0da; }
+  .RadAutoCompleteBox_Metro .racDisabled .racToken {
+    border-color: #e6e6e6;
+    color: #767676;
+    background-color: #fcfcfc; }
+  .RadAutoCompleteBox_Metro .racRemoveTokenLink {
+    color: #767676;
+    *background-image: url('../Metro/Common/radActionsSprite.png');
+    *background-position: -4px -1344px; }
+  .RadAutoCompleteBox_Metro .racInput {
+    color: black;
+    font-size: inherit;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: inherit; }
+  .RadAutoCompleteBox_Metro .racEmptyMessage {
+    color: #bbbbbb;
+    font-style: italic; }
+  .RadAutoCompleteBox_Metro .racLoadingIcon {
+    background-image: url('../Metro/Common/loading_small.gif'); }
+
+.RadAutoCompleteBoxPopup_Metro {
+  border-color: #cdcdcd;
+  color: black;
+  background: white;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 1.33333em; }
+  .RadAutoCompleteBoxPopup_Metro .racHeader,
+  .RadAutoCompleteBoxPopup_Metro .racFooter {
+    color: black;
+    background-color: #e8e8e8; }
+  .RadAutoCompleteBoxPopup_Metro .racHeader {
+    border-bottom-color: #cdcdcd; }
+  .RadAutoCompleteBoxPopup_Metro .racFooter {
+    border-top-color: #cdcdcd; }
+  .RadAutoCompleteBoxPopup_Metro .racShowAll {
+    border-top-color: #e5e5e5;
+    color: black;
+    background-color: #e8e8e8; }
+  .RadAutoCompleteBoxPopup_Metro .racItemHovered {
+    color: black;
+    background-color: #e8e8e8; }

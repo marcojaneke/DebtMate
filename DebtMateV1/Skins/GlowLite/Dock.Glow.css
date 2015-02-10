@@ -1,0 +1,55 @@
+.RadDock_Glow {
+  background-color: #35434b;
+  color: #e2e8eb;
+  font: normal 13px Arial, Helvetica, sans-serif;
+  border-color: #192227; }
+  .RadDock_Glow .rdTitleWrapper {
+    background-image: -webkit-linear-gradient(top, #404c54 0%, #2b373d 100%);
+    background-image: -moz-linear-gradient(top, #404c54 0%, #2b373d 100%);
+    background-image: -ms-linear-gradient(top, #404c54 0%, #2b373d 100%);
+    background-image: -o-linear-gradient(top, #404c54 0%, #2b373d 100%);
+    background-image: linear-gradient(top, #404c54 0%, #2b373d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#404c54', endColorstr='#2b373d',GradientType=0 );
+    color: #e2e8eb;
+    border-bottom-color: #192227;
+    min-height: 1.9em; }
+  .RadDock_Glow .rdTitleWrapper .rdTitle {
+    color: #e2e8eb;
+    font-size: 1.308em; }
+  .RadDock_Glow li.rdListItem {
+    width: 28px;
+    height: 28px; }
+  .RadDock_Glow li.rdListItem button {
+    background-image: url('../Glow/Common/radActionsSprite.png');
+    width: 28px;
+    height: 28px; }
+  .RadDock_Glow button.rdExpand {
+    background-position: -11px -1661px; }
+  .RadDock_Glow button.rdExpand:hover {
+    background-position: -61px -1661px; }
+  .RadDock_Glow button.rdCollapse {
+    background-position: -11px -1561px; }
+  .RadDock_Glow button.rdCollapse:hover {
+    background-position: -61px -1561px; }
+  .RadDock_Glow button,
+  .RadDock_Glow button.rdCustom {
+    background-position: -11px -2511px; }
+  .RadDock_Glow button:hover,
+  .RadDock_Glow button.rdCustom:hover {
+    background-position: -61px -2511px; }
+  .RadDock_Glow button.rdClose {
+    background-position: -11px -1911px; }
+  .RadDock_Glow button.rdClose:hover {
+    background-position: -61px -1911px; }
+  .RadDock_Glow button.rdPin {
+    background-position: -11px -1211px; }
+  .RadDock_Glow button.rdPin:hover {
+    background-position: -61px -1211px; }
+  .RadDock_Glow button.rdUnpin {
+    background-position: -11px -1261px; }
+  .RadDock_Glow button.rdUnpin:hover {
+    background-position: -61px -1261px; }
+  .RadDock_Glow .rdContentWrapper {
+    color: #e2e8eb; }
+  .RadDock_Glow.RadDock.rdCollapsed .rdTitleWrapper {
+    border-bottom-color: #192227; }

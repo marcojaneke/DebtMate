@@ -1,0 +1,77 @@
+.RadAutoCompleteBox_BlackMetroTouch {
+  color: white;
+  font: 100 16px/34px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadAutoCompleteBox_BlackMetroTouch .racTokenList {
+    border-color: #4e4e4e;
+    color: white;
+    background-color: black;
+    padding-right: 36px; }
+  .RadAutoCompleteBox_BlackMetroTouch .racDisabled {
+    border-color: #2c2c2c;
+    color: #555555;
+    background-color: black; }
+  .RadAutoCompleteBox_BlackMetroTouch .racToken {
+    padding: 0 28px 0 10px;
+    border-color: #4e4e4e;
+    color: white;
+    background-color: #222222; }
+  .RadAutoCompleteBox_BlackMetroTouch .racTokenHovered {
+    border-color: #25a0da;
+    color: white;
+    background-color: #25a0da; }
+  .RadAutoCompleteBox_BlackMetroTouch .racTokenSelected {
+    border-color: #0082cc;
+    color: white;
+    background-color: #0082cc; }
+  .RadAutoCompleteBox_BlackMetroTouch .racDisabled .racToken {
+    border-color: #2c2c2c;
+    color: #555555;
+    background-color: black;
+    padding-right: 10px; }
+  .RadAutoCompleteBox_BlackMetroTouch .racRemoveTokenLink {
+    margin-top: -12px;
+    width: 24px;
+    height: 24px;
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -13px -3363px; }
+  .RadAutoCompleteBox_BlackMetroTouch .racTextToken {
+    padding-top: 1px;
+    padding-bottom: 1px; }
+  .RadAutoCompleteBox_BlackMetroTouch .racInput {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    height: 34px;
+    color: white;
+    font: 100 16px "Segoe UI", Arial, Helvetica, sans-serif;
+    line-height: 34px; }
+  .RadAutoCompleteBox_BlackMetroTouch .racEmptyMessage {
+    color: #555555;
+    font-style: italic; }
+  .RadAutoCompleteBox_BlackMetroTouch .racLoadingIcon {
+    right: 11px;
+    bottom: 11px;
+    background-image: url('Common/loading_small.gif'); }
+
+.RadAutoCompleteBoxPopup_BlackMetroTouch {
+  border-color: #333333;
+  color: white;
+  background: black;
+  font: 100 16px/34px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadAutoCompleteBoxPopup_BlackMetroTouch .racHeader,
+  .RadAutoCompleteBoxPopup_BlackMetroTouch .racFooter {
+    color: white;
+    background-color: #202020; }
+  .RadAutoCompleteBoxPopup_BlackMetroTouch .racHeader {
+    border-bottom-color: #333333; }
+  .RadAutoCompleteBoxPopup_BlackMetroTouch .racFooter {
+    border-top-color: #333333; }
+  .RadAutoCompleteBoxPopup_BlackMetroTouch .racHeader,
+  .RadAutoCompleteBoxPopup_BlackMetroTouch .racFooter {
+    padding: 0 10px; }
+  .RadAutoCompleteBoxPopup_BlackMetroTouch .racShowAll {
+    border-color: #333333; }
+  .RadAutoCompleteBoxPopup_BlackMetroTouch .racItem {
+    padding: 0 10px; }
+  .RadAutoCompleteBoxPopup_BlackMetroTouch .racItemHovered {
+    color: white;
+    background-color: #25a0da; }

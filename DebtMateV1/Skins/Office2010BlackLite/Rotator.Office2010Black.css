@@ -1,0 +1,20 @@
+.RadRotator_Office2010Black {
+  /*================== The list ========================*/
+  /* For vertical carousel, not set, width defaults to auto */
+  /* Note if you explicitly set width to auto, this might cause */
+  /* problems with Safari */
+  /* When LoadOnDemand */ }
+  .RadRotator_Office2010Black .rrClipRegion {
+    border-color: #919191; }
+  .RadRotator_Office2010Black .rrButton {
+    background-image: linear-gradient(#c7c7c7, #707070);
+    border-color: #262626; }
+  .RadRotator_Office2010Black .rrButton:hover {
+    background-image: linear-gradient(#ffe589, #fff1bf);
+    border-color: #f7c840; }
+  .RadRotator_Office2010Black a.rrButton:before {
+    color: #5f6062; }
+  .RadRotator_Office2010Black a.rrButton:hover:before {
+    color: #5f6062; }
+  .RadRotator_Office2010Black .rrLoadingSign {
+    background-image: url('../Office2010Black/Common/loading_small.gif'); }

@@ -1,0 +1,31 @@
+.RadDock_Sunset {
+  background-color: white;
+  color: #272722;
+  font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #cabaab; }
+  .RadDock_Sunset .rdTitleWrapper {
+    background-image: -webkit-linear-gradient(top, #e57461 0%, #b9500c 100%);
+    background-image: -moz-linear-gradient(top, #e57461 0%, #b9500c 100%);
+    background-image: -ms-linear-gradient(top, #e57461 0%, #b9500c 100%);
+    background-image: -o-linear-gradient(top, #e57461 0%, #b9500c 100%);
+    background-image: linear-gradient(top, #e57461 0%, #b9500c 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e57461', endColorstr='#b9500c',GradientType=0 );
+    color: white;
+    border-bottom-color: #cabaab; }
+  .RadDock_Sunset .rdTitleWrapper .rdTitle {
+    color: white; }
+  .RadDock_Sunset .rdListItem:hover {
+    background-image: -webkit-linear-gradient(top, #fee47f 0%, #eec248 100%);
+    background-image: -moz-linear-gradient(top, #fee47f 0%, #eec248 100%);
+    background-image: -ms-linear-gradient(top, #fee47f 0%, #eec248 100%);
+    background-image: -o-linear-gradient(top, #fee47f 0%, #eec248 100%);
+    background-image: linear-gradient(top, #fee47f 0%, #eec248 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fee47f', endColorstr='#eec248',GradientType=0 );
+    border-color: #ad4100; }
+  .RadDock_Sunset .rdListItem button {
+    background-image: url('../Sunset/Common/radActionsSprite.png');
+    _background-image: url('../Sunset/Common/radActionsSpriteIE6.png'); }
+  .RadDock_Sunset .rdContentWrapper {
+    color: #272722; }
+  .RadDock_Sunset.RadDock_Collapsed .rdTitleWrapper {
+    border-bottom-color: #cabaab; }

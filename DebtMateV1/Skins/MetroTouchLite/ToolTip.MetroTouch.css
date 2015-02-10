@@ -1,0 +1,66 @@
+.RadToolTip_MetroTouch {
+  background-color: white;
+  color: black;
+  font: 100 16px "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #cdcdcd;
+  /* Base overrides */ }
+  .RadToolTip_MetroTouch.RadToolTip.rtShadow {
+    box-shadow: none; }
+  .RadToolTip_MetroTouch.RadToolTip.rtRoundedCorner, .RadToolTip_MetroTouch.RadToolTip.rtRoundedCorner .rtTitleBar, .RadToolTip_MetroTouch.RadToolTip.rtRoundedCorner .rtContent, .RadToolTip_MetroTouch.RadToolTip.rtRoundedCorner .rtTitleBar + .rtContent {
+    border-radius: 0; }
+  .RadToolTip_MetroTouch .rtTitleWrapper h6.rtTitle {
+    color: black;
+    font-weight: 100;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadToolTip_MetroTouch .rtContent {
+    background-color: white;
+    color: black; }
+  .RadToolTip_MetroTouch .rtCallout {
+    background-image: url('../MetroTouch/ToolTip/Callouts.png'); }
+  .RadToolTip_MetroTouch.rtLoading {
+    background-image: url('../MetroTouch/Common/loading.gif'); }
+  .RadToolTip_MetroTouch button.rtClose {
+    width: 28px;
+    height: 28px;
+    border: 1px solid #cdcdcd;
+    border-radius: 3.75em;
+    margin: -0.41667em -0.41667em 0em 0em;
+    background-image: url('../MetroTouch/Common/radActionsSprite.png');
+    _background-image: url('../MetroTouch/Common/radActionsSpriteIE6.png');
+    background-position: -12px -1912px;
+    background-color: #f9f9f9; }
+  .RadToolTip_MetroTouch button.rtClose:hover {
+    background-position: -11px -1911px;
+    background-color: #e8e8e8;
+    border: #cdcdcd; }
+  .RadToolTip_MetroTouch button.rtClose:active,
+  .RadToolTip_MetroTouch button.rtClose:focus {
+    background-position: -111px -1911px;
+    background-color: #007acc;
+    border: #25a0da; }
+  .RadToolTip_MetroTouch.rtVisibleCallout span.rtCallout {
+    background-image: url('../MetroTouch/ToolTip/Callouts.png');
+    width: 14px;
+    height: 14px; }
+  .RadToolTip_MetroTouch.rtVisibleCallout .rtCallout.rtCalloutTopRight,
+  .RadToolTip_MetroTouch.rtVisibleCallout .rtCallout.rtCalloutTopLeft {
+    background-position: 0 0;
+    margin-top: 1px; }
+  .RadToolTip_MetroTouch.rtVisibleCallout .rtCallout.rtCalloutTopCenter {
+    margin-top: 3px; }
+  .RadToolTip_MetroTouch.rtVisibleCallout .rtCallout.rtCalloutTopRight {
+    margin-left: -40px; }
+  .RadToolTip_MetroTouch.rtVisibleCallout .rtCallout.rtCalloutBottomRight,
+  .RadToolTip_MetroTouch.rtVisibleCallout .rtCallout.rtCalloutBottomCenter,
+  .RadToolTip_MetroTouch.rtVisibleCallout .rtCallout.rtCalloutBottomLeft {
+    background-position: 0 -10px; }
+  .RadToolTip_MetroTouch.rtVisibleCallout .rtCallout.rtCalloutMiddleRight {
+    background-position: 3px -40px; }
+  .RadToolTip_MetroTouch.rtVisibleCallout .rtCallout.rtCalloutMiddleLeft {
+    background-position: 0 -60px;
+    margin-left: 4px; }
+  .RadToolTip_MetroTouch.rtVisibleCallout .rtCallout.rtCalloutBottomRight,
+  .RadToolTip_MetroTouch.rtVisibleCallout .rtCallout.rtCalloutBottomCenter,
+  .RadToolTip_MetroTouch.rtVisibleCallout .rtCallout.rtCalloutBottomLeft {
+    background-position: 0 -17px; }
+

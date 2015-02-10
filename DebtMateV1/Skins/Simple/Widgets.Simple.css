@@ -1,0 +1,53 @@
+.reTopcell {
+  background-color: #f0f0f0; }
+
+/* File Manager dialogs */
+.selectedFileName {
+  border-top: 1px solid #fff; }
+
+/* background for the bottom positioned RadTabStrip */
+.RadTabStripBottom_Simple {
+  background: #f0f0f0;
+  width: 264px;
+  border-bottom: 1px solid #828282;
+  padding-bottom: 6px !important; }
+
+.RadToolBar_Simple .rtbText {
+  background-image: url('FileExplorer/FileExplorerToolbarSprites.png');
+  _background-image: url('FileExplorer/FileExplorerToolbarSpritesIE6.gif') !important;
+  background-repeat: no-repeat; }
+
+/* RAD EDITOR DIALOGS REDESIGN */
+.redWrapper .redSection {
+  border-bottom-color: #616161; }
+.redWrapper .reTool {
+  background-color: #e2e2e2;
+  border-color: #7e7e7e;
+  color: black; }
+.redWrapper .reTool:hover {
+  background-color: #ffe79c;
+  border-color: #c98400;
+  color: #882501; }
+.redWrapper .reTool:active,
+.redWrapper .reTool:focus {
+  background-color: #ffa517;
+  border-color: #ca4b0c;
+  color: #882501; }
+.redWrapper a.reDropdown:hover {
+  background-image: url('Editor/ToolBarSprites.gif');
+  background-color: #fff7ac; }
+.redWrapper .redDialogSeparator {
+  border-left: 1px solid #616161;
+  border-right: 1px solid #616161;
+  background-color: #fff7ac; }
+.redWrapper .redMsgContainerFBDialogs #propertyValueDescription,
+.redWrapper .redMsgContainerFBDialogs #propertyValuePane {
+  background-color: #ececec;
+  color: black; }
+
+/* Right to Left Support */
+.RadForm_Simple .redRtl .redWrapper .reTool .split_arrow:hover {
+  border-right-color: #c98400; }
+.RadForm_Simple .redRtl .reDropdown:hover {
+  background-image: url('Editor/ToolbarSprites.gif');
+  background-color: #fff7ac; }

@@ -1,0 +1,109 @@
+.RadSearchBox_Outlook {
+  color: black;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 1.33333em; }
+  .RadSearchBox_Outlook .rsbInner {
+    border-radius: 3px;
+    border-color: #c3d9f9;
+    color: black;
+    background-color: white; }
+    .RadSearchBox_Outlook .rsbInner.rsbHovered {
+      border-color: #305090;
+      color: black;
+      background-color: white; }
+    .RadSearchBox_Outlook .rsbInner.rsbFocused {
+      border-color: #002d96;
+      color: black;
+      background-color: white; }
+    .RadSearchBox_Outlook .rsbInner.rsbDisabled {
+      border-color: #ccdbed;
+      color: #8d8d8d;
+      background-color: white; }
+  .RadSearchBox_Outlook .rsbInput {
+    font: normal inherit "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadSearchBox_Outlook .rsbEmptyMessage {
+    color: gray;
+    font-style: italic; }
+  .RadSearchBox_Outlook .rsbButton {
+    border-radius: 2px;
+    background-image: url('../Outlook/Common/radGradientButtonSprite.png');
+    _background-image: none;
+    background-image: -webkit-linear-gradient(top, transparent, transparent);
+    background-image: -moz-linear-gradient(top, transparent, transparent);
+    background-image: -ms-linear-gradient(top, transparent, transparent);
+    background-image: -o-linear-gradient(top, transparent, transparent);
+    background-image: linear-gradient(top, transparent, transparent); }
+    .RadSearchBox_Outlook .rsbButton:hover {
+      border-color: #003c74;
+      color: black;
+      background-color: #f3d8a1;
+      background-image: linear-gradient(#fcfcfc 0%, #f3d8a1 100%); }
+    .RadSearchBox_Outlook .rsbButton:focus {
+      border-color: #002d96;
+      color: black;
+      background-color: #e7c073;
+      background-image: linear-gradient(#fcfcfc 0%, #e7c073 100%); }
+  .RadSearchBox_Outlook .rsbLoadingIcon {
+    background-image: url('../Outlook/Common/loading_small.gif'); }
+  .RadSearchBox_Outlook .rsbButtonSearch {
+    color: #b7bdcd;
+    border-radius: 0 3px 3px 0; }
+    .RadSearchBox_Outlook .rsbButtonSearch .rsbIcon {
+      *background-image: url('../Outlook/Common/radActionsSprite.png');
+      *background-position: -2px -1882px; }
+  .RadSearchBox_Outlook .rsbSCInner {
+    border-radius: 3px 0 0 3px;
+    background-image: url('../Outlook/Common/radGradientButtonSprite.png');
+    _background-image: none;
+    border-color: #003c74;
+    color: black;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd 0%, #ebe8e3 100%); }
+  .RadSearchBox_Outlook .rsbSCIcon {
+    *background-image: url('../Outlook/Common/radActionsSprite.png');
+    *background-position: -2px -422px; }
+  .RadSearchBox_Outlook .rsbSCHovered {
+    border-color: #003c74;
+    color: black;
+    background-color: #f3d8a1;
+    background-image: linear-gradient(#fcfcfc 0%, #f3d8a1 100%); }
+  .RadSearchBox_Outlook .rsbSCFocused {
+    border-color: #002d96;
+    color: black;
+    background-color: #e7c073;
+    background-image: linear-gradient(#fcfcfc 0%, #e7c073 100%); }
+  .RadSearchBox_Outlook .rsbSCDisabled {
+    border-color: #809eba;
+    color: #8d8d8d;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd 0%, #ebe8e3 100%); }
+
+.rsbPopup_Outlook {
+  border-color: #89aee5;
+  color: black;
+  background: white;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 1.33333em; }
+  .rsbPopup_Outlook .rsbHeader,
+  .rsbPopup_Outlook .rsbFooter {
+    color: black;
+    background-color: #d6e5f3; }
+  .rsbPopup_Outlook .rsbHeader {
+    border-bottom-color: #89aee5; }
+  .rsbPopup_Outlook .rsbFooter {
+    border-top-color: #89aee5; }
+  .rsbPopup_Outlook .rsbShowAll {
+    border-top-color: #c3d9f9;
+    color: black;
+    background-color: #d6e5f3; }
+  .rsbPopup_Outlook .rsbListItemHovered {
+    color: black;
+    background-color: #ffeec2; }
+  .rsbPopup_Outlook .rsbListItemSelected {
+    color: white;
+    background-color: #306ac5; }
+  .rsbPopup_Outlook .rsbListItemDisabled {
+    color: #8d8d8d; }
+  .rsbPopup_Outlook .rsbListItemLoading {
+    color: black;
+    background-color: #ffeec2; }
